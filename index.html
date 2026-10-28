@@ -7,8 +7,11 @@
   <meta name="description" content="차 이름을 알고, 생김새를 살펴봐요. 어린이를 위한 자동차와 중장비 도감 Car Atlas.">
   <title>Car Atlas · 자동차와 중장비 친구들</title>
   <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20261028-rich">
-  <script type="module" src="./app.js?v=20261028-rich"></script>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./assets/app-192.png">
+  <script type="module" src="./install.js?v=20261028-install"></script>
+  <link rel="stylesheet" href="./styles.css?v=20261028-install">
+  <script type="module" src="./app.js?v=20261028-install"></script>
 </head>
 <body>
   <a class="skip" href="#catalog">자동차 도감으로 가기</a>
@@ -28,10 +31,12 @@
       <div class="car-grid" id="carGrid"><p class="loading-state">자동차와 중장비 친구들이 오고 있어요.</p></div>
     </section>
     <section class="observation-note"><span class="note-icon" aria-hidden="true">◎</span><div><h2>어디에서 일하는 친구일까요?</h2><p>공사장, 도로, 숲속에서 하는 일이 달라요.<br class="desktop-only"> 팔과 바퀴를 보고 어떤 일을 하는지 상상해 봐요.</p></div><span class="note-doodle" aria-hidden="true">↗</span></section>
+    <section id="installPanel" class="install-panel" aria-labelledby="installTitle"><div><h2 id="installTitle">바탕화면에서 바로 만나요</h2><p id="installStatus">도감을 설치하면 앱처럼 따로 열 수 있어요.</p><p class="install-note">사진을 보려면 인터넷 연결이 필요해요.</p></div><button class="primary-button" id="installButton" type="button">바탕화면에 설치 <span aria-hidden="true">↗</span></button></section>
   </main>
   <footer class="site-footer wrap"><a class="footer-logo" href="./">car atlas<span>자동차와 중장비 친구들</span></a><p>작은 호기심이, 커다란 발견으로.</p><button type="button" id="aboutButton">보호자 안내 · 사진 출처 ↗</button></footer>
   <dialog id="detailDialog" class="detail-dialog" aria-labelledby="detailTitle"><button class="close-button" data-close="detailDialog" type="button" aria-label="친구 상세 닫기">×</button><div id="detailContent"></div></dialog>
   <dialog id="imageDialog" class="image-dialog" aria-labelledby="imageTitle"><div class="lightbox-top"><h2 id="imageTitle"></h2><button class="close-button" data-close="imageDialog" type="button" aria-label="큰 사진 닫기">×</button></div><div class="lightbox-stage"><button class="photo-arrow" id="prevImage" type="button" aria-label="이전 사진">←</button><img id="largeImage" alt=""><button class="photo-arrow" id="nextImage" type="button" aria-label="다음 사진">→</button></div><p id="imageCaption"></p></dialog>
+  <dialog id="installDialog" class="about-dialog" aria-labelledby="installHelpTitle"><button class="close-button" id="installClose" type="button" aria-label="설치 안내 닫기">×</button><p class="eyebrow">보호자와 함께 설치해요</p><h2 id="installHelpTitle">도감을 앱으로 설치해요</h2><p>PC에서는 Chrome이나 Edge로 도감을 열고 주소창의 설치 아이콘 또는 브라우저 메뉴의 앱 설치를 선택해 주세요.</p><p>휴대폰에서는 ‘홈 화면에 추가’를 선택해 주세요. iPhone과 iPad는 Safari의 공유 메뉴에서 찾을 수 있어요.</p><p>설치 메뉴가 없다면 Chrome이나 Edge에서 이 주소를 직접 열어 주세요.</p><p><a href="https://jjapshe.github.io/car-atlas/" target="_blank" rel="noopener noreferrer">Car Atlas 공개 도감 열기 ↗</a></p><p class="local-note">설치 후에도 사진을 보려면 인터넷 연결이 필요해요.</p></dialog>
   <dialog id="aboutDialog" class="about-dialog" aria-labelledby="aboutTitle"><button class="close-button" data-close="aboutDialog" type="button" aria-label="보호자 안내 닫기">×</button><p class="eyebrow">보호자와 함께 읽어요</p><h2 id="aboutTitle">차와 기계를 알아가는<br>작은 도감이에요.</h2><p>3~10세 어린이가 자동차와 중장비를 살펴볼 수 있어요. 사진을 보고, 이름과 눈에 띄는 모양, 하는 일을 알아봐요.</p><h3>자동차 모습은 이렇게 구분해요</h3><p>차의 모습이 크게 바뀌는 풀체인지와 페이스리프트를 구분해요. 연식·색상·바퀴·일반 트림 변경만으로 새 모습으로 나누지 않아요. 사진에 나온 외형과 확인한 자료를 차량별로 기록해요.</p><h3>일하는 기계 친구들</h3><p>중장비는 여러 나라에서 일하는 실물 장비를 예로 들어 종류와 역할을 소개해요. ‘특수 중장비’는 어린이가 찾아보기 위한 묶음이에요.</p><h3>사진과 자료</h3><p>차량 상세의 ‘보호자용 자료와 사진 출처’에서 공식 자료, 사진 원본, 촬영자, 이용 조건을 확인할 수 있어요. 사진 속 색상과 옵션은 차마다 다를 수 있어요.</p><h3>좋아하는 친구</h3><p class="local-note">하트로 담은 친구는 이 브라우저에만 저장돼요. 회원 가입과 위치·마이크 권한은 필요하지 않아요.</p><button class="primary-button" type="button" data-close="aboutDialog">자동차 보러 가기 →</button></dialog>
 </body>
 </html>

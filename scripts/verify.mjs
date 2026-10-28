@@ -6,6 +6,7 @@ import { catalog, root } from "./catalog.mjs";
 import { filterCars, readSaved, bodyLabels } from "../app.js";
 import { cars as sourceCars } from "../data/cars.js";
 import { machines } from "../data/machines.js";
+import "./verify-install.mjs";
 
 const { cars } = await catalog();
 assert(cars.length > 0, "No published cars");

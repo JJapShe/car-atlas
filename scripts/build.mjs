@@ -14,7 +14,7 @@ if (existing) {
   assert.equal(await realpath(site), resolve(await realpath(root), "dist"));
   await rm(site, { recursive: true });
 }
-const files = ["index.html", "app.js", "styles.css", "assets/icon.svg", ...new Set(data.cars.flatMap((car) => car.photos.map((photo) => photo.src)))];
+const files = ["index.html", "app.js", "install.js", "manifest.webmanifest", "styles.css", "assets/icon.svg", "assets/app-192.png", "assets/app-512.png", ...new Set(data.cars.flatMap((car) => car.photos.map((photo) => photo.src)))];
 for (const file of files) {
   assert(!file.includes("..") && !file.includes("\\"), `Unsafe file: ${file}`);
   const from = resolve(root, file), to = resolve(site, file);
