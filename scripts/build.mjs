@@ -5,6 +5,7 @@ import { catalog, root } from "./catalog.mjs";
 
 const data = await catalog();
 assert(data.cars.length, "No photographed cars");
+assert(data.cars.every((car) => car.photos.length), "Every selected car and machine needs a registered photograph");
 const site = resolve(root, "dist");
 const existing = await lstat(site).catch((error) => { if (error.code !== "ENOENT") throw error; });
 assert.equal(dirname(site), resolve(root));
