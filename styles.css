@@ -14,3 +14,5 @@
 @media(max-width:480px){.section-heading{flex-direction:column;gap:7px}.catalog-count{padding-top:0}.body-filter{gap:6px;padding-inline:6px;white-space:nowrap}.body-filter svg{width:27px}}
 @media(max-width:480px){.saved-nav{padding-inline:9px}.saved-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+.card-photo-count{margin-left:auto;white-space:nowrap;font-size:.8rem;color:var(--muted)}

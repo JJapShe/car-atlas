@@ -1,6 +1,77 @@
 // Equipment entries describe types and jobs; photographs are real examples, not latest-model claims.
 export const machines = [
   {
+    "id": "telehandler",
+    "name": "텔레핸들러",
+    "englishName": "Telehandler",
+    "body": "special",
+    "aliases": [
+      "텔레스코픽 핸들러",
+      "텔레핸들러 지게차"
+    ],
+    "cardCue": "길게 뻗는 팔로 짐을 들어요.",
+    "summary": "길이를 늘릴 수 있는 팔로 공사장의 자재를 들어 높은 곳으로 옮겨요.",
+    "cues": [
+      "몸 위에 굵고 긴 팔이 있어요.",
+      "팔 끝에 짐을 드는 장치가 달려 있어요."
+    ],
+    "sourceUrl": "https://www.jcb.com/en-GB/explore/knowledge/faqs/telehandlers/what-is-a-telehandler/",
+    "tile": "#e8e8de"
+  },
+  {
+    "id": "cold-planer",
+    "name": "도로 절삭기",
+    "englishName": "Cold Planer",
+    "body": "special",
+    "aliases": [
+      "노면 절삭기",
+      "아스팔트 절삭기"
+    ],
+    "cardCue": "낡은 도로를 깎아 내요.",
+    "summary": "돌아가는 날로 낡은 도로 표면을 깎아 새 포장을 준비해요.",
+    "cues": [
+      "차체에 긴 컨베이어가 뻗어 있어요.",
+      "몸 아래에 도로를 깎는 장치가 있어요."
+    ],
+    "sourceUrl": "https://www.wirtgen-group.com/en-us/products/wirtgen/technologies/cold-milling/",
+    "tile": "#efe6cf"
+  },
+  {
+    "id": "straddle-carrier",
+    "name": "스트래들 캐리어",
+    "englishName": "Straddle Carrier",
+    "body": "special",
+    "aliases": [
+      "컨테이너 운반차"
+    ],
+    "cardCue": "컨테이너를 다리 사이에 들어 옮겨요.",
+    "summary": "항구에서 컨테이너를 높은 몸 사이에 끼우듯 들어 올리고 옮겨요.",
+    "cues": [
+      "문처럼 생긴 높은 몸 아래가 뻥 뚫려 있어요.",
+      "양쪽 다리 아래에 바퀴가 달렸어요."
+    ],
+    "sourceUrl": "https://www.kalmarglobal.com/news--insights/articles/2025/straddle-carriers-for-container-handling-what-you-need-to-know/",
+    "tile": "#e5e9ef"
+  },
+  {
+    "id": "articulated-dump-truck",
+    "name": "굴절식 덤프트럭",
+    "englishName": "Articulated Dump Truck",
+    "body": "special",
+    "aliases": [
+      "굴절식 덤프",
+      "굴절 덤프트럭"
+    ],
+    "cardCue": "몸 가운데를 꺾어 방향을 바꿔요.",
+    "summary": "앞부분과 짐칸 사이를 꺾으며 울퉁불퉁한 곳에서 흙과 돌을 날라요.",
+    "cues": [
+      "운전석 뒤와 짐칸 사이에 꺾이는 연결부가 있어요.",
+      "큰 바퀴와 커다란 짐칸을 찾아봐요."
+    ],
+    "sourceUrl": "https://rent.cat.com/en_GY/content/crs/en_MM/articles/articulated-trucks",
+    "tile": "#ece3d6"
+  },
+  {
     "id": "walking-excavator",
     "name": "걷는 굴착기",
     "englishName": "Walking Excavator",

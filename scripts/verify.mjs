@@ -16,6 +16,7 @@ const sourceImages = [
   ...JSON.parse(await readFile(resolve(root, "data/machine-image-sources.json"), "utf8"))
 ];
 assert(sourceImages.every((photo) => cars.some((car) => car.id === photo.modelId)), "Photo without a car record");
+assert.equal(new Set(sourceImages.map((photo) => photo.originalSha256)).size, sourceImages.length, "Repeated source image is not an additional view");
 assert.equal(new Set(cars.map((car) => car.id)).size, cars.length, "Duplicate car ID");
 const photos = new Map();
 for (const car of cars) {
@@ -58,7 +59,7 @@ assert.deepEqual(filterCars(fixture, { query: "세단" }).map((car) => car.id), 
 assert.deepEqual(filterCars(fixture, { query: "중장비" }).map((car) => car.id), ["c", "d"]);
 assert.deepEqual(readSaved('["a","c","c","removed"]', fixture), ["a", "c"]);
 assert.equal(filterCars(cars, { body: "construction" }).length, 10);
-assert.equal(filterCars(cars, { body: "special" }).length, 14);
+assert.equal(filterCars(cars, { body: "special" }).length, 18);
 
 assert.deepEqual(filterCars(cars, { query: "거미 굴착기", body: "special" }).map((car) => car.id), ["walking-excavator"]);
 console.log(`PASS: ${cars.length} cars, ${photos.size} licensed photos, hashes, child copy, combined filters and saved-data recovery`);
