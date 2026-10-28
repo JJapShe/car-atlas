@@ -10,4 +10,6 @@ Luna가 사진 원본/라이선스/공개용 축소본을 수급했다. Terra가
 
 진입점: `index.html`, `styles.css`, `app.js`, `data/cars.js`, `data/image-sources.json`. `scripts/verify.mjs`/`build.mjs`/`serve.mjs`가 검증·공개 빌드·루프백 미리보기다. 의존성 설치 불필요.
 
-검증 기록과 스크린샷은 `work/`에 보존한다. Sites의 비공개 링크는 README에 기록되어 있다. `.openai/hosting.json`의 project_id를 재사용하고 배포 결과는 실제 최신 상태를 확인한다. 이 대화의 프로젝트 소속 자체는 원래 sea-atlas이며 소스만 이 새 폴더에서 작업했다.
+검증 기록과 스크린샷은 `work/`에 보존한다. 사용자는 MVP 완료 뒤 다른 Atlas와 동일하게 개인 GitHub 저장소 생성과 Pages 공개 배포를 요청했다. 기본 저장소는 `https://github.com/JJapShe/car-atlas`, 공개 주소는 `https://jjapshe.github.io/car-atlas/`다. main 푸시가 `.github/workflows/deploy-pages.yml`의 검증/빌드/dist 배포를 실행한다. Actions 성공만으로 완료하지 말고 해당 커밋의 공개 데이터·사진 및 PC/모바일 화면을 확인한다.
+
+이전 Sites 비공개 미리보기는 유지한다. 해당 링크와 `.openai/hosting.json`은 원래 미리보기용이며 GitHub Pages 배포에는 필요하지 않다. 이 대화의 프로젝트 소속 자체는 원래 sea-atlas이며 소스만 이 새 폴더에서 작업했다.

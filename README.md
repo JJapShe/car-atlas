@@ -4,7 +4,9 @@
 
 ## 열기
 
-- 비공개 도감: https://car-atlas-kids.ochresquid4096.chatgpt.site (소유자 계정으로 접근)
+- 공개 도감: https://jjapshe.github.io/car-atlas/
+- 개인 저장소: https://github.com/JJapShe/car-atlas
+- 이전 비공개 미리보기: https://car-atlas-kids.ochresquid4096.chatgpt.site (소유자 계정으로 접근)
 - Windows: `start-car-atlas.cmd` 실행. Node.js가 필요하다.
 - 터미널: `npm test`, `npm run build`, `npm start` 순서.
 - 로컬 주소: http://127.0.0.1:8042
@@ -35,6 +37,12 @@
 
 PC와 390/320px 모바일 화면, 검색/필터/빈 상태/저장 유지/상세/사진 이동/Escape/포커스/직접 링크를 브라우저에서 확인한다. 로컬 서버는 `dist/`만 제공하고 루프백에만 바인딩한다.
 
+## GitHub Pages
+
+`main`에 푸시하면 `.github/workflows/deploy-pages.yml`이 Node.js 24에서 검증과 빌드를 실행한 뒤 `dist/`만 Pages에 배포한다. 별도 패키지 설치는 필요하지 않는다. 저장소에는 앱 소스와 선정된 사진, 출처와 라이선스 기록을 보존하며 `work/` 원본·탈락본·로그·로컬 검증 자료는 올리지 않는다.
+
+Actions 성공 뒤 공개 주소의 실제 카탈로그/사진과 PC·모바일 화면을 확인한다. 이후 공개 배포의 기본 대상은 GitHub Pages이며, 이전 Sites 미리보기의 접근 범위는 유지한다.
+
 ## 이어서 작업할 때
 
-이 폴더가 독립 프로젝트다. 원래 ChatGPT 프로젝트의 `sources/`는 읽기 전용이다. `docs/codex-handoff.md`부터 읽고 현재 파일/Git 상태를 확인한다. 배포 ID는 `.openai/hosting.json`에 있으며 새 Site를 중복 생성하지 않는다.
+이 폴더가 독립 프로젝트다. 원래 ChatGPT 프로젝트의 `sources/`는 읽기 전용이다. `docs/codex-handoff.md`부터 읽고 현재 파일/Git 상태를 확인한다. 공개 배포는 `JJapShe/car-atlas`의 GitHub Pages를 사용한다. `.openai/hosting.json`은 기존 비공개 미리보기의 ID이며 새 Site를 중복 생성하지 않는다.
