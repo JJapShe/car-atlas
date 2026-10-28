@@ -1,0 +1,10 @@
+{
+  "name": "car-atlas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/verify.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs"
+  }
+}
