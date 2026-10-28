@@ -58,5 +58,7 @@ assert.deepEqual(filterCars(fixture, { query: "세단" }).map((car) => car.id), 
 assert.deepEqual(filterCars(fixture, { query: "중장비" }).map((car) => car.id), ["c", "d"]);
 assert.deepEqual(readSaved('["a","c","c","removed"]', fixture), ["a", "c"]);
 assert.equal(filterCars(cars, { body: "construction" }).length, 10);
-assert.equal(filterCars(cars, { body: "special" }).length, 8);
+assert.equal(filterCars(cars, { body: "special" }).length, 14);
+
+assert.deepEqual(filterCars(cars, { query: "거미 굴착기", body: "special" }).map((car) => car.id), ["walking-excavator"]);
 console.log(`PASS: ${cars.length} cars, ${photos.size} licensed photos, hashes, child copy, combined filters and saved-data recovery`);

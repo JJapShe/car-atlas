@@ -1,6 +1,116 @@
 // Equipment entries describe types and jobs; photographs are real examples, not latest-model claims.
 export const machines = [
   {
+    "id": "walking-excavator",
+    "name": "걷는 굴착기",
+    "englishName": "Walking Excavator",
+    "body": "special",
+    "aliases": [
+      "보행 굴착기",
+      "거미 굴착기"
+    ],
+    "cardCue": "다리를 뻗어 비탈에서 일해요.",
+    "summary": "움직이는 다리와 바퀴로 비탈에 자리를 잡고 긴 팔로 땅을 파요.",
+    "cues": [
+      "몸 아래 다리가 여러 방향으로 뻗어 있어요.",
+      "긴 팔 끝에 흙을 파는 바가지가 있어요."
+    ],
+    "sourceUrl": "https://menzimuck.com/en/product/walking-excavator/menzi-muck-m5x/",
+    "tile": "#e8e8de"
+  },
+  {
+    "id": "dragline",
+    "name": "드래그라인 굴착기",
+    "englishName": "Dragline Excavator",
+    "body": "special",
+    "aliases": [
+      "드래그라인",
+      "줄 굴착기"
+    ],
+    "cardCue": "줄로 바가지를 끌어 흙을 파요.",
+    "summary": "긴 팔에 매단 바가지를 줄로 끌어 흙을 파요.",
+    "cues": [
+      "아주 긴 격자 모양 팔이 뻗어 있어요.",
+      "여러 줄에 매달린 큰 바가지를 찾아봐요."
+    ],
+    "sourceUrl": "https://rent.cat.com/en_US/articles/trenchers-vs-excavators",
+    "tile": "#ece3d6"
+  },
+  {
+    "id": "trencher",
+    "name": "트렌처",
+    "englishName": "Trencher",
+    "body": "special",
+    "aliases": [
+      "도랑 파는 기계",
+      "트렌칭 머신"
+    ],
+    "cardCue": "길고 좁은 도랑을 파요.",
+    "summary": "회전하는 날이 달린 체인으로 땅에 길고 좁은 도랑을 파요.",
+    "cues": [
+      "뒤쪽에 길게 뻗은 파는 장치가 있어요.",
+      "장치 둘레에 톱니가 달린 체인이 보여요."
+    ],
+    "sourceUrl": "https://protips.vermeer.com/underground/2024/09/03/configuring-your-vermeer-trencher-for-jobsite-versatility/",
+    "tile": "#e9ead8"
+  },
+  {
+    "id": "wheel-tractor-scraper",
+    "name": "스크레이퍼",
+    "englishName": "Wheel Tractor-Scraper",
+    "body": "special",
+    "aliases": [
+      "스크래이퍼",
+      "흙 긁는 차",
+      "스크래퍼",
+      "스크레이퍼"
+    ],
+    "cardCue": "흙을 긁어 담고 옮겨요.",
+    "summary": "바닥의 날로 흙을 긁어 큰 통에 담아 다른 곳으로 옮겨요.",
+    "cues": [
+      "앞부분과 흙을 담는 뒷부분이 이어져 있어요.",
+      "몸 가운데 아래에 커다란 흙통이 있어요."
+    ],
+    "sourceUrl": "https://www.cat.com/en_US/products/new/equipment/wheel-tractor-scrapers/open-bowl-scrapers/125864.html",
+    "tile": "#efe6cf"
+  },
+  {
+    "id": "reach-stacker",
+    "name": "리치스태커",
+    "englishName": "Reachstacker",
+    "body": "special",
+    "aliases": [
+      "리치 스태커",
+      "컨테이너 적재차"
+    ],
+    "cardCue": "긴 팔로 컨테이너를 들어 쌓아요.",
+    "summary": "바퀴로 움직이며 긴 팔 끝의 장치로 컨테이너를 들어 옮기고 쌓아요.",
+    "cues": [
+      "앞쪽으로 뻗은 굵고 긴 팔이 있어요.",
+      "팔 끝에 컨테이너를 잡는 네모난 장치가 있어요."
+    ],
+    "sourceUrl": "https://new.kalmarglobal.com/equipment/reachstackers/",
+    "tile": "#e5e9ef"
+  },
+  {
+    "id": "rotary-drilling-rig",
+    "name": "회전식 시추기",
+    "englishName": "Rotary Drilling Rig",
+    "body": "special",
+    "aliases": [
+      "시추기",
+      "드릴 장비"
+    ],
+    "cardCue": "땅에 깊은 구멍을 뚫어요.",
+    "summary": "긴 기둥을 따라 드릴을 돌려 건물의 기초를 만들 깊은 구멍을 뚫어요.",
+    "cues": [
+      "몸 앞에 높이 솟은 기둥이 있어요.",
+      "기둥 아래에 땅을 파는 원통형 도구가 있어요."
+    ],
+    "sourceUrl": "https://www.liebherr.com/en-ca/deep-foundation/methods/drilling/kelly-drilling-4079772",
+    "tile": "#f0e7d5"
+  },
+  {
     id: "excavator", name: "굴착기", englishName: "Excavator", body: "construction",
     aliases: ["포클레인", "포크레인", "굴삭기", "땅 파는 차"],
     cardCue: "긴 팔로 땅을 파요.", summary: "긴 팔 끝의 바가지로 흙을 파고 옮겨요.",

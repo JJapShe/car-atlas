@@ -24,7 +24,7 @@ if (typeof document !== "undefined") init().catch(() => {
 async function init() {
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
-  const response = await fetch("./data/catalog.json?v=20261028-machines");
+  const response = await fetch("./data/catalog.json?v=20261028-unusual");
   if (!response.ok) throw new Error("Catalog unavailable");
   const { cars } = await response.json();
   const storageKey = "car-atlas-favorites-v1";
@@ -170,7 +170,7 @@ async function init() {
     image.style.objectFit = "contain"; image.src = "./assets/icon.svg";
   }, true);
   addEventListener("popstate", syncHash); addEventListener("hashchange", syncHash);
-  const featured = cars.find((car) => car.id === "excavator") || cars[0];
+  const featured = cars.find((car) => car.id === "walking-excavator") || cars[0];
   $("#heroCount").textContent = cars.length;
   $("#heroImage").src = featured.photos[0].src; $("#heroImage").alt = `${featured.name} ${photoName(featured.photos[0], 0)}`;
   $("#heroBrand").textContent = categoryName(featured); $("#heroCarName").textContent = featured.name;
