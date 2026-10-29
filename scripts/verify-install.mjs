@@ -8,6 +8,7 @@ const base = "https://jjapshe.github.io/car-atlas/";
 for (const key of ["id", "start_url", "scope"]) assert.equal(new URL(manifest[key], base).href, base);
 assert.equal(manifest.display, "standalone");
 assert(manifest.name && manifest.short_name && manifest.lang === "ko");
+assert.equal(manifest.short_name, "탈것 아틀라스", "Installed app display name must match the rebrand");
 for (const size of [192, 512]) {
   const icon = manifest.icons.find((entry) => entry.sizes === `${size}x${size}`);
   assert(icon && icon.type === "image/png");

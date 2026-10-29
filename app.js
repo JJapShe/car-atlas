@@ -1,12 +1,12 @@
 const normalize = (value) => String(value ?? "").normalize("NFKC").toLocaleLowerCase("ko").replace(/\s+/g, "");
 const escape = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-export const bodyLabels = { sedan: "세단", suv: "SUV", construction: "중장비", special: "특수 중장비" };
+export const bodyLabels = { sedan: "세단", suv: "SUV", construction: "중장비", special: "특수 중장비", rotorcraft: "회전익기", fixedwing: "고정익기" };
 
 export function filterCars(cars, { query = "", body = "", brand = "", savedOnly = false, savedIds = [] } = {}) {
   const term = normalize(query);
   return cars.filter((car) => (!body || car.body === body) && (!brand || car.brand === brand)
     && (!savedOnly || savedIds.includes(car.id))
-    && (!term || normalize([car.name, car.brand, car.englishName, ...car.aliases, bodyLabels[car.body], car.body === "suv" ? "에스유브이" : ""].join(" ")).includes(term)));
+    && (!term || normalize([car.name, car.brand, car.englishName, ...car.aliases, bodyLabels[car.body], car.body === "suv" ? "에스유브이" : "", ["rotorcraft", "fixedwing"].includes(car.body) ? "항공기" : "", car.body === "fixedwing" ? "비행기" : ""].join(" ")).includes(term)));
 }
 
 export function readSaved(raw, cars) {
@@ -24,7 +24,7 @@ if (typeof document !== "undefined") init().catch(() => {
 async function init() {
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
-  const response = await fetch("./data/catalog.json?v=20261028-install");
+  const response = await fetch("./data/catalog.json?v=20261029-aircraft");
   if (!response.ok) throw new Error("Catalog unavailable");
   const { cars } = await response.json();
   const storageKey = "car-atlas-favorites-v1";
@@ -86,13 +86,17 @@ async function init() {
     if ($("#imageDialog").open) $("#imageDialog").close();
     state.selected = car;
     const equipment = car.appearance.change === "equipment";
-    const reference = equipment
+    const aircraft = car.appearance.change === "aircraft";
+    const nonPassenger = equipment || aircraft;
+    const reference = nonPassenger
       ? `<p>소개 기준: ${escape(car.appearance.label)}<br>자료 확인 ${escape(car.checkedAt)}</p>`
       : `<p>외형 기준: ${escape(car.appearance.label)}<br>구분: ${escape({ fullchange: "풀체인지", facelift: "페이스리프트", initial: "첫 양산 외형", verified: "공식 현행 외형" }[car.appearance.change])} · 자료 확인 ${escape(car.checkedAt)}</p>`;
-    const sourceNote = equipment
+    const sourceNote = aircraft
+      ? "항공기는 종류와 하는 일을 소개해요. 사진은 실제 기체 예시이며 같은 기종도 세부 형식과 도장, 장착품이 다를 수 있어요. 오토자이로는 공기의 흐름으로 윗날개가 도는 회전익기이며 헬리콥터와 달라요."
+      : equipment
       ? "장비는 종류와 하는 일을 소개해요. 사진은 같은 종류의 여러 실물 장비 예시이며 최신 모델이라는 뜻은 아니에요. ‘특수 중장비’는 찾아보기 위한 묶음이며 법적 분류가 아니에요."
       : "일부 사진은 해외 사양이에요. 국내 사양과 옵션·바퀴·색상 등이 다를 수 있어요.";
-    $("#detailContent").innerHTML = `<div class="detail-cover" style="--tile:${car.tile}"><button type="button" data-photo="0" aria-label="${escape(car.name)} 사진 크게 보기"><img src="${car.photos[0].src}" alt="${escape(car.name)} ${escape(photoName(car.photos[0], 0))}"></button>${equipment ? `<p class="cover-label">${escape(photoName(car.photos[0], 0))}</p>` : ""}</div><div class="detail-body"><div class="detail-heading"><div><p class="eyebrow">${escape(categoryName(car))}</p><h2 id="detailTitle">${escape(car.name)}</h2></div><div class="detail-actions"><button id="speakName" type="button">♫ 이름 듣기</button><button id="detailSave" type="button" data-save="${car.id}" aria-pressed="false"></button></div></div><p class="detail-summary">${escape(car.summary)}</p><ul class="cue-list">${car.cues.map((cue, index) => `<li><span>관찰 ${String(index + 1).padStart(2, "0")}</span>${escape(cue)}</li>`).join("")}</ul><h3 class="gallery-heading">${car.photos.length > 1 ? "다른 모습도 살펴봐요" : "크게 살펴봐요"}</h3><div class="gallery-grid">${car.photos.map((photo, index) => `<button class="gallery-thumbnail" type="button" data-photo="${index}" aria-label="${escape(car.name)} ${escape(photoName(photo, index))} 크게 보기"><img src="${photo.src}" alt="${escape(car.name)} ${escape(photoName(photo, index))}" loading="lazy"><span>${escape(photoName(photo, index))} ↗</span></button>`).join("")}</div><details class="parent-info"><summary>보호자용 자료와 사진 출처</summary>${reference}<p><a href="${escape(car.sourceUrl)}" target="_blank" rel="noopener noreferrer">${equipment ? "장비의 하는 일 자료" : "공식 자동차 자료"} ↗</a></p><p>${sourceNote}</p><ul>${car.photos.map((photo, index) => `<li>${escape(photoName(photo, index))}: ${credit(photo)}<br>사진의 외형: ${escape(photo.appearanceLabel)}</li>`).join("")}</ul></details></div>`;
+    $("#detailContent").innerHTML = `<div class="detail-cover" style="--tile:${car.tile}"><button type="button" data-photo="0" aria-label="${escape(car.name)} 사진 크게 보기"><img src="${car.photos[0].src}" alt="${escape(car.name)} ${escape(photoName(car.photos[0], 0))}"></button>${nonPassenger ? `<p class="cover-label">${escape(photoName(car.photos[0], 0))}</p>` : ""}</div><div class="detail-body"><div class="detail-heading"><div><p class="eyebrow">${escape(categoryName(car))}</p><h2 id="detailTitle">${escape(car.name)}</h2></div><div class="detail-actions"><button id="speakName" type="button">♫ 이름 듣기</button><button id="detailSave" type="button" data-save="${car.id}" aria-pressed="false"></button></div></div><p class="detail-summary">${escape(car.summary)}</p><ul class="cue-list">${car.cues.map((cue, index) => `<li><span>관찰 ${String(index + 1).padStart(2, "0")}</span>${escape(cue)}</li>`).join("")}</ul><h3 class="gallery-heading">${car.photos.length > 1 ? "다른 모습도 살펴봐요" : "크게 살펴봐요"}</h3><div class="gallery-grid">${car.photos.map((photo, index) => `<button class="gallery-thumbnail" type="button" data-photo="${index}" aria-label="${escape(car.name)} ${escape(photoName(photo, index))} 크게 보기"><img src="${photo.src}" alt="${escape(car.name)} ${escape(photoName(photo, index))}" loading="lazy"><span>${escape(photoName(photo, index))} ↗</span></button>`).join("")}</div><details class="parent-info"><summary>보호자용 자료와 사진 출처</summary>${reference}<p><a href="${escape(car.sourceUrl)}" target="_blank" rel="noopener noreferrer">${aircraft ? "항공기의 하는 일 자료" : equipment ? "장비의 하는 일 자료" : "공식 자동차 자료"} ↗</a></p><p>${sourceNote}</p><ul>${car.photos.map((photo, index) => `<li>${escape(photoName(photo, index))}: ${credit(photo)}<br>사진의 외형: ${escape(photo.appearanceLabel)}</li>`).join("")}</ul></details></div>`;
     updateDetailSave();
     if (!$("#detailDialog").open) $("#detailDialog").showModal();
     $("#detailDialog").scrollTop = 0;
@@ -170,7 +174,7 @@ async function init() {
     image.style.objectFit = "contain"; image.src = "./assets/icon.svg";
   }, true);
   addEventListener("popstate", syncHash); addEventListener("hashchange", syncHash);
-  const featured = cars.find((car) => car.id === "walking-excavator") || cars[0];
+  const featured = cars.find((car) => car.id === "robinson-r44") || cars.find((car) => car.id === "walking-excavator") || cars[0];
   $("#heroCount").textContent = cars.length;
   $("#heroImage").src = featured.photos[0].src; $("#heroImage").alt = `${featured.name} ${photoName(featured.photos[0], 0)}`;
   $("#heroBrand").textContent = categoryName(featured); $("#heroCarName").textContent = featured.name;

@@ -19,3 +19,10 @@
 
 .install-panel{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px;margin:0 0 40px;border:1px solid var(--line);border-radius:24px;background:#e9eddf}.install-panel h2{font-size:1.3rem;margin:0 0 8px}.install-panel p{line-height:1.6;margin:4px 0;color:var(--muted)}.install-note{font-size:.85rem}.install-panel .primary-button{flex-shrink:0}#installDialog a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:600px){.install-panel{align-items:stretch;flex-direction:column;padding:22px;gap:16px}.install-panel .primary-button{justify-content:center}}
+
+.body-filters{width:100%}.wordmark{font-size:1.5rem;letter-spacing:-.06em}
+@media(max-width:760px){.body-filters{grid-template-columns:repeat(6,minmax(0,1fr))}.body-filter{grid-column:span 2}.body-filter[data-body=sedan],.body-filter[data-body=suv]{grid-column:span 3}.body-filter[data-body=special]{grid-column:span 4}}
+@media(max-width:480px){.wordmark{font-size:1.15rem;gap:8px}.wordmark small{font-size:.55rem;letter-spacing:-.03em}}
+
+.body-filter svg{flex-shrink:0}
+@media(max-width:360px){.body-filter[data-body=rotorcraft] svg,.body-filter[data-body=fixedwing] svg{display:none}}

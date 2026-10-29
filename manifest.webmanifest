@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Car Atlas · 자동차와 중장비 친구들",
-  "short_name": "Car Atlas",
-  "description": "자동차와 중장비를 커다란 사진으로 살펴보는 어린이 도감",
+  "name": "탈것 아틀라스 · 땅과 하늘의 친구들",
+  "short_name": "탈것 아틀라스",
+  "description": "자동차·중장비·항공기를 커다란 사진으로 살펴보는 어린이 도감",
   "lang": "ko",
   "start_url": "./",
   "scope": "./",
@@ -10,7 +10,17 @@
   "background_color": "#f6f7f2",
   "theme_color": "#f6f7f2",
   "icons": [
-    { "src": "./assets/app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "./assets/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    {
+      "src": "./assets/app-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
   ]
 }
