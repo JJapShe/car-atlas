@@ -13,6 +13,16 @@ export function filterCars(cars, { query = "", body = "", brand = "", savedOnly 
   });
 }
 
+export function galleryCountLabel(photos) {
+  const illustrations = photos.filter((photo) => photo.kind === "illustration").length;
+  return [`사진 ${photos.length - illustrations}장`, illustrations ? `AI 그림 ${illustrations}장` : ""].filter(Boolean).join(" · ");
+}
+
+export function imageCredit(photo) {
+  if (photo.kind === "illustration") return `<strong>AI 제작 그림 · 실물 사진이 아니에요</strong><br>${escape(photo.credit)} · 검수 ${escape(photo.reviewedAt)}<br>${escape(photo.reviewNote)}`;
+  return `${escape(photo.credit)} · <a href="${escape(photo.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(photo.license)}</a> · <a href="${escape(photo.sourcePage)}" target="_blank" rel="noopener noreferrer">사진 원본 ↗</a>${photo.modifications ? `<br>${escape(photo.modifications)}` : ""}`;
+}
+
 export function readSaved(raw, cars) {
   try {
     const ids = JSON.parse(raw || "[]");
@@ -28,7 +38,7 @@ if (typeof document !== "undefined") init().catch(() => {
 async function init() {
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
-  const response = await fetch("./data/catalog.json?v=20261031-world-2");
+  const response = await fetch("./data/catalog.json?v=20261031-gallery");
   if (!response.ok) throw new Error("Catalog unavailable");
   const { cars } = await response.json();
   const storageKey = "car-atlas-favorites-v1";
@@ -40,7 +50,7 @@ async function init() {
   const bodyName = (car) => bodyLabels[car.body];
   const categoryName = (car) => [car.brand, bodyName(car)].filter(Boolean).join(" · ");
   const photoName = (photo, index) => photo.viewLabel || (/rear/.test(photo.src) ? "뒤쪽 모습" : /front/.test(photo.src) ? "앞쪽 모습" : `다른 모습 ${index + 1}`);
-  const credit = (photo) => `${escape(photo.credit)} · <a href="${escape(photo.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(photo.license)}</a> · <a href="${escape(photo.sourcePage)}" target="_blank" rel="noopener noreferrer">사진 원본 ↗</a>${photo.modifications ? `<br>${escape(photo.modifications)}` : ""}`;
+  const credit = imageCredit;
 
   function toast(message) {
     let node = $(".toast");
@@ -62,7 +72,7 @@ async function init() {
     const noFavorites = state.savedOnly && !state.savedIds.length;
     $("#carGrid").innerHTML = visible.length ? visible.map((car) => {
       const saved = state.savedIds.includes(car.id);
-      return `<article class="car-card" style="--tile:${car.tile}"><button type="button" class="favorite-button" data-save="${car.id}" aria-label="${escape(car.name)} 좋아하는 친구" aria-pressed="${saved}">${saved ? "♥" : "♡"}</button><button type="button" class="car-open" data-car="${car.id}" aria-label="${escape(car.name)} 살펴보기"><span class="car-photo"><img src="${car.photos[0].src}" alt="${escape(car.name)} ${escape(photoName(car.photos[0], 0))}" loading="lazy" width="600" height="380"></span><span class="card-info"><span class="card-topline"><span>${escape(categoryName(car))}</span><span class="card-photo-count">사진 ${car.photos.length}장</span></span><span class="card-name">${escape(car.name)}<span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-cue">${escape(car.cardCue)}</span></span></button></article>`;
+      return `<article class="car-card" style="--tile:${car.tile}"><button type="button" class="favorite-button" data-save="${car.id}" aria-label="${escape(car.name)} 좋아하는 친구" aria-pressed="${saved}">${saved ? "♥" : "♡"}</button><button type="button" class="car-open" data-car="${car.id}" aria-label="${escape(car.name)} 살펴보기"><span class="car-photo"><img src="${car.photos[0].src}" alt="${escape(car.name)} ${escape(photoName(car.photos[0], 0))}" loading="lazy" width="600" height="380"></span><span class="card-info"><span class="card-topline"><span>${escape(categoryName(car))}</span><span class="card-photo-count">${galleryCountLabel(car.photos)}</span></span><span class="card-name">${escape(car.name)}<span class="card-arrow" aria-hidden="true">↗</span></span><span class="card-cue">${escape(car.cardCue)}</span></span></button></article>`;
     }).join("") : `<div class="empty-state"><h3>${noFavorites ? "좋아하는 친구를 담아볼까요?" : "이 조건의 친구는 아직 없어요."}</h3><p>${noFavorites ? "친구 사진의 하트를 눌러보세요." : "이름이나 고른 조건을 바꿔보세요."}</p><button type="button" data-reset>모든 친구 보기 →</button></div>`;
     $("#resultCount").textContent = `${visible.length}가지 친구들${state.savedOnly ? " · 좋아하는 친구" : ""}`;
     $("#savedCount").textContent = state.savedIds.length;
@@ -103,7 +113,7 @@ async function init() {
       : equipment
       ? "장비는 종류와 하는 일을 소개해요. 사진은 같은 종류의 여러 실물 장비 예시이며 최신 모델이라는 뜻은 아니에요. ‘특수 중장비’는 찾아보기 위한 묶음이며 법적 분류가 아니에요."
       : "사진은 해당 외형의 실물 예시예요. 해외차에는 이전 세대 예시도 포함해요. 국내 최신 판매형이나 모든 옵션·바퀴·색상과 같다는 뜻은 아니에요.";
-    $("#detailContent").innerHTML = `<div class="detail-cover" style="--tile:${car.tile}"><button type="button" data-photo="0" aria-label="${escape(car.name)} 사진 크게 보기"><img src="${car.photos[0].src}" alt="${escape(car.name)} ${escape(photoName(car.photos[0], 0))}"></button>${nonPassenger ? `<p class="cover-label">${escape(photoName(car.photos[0], 0))}</p>` : ""}</div><div class="detail-body"><div class="detail-heading"><div><p class="eyebrow">${escape(categoryName(car))}</p><h2 id="detailTitle">${escape(car.name)}</h2></div><div class="detail-actions"><button id="speakName" type="button">♫ 이름 듣기</button><button id="detailSave" type="button" data-save="${car.id}" aria-pressed="false"></button></div></div><p class="detail-summary">${escape(car.summary)}</p><ul class="cue-list">${car.cues.map((cue, index) => `<li><span>관찰 ${String(index + 1).padStart(2, "0")}</span>${escape(cue)}</li>`).join("")}</ul><h3 class="gallery-heading">${car.photos.length > 1 ? "다른 모습도 살펴봐요" : "크게 살펴봐요"}</h3><div class="gallery-grid">${car.photos.map((photo, index) => `<button class="gallery-thumbnail" type="button" data-photo="${index}" aria-label="${escape(car.name)} ${escape(photoName(photo, index))} 크게 보기"><img src="${photo.src}" alt="${escape(car.name)} ${escape(photoName(photo, index))}" loading="lazy"><span>${escape(photoName(photo, index))} ↗</span></button>`).join("")}</div><details class="parent-info"><summary>보호자용 자료와 사진 출처</summary>${reference}<p><a href="${escape(car.sourceUrl)}" target="_blank" rel="noopener noreferrer">${vehicle ? "탈것의 하는 일 자료" : aircraft ? "항공기의 하는 일 자료" : equipment ? "장비의 하는 일 자료" : "공식 자동차 자료"} ↗</a></p><p>${sourceNote}</p><ul>${car.photos.map((photo, index) => `<li>${escape(photoName(photo, index))}: ${credit(photo)}<br>사진의 외형: ${escape(photo.appearanceLabel)}</li>`).join("")}</ul></details></div>`;
+    $("#detailContent").innerHTML = `<div class="detail-cover" style="--tile:${car.tile}"><button type="button" data-photo="0" aria-label="${escape(car.name)} 사진 크게 보기"><img src="${car.photos[0].src}" alt="${escape(car.name)} ${escape(photoName(car.photos[0], 0))}"></button>${nonPassenger ? `<p class="cover-label">${escape(photoName(car.photos[0], 0))}</p>` : ""}</div><div class="detail-body"><div class="detail-heading"><div><p class="eyebrow">${escape(categoryName(car))}</p><h2 id="detailTitle">${escape(car.name)}</h2></div><div class="detail-actions"><button id="speakName" type="button">♫ 이름 듣기</button><button id="detailSave" type="button" data-save="${car.id}" aria-pressed="false"></button></div></div><p class="detail-summary">${escape(car.summary)}</p><ul class="cue-list">${car.cues.map((cue, index) => `<li><span>관찰 ${String(index + 1).padStart(2, "0")}</span>${escape(cue)}</li>`).join("")}</ul><h3 class="gallery-heading">${car.photos.length > 1 ? "다른 모습도 살펴봐요" : "크게 살펴봐요"}</h3><div class="gallery-grid">${car.photos.map((photo, index) => `<button class="gallery-thumbnail" type="button" data-photo="${index}" aria-label="${escape(car.name)} ${escape(photoName(photo, index))} 크게 보기"><img src="${photo.src}" alt="${escape(car.name)} ${escape(photoName(photo, index))}" loading="lazy"><span>${escape(photoName(photo, index))} ↗</span></button>`).join("")}</div><details class="parent-info"><summary>보호자용 자료와 사진 출처</summary>${reference}<p><a href="${escape(car.sourceUrl)}" target="_blank" rel="noopener noreferrer">${vehicle ? "탈것의 하는 일 자료" : aircraft ? "항공기의 하는 일 자료" : equipment ? "장비의 하는 일 자료" : "공식 자동차 자료"} ↗</a></p><p>${sourceNote}</p><ul>${car.photos.map((photo, index) => `<li>${escape(photoName(photo, index))}: ${credit(photo)}<br>${photo.kind === "illustration" ? "그림의 기준" : "사진의 외형"}: ${escape(photo.appearanceLabel)}</li>`).join("")}</ul></details></div>`;
     updateDetailSave();
     if (!$("#detailDialog").open) $("#detailDialog").showModal();
     $("#detailDialog").scrollTop = 0;
@@ -177,7 +187,7 @@ async function init() {
     if (!(event.target instanceof HTMLImageElement)) return;
     const image = event.target;
     if (image.dataset.failed) return;
-    image.dataset.failed = "true"; image.alt += " · 사진을 불러오지 못했어요";
+    image.dataset.failed = "true"; image.alt += " · 이미지를 불러오지 못했어요";
     image.style.objectFit = "contain"; image.src = "./assets/icon.svg";
   }, true);
   addEventListener("popstate", syncHash); addEventListener("hashchange", syncHash);

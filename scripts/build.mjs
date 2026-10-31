@@ -28,4 +28,4 @@ const publicFiles = (await readdir(site, { recursive: true, withFileTypes: true 
 assert.equal(publicFiles, files.length + 1);
 const text = JSON.stringify(data);
 assert(!/\.codex|file:\/\/|C:[\\/]|work\//.test(text), "Private path in catalog");
-console.log(`PASS: built ${data.cars.length} cars, ${data.cars.reduce((n, car) => n + car.photos.length, 0)} photos, ${publicFiles} public files`);
+console.log(`PASS: built ${data.cars.length} vehicles, ${data.cars.reduce((n, car) => n + car.photos.length, 0)} gallery images, ${publicFiles} public files`);

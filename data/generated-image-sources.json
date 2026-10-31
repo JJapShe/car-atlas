@@ -1,0 +1,142 @@
+[
+  {
+    "modelId": "excavator",
+    "filename": "excavator-ai-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 팔과 바가지를 살펴봐요",
+    "viewLabel": "AI 제작 그림 · 팔과 바가지를 살펴봐요",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "e50cbaef031f8fcd6712d39310fff12a514b44fbc11309b7afa5876773a0f845",
+    "originalSha256": "c8b4c1b389b3deb8f34018451a5d55a84fefa8b226d6ce57feed4d9f3a9cbe40",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-10-31",
+      "prompt": "Use case: scientific-educational. Asset type: supplementary AI illustration in a Korean vehicle atlas for ages 3–10. Create ONE clearly illustrated, mechanically plausible generic tracked hydraulic excavator, no brand or identifiable model. Three-quarter side view with the whole machine and complete bucket inside frame, generous margins, simple pale cream background and a little plain soil under the tracks. Friendly accurate technical picture-book style, crisp clean shapes, restrained shading, NOT a photograph, no cartoon eyes, no text or arrows. Yellow upper house with cab and rear counterweight above a tracked undercarriage, exactly two continuous crawler tracks; a normal single articulated digging arm consisting of boom, stick and toothed bucket with plausible pivot pins and connected hydraulic cylinders. Bucket lowered near the ground, open so the bucket shape is understandable. Keep all structural joints attached, realistic compact proportions. No extra arms, no wheels, no disconnected bucket, no floating rods, no cutaway innards, no people, no logos, no watermark.",
+      "imageInputs": false
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-10-31",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "e50cbaef031f8fcd6712d39310fff12a514b44fbc11309b7afa5876773a0f845",
+      "originalSha256": "c8b4c1b389b3deb8f34018451a5d55a84fefa8b226d6ce57feed4d9f3a9cbe40",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/for-owners/tips-for-digging-and-trenching-with-your-excavator.html",
+        "https://www.cat.com/en_US/articles/for-owners/cat-attachments-to-use-for-general-construction-work.html"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 실물 사진과 대조. 주요 구조와 관찰 문장이 일치하며 그림으로 구별됨.",
+      "independentNotes": "Full machine is inside frame. Upper house sits on the tracked undercarriage; boom, stick, and toothed bucket form a continuous articulated arm. Visible hydraulic cylinders and linkage terminate at plausible joints. Both crawler loops are continuous. No obvious floating or disconnected component at the shown resolution.",
+      "limitations": "Generic educational illustration; not a specific make/model or real photograph."
+    }
+  },
+  {
+    "modelId": "bulldozer",
+    "filename": "bulldozer-ai-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 넓은 앞날과 궤도를 살펴봐요",
+    "viewLabel": "AI 제작 그림 · 넓은 앞날과 궤도를 살펴봐요",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "d3873c33dce1a31aa01724a3ad7d88ba83ce87928a0ac2b00ca4d83c769a6c3d",
+    "originalSha256": "5c36cb7479f7b96521ae763af0c027fac1f666e06a9e20cb3ef179a666a43ad3",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-10-31",
+      "prompt": "Use case: scientific-educational. Asset type: supplementary AI illustration for a vehicle atlas for children aged 3–10. One mechanically believable generic crawler bulldozer in full three-quarter front/side view, clearly a clean illustrated picture-book drawing rather than a photograph. Entire machine including both ends of the front blade inside the frame with ample margins. Warm yellow steel body, simple enclosed cab, two continuous crawler tracks, one broad curved steel dozer blade in front held low near plain ground by plausible attached side push arms and hydraulic lift cylinders. Blade is visibly a solid curved plate, NOT a loader scoop or bucket. Pale cream background, a small plain soil patch, crisp accurate outlines and soft restrained shading. No brand, specific model, text, labels, arrows, watermark, faces or people. No wheels, no rear excavator arm, no extra blades, no floating rods or disconnected machinery. Educational generic structure only, do not invent complicated internal details.",
+      "imageInputs": false
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-10-31",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "d3873c33dce1a31aa01724a3ad7d88ba83ce87928a0ac2b00ca4d83c769a6c3d",
+      "originalSha256": "5c36cb7479f7b96521ae763af0c027fac1f666e06a9e20cb3ef179a666a43ad3",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/products/new/equipment/dozers/large-dozers/115080.html",
+        "https://www.cat.com/en_US/products/new/equipment/dozers/large-dozers/104260.html"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 실물 사진과 대조. 주요 구조와 관찰 문장이 일치하며 그림으로 구별됨.",
+      "independentNotes": "Broad curved blade is at the front, held low by attached push arms and hydraulic cylinders. The visible crawler loop is continuous and the blade is distinct from a loader bucket. No obvious disconnected rod or attachment.",
+      "limitations": "Far-side track is naturally partly occluded by the three-quarter view; the visible structure remains consistent. Generic educational illustration; not a specific make/model or real photograph."
+    }
+  },
+  {
+    "modelId": "road-roller",
+    "filename": "road-roller-ai-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 앞뒤 원통을 살펴봐요",
+    "viewLabel": "AI 제작 그림 · 앞뒤 원통을 살펴봐요",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "551c310dce36d015a71180c7b5efe201d2c25ef92c5400d958004557b4c41105",
+    "originalSha256": "927d64ff595b605a8bc59d0202486fc6317155cd18586a99fb0706ad7e79ef58",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-10-31",
+      "prompt": "Use case: scientific-educational. Asset type: supplementary AI illustration for a vehicle atlas for children aged 3–10. Draw ONE generic compact tandem road roller in complete three-quarter side view with both broad smooth steel drums clearly visible, one at the front and one at the rear. Entire machine inside frame with generous space. It has a small yellow articulated chassis, a central operator seat under a simple black four-post protective canopy, and sturdy connected forks/yokes supporting the axes of the TWO smooth cylindrical steel drums. Wheels are NOT tires: front and rear contact ground with their broad smooth cylindrical drum surfaces, no tires or tracks. Plausible roller proportions, no impossible floating shafts or extra rollers. Clean technically credible picture-book illustration, pale cream backdrop, plain short strip of road underneath, crisp outlines and soft shading; unmistakably an illustration, not a photograph. No people, brand, model, text, arrow, face or watermark.",
+      "imageInputs": false
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-10-31",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "551c310dce36d015a71180c7b5efe201d2c25ef92c5400d958004557b4c41105",
+      "originalSha256": "927d64ff595b605a8bc59d0202486fc6317155cd18586a99fb0706ad7e79ef58",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/products/new/equipment/compactors/tandem-vibratory-rollers/15970052.html",
+        "https://www.cat.com/en_US/products/new/equipment/compactors/tandem-vibratory-rollers.html"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 실물 사진과 대조. 주요 구조와 관찰 문장이 일치하며 그림으로 구별됨.",
+      "independentNotes": "Both broad smooth steel drums are visible, each on a separate front/rear axle and supported by connected forks/yokes. Both drums contact the ground. No tires or crawler tracks are substituted for the drums; no unattached floating shaft is apparent.",
+      "limitations": "Shows the tandem two-drum configuration used by the reference photograph, not every road-roller configuration. Generic educational illustration; not a specific make/model or real photograph."
+    }
+  },
+  {
+    "modelId": "dump-truck",
+    "filename": "dump-truck-ai-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 들어 올린 짐칸을 살펴봐요",
+    "viewLabel": "AI 제작 그림 · 들어 올린 짐칸을 살펴봐요",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "48fd7ab0f540cb6483a91a129999a5fd2b2d3bfee5f3fab73ab05352de22ded4",
+    "originalSha256": "61342f54a972e8763888933e5e1355d4e5ce5928075c62d0cf2947d7f685fb58",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-10-31",
+      "prompt": "Use case: scientific-educational. Asset type: supplementary AI illustration for a vehicle atlas for children aged 3–10. ONE generic conventional road-going tipper/dump truck in complete three-quarter side view, entire truck and raised rectangular open-top cargo bed inside frame. Yellow cab at the front, gray chassis, realistic rubber tires with one steering axle and a tandem rear axle. Show the cargo bed tilted modestly upward around its REAR pivot hinge above the back of the chassis, with a single plausible hydraulic hoist under the raised front portion of the bed and a little loose soil sliding safely out the rear onto an empty ground patch. Clear physically connected bed, rear hinge and attached hoist: no floating cargo bed, no bed hinged at the front, no contradictory supports. This is a friendly accurate technical picture-book ILLUSTRATION, not a photo. Pale cream background, crisp outlines, gentle shading, generous frame margins, realistic simple mechanical structure. No brand, model, labels, arrows, text, people, faces or watermark. Do not turn this into a mining haul truck.",
+      "imageInputs": false
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-10-31",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "48fd7ab0f540cb6483a91a129999a5fd2b2d3bfee5f3fab73ab05352de22ded4",
+      "originalSha256": "61342f54a972e8763888933e5e1355d4e5ce5928075c62d0cf2947d7f685fb58",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/for-owners/articulated-truck-hoist-and-transmission-control.html",
+        "https://www.cat.com/en_US/products/new/equipment/off-highway-trucks/off-highway-trucks/122080.html"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 실물 사진과 대조. 주요 구조와 관찰 문장이 일치하며 그림으로 구별됨.",
+      "independentNotes": "The raised bed pivots at its rear end above the back of the chassis. A single telescoping hydraulic hoist is visibly connected from the chassis to the underside of the forward raised bed. The rear gate appears swung open at the discharge end, and soil exits behind the truck rather than through the cab or bed side. I do not see an obvious gap between the hoist ends and their mounts. The road-going cab/chassis and tandem rear axle remain coherent.",
+      "limitations": "Gate linkage and hidden hinge pins cannot be fully verified from this one view; no visible contradiction in the open-gate position. Generic educational illustration; not a specific make/model or real photograph."
+    }
+  }
+]

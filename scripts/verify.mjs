@@ -2,8 +2,8 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { resolve } from "node:path";
-import { catalog, root } from "./catalog.mjs";
-import { filterCars, readSaved, bodyLabels } from "../app.js";
+import { catalog, root, validateIllustration } from "./catalog.mjs";
+import { filterCars, readSaved, bodyLabels, galleryCountLabel, imageCredit } from "../app.js";
 import { cars as sourceCars } from "../data/cars.js";
 import { machines } from "../data/machines.js";
 import { aircraft } from "../data/aircraft.js";
@@ -23,6 +23,19 @@ const sourceImages = [
 assert(sourceImages.every((photo) => cars.some((car) => car.id === photo.modelId)), "Photo without a car record");
 assert.equal(new Set(sourceImages.map((photo) => photo.originalSha256)).size, sourceImages.length, "Repeated source image is not an additional view");
 assert.equal(new Set(cars.map((car) => car.id)).size, cars.length, "Duplicate car ID");
+const illustrations = JSON.parse(await readFile(resolve(root, "data/generated-image-sources.json"), "utf8"));
+assert(illustrations.every((image) => cars.some((car) => car.id === image.modelId)), "Illustration without a vehicle");
+const reviewBytes = Buffer.from("reviewed fixture");
+const reviewHash = createHash("sha256").update(reviewBytes).digest("hex");
+const reviewFixture = { kind: "illustration", sha256: reviewHash, originalSha256: reviewHash, generation: { prompt: "Educational illustration" }, review: { status: "approved", parent: "pass", independent: "pass", independentReviewer: "independent fixture", reviewedAt: "2026-10-31", referenceUrls: ["https://example.org/reference"], sha256: reviewHash, originalSha256: reviewHash } };
+assert.doesNotThrow(() => validateIllustration(reviewFixture, reviewBytes));
+assert.throws(() => validateIllustration({ ...reviewFixture, review: { ...reviewFixture.review, status: "pending" } }, reviewBytes));
+assert.throws(() => validateIllustration({ ...reviewFixture, review: { ...reviewFixture.review, independent: "reject" } }, reviewBytes));
+assert.throws(() => validateIllustration(reviewFixture, Buffer.from("changed after review")));
+assert.equal(galleryCountLabel([{}, { kind: "illustration" }]), "사진 1장 · AI 그림 1장");
+assert.equal(galleryCountLabel([{}, {}]), "사진 2장");
+const aiCredit = imageCredit({ kind: "illustration", credit: "OpenAI imagegen", reviewedAt: "2026-10-31", reviewNote: "실물 사진이 아닌 보조 그림" });
+assert(aiCredit.includes("AI 제작 그림") && !aiCredit.includes("사진 원본") && !aiCredit.includes("undefined"));
 const photos = new Map();
 for (const car of cars) {
   assert(/^[a-z0-9-]+$/.test(car.id));
@@ -35,12 +48,18 @@ for (const car of cars) {
   assert(car.cues.length >= 1 && car.cues.length <= 2);
   assert(car.summary.length < 90 && car.cues.every((cue) => cue.length < 70), `Long child copy: ${car.id}`);
   assert(car.photos.length >= 1, `Missing photograph: ${car.id}`);
+  assert.notEqual(car.photos[0].kind, "illustration", "Keep a real photograph as the representative image");
   for (const photo of car.photos) {
-    assert(/^assets\/(cars|machines|aircraft|transport)\/[a-z0-9-]+\.(jpg|png|webp)$/.test(photo.src));
+    assert(/^assets\/(cars|machines|aircraft|transport|illustrations)\/[a-z0-9-]+\.(jpg|png|webp)$/.test(photo.src));
     if (["equipment", "aircraft", "vehicle"].includes(car.appearance.change)) assert(photo.viewLabel, `Missing view label: ${photo.src}`);
     assert(photo.credit && photo.appearanceLabel && photo.width > 100 && photo.height > 100);
-    assert([photo.sourcePage, photo.licenseUrl].every((url) => url.startsWith("https://")));
-    assert(/CC0|CC BY|Public domain/.test(photo.license), `Unresolved photo license: ${photo.src}`);
+    if (photo.kind === "illustration") {
+      assert(photo.viewLabel.includes("AI 제작 그림") && photo.reviewedAt && photo.reviewNote);
+      assert.equal(photo.src.split("/")[1], "illustrations");
+    } else {
+      assert([photo.sourcePage, photo.licenseUrl].every((url) => url.startsWith("https://")));
+      assert(/CC0|CC BY|Public domain/.test(photo.license), `Unresolved photo license: ${photo.src}`);
+    }
     const bytes = await readFile(resolve(root, photo.src));
     assert(bytes.length > 1000, `Invalid image bytes: ${photo.src}`);
     assert.equal(createHash("sha256").update(bytes).digest("hex"), photo.sha256, `Changed image: ${photo.src}`);
@@ -92,4 +111,4 @@ assert.deepEqual(filterCars(cars, { query: "거미 굴착기", body: "special" }
 assert.equal(filterCars(cars, { body: "rotorcraft" }).length, 6);
 assert.equal(filterCars(cars, { body: "fixedwing" }).length, 6);
 assert(aircraft.every((entry) => cars.find((car) => car.id === entry.id).photos.length >= 2), "Aircraft gallery needs two distinct photographs");
-console.log(`PASS: ${cars.length} cars, ${photos.size} licensed photos, hashes, child copy, combined filters and saved-data recovery`);
+console.log(`PASS: ${cars.length} vehicles, ${photos.size - illustrations.length} licensed photos, ${illustrations.length} reviewed AI illustrations, hashes, child copy, filters and saved-data recovery`);
