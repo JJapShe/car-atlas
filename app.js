@@ -28,7 +28,7 @@ if (typeof document !== "undefined") init().catch(() => {
 async function init() {
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
-  const response = await fetch("./data/catalog.json?v=20261030-world-1");
+  const response = await fetch("./data/catalog.json?v=20261031-world-2");
   if (!response.ok) throw new Error("Catalog unavailable");
   const { cars } = await response.json();
   const storageKey = "car-atlas-favorites-v1";

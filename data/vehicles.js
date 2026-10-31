@@ -471,6 +471,52 @@ export const vehicles = [
     "checkedAt": "2026-10-30"
   },
   {
+    "id": "forklift",
+    "name": "지게차",
+    "englishName": "Forklift",
+    "body": "construction",
+    "aliases": [
+      "지게차 트럭",
+      "포크리프트"
+    ],
+    "cardCue": "앞쪽 포크로 짐을 들어요.",
+    "summary": "앞쪽의 긴 포크로 무거운 짐을 들어 올려 옮겨요.",
+    "cues": [
+      "앞쪽에 길게 뻗은 포크가 두 개 있어요.",
+      "포크가 오르내리는 높은 기둥이 있어요."
+    ],
+    "sourceUrl": "https://www.toyotaforklift.com/resource-library/blog/safety-support/5-ways-to-prevent-damage-to-your-forklift-forks",
+    "tile": "#e8eae5",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "지게차의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "equipment"
+    }
+  },
+  {
+    "id": "pipelayer",
+    "name": "파이프레이어",
+    "englishName": "Pipelayer",
+    "body": "special",
+    "aliases": [
+      "파이프 부설기",
+      "파이프 부설차"
+    ],
+    "cardCue": "긴 파이프를 들어 놓아요.",
+    "summary": "옆으로 뻗은 팔과 줄로 긴 파이프를 들어 올려 제자리에 놓아요.",
+    "cues": [
+      "궤도 위 몸 옆에 긴 팔이 뻗어 있어요.",
+      "팔에서 내려온 줄이 파이프를 받치고 있어요."
+    ],
+    "sourceUrl": "https://rent.cat.com/en_US/articles/equipment-pipeline-construction",
+    "tile": "#e8eae5",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "파이프레이어의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "equipment"
+    }
+  },
+  {
     "id": "mercedes-e-class",
     "name": "E클래스",
     "englishName": "E-Class",
@@ -657,6 +703,29 @@ export const vehicles = [
       "change": "vehicle"
     },
     "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "pile-driver",
+    "name": "항타기",
+    "englishName": "Pile Driver",
+    "body": "special",
+    "aliases": [
+      "말뚝 박는 기계",
+      "파일 드라이버"
+    ],
+    "cardCue": "긴 말뚝을 땅속에 박아요.",
+    "summary": "높은 기둥에 달린 무거운 망치로 말뚝을 두드려 땅속에 박아요.",
+    "cues": [
+      "높이 솟은 기둥에 기다란 망치가 달려 있어요.",
+      "망치 아래에서 땅속으로 들어가는 말뚝을 찾아봐요."
+    ],
+    "sourceUrl": "https://www.liebherr.com/en-us/deep-foundation/methods/pile-driving/impact-driving-4424956",
+    "tile": "#e8eae5",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "항타기의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "equipment"
+    }
   },
   {
     "id": "toyota-corolla",
@@ -1409,6 +1478,29 @@ export const vehicles = [
     "checkedAt": "2026-10-30"
   },
   {
+    "id": "lifeboat",
+    "name": "해상 구조정",
+    "englishName": "Lifeboat",
+    "body": "water",
+    "aliases": [
+      "구명정",
+      "연안 구조정"
+    ],
+    "cardCue": "도움이 필요한 사람을 만나러 물 위로 나가요.",
+    "summary": "바다나 강에서 위험에 처한 사람을 찾아가 안전한 곳으로 옮기는 구조선이에요.",
+    "cues": [
+      "눈에 잘 띄는 주황색으로 칠한 배가 많아요.",
+      "큰 연안 구조선과 고무 튜브형 작은 배가 있어요."
+    ],
+    "sourceUrl": "https://rnli.org/what-we-do/lifeboats-and-stations/our-lifeboat-fleet",
+    "tile": "#e4edf1",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "해상 구조정의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "vehicle"
+    }
+  },
+  {
     "id": "tow-truck",
     "name": "견인차",
     "englishName": "Tow Truck",
@@ -1430,6 +1522,29 @@ export const vehicles = [
       "change": "vehicle"
     },
     "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "fireboat",
+    "name": "소방정",
+    "englishName": "Fireboat",
+    "body": "water",
+    "aliases": [
+      "소방선",
+      "소방 보트"
+    ],
+    "cardCue": "물 위에서 물대포로 불을 꺼요.",
+    "summary": "소방 장비와 강한 물대포를 싣고 배나 물가의 불을 끄는 배예요.",
+    "cues": [
+      "갑판 위에 물을 뿜는 큰 노즐이 있어요.",
+      "배 가장자리에 난간이 있어요."
+    ],
+    "sourceUrl": "https://www.london-fire.gov.uk/about-us/services-and-facilities/vehicles-and-equipment/",
+    "tile": "#e7e4d8",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "소방정의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "vehicle"
+    }
   },
   {
     "id": "airport-tug",
@@ -1455,6 +1570,29 @@ export const vehicles = [
     "checkedAt": "2026-10-30"
   },
   {
+    "id": "dredger",
+    "name": "준설선",
+    "englishName": "Dredger",
+    "body": "water",
+    "aliases": [
+      "드레저",
+      "준설 작업선"
+    ],
+    "cardCue": "물밑 모래와 흙을 퍼내 물길을 깊게 만들어요.",
+    "summary": "강이나 항구 바닥에 쌓인 모래와 흙을 퍼내거나 빨아 올려 배가 다니는 물길을 정비해요.",
+    "cues": [
+      "갑판에 긴 관이나 준설 장치가 보여요.",
+      "톱니가 달린 커터헤드로 바닥 흙을 풀기도 해요."
+    ],
+    "sourceUrl": "https://www.sam.usace.army.mil/Missions/Spatial-Data-Branch/Dredging-Quality-Management/Education/About-Dredging/",
+    "tile": "#e4e9dd",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "준설선의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "vehicle"
+    }
+  },
+  {
     "id": "aircraft-deicing-truck",
     "name": "비행기 제빙차",
     "englishName": "Aircraft Deicing Truck",
@@ -1478,6 +1616,29 @@ export const vehicles = [
     "checkedAt": "2026-10-30"
   },
   {
+    "id": "personal-watercraft",
+    "name": "수상 오토바이",
+    "englishName": "Personal Watercraft",
+    "body": "water",
+    "aliases": [
+      "제트스키",
+      "워터크래프트"
+    ],
+    "cardCue": "사람이 올라타 물 위를 빠르게 달려요.",
+    "summary": "사람이 몸을 싣고 타며 물 분사 장치로 나아가는 작은 수상 탈것이에요.",
+    "cues": [
+      "낮고 길쭉한 몸 위에 손잡이가 있어요.",
+      "타는 사람이 선체 안보다 위에 올라타요."
+    ],
+    "sourceUrl": "https://uscgboating.org/library/regulations/BSX-Policy-Letter-22-02-eFoils-and-JetBoards-ch-1.pdf",
+    "tile": "#e2edf0",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "수상 오토바이의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "vehicle"
+    }
+  },
+  {
     "id": "airport-belt-loader",
     "name": "공항 수하물 벨트차",
     "englishName": "Airport Belt Loader",
@@ -1499,5 +1660,29 @@ export const vehicles = [
       "change": "vehicle"
     },
     "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "car-carrier-truck",
+    "name": "자동차 운반 트럭",
+    "englishName": "Car Carrier Truck",
+    "body": "road",
+    "aliases": [
+      "자동차 운반차",
+      "차 나르는 트럭",
+      "카 캐리어"
+    ],
+    "cardCue": "자동차를 싣고 달려요.",
+    "summary": "여러 대의 자동차를 위아래로 실어서 다른 곳으로 옮겨요.",
+    "cues": [
+      "트럭 위에 자동차들이 줄지어 있어요.",
+      "자동차를 싣는 자리가 위아래로 나뉘어요."
+    ],
+    "sourceUrl": "https://www.scania.com/group/en/home/newsroom/news/2023/worlds_first_all_electric_scania_standard_car_transporter_goes_into_service.html",
+    "tile": "#e8eae5",
+    "checkedAt": "2026-10-31",
+    "appearance": {
+      "label": "자동차 운반 트럭의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "vehicle"
+    }
   }
 ];

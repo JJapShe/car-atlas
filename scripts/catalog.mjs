@@ -24,5 +24,5 @@ export async function catalog() {
       src: `assets/${photoFolders[car.appearance.change] || "cars"}/${filename}`
     }))
   }));
-  return { updatedAt: "2026-10-30", cars: published };
+  return { updatedAt: "2026-10-31", cars: published };
 }
