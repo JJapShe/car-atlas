@@ -138,5 +138,1225 @@
       "independentNotes": "The raised bed pivots at its rear end above the back of the chassis. A single telescoping hydraulic hoist is visibly connected from the chassis to the underside of the forward raised bed. The rear gate appears swung open at the discharge end, and soil exits behind the truck rather than through the cab or bed side. I do not see an obvious gap between the hoist ends and their mounts. The road-going cab/chassis and tandem rear axle remain coherent.",
       "limitations": "Gate linkage and hidden hinge pins cannot be fully verified from this one view; no visible contradiction in the open-gate position. Generic educational illustration; not a specific make/model or real photograph."
     }
+  },
+  {
+    "modelId": "snow-groomer",
+    "filename": "snow-groomer-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 앞날과 뒤쪽 눈 고르기 장치",
+    "viewLabel": "AI 제작 그림 · 앞날과 뒤쪽 눈 고르기 장치",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "f217899153207ea88eb1a8cb01adadaffb6044a68bef19cad13e976d682c6a81",
+    "originalSha256": "a187aa438f90e54ffbe0586bfe9955282009cfccdeb9dfeb6bff5b18238f3cea",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A red tracked ski-slope snow groomer. Two very broad crawler belts, enclosed cab, wide curved front snow blade, and a separate wide rear snow-tilling attachment behind the tracks, both visibly attached. Slight elevated side view so front blade and rear tiller are both clear. On a small patch of white snow, no skier.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "f217899153207ea88eb1a8cb01adadaffb6044a68bef19cad13e976d682c6a81",
+      "originalSha256": "a187aa438f90e54ffbe0586bfe9955282009cfccdeb9dfeb6bff5b18238f3cea",
+      "referenceUrls": [
+        "https://www.pistenbully.com/_Resources/Persistent/e/1/8/7/e187ca01e80775f78555d7c414945ff2e78ac844/PistenBully_100_Prospekt_EN.pdf",
+        "https://commons.wikimedia.org/wiki/File:Snow_groomer.JPG"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "앞쪽 넓은 날, 궤도와 뒤쪽 눈 고르기 장치가 연결되어 있으며 전체가 프레임 안에 보인다. 원본 PNG와 공개 JPEG 모두 직접 확인했다.",
+      "limitations": "반대편 궤도는 차체에 가려 일부만 보인다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "forklift",
+    "filename": "forklift-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 수직 기둥과 두 포크",
+    "viewLabel": "AI 제작 그림 · 수직 기둥과 두 포크",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "8cac05e032cecf1825c0dea2ceea2a30b0294818a44bd1366c10b839b62c7163",
+    "originalSha256": "f82dd4f92ce2a457a3d6fbf702d96906bb126474d670a9a3b9c50b41ff9ab1fc",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A counterbalanced yellow forklift. Four wheels, compact rear counterweight, overhead protective cage, front VERTICAL mast with a fork carriage and exactly two parallel steel forks low above ground. No telescopic boom. Empty forks, no pallets or cargo hiding their attachment. Three-quarter front/side view.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "8cac05e032cecf1825c0dea2ceea2a30b0294818a44bd1366c10b839b62c7163",
+      "originalSha256": "f82dd4f92ce2a457a3d6fbf702d96906bb126474d670a9a3b9c50b41ff9ab1fc",
+      "referenceUrls": [
+        "https://www.toyotaforklift.com/resource-library/blog/ecommerce/forklift-parts-101-common-parts-terms",
+        "https://commons.wikimedia.org/wiki/File:Jungheinrich_forklift_in_a_builders_hardware_store_in_Girona.jpg",
+        "https://commons.wikimedia.org/wiki/File:Yale_forklift_Our_Community_Place_Harrisonburg_VA_May_2008.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "수직 마스트와 캐리지에 연결된 평행한 포크 두 개, 보호틀과 바퀴가 식별된다. 원본 PNG와 공개 JPEG 모두 직접 확인했다.",
+      "limitations": "원근 때문에 반대편 바퀴는 가려진다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "wheel-loader",
+    "filename": "wheel-loader-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 큰 바가지와 네 바퀴",
+    "viewLabel": "AI 제작 그림 · 큰 바가지와 네 바퀴",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "a8a2f792dc1b8017a570442dce72376821d9862c8b8ec79f7573cc9cabe48024",
+    "originalSha256": "b7467ea1904e9e4e101015ab2b8eaaace3b86a0cec6248d23bf43475d32f3224",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A large articulated wheel loader with four big rubber tires. Front loader lift arms connected to one wide open scoop bucket, slightly raised. Cab and rear engine body behind the articulation joint. No digging arm at the rear. Entire bucket and four-wheel chassis understandable in three-quarter side view.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "a8a2f792dc1b8017a570442dce72376821d9862c8b8ec79f7573cc9cabe48024",
+      "originalSha256": "b7467ea1904e9e4e101015ab2b8eaaace3b86a0cec6248d23bf43475d32f3224",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/ci-articles/wheel-loader-or-backhoe-loader.html",
+        "https://commons.wikimedia.org/wiki/File:Caterpillar_950k_Wheel_Loader.jpg",
+        "https://commons.wikimedia.org/wiki/File:Kramer-Wheel_Loader_(Front_loader)-Model_345-88kW-01ASD.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "큰 타이어, 앞 리프트 암과 넓은 버킷이 이어지고 뒤 굴착 팔은 없다. 원본 PNG와 공개 JPEG 모두 직접 확인했다.",
+      "limitations": "중앙 굴절 연결부는 시점과 차체에 일부 가려진다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "backhoe-loader",
+    "filename": "backhoe-loader-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 앞 바가지와 뒤 굴착 팔",
+    "viewLabel": "AI 제작 그림 · 앞 바가지와 뒤 굴착 팔",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "cab5853de5e98cb52dd7af55139e049127fb2bdb84a2b7ffd5b1beb5ae87b621",
+    "originalSha256": "24929a3c18bb49268b4578ac99c7c311552c1bb1811d0a873ce1e1d1e55bc234",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A wheeled backhoe loader in broad side view: tractor-like cab with four rubber wheels, big front loader bucket held low at the LEFT end and a separate articulated backhoe digging boom and small bucket at the OPPOSITE RIGHT rear end. Rear stabilizer legs deployed. Both front and rear attachments fit fully in frame, no confusion between ends.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "cab5853de5e98cb52dd7af55139e049127fb2bdb84a2b7ffd5b1beb5ae87b621",
+      "originalSha256": "24929a3c18bb49268b4578ac99c7c311552c1bb1811d0a873ce1e1d1e55bc234",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/ci-articles/wheel-loader-or-backhoe-loader.html",
+        "https://commons.wikimedia.org/wiki/File:2023-02-20_CAT_432_backhoe_loader_at_work._Ve%C5%BEe_Brezovec_construction_site,_Doln%C3%BD_Kub%C3%ADn,_Slovakia_04.jpg",
+        "https://commons.wikimedia.org/wiki/File:DZ6_2464_A_yellow_backhoe_resting_on_a_sunny_palm-lined_green_field_ready_for_the_next_landscaping_job.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "앞 버킷과 반대쪽의 굴착 붐·버킷 및 뒤 지지대가 전체 프레임에 보인다. 원본 PNG와 공개 JPEG 모두 직접 확인했다.",
+      "limitations": "측면 시점으로 반대편 바퀴와 지지대는 대부분 가려진다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "skid-steer-loader",
+    "filename": "skid-steer-loader-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작은 몸과 양옆의 팔",
+    "viewLabel": "AI 제작 그림 · 작은 몸과 양옆의 팔",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "3833e89bf3bf40b8c73941a08079a50ca2f5cd7ec390f584430ab863f795c89a",
+    "originalSha256": "6ffb58bde589b2a98d42c37070f3fce62b5f6958549733dbc389cd141dbfe378",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A compact four-wheel skid-steer loader with a short rigid body, protected mesh cab, two lift arms running along the sides of the cab and one wide bucket at the front near ground. Two small tires per side, not tracks. Three-quarter view showing side lift arms clearly. No articulated waist, no rear digging boom.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "3833e89bf3bf40b8c73941a08079a50ca2f5cd7ec390f584430ab863f795c89a",
+      "originalSha256": "6ffb58bde589b2a98d42c37070f3fce62b5f6958549733dbc389cd141dbfe378",
+      "referenceUrls": [
+        "https://rent.cat.com/en_US/articles/construction-equipment-names?isLanguageMaster=true",
+        "https://commons.wikimedia.org/wiki/File:BobcatS770SkidSteerLoader.jpg",
+        "https://commons.wikimedia.org/wiki/File:Gehl_1640_l.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "작은 차체와 케이지, 양옆 리프트 암, 앞 버킷과 한쪽 바퀴 두 개가 보인다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "반대편 바퀴 대부분은 차체와 버킷에 가려진다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "motor-grader",
+    "filename": "motor-grader-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 몸 가운데의 긴 날",
+    "viewLabel": "AI 제작 그림 · 몸 가운데의 긴 날",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "dd50be514b4ff353c626fd43cc066ef81ccf7eca6a37843d76855460a4b7eeeb",
+    "originalSha256": "b83657b79f44b9c89a335c0cf6cbc2108d83361cf5285fc131f2607b2ed7a587",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A six-wheel motor grader with two front steering wheels, four rear tandem wheels, long open frame between front axle and rear cab/engine. A curved moldboard blade mounted UNDER THE MIDDLE of the long frame, diagonally across ground between front and rear axles. Side view clearly showing the center blade and its attached mounting circle. No front bulldozer blade.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "dd50be514b4ff353c626fd43cc066ef81ccf7eca6a37843d76855460a4b7eeeb",
+      "originalSha256": "b83657b79f44b9c89a335c0cf6cbc2108d83361cf5285fc131f2607b2ed7a587",
+      "referenceUrls": [
+        "https://rent.cat.com/en_US/articles/road-construction-machines",
+        "https://commons.wikimedia.org/wiki/File:Caterpillar_140H_grader_at_job_site_in_Campbell.jpg",
+        "https://commons.wikimedia.org/wiki/File:Caterpillar_road_grader_MD1.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "긴 차체 아래 앞뒤 바퀴 사이에 평탄화용 곡선 블레이드와 연결 장치가 보인다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "유압 연결부의 세부는 도식화되어 실제 제품의 정밀 구조와 다를 수 있다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "asphalt-paver",
+    "filename": "asphalt-paver-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 앞쪽 통과 뒤쪽 펴는 장치",
+    "viewLabel": "AI 제작 그림 · 앞쪽 통과 뒤쪽 펴는 장치",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "5bf9905516972d5b3189d4c6765d1a87564b2310a7008e9424bf0a9f6f95b4a3",
+    "originalSha256": "afaca60585c0f6b23fde13897cee71b90e91d3506a0e4808a5785cca0de69890",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A self-propelled tracked asphalt paver, three-quarter rear/side view. Wide open receiving hopper at the FRONT, compact chassis with operator station/canopy, and a broad screed attached at the REAR laying a short flat dark asphalt mat. All main parts visibly connected and hopper and rear screed distinguishable. No roller drums or truck dump bed.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "5bf9905516972d5b3189d4c6765d1a87564b2310a7008e9424bf0a9f6f95b4a3",
+      "originalSha256": "afaca60585c0f6b23fde13897cee71b90e91d3506a0e4808a5785cca0de69890",
+      "referenceUrls": [
+        "https://rent.cat.com/en_US/articles/road-construction-machines",
+        "https://commons.wikimedia.org/wiki/File:Road_paver_DEMAG_DF_120C_in_Botevgrad,_Bulgaria_01.jpg",
+        "https://commons.wikimedia.org/wiki/File:V%C3%B6gele_Super_1303-3i_paver_and_asphalt_roller_(1).jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "앞 호퍼에 아스팔트 재료가 있고 뒤쪽 스크리드가 포장면과 맞닿아 있다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "호퍼에서 스크리드까지 내부 이송 장치는 차체에 가려져 보이지 않는다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "concrete-mixer",
+    "filename": "concrete-mixer-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 큰 믹서 통과 뒤쪽 배출구",
+    "viewLabel": "AI 제작 그림 · 큰 믹서 통과 뒤쪽 배출구",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "defde01bb7b27116510ed93e3ba29253e29a2c136887a7a327a15a2434783e36",
+    "originalSha256": "c833e4f17fde5baf703adff0ec8b9c8138f31a1ec938c026047c6805cbd4d94c",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A conventional road concrete mixer truck, complete three-quarter side view. Cab at the front, realistic rubber-wheel chassis, one large inclined pear-shaped mixer drum supported on rear frame, rear loading funnel and short discharge chute clearly attached behind drum. Drum resting on structural supports, not floating. No crane, no pump boom.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "defde01bb7b27116510ed93e3ba29253e29a2c136887a7a327a15a2434783e36",
+      "originalSha256": "c833e4f17fde5baf703adff0ec8b9c8138f31a1ec938c026047c6805cbd4d94c",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-int/group/latest-news/exhibitions-events/bauma/exhibits/concrete-technology-7309870",
+        "https://commons.wikimedia.org/wiki/File:Kaohsiung_Taiwan_Cement-mixer-truck-01.jpg",
+        "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Axor_based_cement_mixer_truck.JPG"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "트럭 위 기울어진 큰 드럼과 뒤쪽 배출 슈트가 보인다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "드럼 내부와 정확한 회전기구는 그림에서 확인할 수 없다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "mobile-crane",
+    "filename": "mobile-crane-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 펼친 지지대와 긴 크레인 팔",
+    "viewLabel": "AI 제작 그림 · 펼친 지지대와 긴 크레인 팔",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "9faaab985fc74d73f4637ff0ed757b5a99963d4083c1c063d670d5930c4b09c9",
+    "originalSha256": "49023f0588379ce198ca8bf72559704574af170b8aea0aeb2f189430a7384914",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A road mobile telescopic crane with rubber-wheel carrier, enclosed driving cab, rotating crane upper structure, ONE telescoping box-section boom angled upward, connected hoist cable running over boom tip to one hanging hook block. Four stabilizing outriggers planted on pads. Boom fully in frame, no load. No crawler tracks or lattice mast.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "9faaab985fc74d73f4637ff0ed757b5a99963d4083c1c063d670d5930c4b09c9",
+      "originalSha256": "49023f0588379ce198ca8bf72559704574af170b8aea0aeb2f189430a7384914",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-gb/mobile-and-crawler-cranes/mobile-and-crawler-cranes-4284433",
+        "https://commons.wikimedia.org/wiki/File:Liebherr_Mobilkran_LTM_1130-5.1_-_02.jpg",
+        "https://commons.wikimedia.org/wiki/File:Etele_Plaza_construction,_mobile_construction_crane,_2020_Kelenf%C3%B6ld.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "바퀴 차체, 지면에 닿는 지지대, 인출식 붐과 줄에 달린 훅이 보인다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "반대편 지지대와 바퀴는 시점에 가려진다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "tower-crane",
+    "filename": "tower-crane-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 높은 탑과 가로로 뻗은 팔",
+    "viewLabel": "AI 제작 그림 · 높은 탑과 가로로 뻗은 팔",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "193054a3608e8a4e0bdd84aa8a9615ebc8466bcedad787ef2c9f5d715358d397",
+    "originalSha256": "af6f3293986c79c50fa81acf10787c2d5feb1ff34a471431cb2df9f7222a972c",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A stationary flat-top tower crane with tall vertical lattice tower securely on a ground base. Horizontal long jib extends to one side, shorter counter-jib with counterweights to the other; trolley on long jib with vertical hoist rope and hook hanging down. Small operator cab near junction. Full tower and both jib ends in frame. Not a mobile crane.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "193054a3608e8a4e0bdd84aa8a9615ebc8466bcedad787ef2c9f5d715358d397",
+      "originalSha256": "af6f3293986c79c50fa81acf10787c2d5feb1ff34a471431cb2df9f7222a972c",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-gb/group/products/solutions/heavy-duty-cranes/heavy-duty-cranes-4715547",
+        "https://commons.wikimedia.org/wiki/File:Tower_crane_rising_at_hollywoodHUB_construction_site,_Portland,_Oregon.jpg",
+        "https://commons.wikimedia.org/wiki/File:Crane_on_Leeds_Street,_Liverpool.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "격자 기둥과 수평 지브, 반대편 평형추, 트롤리와 훅 및 상부 지지 마스트가 보인다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "상부 마스트가 있는 일반 타워크레인 유형이며 세부 와이어 배치는 도식적이다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "crawler-crane",
+    "filename": "crawler-crane-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 궤도와 격자 모양 크레인 팔",
+    "viewLabel": "AI 제작 그림 · 궤도와 격자 모양 크레인 팔",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "970638bdb173d3a3bc5a8858b49513939534689967f6a382c829ab6cc093fdc8",
+    "originalSha256": "06ab68f9db59fcd7dd47aa691507f2823ef528d2e17a0ff00791e73fcd8f0170",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A crawler lattice-boom crane, complete three-quarter side view. Two crawler tracks under rotating machinery house, a triangular lattice boom rising diagonally, attached supporting rigging and a hoist cable from boom tip down to hook block. Entire machine and boom tip fit frame, no load. NO rubber road wheels and no separate tower crane mast.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "970638bdb173d3a3bc5a8858b49513939534689967f6a382c829ab6cc093fdc8",
+      "originalSha256": "06ab68f9db59fcd7dd47aa691507f2823ef528d2e17a0ff00791e73fcd8f0170",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-gb/mobile-and-crawler-cranes/mobile-and-crawler-cranes-4284433",
+        "https://commons.wikimedia.org/wiki/File:Kobelco_CKG900G_100t_lift_hydraulic_crawler_crane_at_Washwood_Heath_HS2_construction_site.jpg",
+        "https://commons.wikimedia.org/wiki/File:Crawler_crane.JPG"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "양쪽 궤도, 격자 붐, 지지 케이블과 붐 끝에서 내려오는 훅이 보인다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "세부 도르래 및 와이어 경로는 정확한 설계도로 보기 어렵다. 일반적인 형태의 AI 그림이며 특정 제품의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "concrete-pump",
+    "filename": "concrete-pump-ai-20261101-v2.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 접히는 팔을 따라 이어진 콘크리트 관",
+    "viewLabel": "AI 제작 그림 · 접히는 팔을 따라 이어진 콘크리트 관",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "5ca4c94c1b1a7273c12bc3d7e4172f3f247e7b8df3b18aca75879c709ea6beef",
+    "originalSha256": "15379b76e855e7d9aba49790a56357444e193b39f6c94600b731d86e45a64c79",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A truck-mounted concrete boom pump with four deployed stabilizing outriggers. THREE clearly connected articulated boom sections unfold above truck in a simple open inverted-U/Z profile and end in a short hanging black flexible delivery hose. CRITICAL: show ONE THICK RED CONCRETE DELIVERY PIPE as a continuous connected route STARTING AT THE PUMP on truck chassis, running visibly through the rotating boom base, all the way UP THE ENTIRE FIRST BOOM SECTION, around EVERY joint, along second and third sections, into terminal hose. Never start the red delivery pipe only at the top of the first section: the lower rising first section must have the red pipe too. Make this path clear and unobstructed on the visible side. Separate smaller hydraulic cylinders in dark gray. All connections mechanically attached, no floating or disconnected pipe. Whole truck, boom and hose in frame with margins, no logos.",
+      "imageInputs": false,
+      "version": 2
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "5ca4c94c1b1a7273c12bc3d7e4172f3f247e7b8df3b18aca75879c709ea6beef",
+      "originalSha256": "15379b76e855e7d9aba49790a56357444e193b39f6c94600b731d86e45a64c79",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-ph/concrete-technology/concrete-pumps/the-all-rounder/the-all-rounder-5943301",
+        "https://commons.wikimedia.org/wiki/File:Construction_site_with_concrete_pump_truck.JPG",
+        "https://commons.wikimedia.org/wiki/File:Concrete_pump_truck_-_Arlington,_MA.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "원본 PNG와 공개 JPEG 각각 확인. 차체의 배관이 회전 기부와 첫 상승 붐, 관절 및 끝 호스까지 이어져 보인다. 전면에 식별 가능한 상표는 없다.",
+      "limitations": "왼쪽 지지대 받침 가장자리가 프레임에 닿아 약간 잘린다. 일반적 구조를 묘사한 AI 그림이며 실제 장치의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "port-gantry-crane",
+    "filename": "port-gantry-crane-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 넓은 문 모양 다리와 컨테이너",
+    "viewLabel": "AI 제작 그림 · 넓은 문 모양 다리와 컨테이너",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "c61a3ac47884e4610aa53cda2662510cd13750e8e0b092cdea7b11a932f819ad",
+    "originalSha256": "3fd2a19cbce583e126fa2ddecbac269b16c0b2e825c36dd92ec1d0438af94bb6",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A rubber-tired container yard gantry crane, a broad tall rectangular portal on four corner leg assemblies, spanning THREE parallel container lanes. Horizontal overhead crossbeam carries a trolley; vertical hoist ropes attach to a rectangular spreader on top of ONE shipping container suspended centrally. Visible rubber wheel bogies at leg bases. Wide multi-lane span distinguishes it from narrow straddle carrier. Simple empty yard.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "c61a3ac47884e4610aa53cda2662510cd13750e8e0b092cdea7b11a932f819ad",
+      "originalSha256": "3fd2a19cbce583e126fa2ddecbac269b16c0b2e825c36dd92ec1d0438af94bb6",
+      "referenceUrls": [
+        "https://www.kalmarglobal.com/news--insights/articles/2020/20200128_future-proof-terminals-picking-the-right-rtg-setup/",
+        "https://commons.wikimedia.org/wiki/File:Kuantan_Port_Container_Yard_with_Rubber_Tyre_Gantry.JPG",
+        "https://commons.wikimedia.org/wiki/File:Kuantan_Port_Container_Yard_with_Rubber_Tyre_Gantry_(View_1).JPG"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "넓은 포털형 프레임, 네 모서리 지지 다리와 바퀴, 상부 보에서 내려오는 호이스트와 스프레더, 그 아래 매달린 컨테이너가 서로 연결되어 보인다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 해당 구조가 잘 유지된다.",
+      "limitations": "RTG형 컨테이너 크레인으로 읽힌다. 바퀴/보기는 다리마다 여러 개로 보이며 세부 휠 배치는 도식적이다. 일반적인 구조 그림으로 사용 가능하다."
+    }
+  },
+  {
+    "modelId": "pipelayer",
+    "filename": "pipelayer-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 옆으로 뻗은 팔과 파이프",
+    "viewLabel": "AI 제작 그림 · 옆으로 뻗은 팔과 파이프",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "6fdfced8cf7857f7dc276f4adbb48c6ff04ec6c2f45b1acc586d86b2879ba586",
+    "originalSha256": "c21be6c8fae94089ab97ce5275432050ebd2195af5e488f4143f8cb89a795149",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A crawler sideboom pipelayer beside one large horizontal steel pipeline resting just above ground. Compact tracked tractor with a SIDE-MOUNTED angled boom and a visible counterweight on the opposite side; hoist ropes run from boom to a wide sling supporting the pipe from BELOW. A single coherent machine, pipe not attached through cab. Three-quarter side view.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "6fdfced8cf7857f7dc276f4adbb48c6ff04ec6c2f45b1acc586d86b2879ba586",
+      "originalSha256": "c21be6c8fae94089ab97ce5275432050ebd2195af5e488f4143f8cb89a795149",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/products/new/equipment/pipelayers/pipelayers.html",
+        "https://commons.wikimedia.org/wiki/File:Uk%C5%82adarka_rur_SB-85_marki_DRESSTA.jpg",
+        "https://commons.wikimedia.org/wiki/File:Pipe_Stringing_-_geograph.org.uk_-_1036734.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "궤도형 차체, 옆으로 솟은 붐, 반대편 카운터웨이트, 케이블·훅·슬링으로 받친 파이프가 한 장비에 연결되어 보인다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 구조와 슬링 연결이 유지된다.",
+      "limitations": "긴 파이프 오른쪽 끝이 프레임 밖으로 이어진다. 전체 파이프가 다 보이는 사진처럼 설명하지 말고 “파이프를 들어 옮기는 파이프레이어” 또는 붐·슬링 중심의 부분 모습으로 라벨링하면 정확하다."
+    }
+  },
+  {
+    "modelId": "pile-driver",
+    "filename": "pile-driver-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 말뚝을 박는 해머와 기둥",
+    "viewLabel": "AI 제작 그림 · 말뚝을 박는 해머와 기둥",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "6d600b1cc314ea22cb15eb7fa8c58396e23e0817143e8ba239ce80e2a5620d61",
+    "originalSha256": "74ee5d9ba24695063f369c95fee63712baf0e1e28fb05e2480f6640b019189ff",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A tracked impact pile-driving rig. Crawler base with machinery/cab, tall vertical leader mast, a distinct heavy impact hammer guided within leader and a straight pile immediately BELOW hammer entering ground. Show full mast, hammer, straight pile and base. NO spiral auger or rotary drilling head. No exploded view, no parts floating above pile.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "6d600b1cc314ea22cb15eb7fa8c58396e23e0817143e8ba239ce80e2a5620d61",
+      "originalSha256": "74ee5d9ba24695063f369c95fee63712baf0e1e28fb05e2480f6640b019189ff",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-us/p/lrh100-4424797",
+        "https://www.liebherr.com/en-gb/deep-foundation/methods/pile-driving/vibrating-4296770",
+        "https://commons.wikimedia.org/wiki/File:Berminghammer_B6505_Diesel_Impact_Hammer_Driving_30-in_Pipe_Piles.jpg",
+        "https://commons.wikimedia.org/wiki/File:Woltman_50PR_pile_driving_rig.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "궤도 차체 위에 높은 리더 마스트가 서 있고, 리더 안의 해머가 수직 말뚝 바로 위에 정렬되어 지면으로 내려가는 구조가 식별된다. 회전 드릴 오거가 아닌 항타 장비다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 해머·말뚝과 차체가 유지된다.",
+      "limitations": "마스트 상단 도르래가 프레임 위쪽 가장자리에 매우 가깝지만 잘리지는 않았다. 구도상 여백이 좁으므로 장비 전체를 강조하는 대신 “말뚝을 박는 해머와 높은 기둥” 부분 구조 라벨이 적절하다."
+    }
+  },
+  {
+    "modelId": "telehandler",
+    "filename": "telehandler-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 늘어나는 팔과 포크",
+    "viewLabel": "AI 제작 그림 · 늘어나는 팔과 포크",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "7e2339a4b21923009a50ffffdaa9ce6ce9aa4e8c2b8d8cefac74e692ca38f9bb",
+    "originalSha256": "a42b06e95eb53d0ab45b1fbb2b876e6a697727637b992df2b6116509b3341de0",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A four-wheel telescopic handler. Low compact chassis, cab on one side, ONE thick telescoping box boom rising from rear of body toward front, with fork carriage and exactly two forks at boom tip. Moderate extension and low raised forks, no cargo. Clear distinction from vertical-mast forklift: no tall vertical mast. Full three-quarter side view.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "7e2339a4b21923009a50ffffdaa9ce6ce9aa4e8c2b8d8cefac74e692ca38f9bb",
+      "originalSha256": "a42b06e95eb53d0ab45b1fbb2b876e6a697727637b992df2b6116509b3341de0",
+      "referenceUrls": [
+        "https://www.jcb.com/en-GB/explore/knowledge/faqs/telehandlers/what-is-a-telehandler/",
+        "https://www.jcb.com/en-GB/explore/insight/blogs/2026/10/telehandler-operating-guide/",
+        "https://commons.wikimedia.org/wiki/File:Telehandler_3_tonne_with_Stabilisers.jpg",
+        "https://commons.wikimedia.org/wiki/File:Bobcat_telehandler_in_Germany.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "네 바퀴 차체와 운전실, 차체에 연결된 단일 망원 붐, 붐 끝 캐리지와 평행한 포크 두 개가 분명하다. 고정 수직 마스트 지게차와 구별된다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 포크·붐 연결이 유지된다.",
+      "limitations": "팔이 프레임 왼쪽 방향으로 길게 뻗어 전체 차체와 포크가 들어오지만, 원근 때문에 앞쪽 포크가 길어 보인다. 특정 제품의 정밀도보다 일반 텔레핸들러 구조 설명에 적합하다."
+    }
+  },
+  {
+    "modelId": "cold-planer",
+    "filename": "cold-planer-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 긴 운반 띠와 아래쪽 절삭 장치",
+    "viewLabel": "AI 제작 그림 · 긴 운반 띠와 아래쪽 절삭 장치",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "81a287dcd43e1218259fb6263f381459a24480b51eded872c461e3fa29dfe7ac",
+    "originalSha256": "2c8158763cc4c154d79f0c6e6f629e0857a4ae746d368cddb3914898f637da07",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A large tracked road cold milling machine, full side three-quarter view. Boxy central body on crawler running gear, milling drum housing UNDER middle of body touching a short milled road strip; ONE long front discharge conveyor raised diagonally forward. Operator platform above body. Show conveyor and underbody milling housing as connected structures, no circular saw on arm.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "81a287dcd43e1218259fb6263f381459a24480b51eded872c461e3fa29dfe7ac",
+      "originalSha256": "2c8158763cc4c154d79f0c6e6f629e0857a4ae746d368cddb3914898f637da07",
+      "referenceUrls": [
+        "https://www.wirtgen-group.com/en-us/products/wirtgen/technologies/cold-milling/",
+        "https://www.wirtgen-group.com/ocs/en-sd/wirtgen/cold-milling-machines-61-c/?cat=64",
+        "https://commons.wikimedia.org/wiki/File:Cold_milling_machines_-_Wirtgen.jpg",
+        "https://commons.wikimedia.org/wiki/File:2018_in_Berlin_Wedding_%2B_cold_milling_machine.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "궤도형 몸체 아래쪽에 노면을 깎는 원통형 드럼이 보이고, 깎인 포장 조각이 어두운 작업 자국으로 이어진다. 기계에 붙은 긴 컨베이어도 분명하다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 드럼·궤도·컨베이어 연결이 유지된다.",
+      "limitations": "컨베이어 끝은 프레임 안에 있지만 받는 트럭은 그려져 있지 않다. 컨베이어가 높이 들려 있으므로 특정 적재 장면으로 설명하지 말고, 차체 아래 절삭 장치와 긴 컨베이어가 있는 구조 그림으로 한정한다."
+    }
+  },
+  {
+    "modelId": "straddle-carrier",
+    "filename": "straddle-carrier-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 높은 다리 사이의 컨테이너",
+    "viewLabel": "AI 제작 그림 · 높은 다리 사이의 컨테이너",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "69c9c47debb8db8c480780c7bcb2fbe3faf474d70e31b72bcf5bfa7213870fd3",
+    "originalSha256": "472bc65e27700587d6477ecbbdde7fdef2235ec172c6a77dd1e82d8d53ce18d2",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A self-propelled container straddle carrier: NARROW tall portal frame just wide enough to straddle ONE shipping container. Tall legs on both long sides, several rubber wheel assemblies along each side, operator cabin high up. One container hangs lengthwise between legs from hoisting spreader. Vehicle must look narrow and mobile, not a broad multi-lane container gantry crane.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "69c9c47debb8db8c480780c7bcb2fbe3faf474d70e31b72bcf5bfa7213870fd3",
+      "originalSha256": "472bc65e27700587d6477ecbbdde7fdef2235ec172c6a77dd1e82d8d53ce18d2",
+      "referenceUrls": [
+        "https://www.kalmarglobal.com/news--insights/articles/2025/straddle-carriers-for-container-handling-what-you-need-to-know/",
+        "https://www.kalmarglobal.com/parts-services/equipment-upgrades/load-measurement-system/",
+        "https://commons.wikimedia.org/wiki/File:Containerlift_straddle_carrier.jpg",
+        "https://commons.wikimedia.org/wiki/File:Straddle_Carrier_Northport_Malaysia.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "높은 포털형 차체의 네 다리 아래에 여러 바퀴가 있고, 컨테이너가 다리 사이에 매달려 있다. 상부 스프레더와 호이스트의 연결도 읽힌다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 다리·컨테이너·바퀴 구조가 유지된다.",
+      "limitations": "상부 운전실과 호이스트 부품이 여러 보와 겹쳐 세부 기계 구조는 도식적이다. 스트래들 캐리어의 핵심인 바퀴 달린 포털과 다리 사이의 컨테이너를 중심으로 설명한다."
+    }
+  },
+  {
+    "modelId": "articulated-dump-truck",
+    "filename": "articulated-dump-truck-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 가운데 꺾이는 연결부",
+    "viewLabel": "AI 제작 그림 · 가운데 꺾이는 연결부",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "7ac36a2e753df8901e19962694dc4a81b86072bb8fbdc8114a78b29380be7813",
+    "originalSha256": "ff0d7708e4abc4aaebd3b82eacd257d518f93bb7811ab334a16d84f98b87f959",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. An off-road articulated dump truck with SIX large tires on three axles, front engine/cab module connected by a visibly bent ARTICULATED WAIST to rear open dump body module. Empty dump bed lowered on rear chassis. Three-quarter elevated side view clearly exposes center steering joint and two rear axles. Not a rigid mining haul truck or road truck.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "7ac36a2e753df8901e19962694dc4a81b86072bb8fbdc8114a78b29380be7813",
+      "originalSha256": "ff0d7708e4abc4aaebd3b82eacd257d518f93bb7811ab334a16d84f98b87f959",
+      "referenceUrls": [
+        "https://rent.cat.com/en_GY/content/crs/en_MM/articles/articulated-trucks",
+        "https://commons.wikimedia.org/wiki/File:Articulated_Caterpillar_730_%2Bright.Spielvogel.jpg",
+        "https://commons.wikimedia.org/wiki/File:Articulated_hauler.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "앞 운전실/동력부와 뒤 덤프 짐칸 사이의 굴절 연결부와 연결 호스가 보이고, 뒤 짐칸을 받치는 유압 실린더도 식별된다. 세 축의 큰 바퀴와 열린 짐칸이 이어져 있다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 연결부·실린더가 유지된다.",
+      "limitations": "굴절 연결부는 차체가 옆에서 가려 일부만 보인다. 전후 두 차체가 이어지는 가운데 연결부를 주요 구조 관찰로 안내하면 적절하다. 일반 유형 그림이지 특정 모델의 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "walking-excavator",
+    "filename": "walking-excavator-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 네 다리와 굴착 팔",
+    "viewLabel": "AI 제작 그림 · 네 다리와 굴착 팔",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "37b74842ef2e571c3854f8ab551b049e59f341150b5268d8cdac21c876a3643c",
+    "originalSha256": "68fefb50b40410ead8a4c0e5f234c1d835fda0f85dc19496d5c9adda81924513",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A generic walking spider excavator standing on a small uneven rocky patch. Upper rotating cab and ONE normal articulated digging boom ending in a toothed bucket; lower chassis has EXACTLY FOUR independently articulated support LEGS, each ending in a wheel or stabilizing foot, splayed to different levels. Show legs separately with visible attachment to central chassis. NO continuous crawler tracks, no extra legs, no floating feet.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "37b74842ef2e571c3854f8ab551b049e59f341150b5268d8cdac21c876a3643c",
+      "originalSha256": "68fefb50b40410ead8a4c0e5f234c1d835fda0f85dc19496d5c9adda81924513",
+      "referenceUrls": [
+        "https://menzimuck.com/en/product/walking-excavator/menzi-muck-m5x/",
+        "https://commons.wikimedia.org/wiki/File:2018-10-30_(853)_Walking_excavator_Kaiser_S12_at_Mariazellerbahn_in_Rabenstein_an_der_Pielach,_Austria.jpg",
+        "https://commons.wikimedia.org/wiki/File:Menzi-Muck-Schreitbagger2.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "굴착 붐과 버킷을 단 상부 차체 아래에 네 개의 독립된 지지 다리가 있다. 두 다리 끝은 바퀴이고, 두 다리 끝은 지면을 받치는 발판으로 보여 비탈에 다리를 다르게 놓는 형태가 명확하다. 원본 PNG와 공개 JPEG를 각각 열어 비교했고, JPEG에서도 네 지지 다리와 굴착 장치가 잘 보인다.",
+      "limitations": "이 그림의 구성은 바퀴 두 개와 발판 두 개다. 걷는 굴착기마다 다리 끝 구성이 같은 것은 아니므로 “바퀴 두 개와 발판 두 개”는 이 그림의 관찰로 한정하고, 모든 기종의 공통 규격처럼 표현하지 않는다."
+    }
+  },
+  {
+    "modelId": "dragline",
+    "filename": "dragline-ai-20261101-v2.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 장비 쪽으로 당기는 바가지와 줄",
+    "viewLabel": "AI 제작 그림 · 장비 쪽으로 당기는 바가지와 줄",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "0359aba00788fee2a5d8bd577f9c75b133c920733439a199d9ffbc235bf98701",
+    "originalSha256": "e95c389af94dd0338d9462b1b8b537831f128428db78df455a9322abfc594117",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. An accurate generic crawler DRAGLINE, shown in strict side profile as a clear simplified educational mechanical illustration. Machine house and crawler tracks on LEFT, diagonal lattice boom extends high to RIGHT. One dragline bucket hangs near ground at RIGHT. CRITICAL BUCKET ORIENTATION: its OPEN MOUTH and cutting TEETH FACE LEFT TOWARD THE MACHINE/OPERATOR. Its rounded CLOSED BACK is on RIGHT. A drag rope from winch at machine lower LEFT reaches the LEFT FRONT MOUTH/lip bridle of bucket to pull it LEFT, into its open cutting mouth. The hoist rope from high boom tip reaches a chain bridle supporting bucket above its center. Mouth/teeth MUST NOT face away to right, and drag rope must NOT attach to closed rear. Make bucket and this connection large enough to read, not concealed by sidewall. No rigid excavator stick, no crane hook substitute. Full machine, lattice boom and suspended bucket in frame.",
+      "imageInputs": false,
+      "version": 2
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "0359aba00788fee2a5d8bd577f9c75b133c920733439a199d9ffbc235bf98701",
+      "originalSha256": "e95c389af94dd0338d9462b1b8b537831f128428db78df455a9322abfc594117",
+      "referenceUrls": [
+        "https://rent.cat.com/en_US/articles/trenchers-vs-excavators",
+        "https://commons.wikimedia.org/wiki/File:Dragline_Liebherr_HS_835-_n%C2%B01.jpg",
+        "https://commons.wikimedia.org/wiki/File:Narva_mine_dragline_2.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "바가지의 열린 입구와 절삭 이빨이 장비 쪽(왼쪽)을 향하고, 별도의 drag rope가 그 앞쪽 입구 브라이들에 연결되어 있다. boom tip에서 내려오는 hoist rope는 바가지 위쪽의 체인 브라이들을 지지한다. 장비 쪽으로 끌어 파는 방향과 버킷 방향이 맞으며, 원본 PNG와 공개 JPEG에서 동일한 구조가 확인된다.",
+      "limitations": "로프·체인·브라이들의 세부 배치는 단순화한 일반 구조 그림이며 특정 장비의 정밀 도면은 아니다. v1은 바가지 방향 오류로 REJECT된 기록을 보존했다."
+    }
+  },
+  {
+    "modelId": "trencher",
+    "filename": "trencher-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 뒤쪽의 톱니 체인",
+    "viewLabel": "AI 제작 그림 · 뒤쪽의 톱니 체인",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "cf61f294eca18dc9ab64d20796f7f4a540deff01bd409781314bdfd95fbe2b17",
+    "originalSha256": "4f257f8783102c41d63c82bffd3ec375fd0a1be7ffadc63dfbf92243b86140b3",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A small four-wheel ride-on CHAIN trencher in clear side view. Compact chassis and operator seat, a long narrow rear digging boom angled down into a tiny straight trench. An endless chain with regularly spaced digging teeth loops around boom and end sprocket, visibly continuous. No excavator bucket and no giant circular wheel; front optional small grading blade kept low.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "cf61f294eca18dc9ab64d20796f7f4a540deff01bd409781314bdfd95fbe2b17",
+      "originalSha256": "4f257f8783102c41d63c82bffd3ec375fd0a1be7ffadc63dfbf92243b86140b3",
+      "referenceUrls": [
+        "https://protips.vermeer.com/underground/2024/09/03/configuring-your-vermeer-trencher-for-jobsite-versatility/",
+        "https://www.vermeer.com/getmedia/686c404f-5ec4-4102-9555-aa52d8fe4c43/RTX130-RTX200-rental-center-guide-en",
+        "https://commons.wikimedia.org/wiki/File:20100329-NRCS-JMV-0005_-_Flickr_-_USDAgov.jpg",
+        "https://commons.wikimedia.org/wiki/File:Ditch_Witch_RT120_Ride-On_Trencher.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "작은 바퀴 차체 뒤에 지면을 파고드는 긴 톱니 체인이 달려 있고, 좁은 도랑과 옆 흙더미가 보여 트렌처 종류가 분명하다. 체인이 차체에 부착된 뒷쪽 붐을 따라 이어진다. 원본 PNG와 공개 JPEG를 각각 확인했고, JPEG에서도 체인과 작업 자국이 선명하다.",
+      "limitations": "앞쪽 도저 블레이드가 추가로 보인다. 일부 소형 트렌처의 정지/되메우기 장치일 수 있지만 모든 트렌처의 필수 구조로 안내하지 말고, 그림의 핵심인 뒤쪽 톱니 체인과 좁은 도랑에 라벨을 한정한다."
+    }
+  },
+  {
+    "modelId": "wheel-tractor-scraper",
+    "filename": "wheel-tractor-scraper-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 가운데 낮게 달린 흙통",
+    "viewLabel": "AI 제작 그림 · 가운데 낮게 달린 흙통",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "e5dded48e1e650d9fd3fd5e616d4a814403198c1f312a4e44a1029f33814beee",
+    "originalSha256": "fd62a3ff50ac93523df5123ed98f8f675f26db2d79faaa5aa042cac8d306b1cd",
+    "width": 1400,
+    "height": 700,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A wheel tractor open-bowl scraper, complete side view. Four large rubber tires: two on front powered tractor module, two on rear bowl module, joined by a gooseneck hitch. Large central open bowl hangs low between axle groups, with cutting lip near ground and raised front apron showing bowl opening. No dump-truck bed raised behind cab and no independent excavator bucket.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "e5dded48e1e650d9fd3fd5e616d4a814403198c1f312a4e44a1029f33814beee",
+      "originalSha256": "fd62a3ff50ac93523df5123ed98f8f675f26db2d79faaa5aa042cac8d306b1cd",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/products/new/equipment/wheel-tractor-scrapers/open-bowl-scrapers/125864.html",
+        "https://commons.wikimedia.org/wiki/File:Caterpillar_623F,_April_2019.jpg",
+        "https://commons.wikimedia.org/wiki/File:A_wheel_tractor-scraper_attempts_a_u-turn_during_levee_work_April_30,_2012_(6989951494).jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "앞쪽 트랙터와 뒤쪽 스크레이퍼 볼이 구즈넥 형태의 연결 프레임으로 이어져 있다. 낮은 볼, 앞쪽 절삭 날, 뒤 바퀴가 식별되며 연결은 실제 휠 트랙터 스크레이퍼의 배치와 맞는다. 원본 PNG와 공개 JPEG를 각각 확인했고, JPEG에서도 구즈넥과 볼의 연결이 유지된다.",
+      "limitations": "도식적 단순화는 있지만 연결 방향이 올바르다. 굴절식 덤프트럭처럼 높은 뒤 짐칸을 뒤집어 비우는 차로 설명하지 않고, 낮은 볼로 흙을 긁어 담는 구조로 설명한다."
+    }
+  },
+  {
+    "modelId": "reach-stacker",
+    "filename": "reach-stacker-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 팔 끝의 컨테이너 잡는 장치",
+    "viewLabel": "AI 제작 그림 · 팔 끝의 컨테이너 잡는 장치",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "e63007fa24a8a522e61a32ce39151a804fa0756f3d648c5258b340ebab4cf4d5",
+    "originalSha256": "353d562fc9a72c49025ace72b27474bcb07456661cedcf692dfa604f388e7f25",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A container reach stacker with large rubber tires and counterweighted body, rear cab, ONE telescoping lifting boom rising forward. Boom tip connects to a broad rectangular CONTAINER SPREADER resting squarely on TOP four corners of one shipping container held slightly above ground. No forklift tines, no chain passing through container, no container hanging from a hook. Full machine and container in frame.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex 독립 픽셀 검수 (unusual_sources)",
+      "sha256": "e63007fa24a8a522e61a32ce39151a804fa0756f3d648c5258b340ebab4cf4d5",
+      "originalSha256": "353d562fc9a72c49025ace72b27474bcb07456661cedcf692dfa604f388e7f25",
+      "referenceUrls": [
+        "https://new.kalmarglobal.com/equipment/reachstackers/",
+        "https://www.kalmarglobal.com/parts-services/equipment-upgrades/load-measurement-system/",
+        "https://commons.wikimedia.org/wiki/File:Reach_Stacker.jpg",
+        "https://commons.wikimedia.org/wiki/File:Kalmar_DRG450_Containerstapler_in_Bremen_(2024).jpg",
+        "https://commons.wikimedia.org/wiki/File:9_reach_stacker_reefers_Torshavn_300918.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "바퀴 차체와 운전실 뒤쪽에 굵은 망원 붐이 올라가며, 붐 끝의 컨테이너 스프레더가 컨테이너 상단에 붙어 있다. 컨테이너가 차체 앞쪽에서 들어 올려져 reach stacker의 핵심 배치를 보인다. 원본 PNG와 공개 JPEG를 각각 확인했고, JPEG에서도 붐·스프레더·컨테이너 연결이 유지된다.",
+      "limitations": "긴 붐과 스프레더 위치가 읽혀 스트래들 캐리어와 구분된다. 세부 스프레더 잠금 장치는 도식적이며 특정 모델을 나타내지 않는다."
+    }
+  },
+  {
+    "modelId": "rotary-drilling-rig",
+    "filename": "rotary-drilling-rig-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 높은 기둥과 원통형 굴착 도구",
+    "viewLabel": "AI 제작 그림 · 높은 기둥과 원통형 굴착 도구",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "dc57a46cf4aef89b7f9c42d925e99438af0c69b4554c785dc4506b21af249d6a",
+    "originalSha256": "1f283d214bc928b21fa01b1476e2c75e45d9432df8272df33707dd56b17703e8",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A tracked rotary piling drilling rig. Crawler base with cab, tall vertical leader mast, rotary drive guiding a vertical drill rod; a large short cylindrical drilling bucket hangs at lower end near a borehole. Full mast/base/tool fit frame. Clearly a rotary drill with rod and cylindrical bucket, NOT an impact hammer striking a straight pile. No fantasy spiral towers.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "dc57a46cf4aef89b7f9c42d925e99438af0c69b4554c785dc4506b21af249d6a",
+      "originalSha256": "1f283d214bc928b21fa01b1476e2c75e45d9432df8272df33707dd56b17703e8",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-ca/deep-foundation/methods/drilling/kelly-drilling-4079772",
+        "https://commons.wikimedia.org/wiki/File:Bauer_BG_24_H.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 궤도식 하부와 수직 마스트가 온전히 보이고, 회전 구동부-수직 로드-원통형 치형 굴착 버킷이 같은 축에 매달려 지면을 향한다. 굴착 버킷은 로드 끝에 연결되어 있으며 공중에 떠 있지 않다. 기초 천공용 회전식 시추기로 식별 가능하고 충격식 말뚝 해머로 보이지 않는다. JPEG에서도 장치 이음과 전체 구도가 유지됨.",
+      "limitations": "상표나 특정 모델과 동일하다고 주장하지 않는 일반 교육 그림. 세부 핀/유압 연결은 축소 공개본에서 모두 판독할 수 없으나 보이는 구조에 명백한 단절은 없음."
+    }
+  },
+  {
+    "modelId": "tunnel-boring-machine",
+    "filename": "tunnel-boring-machine-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · TBM 선두부와 둥근 커터헤드",
+    "viewLabel": "AI 제작 그림 · TBM 선두부와 둥근 커터헤드",
+    "appearanceLabel": "TBM 선두부·커터헤드 부분의 구조를 돕는 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "5d51fa71ee0a66642c6b8abba34a030212ee03cf83882231546ce34e4d203d5b",
+    "originalSha256": "04074929a4c8f167ccbb04e55351987a3655433fe091288e78689410fed95e86",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A simplified exterior three-quarter FRONT view of the leading section of a tunnel boring machine. A very large circular steel cutterhead with multiple firmly mounted cutting tools and soil openings covers front of a short cylindrical shield shell, with only a short machinery frame behind. Show entire circular cutterhead clearly, not a train of invented internal equipment. No human scale figure, no cutaway or underground slice, no truck wheels on cutterhead.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "5d51fa71ee0a66642c6b8abba34a030212ee03cf83882231546ce34e4d203d5b",
+      "originalSha256": "04074929a4c8f167ccbb04e55351987a3655433fe091288e78689410fed95e86",
+      "referenceUrls": [
+        "https://www.herrenknecht.com/fileadmin/user_upload/2010-10-15_Gotthard_project_report_en.pdf",
+        "https://commons.wikimedia.org/wiki/File:CH.UR.Erstfeld_Gotthard-Basistunnel_Tunnelbohrkopf_2016-06-04_3743_8x5-R_5120x3200.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 넓은 원형 커터헤드 전면에 여러 커터·개구가 고정되어 있고 뒤로 짧은 원통형 실드 및 지지 구조가 이어진다. 커터헤드와 실드 사이의 연결이 유지되며 절삭면이 전체 화면에서 명확하다. 라벨을 'TBM 선두부/커터헤드'로 한정할 때 구조상 PASS.",
+      "limitations": "짧은 앞부분만 묘사하므로 완성된 TBM 전체가 아니다. 카드/갤러리에서 반드시 '터널 굴착기 선두부(커터헤드)'처럼 부분 장면임을 밝힐 것. 긴 후방 백업 설비·컨베이어는 그려지지 않음."
+    }
+  },
+  {
+    "modelId": "bucket-wheel-excavator",
+    "filename": "bucket-wheel-excavator-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 큰 바퀴의 바가지와 운반 띠",
+    "viewLabel": "AI 제작 그림 · 큰 바퀴의 바가지와 운반 띠",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "825c0c8d1f8d96a356f2f9ee616badd36de632385165744c77936b26f6cc2486",
+    "originalSha256": "81b903e870ac9a446b388b37785e7ecb9e38ba46603cacda994c93f946ac6a87",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A simplified mechanically credible bucket-wheel excavator, full side/three-quarter view. Heavy crawler-supported central machinery body and ONE long digging boom carrying a large rotating wheel at far tip; many attached OPEN SCOOP BUCKETS evenly spaced around wheel rim. A clearly separate belt conveyor carries excavated material back along boom toward a short discharge arm. Main supports are connected. Not a saw blade or giant single excavator bucket. Empty ground, no mine panorama.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "825c0c8d1f8d96a356f2f9ee616badd36de632385165744c77936b26f6cc2486",
+      "originalSha256": "81b903e870ac9a446b388b37785e7ecb9e38ba46603cacda994c93f946ac6a87",
+      "referenceUrls": [
+        "https://www.takraf.com/portfolio/detail/bucket-wheel-excavators/",
+        "https://commons.wikimedia.org/wiki/File:Bucket_Wheel_Excavator_in_Gippsland_Victoria.jpg",
+        "https://commons.wikimedia.org/wiki/File:Bucket_Wheel_Excavator_Wheel_in_Gippsland_Victoria.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 붐 끝의 대형 휠 둘레에 여러 개의 버킷이 고정되고, 휠에서 긴 붐을 따라 물질을 되돌려 보내는 벨트 컨베이어가 보인다. 운반 벨트는 구조물 안에 지지되고 왼쪽 배출 슈트 방향까지 이어져 있으며, 중앙 프레임·지지대도 본체에 연결된다. 거대한 단일 굴착 버킷이나 톱날로 오인될 구조가 아니다. JPEG에서도 버킷과 벨트 경로가 읽힌다.",
+      "limitations": "매우 복잡한 기계라 내부 이송 계통을 모두 설명하는 그림은 아니다. 굴착 휠과 주요 컨베이어의 연결을 보여주는 단순화된 교육 그림으로 취급하고 세부 구동/회전 기구를 사실처럼 덧붙이지 말 것."
+    }
+  },
+  {
+    "modelId": "mining-haul-truck",
+    "filename": "mining-haul-truck-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 큰 바퀴와 높은 운전실",
+    "viewLabel": "AI 제작 그림 · 큰 바퀴와 높은 운전실",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "1a37711baec0dbd1789b732324ca4a07507f6ab790257a5528f71202756c1a18",
+    "originalSha256": "b416651a6bc2e97a38fd09c7404aceb757156751d5fc0edfacc076222aa28026",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A generic rigid-frame mining haul truck with immense rubber tires, high front operator cab reached by a ladder, large rear open cargo body resting lowered on rigid chassis. Two axles, single front tires and paired rear tires typical of mine trucks; far side tires may be occluded. Three-quarter side view shows huge body and tire scale without people. Not an articulated truck, no center hinge.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "1a37711baec0dbd1789b732324ca4a07507f6ab790257a5528f71202756c1a18",
+      "originalSha256": "b416651a6bc2e97a38fd09c7404aceb757156751d5fc0edfacc076222aa28026",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/by-industry/cross-industry-resources/hauling.html",
+        "https://commons.wikimedia.org/wiki/File:Caterpillar-797-haul-truck-the-big-mining-truck.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 매우 큰 타이어, 높은 전방 운전실과 접근 사다리, 후방 덤프 적재함, 견고한 차체가 광산용 대형 트럭의 실루엣을 이룬다. 프레임은 가운데에서 꺾이지 않아 굴절식 트럭과 구분되고, 바퀴/차체가 서로 붙어 있다. 공개 JPEG에서도 타이어와 운전실의 크기 비례가 보존됨.",
+      "limitations": "반대편 바퀴와 차축 세부는 시점상 일부 가려지고, 특정 797 모델의 바퀴 개수/외형을 정확히 복제한다고 주장하지 않는다. 광산용 rigid haul truck의 일반 구조 그림으로 사용."
+    }
+  },
+  {
+    "modelId": "forest-harvester",
+    "filename": "forest-harvester-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 나무를 잡는 수확 헤드",
+    "viewLabel": "AI 제작 그림 · 나무를 잡는 수확 헤드",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "13d58284b2c1cdafe1fe3e340ffffe1154b3f7cb3e55d6efc0a4d2221f851fde",
+    "originalSha256": "a3501893c753ace48e69ffdbb754a79bbf36740555de287f100adab66cbb4949",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A six-wheel forestry harvester on a small plain forest-floor patch, no standing trees or people. Protected operator cab on wheeled chassis, one articulated knuckle boom extends forward. At its tip hangs a compact harvester HEAD with curved gripping arms and paired feed rollers holding ONE straight cut log close to ground. Plausible connected rotator, hoses and head. No excavator digging bucket, no circular saw floating in air.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "13d58284b2c1cdafe1fe3e340ffffe1154b3f7cb3e55d6efc0a4d2221f851fde",
+      "originalSha256": "a3501893c753ace48e69ffdbb754a79bbf36740555de287f100adab66cbb4949",
+      "referenceUrls": [
+        "https://www.komatsuforest.com/forest-machines/our-harvester-heads/s82",
+        "https://commons.wikimedia.org/wiki/File:Harvester_John_Deere_1170E.JPG"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 단일 관절 붐 끝의 회전 연결부에 하베스터 헤드가 매달리고, 곡선형 그립 암과 두 feed roller가 하나의 통나무를 붙잡는다. 롤러와 통나무의 접촉이 보이고 헤드가 붐에서 분리되거나 떠 있지 않다. 차체/바퀴와 통나무 처리 장치가 명확해 산림 수확기로 구별 가능하며 JPEG에도 연결부와 롤러 디테일이 유지됨.",
+      "limitations": "톱날의 절단 동작은 명확히 묘사되지 않아 실제로 벌목 중인 장면이라고 과장하지 말 것. '나무를 잡는 수확 헤드' 구조 그림으로 설명. 특정 제조사/모델 동일성은 주장하지 않음."
+    }
+  },
+  {
+    "modelId": "agricultural-tractor",
+    "filename": "agricultural-tractor-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 큰 뒷바퀴와 연결된 쟁기",
+    "viewLabel": "AI 제작 그림 · 큰 뒷바퀴와 연결된 쟁기",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "b16fda02dc21a6abc7f46537bd9949d0d290d48adbadc63b47d3406d4b767faf",
+    "originalSha256": "e0423754816318ddc51936a95989a89803a45867e5773ae5c1f1cfe917dc7d1d",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. An agricultural four-wheel tractor in complete three-quarter side view. Two larger rear tires, two smaller front tires, enclosed cab and front hood. A small simple plough connected to the rear three-point hitch is fully visible behind, its blades angled toward a short soil strip. Physically attached hitch, no free-floating plough, no loader bucket or extra excavator arm.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "b16fda02dc21a6abc7f46537bd9949d0d290d48adbadc63b47d3406d4b767faf",
+      "originalSha256": "e0423754816318ddc51936a95989a89803a45867e5773ae5c1f1cfe917dc7d1d",
+      "referenceUrls": [
+        "https://www.deere.com/en/tractors/",
+        "https://commons.wikimedia.org/wiki/File:Tractor_with_two-furrow_plough.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 트랙터 차체와 앞의 작은 바퀴/뒤의 큰 바퀴가 자연스럽게 이어지고, 쟁기 프레임은 뒤쪽 3점 히치에 붙어 뒤로 끌린다. 쟁기날은 토양을 향하고 흙 고랑과 작업 방향이 맞는다. JPEG 변환 후 히치·쟁기 간격과 휠 구성이 잘 유지됨.",
+      "limitations": "쟁기날 개수/형태와 바퀴 비율은 일반적인 예시이며 모든 트랙터 구성에 보편적인 것은 아님. 특정 제조사/모델 동일성은 주장하지 않음."
+    }
+  },
+  {
+    "modelId": "combine-harvester",
+    "filename": "combine-harvester-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 넓은 수확 장치와 긴 배출 관",
+    "viewLabel": "AI 제작 그림 · 넓은 수확 장치와 긴 배출 관",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "3a315c843e3b3f3409acf819db39278e1ffe4952167c3097275b59c4a35dabfc",
+    "originalSha256": "f6abab2f6ee0b6c700b921606cf1b9ef068238fd10a3e63035d62d3c75442db4",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A self-propelled grain combine harvester in complete three-quarter front-side view. Wide attached FRONT grain header with cutter bar and horizontal reel clearly supported at both ends, operator cab above behind header, bulky grain-processing body, large front tires and smaller rear tires. A long grain unloading auger projects to side, correctly attached high on body. No cotton-picker pointed row dividers and no tractor towing an unattached header.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "3a315c843e3b3f3409acf819db39278e1ffe4952167c3097275b59c4a35dabfc",
+      "originalSha256": "f6abab2f6ee0b6c700b921606cf1b9ef068238fd10a3e63035d62d3c75442db4",
+      "referenceUrls": [
+        "https://www.deere.com/en-us/products-solutions/harvesting/combines",
+        "https://commons.wikimedia.org/wiki/File:Grain_Harvesting_Machine.JPG"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 넓은 헤더는 본체 앞에 붙고 수평 릴과 아래 절단날, 양 끝 지지대가 잘 보인다. 운전실 뒤 본체 위 곡물 탱크가 보이며 긴 측면 배출 오거가 본체 상부에 연결되어 바깥쪽으로 뻗는다. 타이어와 차체도 함께 식별되며 JPEG에서 헤더·오거 연결이 손상되지 않음.",
+      "limitations": "곡물 종류와 실제 수확·탈곡 내부 과정은 그림만으로 특정하지 않음. 특정 제조사/모델 동일성은 주장하지 않음."
+    }
+  },
+  {
+    "modelId": "cotton-picker",
+    "filename": "cotton-picker-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 목화 수확부와 뒤쪽 솜 저장실",
+    "viewLabel": "AI 제작 그림 · 목화 수확부와 뒤쪽 솜 저장실",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "dc39d11145485db39e0b0484f604cf4d8cd17e5c058d738660e5abbecc9cbddd",
+    "originalSha256": "812ddfc073f09ebe39e6706ec8cc9a59e152333cb96ee0ad87dbb11350c0937f",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A self-propelled cotton picker with high cab, bulky body with rear cotton collection chamber, rubber tires, and a low FRONT header made of SIX clear narrow row units with long pointed crop dividers aligned side by side. No grain-combine horizontal reel, no huge rotating saw blades. Show all pointed row dividers and whole machine in three-quarter view. Small plain patch of ground, no acres of cotton.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "dc39d11145485db39e0b0484f604cf4d8cd17e5c058d738660e5abbecc9cbddd",
+      "originalSha256": "812ddfc073f09ebe39e6706ec8cc9a59e152333cb96ee0ad87dbb11350c0937f",
+      "referenceUrls": [
+        "https://www.deere.com/en-us/products-and-solutions/harvesting",
+        "https://commons.wikimedia.org/wiki/File:John_Deere_CP690_Agritechnica_2017_-_Front_and_right_side.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 전면에 여섯 개의 좁고 길게 분리된 줄별 수확 유닛/뾰족한 가이드가 나란히 있고 각 유닛의 세로형 픽킹 영역이 보인다. 뒤쪽 높은 솜 저장실에 흰 목화가 담겨 있어 옥수수 헤더와 겉모양이 닮은 전면부를 보완하며, 전체적으로 목화 수확기로 식별 가능하다. JPEG에서도 전면 유닛의 간격과 후방 솜 저장실이 유지됨.",
+      "limitations": "전면 뾰족한 줄 가이드는 옥수수 헤더와 순간적으로 비슷하게 보일 수 있음. 그림 라벨/캡션에서 '목화 수확기'를 직접 말하고 뒤쪽 솜 저장실을 짚어 주는 편이 좋음. 특정 제조사/모델 동일성은 주장하지 않음."
+    }
+  },
+  {
+    "modelId": "grape-harvester",
+    "filename": "grape-harvester-ai-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 포도나무 줄을 감싸는 높은 몸",
+    "viewLabel": "AI 제작 그림 · 포도나무 줄을 감싸는 높은 몸",
+    "appearanceLabel": "구조 이해를 돕는 일반 장비 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "fa0037aa128e062c26528376997f29417e4e2456d923b5064bbfdac4285b2af0",
+    "originalSha256": "5a87a027b3f1d14e7761f92c3d76e388db2f04830807c1a80d4f3e9bfcc89575",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Supplementary AI drawing for a Korean vehicle atlas for ages 3–10. ONE unbranded generic machine, mechanically credible technical picture-book illustration, NOT a photograph, realistic simple proportions, crisp outlines and gentle shading. Pale warm cream background, tiny plain ground patch, clean uncluttered presentation. Entire specified subject inside a landscape frame with ample margins. No text, logo, watermark, faces, people, extra vehicles, cutaway innards or exploded parts. Components must connect plausibly; do not invent floating links, extra limbs or unsupported machinery. A tall self-propelled OVER-ROW grape harvester with four rubber wheels and an elevated enclosed cab. Chassis forms an open tunnel/arch UNDER central harvesting body, straddling one short row of grape vines. Visible front opening shows vines passing beneath machine rather than a tractor pushing through bushes. Connected crop collection bins high along sides, no grain header or giant excavator bucket. Full three-quarter front view, only a few vines to reveal the arch.",
+      "imageInputs": false,
+      "version": 1
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "fa0037aa128e062c26528376997f29417e4e2456d923b5064bbfdac4285b2af0",
+      "originalSha256": "5a87a027b3f1d14e7761f92c3d76e388db2f04830807c1a80d4f3e9bfcc89575",
+      "referenceUrls": [
+        "https://www.pellenc.com/en-gb/our-products/from-the-vineyard-to-the-winery/vine-growing/harvesting-and-multifunction-machine-for-wide-row-vineyards",
+        "https://commons.wikimedia.org/wiki/File:Machine_%C3%A0_vendanger_Optimum_Pellenc.jpg",
+        "https://commons.wikimedia.org/wiki/File:ERO_Grapeliner_SF200_in_vineyards_140924_1.jpg"
+      ],
+      "parentNotes": "생성 원본과 최종 JPEG를 직접 확인. 주요 유형·작업부·연결과 라벨이 일치하며, 가려진 부품은 단정하지 않음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 높은 차체의 중앙 개방 통로 아래로 포도나무 줄이 들어가고, 앞/뒤 바퀴와 차체가 포도나무를 양쪽에서 감싸며 지나가는 over-row 구조가 명확하다. 수확 장치는 중앙의 식물 통로 주변에 놓이고, 포도가 위쪽 측면의 연결된 수집통으로 들어간다. 운전실은 높은 상부에 붙어 있으며 기계 다리/바퀴가 본체에서 분리되지 않는다. JPEG에서도 중앙 통로와 측면 통의 연결·상대 위치가 그대로 보임.",
+      "limitations": "포도나무가 기계 아래 통로에 들어간 전시/설명용 장면이며 특정 포도밭 작업 순간이나 내부 진동 장치의 작동을 상세히 보여주지는 않는다. 특정 제조사/모델 동일성은 주장하지 않음."
+    }
   }
 ]
