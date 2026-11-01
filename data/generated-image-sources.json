@@ -1358,5 +1358,901 @@
       "independentNotes": "PNG와 JPEG를 각각 직접 확인. 높은 차체의 중앙 개방 통로 아래로 포도나무 줄이 들어가고, 앞/뒤 바퀴와 차체가 포도나무를 양쪽에서 감싸며 지나가는 over-row 구조가 명확하다. 수확 장치는 중앙의 식물 통로 주변에 놓이고, 포도가 위쪽 측면의 연결된 수집통으로 들어간다. 운전실은 높은 상부에 붙어 있으며 기계 다리/바퀴가 본체에서 분리되지 않는다. JPEG에서도 중앙 통로와 측면 통의 연결·상대 위치가 그대로 보임.",
       "limitations": "포도나무가 기계 아래 통로에 들어간 전시/설명용 장면이며 특정 포도밭 작업 순간이나 내부 진동 장치의 작동을 상세히 보여주지는 않는다. 특정 제조사/모델 동일성은 주장하지 않음."
     }
+  },
+  {
+    "modelId": "excavator",
+    "filename": "excavator-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 흙을 트럭 짐칸에 실어요",
+    "viewLabel": "AI 제작 그림 · 작업: 흙을 트럭 짐칸에 실어요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "11e926e7bcad7a5d69cca22ab7a70307c873797bae17597f6e1f1e93d25b3784",
+    "originalSha256": "4af77fbfc78947df32815469a191792c8ba44b2469b8127d94975f3dbf04949e",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A tracked excavator on the LEFT loads soil into a stationary dump truck on RIGHT at a quiet earthworks site. Dump truck cab is at far RIGHT; open cargo BED is to LEFT of that cab. Excavator's attached boom/stick holds tipped bucket directly above BED only. A coherent stream of brown soil falls from bucket mouth into bed and joins its soil pile; absolutely NOT onto cab or outside truck. Both machines grounded with sensible relative scale, bucket and truck do not overlap. Show source excavation nearby and this ONE loading action clearly.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/excavator-ai-v1.jpg",
+          "sha256": "e50cbaef031f8fcd6712d39310fff12a514b44fbc11309b7afa5876773a0f845",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "11e926e7bcad7a5d69cca22ab7a70307c873797bae17597f6e1f1e93d25b3784",
+      "originalSha256": "4af77fbfc78947df32815469a191792c8ba44b2469b8127d94975f3dbf04949e",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/for-owners/tips-for-truck-loading-from-a-bench.html/"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 버킷을 적재함 위로 기울여 흙이 운전실이 아닌 짐칸에 쌓임.",
+      "independentNotes": "버킷 입구에서 떨어지는 흙이 덤프트럭 적재함의 흙더미로 이어지고 운전실 위를 지나지 않는다. 궤도와 바퀴는 지면에 닿는다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "트럭 앞부분이 화면 오른쪽에 살짝 잘리고, 굴착기 궤도와 굴착면 가장자리의 거리는 시점상 정확히 판단하기 어렵다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "bulldozer",
+    "filename": "bulldozer-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 앞날로 흙을 밀어 땅을 고르게 해요",
+    "viewLabel": "AI 제작 그림 · 작업: 앞날로 흙을 밀어 땅을 고르게 해요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "fa8cda926ec8743ce54ad953fcdde43d2fcf5f8a8b6d2d7017f476dd09981a76",
+    "originalSha256": "572bd54ca1c90a48114accd1e8638ea885b5f151b8276101da1d781173b5dca3",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A crawler bulldozer pushes earth to the LEFT across a small construction pad. Broad attached FRONT blade is low, its cutting edge contacting soil. A low pushed mound accumulates immediately in FRONT/LEFT of blade; smoother leveled ground is visible BEHIND/RIGHT with crawler marks. Show actual blade-soil contact, no dirt behind blade magically moving through machine, no loader bucket. Single machine working, full chassis visible.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/bulldozer-ai-v1.jpg",
+          "sha256": "d3873c33dce1a31aa01724a3ad7d88ba83ce87928a0ac2b00ca4d83c769a6c3d",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "fa8cda926ec8743ce54ad953fcdde43d2fcf5f8a8b6d2d7017f476dd09981a76",
+      "originalSha256": "572bd54ca1c90a48114accd1e8638ea885b5f151b8276101da1d781173b5dca3",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/for-owners/small-dozers/small-dozer-blade-level-indicator.html"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 앞날이 흙더미에 접촉하고 뒤쪽에 평탄한 궤도 자국이 남음.",
+      "independentNotes": "전방 날과 흙더미가 맞닿고, 뒤쪽에 궤도 자국과 비교적 고른 지면이 보인다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "흙에 가려진 날 아래 절삭면 전체는 보이지 않는다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "wheel-loader",
+    "filename": "wheel-loader-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 흙더미에서 바가지로 흙을 퍼요",
+    "viewLabel": "AI 제작 그림 · 작업: 흙더미에서 바가지로 흙을 퍼요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "faf94447b3f727bb20df56d6453ee5af234a08871dd838c7b2e7b3186b4e94af",
+    "originalSha256": "028d868c0cf04934f2264e968226f7d3595ac2c25f4244b16d20218c1348ad3e",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A four-wheel loader scoops from a low earth stockpile on LEFT. Wide front bucket mouth faces INTO pile, cutting lip low at pile base, bucket partly curled back with soil inside and physical contact to source pile still clear. Attached lift arms and four grounded tires plausible, cab on right. Small scooped recess in pile and tire marks explain the work. No floating soil stream and no rear excavator boom.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/wheel-loader-ai-20261101-v1.jpg",
+          "sha256": "a8a2f792dc1b8017a570442dce72376821d9862c8b8ec79f7573cc9cabe48024",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "faf94447b3f727bb20df56d6453ee5af234a08871dd838c7b2e7b3186b4e94af",
+      "originalSha256": "028d868c0cf04934f2264e968226f7d3595ac2c25f4244b16d20218c1348ad3e",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/ci-articles/wheel-loader-or-backhoe-loader.html"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 버킷 입구가 흙더미에 닿고 내부에 퍼낸 흙이 담김.",
+      "independentNotes": "전방 버킷이 흙더미 밑에 닿아 있으며 버킷에 흙이 담겨 있다. 차체 바퀴가 지면에 닿는다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "버킷 입구 일부가 흙에 가려져 있고 실제 움직임은 정지 그림으로 표현된다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "backhoe-loader",
+    "filename": "backhoe-loader-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 뒤쪽 팔로 좁은 도랑을 파요",
+    "viewLabel": "AI 제작 그림 · 작업: 뒤쪽 팔로 좁은 도랑을 파요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "aa3166a6bbd5a0eb824d71da13375d104f52ecde0bec389b054488211984dd8e",
+    "originalSha256": "d04b1f262cde736de68e6a75ea17fec072171f3724b2a0056125cdfd903859a0",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A backhoe loader digs a narrow trench on its RIGHT REAR side at a small site. Front wide loader bucket at LEFT rests low on ground; rear stabilizer legs firmly planted on intact level ground safely back from trench lip. Rear articulated backhoe arm reaches down and small attached bucket contacts soil INSIDE trench. Excavated soil lies alongside trench without hiding it. Full machine and clear supported digging geometry; no hole under stabilizer feet.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/backhoe-loader-ai-20261101-v1.jpg",
+          "sha256": "cab5853de5e98cb52dd7af55139e049127fb2bdb84a2b7ffd5b1beb5ae87b621",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "aa3166a6bbd5a0eb824d71da13375d104f52ecde0bec389b054488211984dd8e",
+      "originalSha256": "d04b1f262cde736de68e6a75ea17fec072171f3724b2a0056125cdfd903859a0",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/by-industry/construction-industry-resources/backhoe-loaders.html"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 뒤 버킷이 도랑 바닥을 파고 보이는 지지발이 지면에 닿음.",
+      "independentNotes": "앞 버킷과 지지대가 지면에 닿고 후방 팔의 버킷이 도랑 내부 흙과 접촉한다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "앞 버킷 끝이 프레임 왼쪽에 조금 닿으며 도랑 끝과 지지대 사이 정확한 거리는 그림만으로 판단하기 어렵다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "motor-grader",
+    "filename": "motor-grader-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 가운데 날로 자갈길을 고르게 해요",
+    "viewLabel": "AI 제작 그림 · 작업: 가운데 날로 자갈길을 고르게 해요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "37d0d6793e0f4cdb38590a7771fd6efdd63b26d67e29e9a6a7f20afb379e2b81",
+    "originalSha256": "72326bce4aaf50928b1f7edbe9dd8bd65833d905deb7243dd763d707605f446d",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A six-wheel motor grader works a gravel road, travelling toward LEFT. Its long frame and angled CENTER moldboard between front and rear axles are fully visible. Center blade edge touches gravel, gently moving a small windrow to one side; worked surface BEHIND/RIGHT is smooth, rough gravel ahead/LEFT. Tires all grounded; no front bulldozer blade substitutes for middle blade. One clear grading action.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/motor-grader-ai-20261101-v1.jpg",
+          "sha256": "dd50be514b4ff353c626fd43cc066ef81ccf7eca6a37843d76855460a4b7eeeb",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "37d0d6793e0f4cdb38590a7771fd6efdd63b26d67e29e9a6a7f20afb379e2b81",
+      "originalSha256": "72326bce4aaf50928b1f7edbe9dd8bd65833d905deb7243dd763d707605f446d",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/articles/for-owners/motor-grader-operating-tips-part-1.html/"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 중앙날이 자갈을 밀고 날 옆의 자갈 줄과 고른 노면이 보임.",
+      "independentNotes": "중앙 날이 자갈에 닿고 날 앞 자갈과 뒤쪽의 고른 면이 보이며 바퀴가 지면에 놓여 있다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "날 방향과 자갈 흐름의 정확한 운동은 정지 그림에서 단정할 수 없다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "trencher",
+    "filename": "trencher-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 톱니 체인으로 긴 도랑을 만들어요",
+    "viewLabel": "AI 제작 그림 · 작업: 톱니 체인으로 긴 도랑을 만들어요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "9c4cb185023e0547563062844d6a9c986695071f0ca98bb0a78e16dcceb4ea5a",
+    "originalSha256": "5b9f0fb463d5126e2fa3c3ba406fa933600861aaf0ee2f19d43fb2424dc17d46",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A four-wheel chain trencher cuts a narrow straight utility trench, moving toward LEFT with digging boom at REAR/RIGHT. Endless toothed chain loops around attached boom; its lower end physically enters soil. An open narrow trench extends BEHIND/RIGHT from cutting location, and a low spoil row lies beside it. Show continuous chain, contact and trench result, not a free-standing toothed arm above intact ground.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/trencher-ai-20261101-v1.jpg",
+          "sha256": "cf61f294eca18dc9ab64d20796f7f4a540deff01bd409781314bdfd95fbe2b17",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "9c4cb185023e0547563062844d6a9c986695071f0ca98bb0a78e16dcceb4ea5a",
+      "originalSha256": "5b9f0fb463d5126e2fa3c3ba406fa933600861aaf0ee2f19d43fb2424dc17d46",
+      "referenceUrls": [
+        "https://protips.vermeer.com/underground/2017/07/26/all-the-ways-to-dig-a-trench/",
+        "https://www.vermeer.com/getmedia/139c9c00-6ed1-4c2c-9106-be132a312021/compatible-vermeer-attachments.pdf?ext=.pdf"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 연속 톱니 체인의 끝이 땅 안에 들어가며 뒤로 좁은 도랑이 이어짐.",
+      "independentNotes": "톱니 체인 붐이 좁은 도랑 안으로 뻗고 도랑 옆에 파낸 흙이 보이며 바퀴는 평지에 놓여 있다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "흙 배출 장치 일부와 체인 하단은 흙에 가려진다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "skid-steer-loader",
+    "filename": "skid-steer-loader-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 좁은 현장에서 흙을 모아 치워요",
+    "viewLabel": "AI 제작 그림 · 작업: 좁은 현장에서 흙을 모아 치워요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "a86cb8c1b948f2e950c2beed296193d53b82eee7e416905a58afca26ab08cebf",
+    "originalSha256": "97afdf082f8a8b96516e8c07c9cc66281b6541cf16fab08075b2316c6c04e150",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A compact four-wheel skid-steer cleans soil from a tight construction courtyard. Its front bucket is inserted low into a modest soil pile, gathering loose earth; short side lift arms clearly attach bucket to rigid body, mesh cab visible, all tires grounded. A cleared strip and bucket-shaped recess show where soil was collected. Simple low wall in background provides confined-site context, no rear digging arm.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/skid-steer-loader-ai-20261101-v1.jpg",
+          "sha256": "3833e89bf3bf40b8c73941a08079a50ca2f5cd7ec390f584430ab863f795c89a",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "a86cb8c1b948f2e950c2beed296193d53b82eee7e416905a58afca26ab08cebf",
+      "originalSha256": "97afdf082f8a8b96516e8c07c9cc66281b6541cf16fab08075b2316c6c04e150",
+      "referenceUrls": [
+        "https://www.bobcat.com/na/en/buying-resources/loaders/compact-track-loader-skid-steer-loader-buyers-guide/attachments"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 낮은 버킷이 현장 흙더미와 접촉하고 흙을 모아 담음.",
+      "independentNotes": "소형 차체의 앞 버킷이 흙더미에 닿고 버킷 안에 흙이 담겨 있다. 바퀴가 땅에 닿는다. 원본 PNG와 공개 JPEG를 각각 직접 확인했다.",
+      "limitations": "반대편 바퀴 및 버킷 절삭면은 흙과 차체에 일부 가려진다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "road-roller",
+    "filename": "road-roller-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 큰 원통으로 포장한 길을 꾹꾹 눌러요",
+    "viewLabel": "AI 제작 그림 · 작업: 큰 원통으로 포장한 길을 꾹꾹 눌러요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "987f9016f9a859b3f9b1654d2645597d38350d29effc7fa8546414eae95fa4ab",
+    "originalSha256": "6b9bdd6bca8824393691dea63475f464c51ab5bb122dd45e5b446ed07eafc94f",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams. A tandem two-drum road roller compacts a newly laid asphalt strip, moving toward LEFT. Both broad smooth steel drums contact DARK ASPHALT, not grass or loose mounds. Slightly rough fresh mat ahead/LEFT becomes smooth compressed mat behind/RIGHT. Show the boundary and drum contact without diagram arrows, smoke or exaggerated cracking. Ordinary road works context, full machine visible.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/road-roller-ai-v1.jpg",
+          "sha256": "551c310dce36d015a71180c7b5efe201d2c25ef92c5400d958004557b4c41105",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "987f9016f9a859b3f9b1654d2645597d38350d29effc7fa8546414eae95fa4ab",
+      "originalSha256": "6b9bdd6bca8824393691dea63475f464c51ab5bb122dd45e5b446ed07eafc94f",
+      "referenceUrls": [
+        "https://www.bomag.com/apac-en/machinery/categories/asphalt-rollers/",
+        "https://transportation.erdc.dren.mil/triservice/documents/Inspectors%20Handbook%20Hot%20Mix%20Asphalt%20PROOF.pdf",
+        "https://commons.wikimedia.org/wiki/File:V%C3%B6gele_Super_1303-3i_paver_and_asphalt_roller_(1).jpg"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 두 드럼이 새 아스팔트에 접촉하고 거친 구간과 평탄한 구간이 구별됨. 진행방향은 단정하지 않음.",
+      "independentNotes": "원본 PNG와 공개 JPEG를 각각 직접 열어 확인했다. 탠덤 롤러의 두 금속 드럼이 검고 새로 깔린 아스팔트와 접촉한다. 표면이 거칠어 보이는 구간과 더 고르게 눌린 구간이 롤러 양쪽에 나타나 다짐 장면으로 읽힌다. 차체와 드럼은 모두 지면에 닿아 있다.",
+      "limitations": "표면의 거칠고 매끈한 경계가 약하며 정지 그림이라 이동 방향과 실제 다짐 변화는 추론해야 한다. 뒤따르는 포장기나 작업자 등 현장 진행 단서는 없다. AI 그림이며 안전 지침이나 정밀 도면으로 사용할 수 없다."
+    }
+  },
+  {
+    "modelId": "asphalt-paver",
+    "filename": "asphalt-paver-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 뒤쪽 장치로 아스팔트를 평평하게 펴요",
+    "viewLabel": "AI 제작 그림 · 작업: 뒤쪽 장치로 아스팔트를 평평하게 펴요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "a3fa562a6021cc99d57cfb53a4f97d297f36c6f64f338079f2d0060d1a78b95c",
+    "originalSha256": "49eb9d1c17595292aabfa3f0fb5cc3b4a8a0fa5ce597d6f214e933a0d801bfdd",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A tracked asphalt paver lays a road mat while travelling toward LEFT. Its FRONT/LEFT receiving hopper visibly contains dark asphalt. Attached broad REAR/RIGHT screed rests on and spreads a fresh flat black asphalt strip trailing to RIGHT; unpaved compact gravel base is ahead at LEFT. Show hopper, connected chassis and trailing screed together, one clear paving activity. No asphalt magically emerging from front and no roller drums.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/asphalt-paver-ai-20261101-v1.jpg",
+          "sha256": "5bf9905516972d5b3189d4c6765d1a87564b2310a7008e9424bf0a9f6f95b4a3",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "a3fa562a6021cc99d57cfb53a4f97d297f36c6f64f338079f2d0060d1a78b95c",
+      "originalSha256": "49eb9d1c17595292aabfa3f0fb5cc3b4a8a0fa5ce597d6f214e933a0d801bfdd",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/products/new/equipment/asphalt-pavers/track-asphalt-pavers/115060.html",
+        "https://h-cpc.cat.com/cmms/v2?cid=406&f=product&gid=309&it=product&lid=US&nc=1&pid=16874236&sc=US",
+        "https://commons.wikimedia.org/wiki/File:Asphalt_paver_working.jpg",
+        "https://commons.wikimedia.org/wiki/File:Road_paver_DEMAG_DF_120C_in_Botevgrad,_Bulgaria_01.jpg"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 호퍼의 아스팔트와 후방 스크리드 접촉, 자갈 바탕과 새 포장면이 보임. 내부 이송부는 외장에 가림.",
+      "independentNotes": "원본 PNG와 공개 JPEG를 각각 확인했다. 전면 호퍼에 아스팔트가 담겨 있고, 장비 뒤쪽의 넓은 스크리드가 새 포장면에 닿아 있다. 장비 앞의 거친 자갈 바탕에서 뒤쪽의 연속된 어두운 포장면으로 바뀌어 외부 작업 장면이 읽힌다.",
+      "limitations": "차체 내부의 피더·컨베이어·오거는 실제 포장기 구조처럼 외장에 가려져 보이지 않는다. 이 그림은 뒤쪽 장치로 펴는 외부 작업을 보여 주며 내부 재료 경로를 설명하는 단면도는 아니다. AI 그림이며 정밀 구조도는 아니다."
+    }
+  },
+  {
+    "modelId": "concrete-mixer",
+    "filename": "concrete-mixer-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 뒤쪽 슈트로 콘크리트를 부어요",
+    "viewLabel": "AI 제작 그림 · 작업: 뒤쪽 슈트로 콘크리트를 부어요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "8e6c60095a3a0dcc95d8157f7662dd3a9f620acce684dd70e79e56d27faa71cd",
+    "originalSha256": "94a1e46e92c3511e51d6764880360dea4cb8fd0f7c99193e03af19b1bfd6d8d8",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A conventional mixer truck delivers concrete at a small empty construction site. Keep its inclined mixer DRUM on normal fixed supports, NOT lifted like a dump body. An attached rear discharge CHUTE slopes DOWN from drum opening into a low timber concrete form beside truck. A short coherent flow of thick gray wet concrete with aggregate runs along chute and lands inside form, no spraying upward or into cab. Full stable truck and grounded form visible.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/concrete-mixer-ai-20261101-v1.jpg",
+          "sha256": "defde01bb7b27116510ed93e3ba29253e29a2c136887a7a327a15a2434783e36",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "8e6c60095a3a0dcc95d8157f7662dd3a9f620acce684dd70e79e56d27faa71cd",
+      "originalSha256": "94a1e46e92c3511e51d6764880360dea4cb8fd0f7c99193e03af19b1bfd6d8d8",
+      "referenceUrls": [
+        "https://www.liebherr.com/shared/media/construction-machinery/concrete-technology/documents/truck-mixer/liebherr-truck-mixer-en.pdf",
+        "https://www-assets.liebherr.com/media/bu-media/lhbu-lmt/lmt_bt_brochures/lmt_bt_brochures_truck_mixer/liebherr-truck-mixer-generation-05-en.pdf",
+        "https://commons.wikimedia.org/wiki/File:Kaohsiung_Taiwan_Cement-mixer-truck-01.jpg",
+        "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Axor_based_cement_mixer_truck.JPG"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 고정 받침의 드럼 뒤에서 하향 슈트로 콘크리트가 거푸집 안에 들어감.",
+      "independentNotes": "원본 PNG와 공개 JPEG를 각각 확인했다. 회전 믹서 드럼의 뒤 배출구에서 연결된 슈트가 아래로 기울어져 있고, 연속된 콘크리트 흐름이 거푸집 안 철근 사이로 들어간다. 트럭 바퀴는 지면에 닿아 있다.",
+      "limitations": "콘크리트가 거푸집 안에 쌓인 결과와 슈트는 잘 보이나, 드럼 내부 회전 방향은 정지 그림만으로 확인할 수 없다. AI 그림이며 작업 안전 지침이나 정밀 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "concrete-pump",
+    "filename": "concrete-pump-work-20261101-v3.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 긴 관과 호스로 멀리 콘크리트를 보내요",
+    "viewLabel": "AI 제작 그림 · 작업: 긴 관과 호스로 멀리 콘크리트를 보내요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "207c43d0469acd2bc0494720ec79ecf5b33dd481a4628e6745a13cd4dcdf0bce",
+    "originalSha256": "2bdbe6e2e87e4655cea7d65d2df2eaaa880aa6699195b1c8afdf0c23edb0f028",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A compact truck-mounted CONCRETE BOOM PUMP placing concrete into a low timber form. Elevated rear side three-quarter view. Truck cab at LEFT, rear receiving hopper at RIGHT of truck, FOUR wide stabilizer arms with FOUR DISTINCT square pads on ground clearly visible around truck, full machine and pads inside frame. Hopper is a modest OPEN receiving bin with horizontal protective GRATE and wet gray concrete visible beneath grate. The pump mechanism is UNDER hopper behind rear bumper. ONE red DELIVERY PIPE connects to PUMP OUTLET UNDER/BELOW hopper, then runs along chassis exterior to rotating boom base, following entire articulated yellow boom around every joint to black terminal flexible hose above nearby form. CRITICAL delivery pipe must NEVER end in or hang OVER the open hopper: material INLET is hopper open TOP, pressurized OUTLET is a closed flange BELOW hopper. No red pipe inside open hopper. Boom positioned clearly beside truck without blocking hopper or supports. Hose tip just above poured concrete inside form, short thick gravity flow, no airborne spray. No worker, no mixer truck needed. Visibly new rear-side composition.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/concrete-pump-ai-20261101-v2.jpg",
+          "sha256": "5ca4c94c1b1a7273c12bc3d7e4172f3f247e7b8df3b18aca75879c709ea6beef",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 3,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "207c43d0469acd2bc0494720ec79ecf5b33dd481a4628e6745a13cd4dcdf0bce",
+      "originalSha256": "2bdbe6e2e87e4655cea7d65d2df2eaaa880aa6699195b1c8afdf0c23edb0f028",
+      "referenceUrls": [
+        "https://www.putzmeister.com/documents/d/global/bp1742-24_en",
+        "https://www.liebherr.com/en-ph/concrete-technology/concrete-pumps/the-all-rounder/the-all-rounder-5943301",
+        "https://www.putzmeister.com/web/india/product-detail/-/product/128/pumi-21-3",
+        "https://commons.wikimedia.org/wiki/File:Workers_pouring_concrete_from_a_boom_pump.jpg",
+        "https://commons.wikimedia.org/wiki/File:Concrete_pump_truck_-_Arlington,_MA.jpg"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 그레이팅 호퍼 아래 닫힌 펌프 출구에서 붐 전체 배관과 말단호스가 이어지며 거푸집 안으로 타설. 보이는 패드가 지면에 접촉.",
+      "independentNotes": "원본 PNG와 공개 JPEG를 각각 확인했다. 호퍼 위에는 보호 그레이팅이 있고, 붐 배관은 열린 호퍼가 아니라 호퍼 아래 펌프 출구에 연결되어 있다. 빨간 배관이 붐의 모든 구간을 따라 연속되며 끝의 검은 호스에서 콘크리트가 거푸집 안으로 흐른다. 보이는 아웃리거 발들은 받침판을 통해 지면에 닿아 있다.",
+      "limitations": "원근과 차체 가림 때문에 네 아웃리거 발 전체가 모두 보이지는 않는다. 실제 압력 상태, 인양/타설 안전 거리, 하중 용량을 판단하는 자료가 아니며 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "forklift",
+    "filename": "forklift-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 포크로 팔레트 밑을 받쳐 짐을 옮겨요",
+    "viewLabel": "AI 제작 그림 · 작업: 포크로 팔레트 밑을 받쳐 짐을 옮겨요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "2c70d523985e5e1abb7ba4e60c0221fa47fa3b367a2b1f439e39b8ee4459f058",
+    "originalSha256": "4ccf74af6316d636230601b16e0943d286a216eede6209b04bdc1fe52d6b3425",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A counterbalanced forklift carries one wooden pallet of neatly stacked closed boxes through a warehouse aisle. Exactly TWO parallel forks run UNDER pallet through fork openings, attached to upright mast/carriage. Pallet is carried LOW just above floor, tilted slightly back, boxes supported by pallet rather than floating. All four tires grounded, mast and protective cage clear, simple storage shelves behind. No people near load and no forks through boxes.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/forklift-ai-20261101-v1.jpg",
+          "sha256": "8cac05e032cecf1825c0dea2ceea2a30b0294818a44bd1366c10b839b62c7163",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "2c70d523985e5e1abb7ba4e60c0221fa47fa3b367a2b1f439e39b8ee4459f058",
+      "originalSha256": "4ccf74af6316d636230601b16e0943d286a216eede6209b04bdc1fe52d6b3425",
+      "referenceUrls": [
+        "https://www.logisnextamericas.com/globalassets/migration-blocks/resources/blogs/how-to-get-forklift-certified-forklift-certification-faqs/f417-031-000.pdf",
+        "https://www.toyotaforklift.com/resource-library/blog/parts-and-service/slip-sheets-giving-pallets-the-slip",
+        "https://commons.wikimedia.org/wiki/File:Jungheinrich_forklift_in_a_builders_hardware_store_in_Girona.jpg",
+        "https://commons.wikimedia.org/wiki/File:Yale_forklift_Our_Community_Place_Harrisonburg_VA_May_2008.jpg"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 평행한 두 포크가 팔레트 아래를 받치고 상자가 팔레트 위에 낮게 실림.",
+      "independentNotes": "원본 PNG와 공개 JPEG를 각각 확인했다. 두 포크가 팔레트 아래 틈으로 들어가 바닥에서 받치고, 적재물은 낮게 든 상태다. 마스트는 살짝 뒤로 기울어 있고 포크리프트 바퀴는 지면에 닿아 있다.",
+      "limitations": "팔레트의 아래쪽 받침 구조는 일부 가려져 포크가 통과하는 깊이를 완전히 확인하기 어렵지만, 두 포크가 밑면을 지지하는 점은 명확하다. AI 그림이며 안전교육용 작업 절차를 대신하지 않는다."
+    }
+  },
+  {
+    "modelId": "reach-stacker",
+    "filename": "reach-stacker-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 컨테이너 위를 잡고 다른 컨테이너에 쌓아요",
+    "viewLabel": "AI 제작 그림 · 작업: 컨테이너 위를 잡고 다른 컨테이너에 쌓아요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "0a569318dddb2e685978211bf0056876277f6a62ac4805792361041216f6993f",
+    "originalSha256": "f66484f5a9360bf13712aab5667998a9f015cd498728a5da13c37fbd9c633999",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A reach stacker stacks a shipping container in a container yard. One telescopic boom and connected rectangular top SPREADER lock to top corner castings of upper container. Upper container is suspended with a SMALL clear gap directly ABOVE one other grounded container, aligned for stacking. Show load supported from TOP, not forklift tines or ropes through its walls. Stable wheeled chassis and counterweight, modest reach, no people or extra vehicles.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/reach-stacker-ai-20261101-v1.jpg",
+          "sha256": "e63007fa24a8a522e61a32ce39151a804fa0756f3d648c5258b340ebab4cf4d5",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "0a569318dddb2e685978211bf0056876277f6a62ac4805792361041216f6993f",
+      "originalSha256": "f66484f5a9360bf13712aab5667998a9f015cd498728a5da13c37fbd9c633999",
+      "referenceUrls": [
+        "https://new.kalmarglobal.com/equipment/reachstackers/",
+        "https://www.kalmarglobal.com/globalassets/equipment/reachstackers/container-handling/drg100-120/kalm0360-drg100-120bro-insight-en-lr-web-spreads3.pdf",
+        "https://www.kalmarglobal.com/parts-services/equipment-upgrades/soft-landing-system/",
+        "https://commons.wikimedia.org/wiki/File:Kalmar_DRG450_Containerstapler_in_Bremen_(2024).jpg",
+        "https://commons.wikimedia.org/wiki/File:9_reach_stacker_reefers_Torshavn_300918.jpg"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 상단 스프레더가 컨테이너를 잡고 아래 컨테이너 위로 정렬. 먼 쪽 잠금점은 원근상 확인 한계.",
+      "independentNotes": "원본 PNG와 공개 JPEG를 각각 확인했다. 바퀴 달린 리치스태커의 텔레스코픽 붐 끝 스프레더가 파란 컨테이너의 위쪽 모서리에 맞닿아 컨테이너를 아래쪽 컨테이너 위에 내려놓는 장면이다. 보이는 타이어는 지면에 닿아 있다.",
+      "limitations": "원근상 스프레더의 먼 쪽 모서리 잠금장치는 컨테이너에 가려져 네 잠금점 모두를 독립적으로 확인하기 어렵다. 컨테이너는 쌓기 직전의 낮은 위치에 있어 이동 중인 모습보다 내려놓는 순간으로 읽힌다. AI 그림이며 정밀 장비도는 아니다."
+    }
+  },
+  {
+    "modelId": "mobile-crane",
+    "filename": "mobile-crane-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 줄과 슬링으로 무거운 보를 들어요",
+    "viewLabel": "AI 제작 그림 · 작업: 줄과 슬링으로 무거운 보를 들어요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "bfa9b8c6417d3cadec4611db9aea2cc65209162c1df49d049afcdf18d5e65339",
+    "originalSha256": "2bfc512b3254b20f2283f0f172fd1373ff2aa6cd0ee6fd51c562184333dedc24",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A wheeled telescopic mobile crane gently raises a horizontal precast concrete beam above an empty foundation pad. Four outrigger jacks planted on pads on level ground. Vertical hoist cable and hook block above load center connect through TWO taut slings to two beam lifting eyes, balanced geometry with a clear gap below beam. Show connected telescopic boom and all support structure; no load over cab/people, no unsupported beam or cable bending around corners.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/mobile-crane-ai-20261101-v1.jpg",
+          "sha256": "9faaab985fc74d73f4637ff0ed757b5a99963d4083c1c063d670d5930c4b09c9",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "bfa9b8c6417d3cadec4611db9aea2cc65209162c1df49d049afcdf18d5e65339",
+      "originalSha256": "2bfc512b3254b20f2283f0f172fd1373ff2aa6cd0ee6fd51c562184333dedc24",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-gb/mobile-and-crawler-cranes/mobile-and-crawler-cranes-4284433",
+        "https://www-assets.liebherr.com/media/bu-media/lhbu-lwe/brochures/customer-magazine/2018_01/lwe_customer-magazine_2018_en_final.pdf",
+        "https://www-assets.liebherr.com/media/bu-media/lhbu-corp/news/corp_news_2021/corp_02_33/corp_09_36/liebherr-press-information-ltm1120-4.1-schwientek.pdf",
+        "https://commons.wikimedia.org/wiki/File:Liebherr_Mobilkran_LTM_1130-5.1_-_02.jpg",
+        "https://commons.wikimedia.org/wiki/File:Etele_Plaza_construction,_mobile_construction_crane,_2020_Kelenf%C3%B6ld.jpg"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 수직 후크선과 두 팽팽한 슬링이 보 양쪽 걸이에 연결되고 보이는 지지발이 접지.",
+      "independentNotes": "원본 PNG와 공개 JPEG를 각각 확인했다. 이동식 크레인의 후크 블록에서 와이어와 두 갈래 슬링이 이어져 긴 보를 두 지점에서 받친다. 하중은 거의 수평으로 들려 있고 보 아래에 공간이 있다. 보이는 아웃리거 발은 받침판 위로 지면에 닿아 있으며 타이어도 바닥에 놓여 있다.",
+      "limitations": "시점과 차체에 가려 아웃리거 네 발 전체를 모두 또렷하게 셀 수는 없다. 슬링 각도와 보의 두 인양점은 그림상 읽히지만 실제 하중 산정이나 인양 안전을 판단하는 자료로 쓸 수 없다. AI 그림이며 정밀 구조도는 아니다."
+    }
+  },
+  {
+    "modelId": "agricultural-tractor",
+    "filename": "agricultural-tractor-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 쟁기로 흙을 뒤집어 고랑을 만들어요",
+    "viewLabel": "AI 제작 그림 · 작업: 쟁기로 흙을 뒤집어 고랑을 만들어요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "84b71f70c1af041997b5618c60ea21d7be019692869bb8bf64295466520f9468",
+    "originalSha256": "ab7943ff5c53b797e54ba00b187042b7fc2536c8fddaa528b04523ab68ee5295",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A four-wheel tractor ploughs a small farm field, travelling toward LEFT. Larger rear tires at RIGHT, smaller front tires at LEFT. Plough is visibly attached to REAR three-point hitch, mouldboard blades entering soil behind tractor. Newly turned parallel furrows continue BEHIND the plough to RIGHT, unworked ground lies ahead to LEFT. Clear contact and result, no plough floating above untouched field.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/agricultural-tractor-ai-20261101-v1.jpg",
+          "sha256": "b16fda02dc21a6abc7f46537bd9949d0d290d48adbadc63b47d3406d4b767faf",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "84b71f70c1af041997b5618c60ea21d7be019692869bb8bf64295466520f9468",
+      "originalSha256": "ab7943ff5c53b797e54ba00b187042b7fc2536c8fddaa528b04523ab68ee5295",
+      "referenceUrls": [
+        "https://www.deere.com/en-us/products-and-solutions/tillage-equipment",
+        "https://edge.machinefinderpro.deere.com/ww/en-US/faq/middle-buster-gardening",
+        "https://shop.deere.com/us/product/LPPP510%3A%2BMoldboard%2BPlow%2BAttachment/p/LPPP510"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 뒤 3점 히치의 쟁기가 토양에 들어가 뒤집힌 고랑을 남김.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 트랙터는 왼쪽의 아직 갈지 않은 밭 쪽을 향하고, 쟁기는 뒤쪽 히치에 연결되어 오른쪽 뒤에서 실제 흙에 박혀 있다. 쟁기날을 따라 흙덩이가 위로 밀려 뒤집히고, 쟁기 뒤 오른쪽에는 길게 이어지는 어두운 새 고랑/뒤집힌 흙이 남는다. 바퀴·쟁기 연결과 전진 방향, 작업 결과가 한 장면 안에서 일치한다. JPEG에서도 날 끝과 흙 접촉, 뒤집힌 띠가 유지됨.",
+      "limitations": "쟁기 프레임과 각 날의 깊이 조절 기구 일부는 원근상 가려진다. 보이는 구조에서 실제 모순은 확인하지 못했고, 고랑의 세부 단면을 정확한 농업 단면도처럼 주장하지 않는다."
+    }
+  },
+  {
+    "modelId": "combine-harvester",
+    "filename": "combine-harvester-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 앞쪽 수확 장치로 밀을 베어요",
+    "viewLabel": "AI 제작 그림 · 작업: 앞쪽 수확 장치로 밀을 베어요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "614e85e6b901ed6e56c503d2249224d8d857fecb55f3fa3b1da33e2e73df5a66",
+    "originalSha256": "7ff571d761a1c84327b9a57e7c4ccbc072aaae3e27693b76ab9ff7bc66aeacfc",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A grain combine harvests a wheat field, facing and moving toward LEFT. Its wide FRONT/LEFT grain header is DOWN against standing golden wheat, horizontal reel guides crop to cutter bar. Behind machine to RIGHT is clearly CUT stubble. Front cab, bulky body and correctly attached folded/side unloading auger remain coherent. One harvest activity; no cotton-style pointed row head, no standing crop magically passing through wheels unchanged.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/combine-harvester-ai-20261101-v1.jpg",
+          "sha256": "3a315c843e3b3f3409acf819db39278e1ffe4952167c3097275b59c4a35dabfc",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "614e85e6b901ed6e56c503d2249224d8d857fecb55f3fa3b1da33e2e73df5a66",
+      "originalSha256": "7ff571d761a1c84327b9a57e7c4ccbc072aaae3e27693b76ab9ff7bc66aeacfc",
+      "referenceUrls": [
+        "https://www.deere.com/en-us/products-solutions/harvesting/combines",
+        "https://www.deere.com/assets/pdfs/common/qrg/x9-rth-wheat.pdf",
+        "https://www-cm-ue.deere.com/en-gb/products-solutions/harvesting"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 앞 헤더가 서 있는 밀과 맞닿고 뒤로 수확한 그루터기가 남음.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 콤바인 전면 헤더가 왼쪽의 서 있는 익은 밀과 맞닿고, 수평 릴/절단부가 작물을 안쪽으로 안내하는 위치에 있다. 장비 오른쪽 뒤에는 낮게 잘린 그루터기 줄이 남아 있어 진행 방향과 수확 결과가 맞는다. 본체와 헤더가 붙어 있고, 작물은 헤더에서 본체 아래쪽으로 들어가는 흐름으로 묘사된다. JPEG에서도 미수확 밀과 잘린 밭의 경계, 헤더 접촉이 읽힌다.",
+      "limitations": "탈곡·알곡 분리 내부는 보이지 않고, 잘린 밀의 피더 내부 이동도 시점상 일부 가려진다. 외부 작업 장면으로는 모순이 없으며 내부 작동을 자세히 보여준다고 주장하지 않는다."
+    }
+  },
+  {
+    "modelId": "cotton-picker",
+    "filename": "cotton-picker-work-20261101-v2.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 목화 줄을 지나며 하얀 솜을 모아요",
+    "viewLabel": "AI 제작 그림 · 작업: 목화 줄을 지나며 하얀 솜을 모아요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "d448bcca8fc5401d87c0d8790570e44cd7d349d7ddaa41e0a920cfd3a0881645",
+    "originalSha256": "0d4cfe0117ef771479255816aaa0441f8acb2e8e517a82f85ebddff703e015a4",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A mechanically credible generic spindle COTTON PICKER harvesting white cotton bolls from intact brown cotton plants in straight field rows. Front LEFT has separate row picking units with long tapered dividers that STRADDLE each crop row and contact plants; rear RIGHT has a large enclosed cotton collection basket. FOUR grounded tires, cab above front row units. Cotton plants remain upright with fewer bolls behind at RIGHT, many white bolls ahead at LEFT. CRITICAL: cotton is moved internally by AIR through CLOSED large pneumatic DUCTS from row units to rear basket. All transfer paths are enclosed opaque smooth green ducts, NO visible cotton outside between picking units and basket. NO open conveyor, NO exposed belt, NO inclined ladder with cotton on it, NO external falling cotton, NO combine grain header. Ducts may be mostly concealed within chassis, no cutaway needed. Basket top can show a SMALL amount of collected cotton through its upper opening, but no cotton on exterior panels. Wide clear side front three-quarter view showing cotton rows engaging front units and harvested plants behind. Whole machine inside frame.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/cotton-picker-ai-20261101-v1.jpg",
+          "sha256": "dc39d11145485db39e0b0484f604cf4d8cd17e5c058d738660e5abbecc9cbddd",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 2,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "d448bcca8fc5401d87c0d8790570e44cd7d349d7ddaa41e0a920cfd3a0881645",
+      "originalSha256": "0d4cfe0117ef771479255816aaa0441f8acb2e8e517a82f85ebddff703e015a4",
+      "referenceUrls": [
+        "https://www.deere.com.au/en/harvesting/cotton-harvesters/cp770-cotton-picker/",
+        "https://www.deere.africa/assets/images/region-1/homepage/jd-tec-terrain-afme.pdf",
+        "https://www.deere.com/assets/pdfs/common/parts-and-service/parts/picker-grease-cleaner.pdf"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 행별 수확부가 목화 줄을 감싸고 닫힌 공기 덕트로 뒤 저장통에 연결. 열린 이송벨트 오류 제거.",
+      "independentNotes": "PNG와 공개 JPEG를 각각 직접 열어 확인. 여러 줄별 picker 유닛이 서 있는 목화 줄에 닿고, 솜이 장비 뒤쪽 저장부에 모인다. 이전 버전의 외부에 열린 경사 벨트는 사라졌으며, picker 유닛 뒤에서 솜 저장부 상단까지 이어지는 폐쇄형 대형 덕트가 보인다. 제조사 설명의 picker unit-air door-air ducts 경로와 맞는 교육용 단순화로 판단해 PASS.",
+      "limitations": "덕트 내부의 공기 흐름은 보이지 않으며, 실물 특정 제조사/모델을 묘사한 그림으로 취급하지 말 것. 장비 내부 연결의 일부는 난간과 외장에 가려져 있다."
+    }
+  },
+  {
+    "modelId": "grape-harvester",
+    "filename": "grape-harvester-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 포도나무 줄을 감싸 지나며 포도를 모아요",
+    "viewLabel": "AI 제작 그림 · 작업: 포도나무 줄을 감싸 지나며 포도를 모아요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "6c590c3085ffe4cfb8788b119b75227f109e204bcf34905b1515944c3d7953ea",
+    "originalSha256": "5bad5454d8e0dc075c5508a93a8b50c58f65899fb52a7a222828b7e89157bbe5",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  An over-row grape harvester works along ONE vineyard row. Tall chassis open central tunnel STRADDLES the row: vine trunks pass between left and right wheels and under harvesting body, with leafy fruiting vines entering front opening. Side collection bins visibly hold grapes, and a short already-worked row continues behind with less fruit. Show coherent wheels and attached bins; vines must not run through tires or cab. A few neighboring vineyard rows set context, no grain header.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/grape-harvester-ai-20261101-v1.jpg",
+          "sha256": "fa0037aa128e062c26528376997f29417e4e2456d923b5064bbfdac4285b2af0",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "6c590c3085ffe4cfb8788b119b75227f109e204bcf34905b1515944c3d7953ea",
+      "originalSha256": "5bad5454d8e0dc075c5508a93a8b50c58f65899fb52a7a222828b7e89157bbe5",
+      "referenceUrls": [
+        "https://www.pellenc.com/en-gb/our-products/from-the-vineyard-to-the-winery/vine-growing/harvesting-and-multifunction-machine-for-wide-row-vineyards",
+        "https://www.pellenc.com/en-au/our-products/from-the-vineyard-to-the-winery/vine-growing/harvesting-and-multifunction-machine-for-wide-row-vineyards/grapes-line",
+        "https://www.pellenc.com/docs/Pellenc-Catalogue-vine-growing-wine-producing-fruit-growing-olive-growing-2016-2017-ENG.pdf"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 포도나무 줄이 바퀴 사이 열린 중앙 통로로 들어가고 측면 통에 포도가 모임.",
+      "independentNotes": "PNG와 JPEG 모두 직접 확인. 높은 차체가 포도나무 한 줄 위를 걸치고 열린 중앙 통로를 통해 줄이 들어간다. 줄기가 바퀴·운전실을 관통하지 않고, 포도 수확 장치는 중앙 통로 안쪽에 있으며 옆의 연결된 수집통에 포도가 담겨 있다. 따라서 over-row 작업 형태와 수집 방향이 일관된다. JPEG에서도 통로, 포도나무, 수집통의 배치가 보존됨.",
+      "limitations": "작업 후 줄의 과실 감소는 이 한 시점에서 분명하지 않고, 기계 내부 진동/선별 과정은 보이지 않는다. 캡션은 아치 통과와 옆 수집통에 집중하고, 완전히 수확된 뒤쪽 줄을 보여준다고 과장하지 않는다."
+    }
+  },
+  {
+    "modelId": "cold-planer",
+    "filename": "cold-planer-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 낡은 도로를 깎아 트럭에 실어요",
+    "viewLabel": "AI 제작 그림 · 작업: 낡은 도로를 깎아 트럭에 실어요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "4588daf1dcdf236cc0e8b575aa49c13481bf6da1932d633a8e561e922a7c56e7",
+    "originalSha256": "d3e2dd9b2f90866f9fd2d1c66d0c06baf75846349387bf53849f5c6f959b4b46",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A tracked cold planer mills an old asphalt lane, moving toward RIGHT, with ONE front conveyor extending up/right to a dump truck AHEAD. Central/rear milling drum housing contacts old road; rough milled strip trails BEHIND/LEFT. Broken dark asphalt travels along connected belt and a SHORT gravitational stream falls from conveyor tip directly INSIDE truck open BED, never onto its cab. Full machines grounded, road contact and milling result clear. Exactly two machines, no extra conveyors or floating material.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/cold-planer-ai-20261101-v1.jpg",
+          "sha256": "81a287dcd43e1218259fb6263f381459a24480b51eded872c461e3fa29dfe7ac",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "4588daf1dcdf236cc0e8b575aa49c13481bf6da1932d633a8e561e922a7c56e7",
+      "originalSha256": "d3e2dd9b2f90866f9fd2d1c66d0c06baf75846349387bf53849f5c6f959b4b46",
+      "referenceUrls": [
+        "https://www.wirtgen-group.com/en-us/products/wirtgen/technologies/cold-milling/",
+        "https://www.wirtgen-group.com/ocs/en-sd/wirtgen/cold-milling-machines-61-c/?cat=64",
+        "https://www.wirtgen-group.com/binary/full/o258775v77_W_150_Fi_Brochure_Datasheet_ENUS.pdf"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 노면에 닿은 절삭부 뒤로 깎인 띠가 남고 앞 컨베이어가 트럭 짐칸 안에 투하.",
+      "independentNotes": "PNG와 JPEG 모두 직접 확인. 절삭기 진행 방향의 오른쪽/앞쪽으로 한 개의 연결된 컨베이어가 뻗어 덤프트럭 적재함 위로 절삭물을 떨어뜨린다. 트럭 짐칸 내부에 재료가 들어가고 운전실/도로 바깥으로 흩어지지 않는다. 차체 아래 드럼 덮개가 포장과 접하고, 왼쪽/뒤쪽에 거칠게 밀링된 띠가 이어져 작업 진행 방향 및 결과가 맞는다. 공개 JPEG도 흐름과 적재 위치를 잘 보존함.",
+      "limitations": "절삭 드럼 자체는 하우징 안에 가려져 이빨/접촉면을 직접 볼 수 없으나, 하우징의 지면 접촉과 뒤쪽 밀링 결과로 작업이 충분히 읽힌다. 캡션에서 전방 적재식 장면임을 유지한다."
+    }
+  },
+  {
+    "modelId": "snow-groomer",
+    "filename": "snow-groomer-work-20261101-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 작업: 앞날과 뒤 장치로 눈길을 고르게 해요",
+    "viewLabel": "AI 제작 그림 · 작업: 앞날과 뒤 장치로 눈길을 고르게 해요",
+    "appearanceLabel": "하는 일을 살펴보는 일반 장비 작업 그림 · 특정 실물 모델이 아니에요.",
+    "sha256": "4349d453726b4d38a4d696e9addf48a4f5cc16e2a793d47911d3d6c3ca4d220c",
+    "originalSha256": "6e7e4b12231575c78c879cba4357ac0635141bda9e680d06cbe4557653bd387a",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-01",
+      "prompt": "Use case: scientific-educational. Create a NEW active WORK SCENE for a Korean vehicle atlas aged 3–10, a clear technical picture-book illustration, not a photograph. Input image 1 is a STRUCTURAL REFERENCE ONLY, not an edit target: keep mechanically credible core components but re-pose and recompose for the specified task. Work activity, tool-material CONTACT, load/material direction, and visible RESULT must be unmistakable, not a static showroom vehicle with background added. Soft daylight, simple believable jobsite/field context, uncluttered landscape frame with whole main machinery and working area inside margins. No brand, text, arrows, logos, watermark, faces or people in working zones; no floating/disconnected parts or impossible material streams.  A tracked ski-slope snow groomer works toward LEFT on a gentle empty slope. Wide FRONT/LEFT blade contacts and levels uneven snow, broad tracks grounded, separate REAR/RIGHT tiller contacts snow. Behind tiller to RIGHT is a smooth finely ribbed corduroy strip; rough bumpy snow lies ahead at LEFT. Clearly show blade and rear tiller attached and the before/after surface in one coherent perspective. No skiers, no tires, no huge snow spray obscuring attachments.",
+      "imageInputs": [
+        {
+          "src": "assets/illustrations/snow-groomer-ai-20261101-v1.jpg",
+          "sha256": "f217899153207ea88eb1a8cb01adadaffb6044a68bef19cad13e976d682c6a81",
+          "role": "own approved AI illustration used as structural reference only"
+        }
+      ],
+      "version": 1,
+      "sceneType": "work"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-01",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "4349d453726b4d38a4d696e9addf48a4f5cc16e2a793d47911d3d6c3ca4d220c",
+      "originalSha256": "6e7e4b12231575c78c879cba4357ac0635141bda9e680d06cbe4557653bd387a",
+      "referenceUrls": [
+        "https://www.pistenbully.com/en/snow-groomers",
+        "https://www.pistenbully.com/en-US/news/2022/run-red",
+        "https://interalpin.pistenbully.com/en/proacademy"
+      ],
+      "parentNotes": "원본 PNG와 공개 JPEG를 직접 픽셀 검수. 앞날이 거친 눈을 밀고 뒤 틸러가 눈에 닿으며 잔줄무늬 정설면을 남김.",
+      "independentNotes": "PNG와 JPEG 모두 직접 확인. 두 궤도가 눈에 접촉하고 전면 블레이드가 왼쪽/진행 방향의 울퉁불퉁한 눈을 밀어낸다. 별도 후방 틸러는 차체 뒤에 연결되어 눈에 닿으며, 오른쪽/뒤로 균일한 잔줄 무늬의 정설면이 남는다. 블레이드·틸러 위치와 기계 이동 방향, 눈 표면 결과가 맞고 JPEG에서 설면 차이가 보존됨.",
+      "limitations": "뒤 틸러의 회전축/내부 날은 단순화되어 있지만 외부 장치가 연결되어 눈과 접촉하는 점은 분명하다. 특정 제조사/모델 실물 재현으로 표시하지 않는다."
+    }
   }
 ]
