@@ -38,7 +38,7 @@ if (typeof document !== "undefined") init().catch(() => {
 async function init() {
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
-  const response = await fetch("./data/catalog.json?v=20261104-more-friends");
+  const response = await fetch("./data/catalog.json?v=20261104-more-friends-r2");
   if (!response.ok) throw new Error("Catalog unavailable");
   const { cars } = await response.json();
   const storageKey = "car-atlas-favorites-v1";
@@ -105,7 +105,7 @@ async function init() {
     const nonPassenger = equipment || aircraft || vehicle;
     const reference = nonPassenger
       ? `<p>소개 기준: ${escape(car.appearance.label)}<br>자료 확인 ${escape(car.checkedAt)}</p>`
-      : `<p>외형 기준: ${escape(car.appearance.label)}<br>구분: ${escape({ fullchange: "풀체인지", facelift: "페이스리프트", initial: "첫 양산 외형", verified: "공식 현행 외형" }[car.appearance.change])} · 자료 확인 ${escape(car.checkedAt)}</p>`;
+      : `<p>외형 기준: ${escape(car.appearance.label)}<br>구분: ${escape({ fullchange: "풀체인지", facelift: "페이스리프트", initial: "첫 양산 외형", verified: "자료로 확인한 외형" }[car.appearance.change])} · 자료 확인 ${escape(car.checkedAt)}</p>`;
     const sourceNote = vehicle
       ? "탈것과 기계의 종류와 하는 일을 소개해요. 사진은 실제 예시이며 같은 종류도 모델·지역·도장·장착 도구가 다를 수 있어요."
       : aircraft
