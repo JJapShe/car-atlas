@@ -1684,5 +1684,329 @@ export const vehicles = [
       "label": "자동차 운반 트럭의 구조와 하는 일 · 사진은 실물 예시",
       "change": "vehicle"
     }
+  },
+  {
+    "id": "nissan-rogue",
+    "name": "로그",
+    "englishName": "Rogue",
+    "brand": "닛산",
+    "body": "suv",
+    "aliases": [],
+    "cardCue": "V 모양 그릴을 찾아봐요.",
+    "summary": "큼직한 몸과 두 층으로 나뉜 앞등을 가진 SUV예요.",
+    "cues": [
+      "앞 그릴 둘레에 V 모양 테두리가 있어요.",
+      "앞쪽 불빛은 위아래로 나뉘어 있어요."
+    ],
+    "appearance": {
+      "label": "2023 Rogue SV · T33 변경 전 미국형",
+      "change": "verified"
+    },
+    "sourceUrl": "https://usa.nissannews.com/en-US/releases/2021-nissan-rogue-press-kit",
+    "tile": "#e7eae4",
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "mazda-cx5",
+    "name": "CX-5",
+    "englishName": "CX-5",
+    "brand": "마쓰다",
+    "body": "suv",
+    "aliases": [],
+    "cardCue": "큰 그릴과 길쭉한 앞등이 보여요.",
+    "summary": "둥근 곡선이 이어지는 SUV예요.",
+    "cues": [
+      "앞쪽에 커다란 그릴이 있어요.",
+      "앞등이 옆으로 길게 뻗어 있어요."
+    ],
+    "appearance": {
+      "label": "2024 CX-5 Suna · 캐나다 사양",
+      "change": "verified"
+    },
+    "sourceUrl": "https://news.mazdausa.com/2021-11-30-2022-Mazda-CX-5-Pricing-and-Packaging,1",
+    "tile": "#e7eae4",
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "volvo-xc90",
+    "name": "XC90",
+    "englishName": "XC90",
+    "brand": "볼보",
+    "body": "suv",
+    "aliases": [],
+    "cardCue": "그릴에 비스듬한 선이 있어요.",
+    "summary": "커다란 그릴과 반듯한 지붕을 가진 SUV예요.",
+    "cues": [
+      "앞쪽 그릴에 비스듬한 선이 보여요.",
+      "옆에서 보면 지붕이 뒤쪽까지 길게 이어져요."
+    ],
+    "appearance": {
+      "label": "2024 XC90 B6 인스크립션 · 필리핀 촬영",
+      "change": "verified"
+    },
+    "sourceUrl": "https://www.volvocars.com/files/cs/v3/assets/blt0feaa88e629251fc/blta90742729d52bc58/66ec72e25794517833997e0b/xc90-my24-brochure.pdf?branch=prod_alias",
+    "tile": "#e7eae4",
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "subaru-forester",
+    "name": "포레스터",
+    "englishName": "Forester",
+    "brand": "스바루",
+    "body": "suv",
+    "aliases": [
+      "포레스터 스포츠"
+    ],
+    "cardCue": "앞쪽의 별 모양 표지를 찾아봐요.",
+    "summary": "큼직한 창문과 반듯한 지붕을 가진 SUV예요.",
+    "cues": [
+      "앞쪽 그릴 한가운데 별 모양 표지가 보여요.",
+      "지붕 위에는 짐을 올릴 수 있는 막대가 있어요."
+    ],
+    "appearance": {
+      "label": "2023 포레스터 Sport SK · 미국 사양",
+      "change": "verified"
+    },
+    "sourceUrl": "https://www.subaru.com/content/dam/subaru/downloads/pdf/brochures/2023/forester/MY23_Forester_Brochure.pdf",
+    "tile": "#e7eae4",
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "lexus-es",
+    "name": "ES",
+    "englishName": "ES",
+    "brand": "렉서스",
+    "body": "sedan",
+    "aliases": [],
+    "cardCue": "모래시계처럼 생긴 그릴을 찾아봐요.",
+    "summary": "낮고 길쭉한 모습의 세단이에요.",
+    "cues": [
+      "앞쪽에 모래시계를 닮은 큰 그릴이 있어요.",
+      "가늘고 긴 앞등이 옆으로 뻗어 있어요."
+    ],
+    "appearance": {
+      "label": "2022 ES 350 · 7세대 부분변경 · 필리핀 촬영",
+      "change": "verified"
+    },
+    "sourceUrl": "https://pressroom.lexus.com/2022-lexus-es-the-quintessential-luxury-sedan-is-refreshed-inside-and-out/",
+    "tile": "#e7eae4",
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "volkswagen-passat",
+    "name": "파사트",
+    "englishName": "Passat",
+    "brand": "폭스바겐",
+    "body": "sedan",
+    "aliases": [],
+    "cardCue": "가로줄이 많은 그릴을 찾아봐요.",
+    "summary": "길고 반듯한 모습의 세단이에요.",
+    "cues": [
+      "앞쪽 그릴에 가로줄이 여러 개 있어요.",
+      "지붕이 뒤쪽으로 부드럽게 내려가요."
+    ],
+    "appearance": {
+      "label": "2021 파사트 Highline · 북미형 캐나다 촬영",
+      "change": "verified"
+    },
+    "sourceUrl": "https://www.volkswagen-newsroom.com/en/passat-usa-version-3624",
+    "tile": "#e7eae4",
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "vacuum-sewer-truck",
+    "name": "하수관 진공청소차",
+    "englishName": "Vacuum Sewer Truck",
+    "body": "road",
+    "aliases": [
+      "하수도 청소차",
+      "하수관 청소차",
+      "진공흡입차",
+      "하수관 제트청소차"
+    ],
+    "cardCue": "굵은 호스로 하수관의 찌꺼기를 빨아들여요.",
+    "summary": "맨홀과 하수관을 청소하는 특수 트럭이에요. 물을 세게 뿜어 찌꺼기를 풀고 진공 호스로 빨아 탱크에 모으는 종류도 있어요.",
+    "cues": [
+      "차 뒤나 위에 굵은 진공 호스와 감개가 보여요.",
+      "큰 탱크와 호스를 맨홀 가까이 내려 작업해요."
+    ],
+    "sourceUrl": "https://www.aquatechinc.com/products/b12/",
+    "tile": "#e8eceb",
+    "appearance": {
+      "label": "하수관 진공청소차의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "milk-tanker-truck",
+    "name": "우유 탱크차",
+    "englishName": "Milk Tanker Truck",
+    "body": "road",
+    "aliases": [
+      "우유 수거 탱크차",
+      "원유 탱크차",
+      "밀크 탱크 트럭"
+    ],
+    "cardCue": "농장의 우유를 차가운 탱크에 실어 나른답니다.",
+    "summary": "농장에서 모은 원유를 유제품 공장으로 운반하는 탱크 트럭이에요. 음식과 닿는 탱크는 위생과 온도 유지에 맞게 만들어요.",
+    "cues": [
+      "트럭 뒤에 길고 둥근 금속 탱크가 실려 있어요.",
+      "탱크차는 우유를 농장에서 유제품 공장까지 옮겨요."
+    ],
+    "sourceUrl": "https://carrick-engineering.com/milk-collection-tanker/",
+    "tile": "#e9ecee",
+    "appearance": {
+      "label": "우유 탱크차의 구조와 하는 일 · 사진은 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "aerial-work-platform-truck",
+    "name": "고소작업차",
+    "englishName": "Truck-mounted Aerial Work Platform",
+    "body": "road",
+    "aliases": [
+      "이동식 고소작업차",
+      "바구니차",
+      "고소작업 트럭",
+      "버킷 트럭"
+    ],
+    "cardCue": "붐 끝의 바구니를 높이 올려 일을 해요.",
+    "summary": "높은 곳에서 수리할 때 바구니에 사람을 올려 주는 트럭이에요.",
+    "cues": [
+      "트럭 위에 접히거나 뻗는 긴 붐이 있어요.",
+      "붐 끝에는 작업자가 설 수 있는 바구니가 달려요."
+    ],
+    "sourceUrl": "https://www.palfinger.com/gb/en/our-products/aerial-platforms/aerial-work-platforms.html",
+    "tile": "#e8eceb",
+    "appearance": {
+      "label": "트럭 탑재 고소작업차 · 사진은 러시아 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "road-marking-truck",
+    "name": "도로 차선 도색차",
+    "englishName": "Road Marking Truck",
+    "body": "road",
+    "aliases": [
+      "노면 표시차",
+      "차선 도색 트럭",
+      "도로 라인마킹차"
+    ],
+    "cardCue": "도로 위에 새 차선과 표시를 그려요.",
+    "summary": "도로 공사 구간에서 페인트나 녹인 도료로 차선과 글자, 기호를 그리는 작업차예요. 뒤쪽 도색 장치가 노면 가까이에서 움직여요.",
+    "cues": [
+      "트럭 뒤에 도료통과 노면 가까운 분사·도색 장치가 있어요.",
+      "차가 움직이며 도로 위에 표시를 그려요."
+    ],
+    "sourceUrl": "https://trysilrmm.com/products/",
+    "tile": "#ecece8",
+    "appearance": {
+      "label": "도로 차선 도색차 · 사진은 GAZ 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "railway-tamping-machine",
+    "name": "철도 선로 다짐차",
+    "englishName": "Railway Tamping Machine",
+    "body": "rail",
+    "aliases": [
+      "철도 보선차",
+      "선로 다짐 기계",
+      "철도 궤도 정비차",
+      "탬핑 머신"
+    ],
+    "cardCue": "레일 아래 자갈을 다져 선로를 바로잡아요.",
+    "summary": "철도 선로를 정비하는 보선 차량이에요. 레일을 들어 위치를 맞추고, 침목 아래의 자갈을 다져 선로를 안정시켜요.",
+    "cues": [
+      "철로 위를 달릴 수 있는 바퀴와 긴 작업 차량이 보여요.",
+      "차량 아래의 장치가 침목 주변 자갈을 다지는 일을 해요."
+    ],
+    "sourceUrl": "https://www.plassertheurer.com/en/machine/track-tamping-machines/overview",
+    "tile": "#eee7dc",
+    "appearance": {
+      "label": "ColasRail Saturn 선로 다짐 보선차 · 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "airport-hydrant-dispenser",
+    "name": "공항 급유차",
+    "englishName": "Aircraft Hydrant Dispenser",
+    "body": "road",
+    "aliases": [
+      "항공기 급유 디스펜서",
+      "하이드런트 디스펜서",
+      "공항 연료 디스펜서"
+    ],
+    "cardCue": "공항 지하 연료관과 비행기를 호스로 이어요.",
+    "summary": "공항 지하 연료관에서 받은 연료를 연결 장치와 호스로 비행기에 보내는 차예요.",
+    "cues": [
+      "호스 감개와 급유 장치가 보여요.",
+      "지하 급유관과 비행기 사이에서 연료를 보내요."
+    ],
+    "sourceUrl": "https://www.atcomex.eu/aircraft-refuelling/",
+    "tile": "#e7eceb",
+    "appearance": {
+      "label": "탱크 없는 공항 급유 장비 · 하이드런트 디스펜서로 판단한 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "airport-catering-truck",
+    "name": "공항 기내식 공급차",
+    "englishName": "Aircraft Catering Highloader",
+    "body": "road",
+    "aliases": [
+      "기내식 트럭",
+      "항공기 식품 공급차",
+      "공항 케이터링 하이로더"
+    ],
+    "cardCue": "적재함을 올려 비행기에 음식을 실어요.",
+    "summary": "공항에서 기내식과 음료를 싣고, 승강식 적재함을 비행기 문 높이에 맞춰 음식을 옮기는 서비스 트럭이에요.",
+    "cues": [
+      "운전실 뒤에 큰 상자형 적재함이 있어요.",
+      "가위처럼 펴지는 받침이 상자를 비행기 문 높이까지 들어 올려요."
+    ],
+    "sourceUrl": "https://www.doll-airport.com/en/catering-highloader.html",
+    "tile": "#e9ecee",
+    "appearance": {
+      "label": "공항 기내식 공급차 · Goldair Handling 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "airport-stair-truck",
+    "name": "공항 탑승 계단차",
+    "englishName": "Aircraft Passenger Stair Truck",
+    "body": "road",
+    "aliases": [
+      "항공기 탑승 계단차",
+      "계단차",
+      "스테어카",
+      "이동식 탑승 계단"
+    ],
+    "cardCue": "차 위의 계단으로 비행기에 오르내려요.",
+    "summary": "터미널 탑승교를 쓰지 않는 곳에서 비행기 문까지 승객이 오르내리도록 계단을 들어 올리는 공항 서비스 차량이에요.",
+    "cues": [
+      "바퀴 달린 차 위에 긴 계단이 있어요.",
+      "계단의 높은 쪽이 비행기 문 높이에 맞춰져요."
+    ],
+    "sourceUrl": "https://milesgse.com/passenger-stairs",
+    "tile": "#e8eceb",
+    "appearance": {
+      "label": "공항 탑승 계단차 · Air China 실물 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-04"
   }
 ];

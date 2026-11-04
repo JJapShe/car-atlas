@@ -2254,5 +2254,1783 @@
       "independentNotes": "PNG와 JPEG 모두 직접 확인. 두 궤도가 눈에 접촉하고 전면 블레이드가 왼쪽/진행 방향의 울퉁불퉁한 눈을 밀어낸다. 별도 후방 틸러는 차체 뒤에 연결되어 눈에 닿으며, 오른쪽/뒤로 균일한 잔줄 무늬의 정설면이 남는다. 블레이드·틸러 위치와 기계 이동 방향, 눈 표면 결과가 맞고 JPEG에서 설면 차이가 보존됨.",
       "limitations": "뒤 틸러의 회전축/내부 날은 단순화되어 있지만 외부 장치가 연결되어 눈과 접촉하는 점은 분명하다. 특정 제조사/모델 실물 재현으로 표시하지 않는다."
     }
+  },
+  {
+    "modelId": "street-sweeper",
+    "filename": "street-sweeper-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 회전솔 청소와 수거통 속을 함께 살펴봐요",
+    "viewLabel": "AI 제작 그림 · 회전솔 청소와 수거통 속을 함께 살펴봐요",
+    "appearanceLabel": "수거통 속을 보이게 그린 청소 원리 설명 그림 · 실제 수거통 벽이 투명한 것은 아니에요.",
+    "sha256": "2b29f236eba53cc92ebd86bf6beb430185131ce15fd3ece52260e660b77f2d12",
+    "originalSha256": "597d4e9d54ca0f53988e3709024b78d30da762ed848ff88b8c690e10ad3fb3b1",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A compact road street sweeper actively cleans curbside grit. Two visible circular side brushes contact the asphalt along curb, sweep loose leaves and gravel inward toward a suction inlet beneath vehicle; a clean strip trails behind, dirt remains ahead. Modest integrated debris tank on chassis, grounded wheels, no broom arms floating.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "2b29f236eba53cc92ebd86bf6beb430185131ce15fd3ece52260e660b77f2d12",
+      "originalSha256": "597d4e9d54ca0f53988e3709024b78d30da762ed848ff88b8c690e10ad3fb3b1",
+      "referenceUrls": [
+        "https://www.nyc.gov/site/dsny/what-we-do/clean-streets/street-sweeping.page"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "두 원형 솔이 도로 가장자리 낙엽과 접촉하고 가운데 흡입구가 가까이 보이며 뒤쪽 노면이 깨끗하다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "뒤 수거통의 투명한 내부 묘사는 이해를 위한 그림 표현이며 실제 장비 외벽이 투명하다는 뜻은 아니다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "snowplow",
+    "filename": "snowplow-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 앞날로 눈을 길옆으로 밀어요",
+    "viewLabel": "AI 제작 그림 · 앞날로 눈을 길옆으로 밀어요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "3ea9b91f67b255bd33d33a81cdbfc1c5bfa382835cc1be687d6fb05aafc42d4c",
+    "originalSha256": "5615d4a8cfda4f5d44aa07cf3921f1163269a75a5a12b439aeaea213530aed72",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A road snowplow truck clears a shallow snowy road. Attached angled FRONT blade touches road snow and pushes a coherent low windrow toward roadside. Cleared dark asphalt behind the blade and untouched snow ahead, full stable truck and blade. No rear tiller: this is road plowing, no avalanche or deep impossible bank.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "3ea9b91f67b255bd33d33a81cdbfc1c5bfa382835cc1be687d6fb05aafc42d4c",
+      "originalSha256": "5615d4a8cfda4f5d44aa07cf3921f1163269a75a5a12b439aeaea213530aed72",
+      "referenceUrls": [
+        "https://home4.nyc.gov/site/dsny/what-we-do/snow-response/snow-operations-faq.page"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "차체에 연결된 앞날이 눈과 맞닿고 눈이 날 앞과 도로 옆으로 모이며 차 뒤에 정리된 노면이 보인다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "정지 그림이므로 실제 눈의 이동이나 완전 제설을 단정할 수 없다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "garbage-truck",
+    "filename": "garbage-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 뒤쪽 장치로 쓰레기통을 들어 비워요",
+    "viewLabel": "AI 제작 그림 · 뒤쪽 장치로 쓰레기통을 들어 비워요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "f395f31ae83eebbd74d6ec62cad0c613c4abe0400e2a9ff9aec5e4616b0328e0",
+    "originalSha256": "1905fd73eb4c04252bbd33adf5cf1c4e6f2796aa65a52bd7f9e728013c2ebbe2",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A rear-loading refuse truck lifts ONE standard wheeled rubbish bin with connected rear hydraulic bin-lifter into rear hopper. Bin tilted so opening faces hopper, a few bagged refuse items dropping INSIDE hopper, clear continuous lifter-to-bin contact, parked grounded truck. Bin's lid opens correctly at top. No people, no loose rubbish everywhere.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "f395f31ae83eebbd74d6ec62cad0c613c4abe0400e2a9ff9aec5e4616b0328e0",
+      "originalSha256": "1905fd73eb4c04252bbd33adf5cf1c4e6f2796aa65a52bd7f9e728013c2ebbe2",
+      "referenceUrls": [
+        "https://www.nyc.gov/site/dsny/what-we-do/collection/how-we-collect.page"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "후방 리프트가 쓰레기통을 받쳐 입구 쪽으로 기울이고 봉투들이 차의 후방 호퍼 안에 떨어진다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "통과 리프트의 일부 맞물림 부위는 시점에 가려진다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "tow-truck",
+    "filename": "tow-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 경사판을 내려 자동차를 실어요",
+    "viewLabel": "AI 제작 그림 · 경사판을 내려 자동차를 실어요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "ffeb235a316635a98d05a8bd9563e2f1c3466205469e5c9843c6ac486dbe61f5",
+    "originalSha256": "e8354069daf6a4ce32b4fcc7605608f1bd2d3a9e708ee103ae23a651ae9b58ac",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A flatbed recovery tow truck loading a small unbranded car onto its tilted sliding deck. Tow truck cab LEFT, deck slopes DOWN toward RIGHT touching road at rear. Car faces uphill LEFT, all four tires supported on ramp deck. Taut winch cable from front of deck to front recovery attachment of car. Full truck and car, no floating wheels, no car balanced on edge.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "ffeb235a316635a98d05a8bd9563e2f1c3466205469e5c9843c6ac486dbe61f5",
+      "originalSha256": "e8354069daf6a4ce32b4fcc7605608f1bd2d3a9e708ee103ae23a651ae9b58ac",
+      "referenceUrls": [
+        "https://www.acg.aaa.com/connect/blogs/5c/auto/what-to-expect-when-you-get-towed"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "차량 바퀴가 경사진 적재판에 놓이고 연결된 윈치 줄이 차 앞쪽을 향하며 적재판 끝은 도로에 닿는다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "반대편 바퀴와 견인점 안쪽은 시점상 직접 보이지 않는다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "fireboat",
+    "filename": "fireboat-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 펌프로 물을 뿜어 불을 꺼요",
+    "viewLabel": "AI 제작 그림 · 펌프로 물을 뿜어 불을 꺼요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "74d507330de39e0c5ce006098a7bd86f22bf6785faa8a4833aac21f1c24ca6f8",
+    "originalSha256": "f55c89a55f8cc802558f8ef5cf8d41f93d2b1e7a7fa63d9309de8c09b4711c40",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A compact harbor fireboat afloat in water, pumping one coherent arcing water jet from its mounted bow monitor toward a SMALL smoking dockside practice target in background, with no people or danger. No flames around boat. Monitor physically attached to deck piping, stream begins exactly at nozzle, plausible boat hull, modest wake, all hull within frame.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "74d507330de39e0c5ce006098a7bd86f22bf6785faa8a4833aac21f1c24ca6f8",
+      "originalSha256": "f55c89a55f8cc802558f8ef5cf8d41f93d2b1e7a7fa63d9309de8c09b4711c40",
+      "referenceUrls": [
+        "https://www.london-fire.gov.uk/about-us/services-and-facilities/vehicles-and-equipment/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "갑판 물대포 노즐에서 물줄기가 이어져 연기 나는 부두의 물체에 닿는다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "연기 나는 목표물의 정확한 화재 상태는 확인되지 않는다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "tugboat",
+    "filename": "tugboat-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 큰 배 옆을 밀어 방향을 도와요",
+    "viewLabel": "AI 제작 그림 · 큰 배 옆을 밀어 방향을 도와요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "3e7f33ac7ca45d31a1afda55ec496088d80db0b11b9401bee43be80b6671643f",
+    "originalSha256": "4569c4abbd603a9856800ef03cf2eb38882079c3257bdad60ec3bff1026777cf",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A small harbor tug actively assists a much larger cargo ship by PUSHING the larger hull with thick black rubber bow fenders. Tug bow fender contacts ship side, not bare metal; tug stern wake trails away, tug proportional and wholly visible. Larger ship may continue beyond background margins. No loose rope crossing hull, no collision damage or passengers.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "3e7f33ac7ca45d31a1afda55ec496088d80db0b11b9401bee43be80b6671643f",
+      "originalSha256": "4569c4abbd603a9856800ef03cf2eb38882079c3257bdad60ec3bff1026777cf",
+      "referenceUrls": [
+        "https://svitzer.com/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "예인선 선수의 두꺼운 방충재가 큰 배 측면에 닿으며 두 배가 물에 떠 있다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "큰 배는 일부만 화면에 담긴다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "freight-train",
+    "filename": "freight-train-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 기관차가 화물칸을 줄지어 끌어요",
+    "viewLabel": "AI 제작 그림 · 기관차가 화물칸을 줄지어 끌어요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "069326f5f00e93b57a790eb74209d05fa070ecd81856f04a225ba1488b793455",
+    "originalSha256": "97d91084be2f7ccc3e3420eb26c0aefc200639a5236079dc296d029dd495bc26",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A freight locomotive pulls a short line of three container wagons through a wide rural railway curve. All steel wheel flanges sit on TWO continuous rails, visible couplers connect locomotive and wagons, containers seated on flat wagons. Front locomotive visible fully, no wheels on ballast or road, no impossible branching rails or duplicated cab ends.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "069326f5f00e93b57a790eb74209d05fa070ecd81856f04a225ba1488b793455",
+      "originalSha256": "97d91084be2f7ccc3e3420eb26c0aefc200639a5236079dc296d029dd495bc26",
+      "referenceUrls": [
+        "https://info.korail.com/info/contents.do?key=870"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "기관차와 컨테이너 화차의 바퀴가 궤도 위에 놓이고 이어진 차량들이 동일 선로를 따른다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "일부 연결기와 반대편 바퀴는 차량과 원근에 가려진다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "hot-air-balloon",
+    "filename": "hot-air-balloon-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 따뜻한 공기를 담아 하늘로 떠요",
+    "viewLabel": "AI 제작 그림 · 따뜻한 공기를 담아 하늘로 떠요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "acaf62b26e8de1da8c8f50df601fceebb89681c49f55abe317ae75784adef9f2",
+    "originalSha256": "daa8fc6badcdcf7d0a8f9e4e74828c22a8126e1bcad5b371b99ee6bcef48a1f7",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. One conventional hot-air balloon gently ascending over a broad meadow, full envelope, open bottom throat, burner and attached small wicker basket visible. A short contained burner flame points UP INTO open envelope throat, never outside balloon or below basket. Suspension cables connect basket and envelope load tapes; no ropes tied to ground, no people needed, clear cheerful educational scene.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "acaf62b26e8de1da8c8f50df601fceebb89681c49f55abe317ae75784adef9f2",
+      "originalSha256": "daa8fc6badcdcf7d0a8f9e4e74828c22a8126e1bcad5b371b99ee6bcef48a1f7",
+      "referenceUrls": [
+        "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/Balloon_Flying_Handbook_FAA-H-8083-11B/bfh_chapter_2.pdf"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "바구니와 봉투가 줄로 연결되고 버너 불꽃이 위쪽 봉투 입구를 향한다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "봉투 꼭대기가 화면 상단에 매우 가까우며 탑승자는 보이지 않는다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "telehandler",
+    "filename": "telehandler-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 늘어나는 팔로 높은 곳에 짐을 올려요",
+    "viewLabel": "AI 제작 그림 · 늘어나는 팔로 높은 곳에 짐을 올려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "27e8b0bd2f90a8e793a790487b113a5094110dbad587ecbd915551d7452af54b",
+    "originalSha256": "02be5625be5451345a84f818a2d6cc34472e5d5558bbf6d7e2c357952facad35",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A four-wheel telehandler places a pallet of building blocks onto a low stable construction platform. Telescopic boom extends UP forward, two parallel forks attached to carriage go UNDER the pallet, pallet horizontal with blocks supported. All wheels stable on flat site, moderate reach, no load above cab or impossible tiny machine carrying huge load.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "27e8b0bd2f90a8e793a790487b113a5094110dbad587ecbd915551d7452af54b",
+      "originalSha256": "02be5625be5451345a84f818a2d6cc34472e5d5558bbf6d7e2c357952facad35",
+      "referenceUrls": [
+        "https://www.jcb.com/en-GB/explore/knowledge/faqs/telehandlers/what-is-a-telehandler/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "신축 붐 끝 포크가 블록 팔레트 아래에 들어가 짐을 받치며 바퀴가 땅에 닿는다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "반대쪽 포크 및 팔레트 안쪽 지지점은 시점에 가려진다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "straddle-carrier",
+    "filename": "straddle-carrier-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 높은 다리 사이에 컨테이너를 매달아 옮겨요",
+    "viewLabel": "AI 제작 그림 · 높은 다리 사이에 컨테이너를 매달아 옮겨요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "14a413b2042c485517a47738eaa7bdf96e00e3e8f90ec9126ba0f1afa286ffa6",
+    "originalSha256": "9c6feacb765ee24e5e3bae98278a3327674f1179bdb9dac999f3ec15e393b194",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A tall port straddle carrier transports ONE standard shipping container LOW above pavement between its portal legs. Top spreader attaches upper corner castings, connected vertical hoist cables hang from upper frame, wheels on both sides outside container width contact pavement. Open portal frame clearly straddles load, no extra unrelated containers blocking legs.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "14a413b2042c485517a47738eaa7bdf96e00e3e8f90ec9126ba0f1afa286ffa6",
+      "originalSha256": "9c6feacb765ee24e5e3bae98278a3327674f1179bdb9dac999f3ec15e393b194",
+      "referenceUrls": [
+        "https://www.kalmarglobal.com/news--insights/articles/2025/straddle-carriers-for-container-handling-what-you-need-to-know/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "문형 차체와 스프레더가 컨테이너 위 모서리에 닿고 짐을 다리 사이에 낮게 매단다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "뒤쪽 스프레더 잠금점은 가려져 세부 체결을 확인할 수 없다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "articulated-dump-truck",
+    "filename": "articulated-dump-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 거친 현장에서 돌을 나르고 짐칸을 들어 내려요",
+    "viewLabel": "AI 제작 그림 · 거친 현장에서 돌을 나르고 짐칸을 들어 내려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "0ce7919ca7b332ebe33909d3783d33e5e8480e412a71d6d0c18205af8a5df5d4",
+    "originalSha256": "728fc73aebaf18f724fff7b5e4997102f0673bd8ee263e5e62aad0b6ff130222",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A six-wheel articulated dump truck unloads gravel at a construction stockpile. Front cab LEFT, rear dump bed RIGHT tilted upward about rear hinge at far RIGHT. Attached hydraulic hoist extends between chassis and bed front. Gravel falls from open rear tailgate to ground pile RIGHT, never onto cab. Articulation joint between front and rear frames visible, all wheels grounded.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "0ce7919ca7b332ebe33909d3783d33e5e8480e412a71d6d0c18205af8a5df5d4",
+      "originalSha256": "728fc73aebaf18f724fff7b5e4997102f0673bd8ee263e5e62aad0b6ff130222",
+      "referenceUrls": [
+        "https://rent.cat.com/en_GY/content/crs/en_MM/articles/articulated-trucks"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "굴절 연결부와 틸트 실린더가 보이고 자갈이 들어 올린 짐칸 뒤의 열린 출구에서 아래 더미로 떨어진다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "반대편 바퀴는 일부 가려진다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "walking-excavator",
+    "filename": "walking-excavator-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 다리를 벌려 비탈에서 흙을 파요",
+    "viewLabel": "AI 제작 그림 · 다리를 벌려 비탈에서 흙을 파요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "a35ac3d1061bc0d34214545485f11ef0a049f8274f710b0f380fb6fff78fea97",
+    "originalSha256": "28dd18eca57d3a8d39edffa1cd0882c6e6e469f0c4ab7d99b9c5b08cf3bbc6aa",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A walking spider excavator on a GENTLE irregular hillside, four adjustable articulated support legs each ending in wheel or foot grounded at different heights, stable wide support stance. One ordinary attached boom-stick-bucket arm digs small soil scoop on uphill side. Not walking in air, no severe cliff, no extra arms or dangling unsupported feet.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "a35ac3d1061bc0d34214545485f11ef0a049f8274f710b0f380fb6fff78fea97",
+      "originalSha256": "28dd18eca57d3a8d39edffa1cd0882c6e6e469f0c4ab7d99b9c5b08cf3bbc6aa",
+      "referenceUrls": [
+        "https://menzimuck.com/en/product/walking-excavator/menzi-muck-m5x/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "관절 다리의 발판과 바퀴가 비탈에 닿고 버킷이 흙에 접촉하며 파낸 흙이 보인다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "실제 비탈의 지반 강도나 장비의 안정성은 정지 그림만으로 확인할 수 없다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "wheel-tractor-scraper",
+    "filename": "wheel-tractor-scraper-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 낮은 날로 흙을 깎아 가운데 통에 모아요",
+    "viewLabel": "AI 제작 그림 · 낮은 날로 흙을 깎아 가운데 통에 모아요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "7b33a8fc68f98b85be96885a08a888ce10498c7dd409fb34053897158c9ac46f",
+    "originalSha256": "972597520238358ba03e1097571493bf86fa46f8f642dbea26906941313f52a1",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A wheel tractor scraper actively cuts a shallow soil layer. Front tractor pulls connected rear scraper bowl, cutting edge under FRONT lower lip of central bowl contacts ground, thin earth layer enters bowl mouth and collects inside. Low scraper bowl and rear axle connected. Shallow smooth cut surface trails behind, not a loader bucket or rotating drum.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "7b33a8fc68f98b85be96885a08a888ce10498c7dd409fb34053897158c9ac46f",
+      "originalSha256": "972597520238358ba03e1097571493bf86fa46f8f642dbea26906941313f52a1",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/products/new/equipment/wheel-tractor-scrapers/open-bowl-scrapers/125864.html"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "전방 트랙터와 뒤쪽 볼이 연결되고 날 아래 흙과 볼 안 흙, 뒤의 고른 지면이 보인다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "정지 그림이라 흙의 실제 유입 과정과 절삭날 전체는 확정하기 어렵다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "rotary-drilling-rig",
+    "filename": "rotary-drilling-rig-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 땅에 닿은 드릴 작업부를 살펴봐요",
+    "viewLabel": "AI 제작 그림 · 땅에 닿은 드릴 작업부를 살펴봐요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "2c27ee0e3408ab97cc362cafc715781628e06375bcad52b703562cd6649e312d",
+    "originalSha256": "3ca3e016344a3c2dbadd5424d7532d6276643e7a115eedafad684896a65365c4",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A crawler rotary drilling rig drills a vertical foundation hole. Tall attached mast supports rotary drive and one telescopic Kelly bar that runs vertically to a short cylindrical drilling bucket at ground hole opening. Bucket bottom partially in hole, soil spoil piled aside, both tracks on level ground. Clear actual drilling configuration, no entire mast underground, no disconnected spinning auger.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "2c27ee0e3408ab97cc362cafc715781628e06375bcad52b703562cd6649e312d",
+      "originalSha256": "3ca3e016344a3c2dbadd5424d7532d6276643e7a115eedafad684896a65365c4",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-ca/deep-foundation/methods/drilling/kelly-drilling-4079772"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "궤도 차체의 수직 축 끝 드릴 버킷이 구멍 안 흙에 놓여 있다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "높은 마스트 윗부분은 화면 밖으로 잘려 전체 길이를 확인할 수 없다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "pipelayer",
+    "filename": "pipelayer-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 옆쪽 팔로 관을 들어 도랑에 내려요",
+    "viewLabel": "AI 제작 그림 · 옆쪽 팔로 관을 들어 도랑에 내려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "bf4e07ecfc2bbebc0f8a5abfca759e71ca6f44acea9e31d8dceb9d448cec46ea",
+    "originalSha256": "74cba2a4d8c760ad55c6cb1e989c7e96d3239ced499359955ca9fb6525898100",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A tracked sideboom pipelayer lowers ONE steel pipe section horizontally toward a prepared shallow trench on machine SIDE. Sideboom extends over trench; hoist line descends from boom tip to TWO balanced lifting slings around pipe; pipe not pierced by hooks. Counterweight on opposite side, grounded continuous crawler tracks, stable modest reach, pipe aligned lengthwise with trench.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "bf4e07ecfc2bbebc0f8a5abfca759e71ca6f44acea9e31d8dceb9d448cec46ea",
+      "originalSha256": "74cba2a4d8c760ad55c6cb1e989c7e96d3239ced499359955ca9fb6525898100",
+      "referenceUrls": [
+        "https://rent.cat.com/en_US/articles/equipment-pipeline-construction"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "붐 끝 줄과 훅에 매달린 두 슬링이 파이프 아래를 감싸며 도랑 위에서 지지한다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "반대편 슬링 접촉부와 지반의 실제 안정성은 시점상 완전히 확인할 수 없다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "port-gantry-crane",
+    "filename": "port-gantry-crane-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 배의 컨테이너를 부두로 들어 옮겨요",
+    "viewLabel": "AI 제작 그림 · 배의 컨테이너를 부두로 들어 옮겨요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "8951c2a25f44e72854862e8e2556e45ec2498da7e3cb1bd02592b6a3470abc94",
+    "originalSha256": "c0193d270fa5ca41ce8c4c7eb1a727e83892ced963ba697f7587a1c92870d84c",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A ship-to-shore container gantry crane unloads ONE shipping container. Crane rail legs grounded on QUAY, waterside boom extends over cargo ship. Trolley suspended from horizontal boom, FOUR vertical lifting ropes connect spreader to container TOP corners. Suspended box above open ship cargo bay, clear quay/water separation. Full main crane and load with margins, no ropes to container bottom or wheels floating on water.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "8951c2a25f44e72854862e8e2556e45ec2498da7e3cb1bd02592b6a3470abc94",
+      "originalSha256": "c0193d270fa5ca41ce8c4c7eb1a727e83892ced963ba697f7587a1c92870d84c",
+      "referenceUrls": [
+        "https://www.liebherr.com/shared/media/maritime-cranes/downloads-and-brochures/brochures/lcc/liebherr-container-cranes-brochure.pdf"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "크레인 다리들이 부두의 레일 위에 있고 스프레더가 컨테이너를 매달아 선박의 열린 화물칸 위에 놓는다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "스프레더의 반대편 체결 세부는 원근에 가려져 보이지 않는다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "airbus-a320",
+    "filename": "airbus-a320-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 두 날개 아래 엔진으로 날아 사람들을 태워요",
+    "viewLabel": "AI 제작 그림 · 두 날개 아래 엔진으로 날아 사람들을 태워요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "f3debadd232793d4c1f8c28ee7604d2a489ab3d3cdf6865acacd63de7f8e9dcb",
+    "originalSha256": "5e49534023f169082f2d0846d21fcf99280c8e065f7b5671a1128df6c340eb86",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A generic A320-family twin-engine narrow-body passenger jet taking off just above a runway. Exactly TWO underwing turbofan engines attached with pylons, swept low wings attached to fuselage, conventional single vertical fin with two horizontal tailplanes. Whole aircraft fully inside wide frame, three-quarter front-side view, landing gear retracting just after liftoff, no propellers, no extra wings. Clean airport background, modest runway below, no airline logos.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "f3debadd232793d4c1f8c28ee7604d2a489ab3d3cdf6865acacd63de7f8e9dcb",
+      "originalSha256": "5e49534023f169082f2d0846d21fcf99280c8e065f7b5671a1128df6c340eb86",
+      "referenceUrls": [
+        "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "저익 아래 제트엔진 두 개, 앞·양쪽 주 착륙장치가 식별되고 활주로 위 이륙 또는 접근 중이다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "기체 세부는 A320 계열을 참고한 일반 교육 그림으로 정확한 개별 모델 도면은 아니다."
+    }
+  },
+  {
+    "modelId": "rescue-helicopter-h145",
+    "filename": "rescue-helicopter-h145-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 산 위에서 멈춰 떠 구조 장비를 내려요",
+    "viewLabel": "AI 제작 그림 · 산 위에서 멈춰 떠 구조 장비를 내려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "9695c7ccd3c8942a4e657f8a99de67155acf16bc05d6c1c01039572fc7812054",
+    "originalSha256": "8fffb4869518b9f4d96d614ec06b8d78a837777721081822db0ca9004d27740e",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A generic H145-type light twin-engine rescue helicopter in a steady low hover near a broad empty mountain rescue clearing. Five-bladed main rotor attached to mast above cab, ducted tail rotor fenestron in tail fin, attached two skids, compact rounded cabin. An attached side-mounted rescue hoist lowers ONE clearly attached empty rescue basket on a taut VERTICAL cable into clear area directly below its side, basket never crossing main rotor or tail. No rescued person, no peril, no open tail propeller. Whole helicopter and basket in frame.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "9695c7ccd3c8942a4e657f8a99de67155acf16bc05d6c1c01039572fc7812054",
+      "originalSha256": "8fffb4869518b9f4d96d614ec06b8d78a837777721081822db0ca9004d27740e",
+      "referenceUrls": [
+        "https://www.airbus.com/en/products-services/helicopters/civil-helicopters/h145/h145-missions",
+        "https://www.airbus.com/en/products-services/helicopters/civil-helicopters/h145"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "동체 위 주 로터와 덕트형 꼬리 로터, 스키드 및 동체 장착 윈치에서 줄에 연결된 빈 구조 바구니가 보인다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "H145 계열 구조를 참고한 일반 그림이며 와이어 실제 운용 조건은 그림만으로 확정할 수 없다."
+    }
+  },
+  {
+    "modelId": "chinook-ch-47",
+    "filename": "chinook-ch-47-work-20261104-v2.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 뒤쪽 문을 내려 물자를 싣고 내려요",
+    "viewLabel": "AI 제작 그림 · 뒤쪽 문을 내려 물자를 싣고 내려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "3589a93ec1ebf2ea8f32b13bd25cb2675a7fc785cf7891a8e9ce6d3288d869b4",
+    "originalSha256": "9ca17e8438e53750d7da326d220cc76e6b90cdd13b639e324df325da661770eb",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads.  A CH-47-type Chinook tandem-rotor cargo helicopter parked on level grass during supply unloading. WIDE STRICT SIDE VIEW, nose LEFT, rear ramp RIGHT, whole helicopter and BOTH complete rotor disks within generous margins. TWO main rotors on separate front and rear masts, 3 blades per hub. Correct FOUR-POINT landing gear: front port/starboard struts near cockpit, rear port/starboard struts near cargo-ramp hinge. Show only TWO near-side gear POSITIONS: one front strut beneath cockpit and one rear strut near ramp. Far-side matching gear may be occluded by fuselage; NO additional middle strut, NO wheel between these two near-side locations, no third fore-aft gear position. Forward gear may have twin tires on same axle; rear near-side single wheel. Rear ramp lowers onto ground. A few small supplies boxes resting directly on ramp floor, NO trolley or extra loose wheels. No weapons or people. Correct recognizable tandem-rotor body, not an exact registration/model depiction.",
+      "imageInputs": false,
+      "version": 2,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "3589a93ec1ebf2ea8f32b13bd25cb2675a7fc785cf7891a8e9ce6d3288d869b4",
+      "originalSha256": "9ca17e8438e53750d7da326d220cc76e6b90cdd13b639e324df325da661770eb",
+      "referenceUrls": [
+        "https://www.boeing.com/defense/military-rotorcraft/h-47-chinook"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "전후 두 로터와 기체 앞뒤 착륙 위치 및 화물 램프가 보이며 이전 그림의 동체 중간 별도 바퀴는 없다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "측면 원근 때문에 반대편 착륙바퀴 전체는 보이지 않으며 특정 기체 정밀 재현은 아니다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "seaplane-dhc2",
+    "filename": "seaplane-dhc2-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 긴 플로트 두 개로 물 위에 내려요",
+    "viewLabel": "AI 제작 그림 · 긴 플로트 두 개로 물 위에 내려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "46b564c73c22ed113fcde640b94759b61c9b0cc2a0a9a07e2ada21a301b383f3",
+    "originalSha256": "969f5528ffe1224f5c9a9e1fb3f415f184a808993de7df1432340ed3212e4046",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A generic DHC-2 Beaver-type single-engine HIGH-WING floatplane just settled on a quiet lake. One nose propeller, high wing with support struts, EXACTLY TWO long parallel floats below fuselage attached by plausible struts, both floats touch water leaving two modest wakes. Conventional tail, full wings and float tips inside wide frame, no third float, no boat-like extra body under plane, no wheels on water. Remote lake shore.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "46b564c73c22ed113fcde640b94759b61c9b0cc2a0a9a07e2ada21a301b383f3",
+      "originalSha256": "969f5528ffe1224f5c9a9e1fb3f415f184a808993de7df1432340ed3212e4046",
+      "referenceUrls": [
+        "https://dehavilland.com/about/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "고익과 단발 프로펠러, 기체에 지지대로 연결된 두 플로트가 물에 닿는다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "비버 계열을 참고한 일반 그림으로 창문 등 세부 형상은 특정 기체와 동일하지 않을 수 있다."
+    }
+  },
+  {
+    "modelId": "glider",
+    "filename": "glider-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 길고 가느다란 날개로 바람을 타요",
+    "viewLabel": "AI 제작 그림 · 길고 가느다란 날개로 바람을 타요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "0b47ec25aed9ff746671cdafd3257f123c4bb136495a2b720d8bcf6f3742c670",
+    "originalSha256": "c79522a01acbfd3a9d550fecc4fd058f3f0785c7b26047bff3b939e6942b24ac",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. One unpowered sailplane glider silently soaring over green hills. Very long slender straight tapered wings attached to narrow smooth fuselage, small clear cockpit, attached conventional tailplane and fin. Whole aircraft including both long wingtips wholly within landscape frame with generous margin. NO engine, propeller, exhaust or external jet nacelles. Gentle bank shows wing structure, no impossible second pair of main wings.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "0b47ec25aed9ff746671cdafd3257f123c4bb136495a2b720d8bcf6f3742c670",
+      "originalSha256": "c79522a01acbfd3a9d550fecc4fd058f3f0785c7b26047bff3b939e6942b24ac",
+      "referenceUrls": [
+        "https://airandspace.si.edu/learn/programs/soar-together/model"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "긴 양쪽 날개와 꼬리날개가 동체에 연결되어 있으며 보이는 엔진 없이 활공한다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "정확한 기종 재현이 아닌 일반 글라이더다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "skycrane-s64",
+    "filename": "skycrane-s64-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 몸 아래 탱크의 물로 숲의 불을 꺼요",
+    "viewLabel": "AI 제작 그림 · 몸 아래 탱크의 물로 숲의 불을 꺼요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "7de24d30fa67da4ca035f456efec590355004c8e332a529a229669079bd982f8",
+    "originalSha256": "14511516747b720a9f8793695053906efd2f5821354be9a13bfe2ecd3067f539",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. An S-64-type civilian skycrane firefighting helicopter flying above forest edge, dumping water from a firmly attached belly WATER TANK. Skeletal narrow central fuselage, cockpit front, six-bladed single large main rotor, long tailboom with tail rotor, tall fixed landing gear legs. Coherent wide water curtain begins at belly tank bottom doors and falls straight down toward small distant smoky clearing. No water through cab or engines, no bucket on cable, full helicopter inside frame. No people or dramatic flames.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "7de24d30fa67da4ca035f456efec590355004c8e332a529a229669079bd982f8",
+      "originalSha256": "14511516747b720a9f8793695053906efd2f5821354be9a13bfe2ecd3067f539",
+      "referenceUrls": [
+        "https://ericksoninc.com/case-studies/aphrodite-hails-from-the-sky/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "길고 가는 몸체와 메인·꼬리 로터, 기체 아래 탱크와 산불 쪽으로 떨어지는 물이 보인다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "탱크 부착부와 착륙장치의 반대편 세부는 시점상 일부 가려진 일반 그림이다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "icebreaker",
+    "filename": "icebreaker-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 두꺼운 앞머리로 얼음을 깨고 길을 내요",
+    "viewLabel": "AI 제작 그림 · 두꺼운 앞머리로 얼음을 깨고 길을 내요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "53d697ff17e5fdf4b23bdc0b7fb413f292fe03978d1b8e9e122f023c809afff1",
+    "originalSha256": "fa9502af6de72b18578444dab75615fdc87afc9af283b3c51c8d6b70e20ad4bd",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A sturdy civilian icebreaker ship actively breaks a thin sea-ice sheet. Strong rounded sloping bow rises slightly onto ice edge, fractured polygonal ice pieces separate alongside bow and sides; open dark water channel trails behind stern. Whole hull visible in three-quarter side view, hull floats partially submerged, not a land vehicle on solid ice. Modest frozen sea, no weapons or people.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "53d697ff17e5fdf4b23bdc0b7fb413f292fe03978d1b8e9e122f023c809afff1",
+      "originalSha256": "fa9502af6de72b18578444dab75615fdc87afc9af283b3c51c8d6b70e20ad4bd",
+      "referenceUrls": [
+        "https://www.canada.ca/en/canadian-coast-guard/programs/icebreaking-canada.html"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "선수가 얼음에 맞닿고 부서진 얼음과 선미 뒤 열린 물길이 보인다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "실제 선박의 쇄빙 성능과 빙판 두께는 그림만으로 알 수 없다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "research-submarine",
+    "filename": "research-submarine-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 조명과 작은 팔로 깊은 바다를 살펴봐요",
+    "viewLabel": "AI 제작 그림 · 조명과 작은 팔로 깊은 바다를 살펴봐요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "d38a2390b9c7c5366cdcae23e134627ed8d485c6fccc9b6f8dea00dfcfd9da11",
+    "originalSha256": "10c5496a027ab330218738459a6ec13a48eb8cc35d8cdeb564def2adc03951df",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A compact civilian crewed research submersible similar in general purpose to Alvin, exploring seafloor. Compact pressure-hull body with THREE small round forward observation portholes, attached floodlights shining down to rocks and a small short jointed manipulator arm holding a pebble above sample basket. Skids near seabed without crushing life; a few simple deep sea animals in background. No huge glass dome, no military torpedoes, no fish inside pressure hull, no disconnected arm.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 검수",
+      "sha256": "d38a2390b9c7c5366cdcae23e134627ed8d485c6fccc9b6f8dea00dfcfd9da11",
+      "originalSha256": "10c5496a027ab330218738459a6ec13a48eb8cc35d8cdeb564def2adc03951df",
+      "referenceUrls": [
+        "https://www2.whoi.edu/site/deepsubmergencelab/vehicles/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "둥근 관측창과 조명, 해저 표본에 닿는 집게 팔이 보인다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
+      "limitations": "관측창과 내부 인물 배치는 실제 앨빈의 정밀 재현이 아닌 일반 유인 연구 잠수정 그림이다. 일반 교육용 AI 그림이다."
+    }
+  },
+  {
+    "modelId": "vacuum-sewer-truck",
+    "filename": "vacuum-sewer-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 굵은 호스를 맨홀에 내려 찌꺼기를 빨아들여요",
+    "viewLabel": "AI 제작 그림 · 굵은 호스를 맨홀에 내려 찌꺼기를 빨아들여요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "ca4e615df1e00cc57a723cd8655893e7d1eec646a89e0bf1ffc9920773e44dfc",
+    "originalSha256": "b4cbc28e3eda9d1ff009c8386ca860b25e17c02a378825277d1b5cc370fe30f5",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A civilian sewer vacuum cleaning truck parked beside an open circular manhole on a closed quiet road. Cylindrical debris tank on chassis, attached overhead articulated hose boom supports ONE thick dark flexible vacuum hose hanging vertically into manhole, hose continuous into sealed tank inlet. Wheels stable on road away from hole, tank and overhead hose visible. No transparent cutaway, no people, no spraying sewage, no hose ending in air.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "ca4e615df1e00cc57a723cd8655893e7d1eec646a89e0bf1ffc9920773e44dfc",
+      "originalSha256": "b4cbc28e3eda9d1ff009c8386ca860b25e17c02a378825277d1b5cc370fe30f5",
+      "referenceUrls": [
+        "https://www.aquatechinc.com/products/b12/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 차대 위 원통형 잔재 탱크와 회전식 붐이 보이고, 굵은 진공 호스가 붐 끝에서 맨홀 안으로 내려간다. 탱크 상부의 흡입 연결부도 보이며 청소 작업이 명확하다. 바퀴는 맨홀에서 떨어진 노면에 놓여 있고 차량 전체가 프레임 안에 있다. 제조사 B-12 자료의 탱크·진공 붐·호스 구조와 부합한다.",
+      "limitations": "실제 하수나 빨려드는 잔재는 표현하지 않아 재료 흐름은 직접 보이지 않는다. 물 분사 제트는 없으므로 이 그림을 제트 분사 동작의 예로 소개하지 않는다. 특정 제조사 모델은 아니다."
+    }
+  },
+  {
+    "modelId": "milk-tanker-truck",
+    "filename": "milk-tanker-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 농장의 우유를 호스로 받아 탱크에 담아요",
+    "viewLabel": "AI 제작 그림 · 농장의 우유를 호스로 받아 탱크에 담아요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "8ce11c48a2ffba6c8dd9aff06b498395655c243a4caec119951d7e1d4807cbc3",
+    "originalSha256": "d22e7e5dcd32046c3aa009120822c7565d722932e430a1d947b912948232c2d3",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A clean food-grade milk tanker truck collecting milk at a dairy farm. Shiny enclosed insulated cylindrical stainless tank on grounded road chassis, ONE sanitary hose visibly joins a small farm milk-room wall outlet to lower tank inlet manifold with closed coupling. No open milk pouring or visible tank contents, no gasoline flame symbols, simple barn in background. Full vehicle and hose connection visible, clean paved area.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "8ce11c48a2ffba6c8dd9aff06b498395655c243a4caec119951d7e1d4807cbc3",
+      "originalSha256": "d22e7e5dcd32046c3aa009120822c7565d722932e430a1d947b912948232c2d3",
+      "referenceUrls": [
+        "https://carrick-engineering.com/milk-collection-tanker/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 위생용 호스가 농장 건물의 우유 출구에서 탱크차 측면 아래쪽 연결부까지 이어지고 닫힌 커플링으로 연결된다. 닫힌 원통형 탱크가 바퀴 달린 차대에 고정되어 있으며 우유가 밖으로 흐르거나 탱크 안 내용이 보이지 않는다. 농장 수거 장면과 전체 차체가 잘 읽힌다.",
+      "limitations": "호스 안의 우유 흐름이나 탱크 내부는 보이지 않는다. 차대와 탱크 사이의 연결 구조는 대부분 덮개 안에 있다. 특정 제조사 모델은 아니다."
+    }
+  },
+  {
+    "modelId": "aerial-work-platform-truck",
+    "filename": "aerial-work-platform-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 팔 끝의 작업 바구니를 높은 곳에 맞춰요",
+    "viewLabel": "AI 제작 그림 · 팔 끝의 작업 바구니를 높은 곳에 맞춰요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "95fd2b856e00d2be327cebd1137278e52115e069317489420457cfceb5bc15f5",
+    "originalSha256": "908322d238a65223072e15780d2179ace17eba1682bc7bafbaa6b8c13a643a83",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A truck-mounted articulated aerial work platform parked by a street light on a quiet closed roadside. Attached articulated boom raises an EMPTY small basket with solid floor and guardrails next to lamp, no electrical contact. Visible deployed outriggers grounded on square pads, level stable chassis, full truck and boom basket inside wide frame. Basket attached by leveling linkage and remains horizontal, no ladder, no suspended person.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "95fd2b856e00d2be327cebd1137278e52115e069317489420457cfceb5bc15f5",
+      "originalSha256": "908322d238a65223072e15780d2179ace17eba1682bc7bafbaa6b8c13a643a83",
+      "referenceUrls": [
+        "https://www.palfinger.com/gb/en/our-products/aerial-platforms/aerial-work-platforms.html"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 트럭 차대에 관절식 붐이 연결되고 붐 끝의 빈 바구니가 수평으로 유지되어 가로등 옆에 올라가 있다. 여러 지지대가 지면 패드에 닿고 차체가 수평을 유지한다. 사다리차 형태가 아니며, 사람을 태운 바구니를 높이는 고소작업차로 식별된다.",
+      "limitations": "바구니가 가로등에 닿지 않아 실제 수리 도구나 작업자는 표현하지 않는다. 전선이나 조명과 접촉하지 않는다는 점은 안전한 예시로 적절하다. 특정 제조사 모델은 아니다."
+    }
+  },
+  {
+    "modelId": "road-marking-truck",
+    "filename": "road-marking-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 노면 가까운 장치로 길에 선을 그려요",
+    "viewLabel": "AI 제작 그림 · 노면 가까운 장치로 길에 선을 그려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "148a684e9d65292ff84ab1c8d2c3d86218c08d60eaef455d7c78f084254075af",
+    "originalSha256": "6a1dca1ce4b22fd95e516a3f7cfa26809dfca39b55d05c97c1098fb637a03bbc",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A road-marking truck paints ONE straight fresh white line on smooth asphalt at a closed quiet worksite. Small side-mounted spray gun assembly connected to paint supply on chassis, nozzle held very close to road; narrow coherent paint stream reaches road immediately under nozzle and crisp white line trails behind. Ahead of nozzle asphalt unmarked. No paint spraying high in air or far away, no text or arrows.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "148a684e9d65292ff84ab1c8d2c3d86218c08d60eaef455d7c78f084254075af",
+      "originalSha256": "6a1dca1ce4b22fd95e516a3f7cfa26809dfca39b55d05c97c1098fb637a03bbc",
+      "referenceUrls": [
+        "https://trysilrmm.com/products/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 차체의 도료 공급 장치에서 호스가 노면 가까운 분사 장치까지 연결되고 흰색 분사 흔적이 바로 아래 노면에 닿는다. 분사 장치 뒤로 곧고 선명한 흰 선이 이어지며 앞쪽 노면은 비어 있다. 차체와 차선 도색 작업이 명확하다. Trysil 자료의 트럭 탑재 분사/차선 도색 장비 설명과 부합한다.",
+      "limitations": "분사 흔적은 매우 작아 모바일 축소 화면에서 잘 안 보일 수 있다. 도료 공급 탱크와 노즐 지지부는 그림을 단순화했다. 실제 재료가 열가소성인지 차가운 도료인지는 그림만으로 알 수 없으며 특정 모델도 아니다."
+    }
+  },
+  {
+    "modelId": "railway-tamping-machine",
+    "filename": "railway-tamping-machine-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 침목 아래 자갈을 눌러 선로를 다져요",
+    "viewLabel": "AI 제작 그림 · 침목 아래 자갈을 눌러 선로를 다져요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "7f7d7d5511f317cb5639b108b9c61da19931d5de96e0525cccaa70fb3e52e8ef",
+    "originalSha256": "869fff9c9a86f74c846db38b608f540e380ecec07bf907be66211b5755304f3e",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A self-propelled railway tamping maintenance machine working on TWO straight railway rails. Steel flanged rail wheels sit on rails. Central tamping head lowered between wheelsets: paired slender steel tamping tines insert into ballast on BOTH sides of a visible concrete sleeper, squeeze gravel beneath sleeper; rails and sleeper supported on ballast. No road tires, no giant excavator arm, no tines cutting rail, no track gaps. Whole machine in simple railway scene.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "7f7d7d5511f317cb5639b108b9c61da19931d5de96e0525cccaa70fb3e52e8ef",
+      "originalSha256": "869fff9c9a86f74c846db38b608f540e380ecec07bf907be66211b5755304f3e",
+      "referenceUrls": [
+        "https://www.plassertheurer.com/en/machine/track-tamping-machines/overview"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 양쪽 레일에 플랜지 달린 레일바퀴가 놓이고 선로는 연속되어 있다. 중앙 헤드가 내려와 콘크리트 침목 양쪽의 자갈에 한 쌍의 탐침을 넣는다. 탐침은 레일을 자르거나 침목을 관통하지 않는다. 전체 차량과 작업 헤드, 레일·침목·자갈의 관계가 명확하다. Plasser & Theurer 자료의 선로 위치를 바로잡는 침목 다짐 작업과 일치한다.",
+      "limitations": "침목 아래 자갈이 눌리는 재료 이동은 그림에서 뚜렷하게 표현되지 않는다. 헤드 세부 형상은 단순화한 일반 예시로, 특정 제조사 모델을 뜻하지 않는다."
+    }
+  },
+  {
+    "modelId": "airport-hydrant-dispenser",
+    "filename": "airport-hydrant-dispenser-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 땅속 급유관에서 온 연료를 호스로 보내요",
+    "viewLabel": "AI 제작 그림 · 땅속 급유관에서 온 연료를 호스로 보내요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "4abfa3491fed2f5205babb80f4ed135fab416708510e7371a7c85efb927fa81b",
+    "originalSha256": "1409ef82d98431282cde4289d5ab8efcc1303b5a3ab406ffdb952a1ce6d9cde0",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A TANKLESS airport fuel hydrant dispenser truck beside a parked generic passenger aircraft. Compact low utility chassis with visible pump/flow-meter cabinet and coiled hoses, NO huge fuel tank. One hose runs from chassis manifold DOWN to a closed hydrant pit coupling on ground; another delivery hose runs from separate manifold port UP to sealed underwing fuel connection on plane. Both hoses continuous, no fuel stream or spill, no people. Aircraft wing occupies background and does not touch truck.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "4abfa3491fed2f5205babb80f4ed135fab416708510e7371a7c85efb927fa81b",
+      "originalSha256": "1409ef82d98431282cde4289d5ab8efcc1303b5a3ab406ffdb952a1ce6d9cde0",
+      "referenceUrls": [
+        "https://www.atcomex.eu/aircraft-refuelling/",
+        "https://www.munich-airport.com/resource-protection-18612502"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 큰 연료 탱크 없이 낮은 장비 차체와 펌프/계량 캐비닛이 보인다. 별도 호스 하나가 차체에서 지면의 급유 피트 연결부까지 이어지고, 다른 호스는 차체에서 비행기 날개 아래 급유구까지 이어진다. 두 호스 모두 양 끝이 장치에 연결되어 있으며 연료 누출이나 공중에 끝나는 호스가 없다. 탱크 없는 하이드런트 디스펜서의 용도와 부합한다.",
+      "limitations": "급유 피트와 날개 아래 연결구가 크게 그려졌고 실제 규격·배치는 단순화되어 있다. 작동 중 연료 흐름은 보이지 않으며 특정 제조사 모델은 아니다."
+    }
+  },
+  {
+    "modelId": "airport-catering-truck",
+    "filename": "airport-catering-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 상자형 적재함을 비행기 문 높이로 올려요",
+    "viewLabel": "AI 제작 그림 · 상자형 적재함을 비행기 문 높이로 올려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "fd206765c85195ab8dc0521d72e1b19b329077e4dc28513291636cf9e0d9bf79",
+    "originalSha256": "1d4cd42d14006bb6d98f2d6846382875acb17d4361bfe64a05e071dc39270c48",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. An airport catering highloader truck delivers food to a parked passenger jet. Grounded truck with attached sturdy SCISSOR LIFT raises ONE enclosed rectangular cargo box to side service door height. Short level guarded transfer platform bridges small gap between box front and aircraft service door, all supported. A single small food trolley sits inside box on level floor, not floating. Truck cab remains low below box, visible grounded stabilizer pads, no people, no impossible truck on airplane wing.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "fd206765c85195ab8dc0521d72e1b19b329077e4dc28513291636cf9e0d9bf79",
+      "originalSha256": "1d4cd42d14006bb6d98f2d6846382875acb17d4361bfe64a05e071dc39270c48",
+      "referenceUrls": [
+        "https://www.doll-airport.com/en/catering-highloader.html"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 바퀴 달린 트럭 차대 위의 가위식 리프트가 하나의 닫힌 식품 상자를 들어 올린다. 상자 안의 음식 카트는 바닥에 놓여 있고 떠 있지 않다. 지지대가 지면에 닿아 있으며, 상자 앞 플랫폼이 기체 서비스 문 높이에서 기체 쪽으로 이어진다. 객실 문과 화물 상자 위치가 식품 공급 장면으로 읽힌다. DOLL 공식 자료의 가위식 승강 적재함과 부합한다.",
+      "limitations": "서비스 문과 차량 간 간격·플랫폼 세부는 그림에서 단순화되어 있다. 적재함이 절연되어 있는지는 외관만으로 확인할 수 없다. 특정 제조사 모델은 아니다."
+    }
+  },
+  {
+    "modelId": "airport-stair-truck",
+    "filename": "airport-stair-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 비행기 문에 계단을 맞춰요",
+    "viewLabel": "AI 제작 그림 · 비행기 문에 계단을 맞춰요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "ce76a5c0e3c64969c23c40135da8628b6de0bd39428f626e207d01995860a165",
+    "originalSha256": "4c96fb7dd835c7f350d252480891f54b68053b26d8cb592e8095a9896f099c49",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A self-propelled airport passenger stair truck positioned at a parked passenger jet door. One continuous inclined staircase rises from low ground-level first step to horizontal upper landing aligned with open side door. Handrails BOTH sides, stairs supported by attached height-adjustable chassis with wheels and grounded stabilizer feet. Empty stairs, no people. Wing and engine must not block staircase; passenger door in forward fuselage, no stairs leading to cockpit windshield. Full stair truck visible.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna (independent visual review)",
+      "sha256": "ce76a5c0e3c64969c23c40135da8628b6de0bd39428f626e207d01995860a165",
+      "originalSha256": "4c96fb7dd835c7f350d252480891f54b68053b26d8cb592e8095a9896f099c49",
+      "referenceUrls": [
+        "https://milesgse.com/passenger-stairs"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "PNG와 JPEG를 각각 직접 확인. 지면의 첫 계단부터 항공기 측면 승객 문 앞의 수평 상부 발판까지 하나의 연속된 계단이 이어진다. 양쪽 난간이 있고, 계단은 바퀴가 달린 차체와 높이 조절 지지대에 연결되어 있다. 바퀴가 지면에 닿고 지지 발도 내려와 있다. 계단은 조종석 창이 아닌 객실 문으로 연결된다.",
+      "limitations": "큰 여객기와 계단의 비율은 도감용으로 단순화되어 있다. 사람이 올라가거나 내려가는 동작은 표현하지 않았다. 특정 제조사 모델은 아니다."
+    }
+  },
+  {
+    "modelId": "dump-truck",
+    "filename": "dump-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 짐칸을 들어 올려 모래를 내려요",
+    "viewLabel": "AI 제작 그림 · 짐칸을 들어 올려 모래를 내려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "eee7be2a109bebf2be78df35de0344c9ecd51f8b680c7da7c02a36dbc2aa26be",
+    "originalSha256": "6d8225a8831bcd21d4bc2b48e17f48af1737f278978754ecdafecbbc715da860",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A conventional rigid dump truck unloads sand. Cab at LEFT, rear bed at RIGHT tilted about rear hinge at far RIGHT. Visible hydraulic hoist supports raised bed front. Open tailgate at rear lets a coherent sand flow fall onto ground pile behind RIGHT, not cab. All wheels on firm level ground, full truck and bed tip in frame. Clearly ordinary road dump truck, not articulated.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "eee7be2a109bebf2be78df35de0344c9ecd51f8b680c7da7c02a36dbc2aa26be",
+      "originalSha256": "6d8225a8831bcd21d4bc2b48e17f48af1737f278978754ecdafecbbc715da860",
+      "referenceUrls": [
+        "https://rent.cat.com/en_US/articles/construction-equipment-names?isLanguageMaster=true"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "올라간 짐칸, 지지 실린더와 뒤로 흘러내리는 모래가 보인다.",
+      "limitations": "유압 부품을 단순화한 교육용 그림이다."
+    }
+  },
+  {
+    "modelId": "tower-crane",
+    "filename": "tower-crane-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 높은 탑과 긴 팔로 건축 자재를 들어요",
+    "viewLabel": "AI 제작 그림 · 높은 탑과 긴 팔로 건축 자재를 들어요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "1c1879034979181ce7fb2f92e75ffee189df2aa58b5e39f9efc9460a8a43ee6d",
+    "originalSha256": "90583201ecfa9b02f97944fed3954eb793928315973d4bd8447f829aca42d348",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A fixed tower crane on a stable concrete foundation lifts ONE modest pallet of building blocks beside unfinished low-rise structure. Vertical lattice mast with slewing unit, long horizontal working jib on one side, SHORT counterjib with counterweights opposite. Trolley on working jib, taut vertical hoist cable to hook, balanced two-leg sling to pallet lifting frame. Suspended load low, no people, full mast and complete jib inside wide frame with margins. No vehicle wheels, no dangling counterweight.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "1c1879034979181ce7fb2f92e75ffee189df2aa58b5e39f9efc9460a8a43ee6d",
+      "originalSha256": "90583201ecfa9b02f97944fed3954eb793928315973d4bd8447f829aca42d348",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-gb/group/products/solutions/heavy-duty-cranes/heavy-duty-cranes-4715547"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "수직 탑, 지브, 카운터웨이트, 줄에 매달린 자재가 보인다.",
+      "limitations": "장비 세부구조와 인양 장치는 단순화된 그림이다."
+    }
+  },
+  {
+    "modelId": "crawler-crane",
+    "filename": "crawler-crane-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 궤도로 몸을 받치고 큰 자재를 들어요",
+    "viewLabel": "AI 제작 그림 · 궤도로 몸을 받치고 큰 자재를 들어요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "f52e382d97d2df7e9d1a4fe0c581235d5f2b2e7a8381bfcff4faf16008ee0942",
+    "originalSha256": "229d604ac4921d8db62562b8b17c7e3681eb76e5d31573e9c59a5bcf5d7ba490",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A lattice-boom crawler crane lifts ONE modest steel beam at a flat worksite. TWO continuous crawler tracks grounded, revolving upper body with counterweight and a fully attached triangular lattice boom. Pendant support lines from gantry support boom; separate taut HOIST line runs from boom tip vertically to hook, two slings support beam evenly. Beam level and low, no outriggers or road tires, full boom and load in frame.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "f52e382d97d2df7e9d1a4fe0c581235d5f2b2e7a8381bfcff4faf16008ee0942",
+      "originalSha256": "229d604ac4921d8db62562b8b17c7e3681eb76e5d31573e9c59a5bcf5d7ba490",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-gb/mobile-and-crawler-cranes/mobile-and-crawler-cranes-4284433"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "양쪽 궤도, 격자 붐, 수직 줄과 슬링으로 지지된 보가 보인다.",
+      "limitations": "장비 세부구조는 단순화된 그림이다."
+    }
+  },
+  {
+    "modelId": "mining-haul-truck",
+    "filename": "mining-haul-truck-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 광산의 큰 바위를 짐칸에 싣고 날라요",
+    "viewLabel": "AI 제작 그림 · 광산의 큰 바위를 짐칸에 싣고 날라요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "242967c9321c314d8d71f6c3e951eaef85ee65e6cc06e2cc758a376f857bd581",
+    "originalSha256": "d0878ba9f03598c74ff3225cddec9ac9977bc3e39a5d0a7a0b2af9592dc126ec",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A giant rigid mining haul truck carries a moderate load of broken rock along a wide mine haul road. Immense rear dump body rests DOWN firmly on chassis, high front cab and access ladder, huge grounded tires. Visible load inside bed, gentle road grade, distant excavated mine benches establish work context. No raised bed driving, no tiny ordinary tires, no people close to vehicle, whole vehicle with margins.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "242967c9321c314d8d71f6c3e951eaef85ee65e6cc06e2cc758a376f857bd581",
+      "originalSha256": "d0878ba9f03598c74ff3225cddec9ac9977bc3e39a5d0a7a0b2af9592dc126ec",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/by-industry/cross-industry-resources/hauling.html"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "큰 바퀴, 높은 운전실과 내려놓은 짐칸의 돌이 보인다.",
+      "limitations": "채석장 주행의 연출이며 실제 장비 제원 검증은 아니다."
+    }
+  },
+  {
+    "modelId": "forest-harvester",
+    "filename": "forest-harvester-work-20261104-v3.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 팔 끝의 수확 장치로 나무줄기를 잡아요",
+    "viewLabel": "AI 제작 그림 · 팔 끝의 수확 장치로 나무줄기를 잡아요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "7cac1bd3e0c1cf5a6d5d4c76973d6c3ac58863d6a766aff11fe06bd67fb6d0e8",
+    "originalSha256": "c42669899d12ce82b546c57fd49ee5dcb982176b099353fb0aeba6216135dbda",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads.  A wheeled forestry harvester firmly HOLDS ONE already-felled horizontal tree trunk low above forest ground with its harvesting head, preparing to process it. Full main wheeled forestry machine behind, its connected hydraulic boom reaches an ATTACHED COMPACT BOX-LIKE HARVESTING HEAD near foreground. TWO curved delimbing knife arms close from opposite sides around OUTSIDE of trunk, clearly cradling wood in central open channel. The head's feed rollers and saw drive are CONCEALED behind solid yellow side guards: DO NOT show any feed roller, wheel, donut, ring or roller hub near the trunk. Trunk passes through OPEN CENTER BETWEEN curved metal knife arms, never through a solid wheel or a side guard. Black box-shaped chain-saw housing below head, only exterior visible, no exposed spinning chain needed. Small pile of trimmed branches beside log, no timber floating ungripped. Focus on ATTACHED HEAD GRIPPING TRUNK, not hidden internal feed mechanics. Generic forestry harvesting machine, no timber forwarder bunk. No people, no standing/falling tree, no dramatic sparks. Simple clear external operation view.",
+      "imageInputs": false,
+      "version": 3,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "7cac1bd3e0c1cf5a6d5d4c76973d6c3ac58863d6a766aff11fe06bd67fb6d0e8",
+      "originalSha256": "c42669899d12ce82b546c57fd49ee5dcb982176b099353fb0aeba6216135dbda",
+      "referenceUrls": [
+        "https://www.komatsuforest.com/forest-machines/our-harvester-heads/c93"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다. 곡선 날로 줄기를 잡는 모습만 설명하며 내부 이송·절단 작동을 주장하지 않는다.",
+      "independentNotes": "관절 붐 끝에 연결된 수확 헤드의 양쪽 곡선 날이 줄기 둘레를 잡고 있다. 유압 호스와 지지 구조가 보인다.",
+      "limitations": "내부 이송 롤러와 절단 장치 작동은 가려져 확인할 수 없으므로 줄기를 잡는 장면으로만 설명한다. 장비와 목재는 단순화된 그림이다."
+    }
+  },
+  {
+    "modelId": "pile-driver",
+    "filename": "pile-driver-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 높은 기둥의 해머로 말뚝을 땅에 박아요",
+    "viewLabel": "AI 제작 그림 · 높은 기둥의 해머로 말뚝을 땅에 박아요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "c2b4bc44fd8dddec48b9ee1922fc50b561c70487f3055bd400c9e6e00300d7fb",
+    "originalSha256": "859896a88b6d67e93758fd5d48b3b8593ff2c87a8d4752ae3fde49eec5f3541b",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A crawler-mounted impact pile driving rig drives ONE straight steel pile vertically into level ground. Attached tall leader mast guides a distinct drop/impact HAMMER sitting atop pile, pile projects below hammer into soil. Not rotary drilling: NO auger, bucket or rotating drill. Continuous guide/hammer/pile alignment visible, two grounded tracks, full top mast in tall landscape composition with enough sky margins, simple foundation site.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "c2b4bc44fd8dddec48b9ee1922fc50b561c70487f3055bd400c9e6e00300d7fb",
+      "originalSha256": "859896a88b6d67e93758fd5d48b3b8593ff2c87a8d4752ae3fde49eec5f3541b",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-us/mobile-and-crawler-cranes/crawler-cranes/lr-crawler-cranes/applications/deep_foundatin_1-4407428"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "궤도 차체와 수직 리더, 해머와 지면에 닿는 말뚝이 정렬되어 보인다.",
+      "limitations": "충격 방향 등 세부 기구는 단순화한 그림이다."
+    }
+  },
+  {
+    "modelId": "bucket-wheel-excavator",
+    "filename": "bucket-wheel-excavator-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 큰 바퀴의 바가지로 흙을 퍼 올려요",
+    "viewLabel": "AI 제작 그림 · 큰 바퀴의 바가지로 흙을 퍼 올려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "0530e131507b7df7f95f4fa3fd5adde366f7cbc1dc90eb0c7da5ca8f3bc1688c",
+    "originalSha256": "1009d3fffa581256df097f964a8e238b5109568b5dedaa5b321f3a3e0d9f247c",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A giant bucket-wheel excavator working a LOW open-pit bank. Large rotating wheel at end of long lattice boom carries evenly spaced scoop BUCKETS around rim; lower front quadrant bites visibly into brown bank. Scooped earth visibly on a coherent conveyor belt ALONG boom leading back toward main grounded multi-crawler body and rear discharge conveyor with a small soil stream. Show external task only, no impossible wheel floating separate from boom. Whole main wheel/boom/body inside wide frame, no people or brand.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "0530e131507b7df7f95f4fa3fd5adde366f7cbc1dc90eb0c7da5ca8f3bc1688c",
+      "originalSha256": "1009d3fffa581256df097f964a8e238b5109568b5dedaa5b321f3a3e0d9f247c",
+      "referenceUrls": [
+        "https://www.takraf.com/portfolio/detail/bucket-wheel-excavators/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "버킷들이 토사면에 닿고 긴 벨트와 반대편 배출 장면이 보인다.",
+      "limitations": "내부 이송 연결부와 벨트 방향은 그림만으로 확인하기 어렵다."
+    }
+  },
+  {
+    "modelId": "city-bus",
+    "filename": "city-bus-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 정류장에서 문을 열고 승객을 태워요",
+    "viewLabel": "AI 제작 그림 · 정류장에서 문을 열고 승객을 태워요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "6c3986bc56ae3fe330ad750d52a60bb5169c12f0495a501909c00ee808ec86ab",
+    "originalSha256": "8f74a72469344e3d5682eb2e31ef989610563f28a77680faa33d909a81723e7c",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A conventional modern low-floor city bus stopped parallel to a quiet curbside bus stop. Front passenger door OPEN with low entry step aligned with sidewalk; all wheels grounded on road, simple sign pole without text. Bus body long single rigid section, no second floor or accordion joint. A few empty seats visible through windows, no passengers required. Clear side-front three-quarter full vehicle and stop context.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "6c3986bc56ae3fe330ad750d52a60bb5169c12f0495a501909c00ee808ec86ab",
+      "originalSha256": "8f74a72469344e3d5682eb2e31ef989610563f28a77680faa33d909a81723e7c",
+      "referenceUrls": [
+        "https://www.newflyer.com/site-content/uploads/2021/03/Xcelsior-CHARGE-NG-Brochure-2021.pdf"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "승강장 옆에 시내버스가 서 있고 문이 열려 있다.",
+      "limitations": "정지 그림으로 진입 동작은 확인 불가; 정류장에 서서 문을 열었다고 표현한다."
+    }
+  },
+  {
+    "modelId": "double-decker-bus",
+    "filename": "double-decker-bus-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 위층과 아래층에 사람들을 태우고 달려요",
+    "viewLabel": "AI 제작 그림 · 위층과 아래층에 사람들을 태우고 달려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "eb87b74443d8ef22fc4b4ac08c2a3b6640632a3a8d307f7b6c724d30dd335327",
+    "originalSha256": "91acdc92e88a260e47e2ae35f1be226b34aec79ee07863d0c5f4005ebe782dbb",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A civilian double-decker city bus travels a simple urban road. TWO distinct levels of passenger windows above each other, entry door at lower level, internal stairs subtly visible near entrance but no cutaway. All wheels grounded, whole tall bus and roof in frame with street context. No vehicle stacked on vehicle, no third floor or impossible tiny wheelbase.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "eb87b74443d8ef22fc4b4ac08c2a3b6640632a3a8d307f7b6c724d30dd335327",
+      "originalSha256": "91acdc92e88a260e47e2ae35f1be226b34aec79ee07863d0c5f4005ebe782dbb",
+      "referenceUrls": [
+        "https://www.alexander-dennis.com/buses/enviro400/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "위아래 두 층의 창문과 계단이 보인다.",
+      "limitations": "운전자가 표현되지 않은 교육용 그림이다."
+    }
+  },
+  {
+    "modelId": "articulated-bus",
+    "filename": "articulated-bus-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 가운데 주름진 연결부로 긴 차체를 이어요",
+    "viewLabel": "AI 제작 그림 · 가운데 주름진 연결부로 긴 차체를 이어요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "537524e76f238fa69fb0bcf51966ba55bfd2ad26a9d1eda0d6541f5d1d32e2b7",
+    "originalSha256": "cce39367b48090eb66b4bf5a36a4c86b12ef8aa7e7ec90cda2aaa679057f1cfb",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A long articulated city bus negotiating a GENTLE street bend. Front and rear rigid body sections joined by ONE clearly visible flexible black accordion bellows at central hinge. Three road axles distributed normally, front section turns slightly relative to rear, wheels follow same wide curve on continuous asphalt. Whole vehicle in high side-three-quarter view, no disconnected halves, no second hinge or broken vehicle.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "537524e76f238fa69fb0bcf51966ba55bfd2ad26a9d1eda0d6541f5d1d32e2b7",
+      "originalSha256": "cce39367b48090eb66b4bf5a36a4c86b12ef8aa7e7ec90cda2aaa679057f1cfb",
+      "referenceUrls": [
+        "https://www.newflyer.com/site-content/uploads/2021/03/Xcelsior-CHARGE-NG-Brochure-2021.pdf"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "두 차체가 주름진 연결부로 이어지고 세 축의 바퀴가 지면에 닿는다.",
+      "limitations": "연결부의 세부 기구는 단순화된 그림이다."
+    }
+  },
+  {
+    "modelId": "subway-train",
+    "filename": "subway-train-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 두 레일 위로 여러 객차가 이어져 달려요",
+    "viewLabel": "AI 제작 그림 · 두 레일 위로 여러 객차가 이어져 달려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "6b6cde45738e7da56c30b6db8e93022d5582727ea9ed1b80d174842f962a6421",
+    "originalSha256": "a0bd0cdcc5b644c6a2e219b5473b58421e7ff7fc0ce3d652ecea3ffc31c24a78",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A modern subway electric multiple-unit train entering a quiet underground station slowly. Two or three connected cars on TWO continuous rails, steel wheels below bogies on rails, passenger doors CLOSED while train moving. Modest illuminated platform safely separated from track, NO PEOPLE, no driver on rails. Whole front car and clear connected next car, no road tires or steam chimney.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "6b6cde45738e7da56c30b6db8e93022d5582727ea9ed1b80d174842f962a6421",
+      "originalSha256": "a0bd0cdcc5b644c6a2e219b5473b58421e7ff7fc0ce3d652ecea3ffc31c24a78",
+      "referenceUrls": [
+        "https://www.alstom.com/press-releases-news/2026/9/alstom-completes-delivery-106-new-trains-singapores-north-south-and-east-west-mrt-lines"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "여러 출입문이 있는 열차와 선로가 보인다.",
+      "limitations": "특정 노선이나 차량 모델을 묘사한 그림은 아니다."
+    }
+  },
+  {
+    "modelId": "canoe",
+    "filename": "canoe-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 한쪽 날이 달린 노를 저어 나아가요",
+    "viewLabel": "AI 제작 그림 · 한쪽 날이 달린 노를 저어 나아가요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "62eb259bdbe8218cad4db8bc35d4ec903b8700d96f21e846de7bc555ab534f06",
+    "originalSha256": "bb1dcc9c0b24a673507ec6f3dc5dec17ade86615fa54b9710fd83c86d50b8743",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. An open canoe glides on calm lake. One adult near bow and one adult near stern wearing simple life jackets sit LOW inside hull, each holding ONE single-bladed paddle correctly: one hand on top grip, other lower shaft. Two paddles on OPPOSITE sides enter water beside canoe, small coherent ripples and wake behind. Open hull, pointed ends, no outriggers, no double-bladed kayak paddle, no standing people. Simple distant wooded shore, full canoe.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "62eb259bdbe8218cad4db8bc35d4ec903b8700d96f21e846de7bc555ab534f06",
+      "originalSha256": "bb1dcc9c0b24a673507ec6f3dc5dec17ade86615fa54b9710fd83c86d50b8743",
+      "referenceUrls": [
+        "https://home.nps.gov/thingstodo/kayaking-and-kayak-safety.htm"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "열린 선체와 한쪽 날의 노, 구명조끼가 보인다.",
+      "limitations": "교육용으로 단순화한 작업 장면이다."
+    }
+  },
+  {
+    "modelId": "sailboat",
+    "filename": "sailboat-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 펼친 돛이 바람을 받아 배를 움직여요",
+    "viewLabel": "AI 제작 그림 · 펼친 돛이 바람을 받아 배를 움직여요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "555b6d6f8c91c03bd97d2c3cb1d5e40b3fe0e9595aedff2a47cea38d75696f15",
+    "originalSha256": "845122b31434a14ecae958d0d7a0da8cd55632cc199cb8fb75090006b053c0f4",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A small conventional monohull sailing yacht moving gently across blue water. One mast firmly attached to hull, ONE triangular mainsail attached along mast and boom, ONE triangular jib forward supported between bow and masthead. Standing rigging taut, boom attached mast, sails modestly filled, small wake behind. Whole boat and mast top in frame, no detached floating sail or giant propulsion jet, no people needed.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "555b6d6f8c91c03bd97d2c3cb1d5e40b3fe0e9595aedff2a47cea38d75696f15",
+      "originalSha256": "845122b31434a14ecae958d0d7a0da8cd55632cc199cb8fb75090006b053c0f4",
+      "referenceUrls": [
+        "https://www.nps.gov/teachers/classrooms/sailing-for-the-new-world.htm"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "돛대에 달린 두 돛과 물에 뜬 선체, 뒤쪽 물결이 보인다.",
+      "limitations": "사람과 조작 과정은 보이지 않으며 돛과 로프는 단순화되었다."
+    }
+  },
+  {
+    "modelId": "launch-rocket",
+    "filename": "launch-rocket-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 아래로 가스를 내뿜어 우주로 올라가요",
+    "viewLabel": "AI 제작 그림 · 아래로 가스를 내뿜어 우주로 올라가요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "a68c7eddd5401f191547643904948f25aa7f7d068f3519503445eabee858ad41",
+    "originalSha256": "94724547137403f630c5d17217877f47102fcebdd9058de7b560572962589a7b",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A generic civilian orbital launch rocket lifts straight UP from an open launch pad. Tall upright body with smooth nose, restrained simple stages, exhaust flame and hot gas come ONLY from bottom engines downward onto flame trench, thick smoke spreads along ground below. Rocket clear of pad support, full nose and exhaust base visible in tall landscape composition. No space shuttle wings, no bombs or missiles, no flame from nose, no people. Educational launch scene not any exact mission.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "a68c7eddd5401f191547643904948f25aa7f7d068f3519503445eabee858ad41",
+      "originalSha256": "94724547137403f630c5d17217877f47102fcebdd9058de7b560572962589a7b",
+      "referenceUrls": [
+        "https://www.nasa.gov/kennedy/launch-services-program/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "발사대 위로 떠오르는 로켓과 엔진 아래쪽으로 향하는 분출 불꽃이 보인다.",
+      "limitations": "특정 발사체가 아닌 단순화된 발사 장면이다."
+    }
+  },
+  {
+    "modelId": "lunar-rover",
+    "filename": "lunar-rover-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 달의 울퉁불퉁한 땅을 네 바퀴로 달려요",
+    "viewLabel": "AI 제작 그림 · 달의 울퉁불퉁한 땅을 네 바퀴로 달려요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "9196dd34ef243e0d8437cd95c1645f004cb2ddf19e58d34805c5906fa7f18004",
+    "originalSha256": "43307ca012c910692726317143e731b3e4872104e75e854617a1cd8856ac622f",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. An Apollo-era lunar roving vehicle on gray airless lunar terrain. FOUR wire-mesh open wheels attached suspension, open chassis, TWO empty side-by-side seats, simple steering T-handle, dish antenna and a TV camera on separate modest mounts. Curved wheel tracks behind in loose regolith, NO atmosphere clouds, no blue sky, no terrestrial rubber tires, no closed windshield or modern SUV cab. Black sky with small distant Earth, full rover and tire trails. No people required.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "9196dd34ef243e0d8437cd95c1645f004cb2ddf19e58d34805c5906fa7f18004",
+      "originalSha256": "43307ca012c910692726317143e731b3e4872104e75e854617a1cd8856ac622f",
+      "referenceUrls": [
+        "https://www.nasa.gov/moonbase/lunar-terrain-vehicle/"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "달 표면의 바퀴 자국과 망사처럼 격자가 있는 바퀴, 좌석과 안테나가 보인다.",
+      "limitations": "아폴로 달차를 연상시키는 교육용 그림으로 실제 특정 임무의 정확한 재현은 아니다. 탑승자는 보이지 않는다."
+    }
+  },
+  {
+    "modelId": "kayak",
+    "filename": "kayak-work-20261104-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "caption": "AI 제작 그림 · 양쪽 날이 달린 노로 물을 저어요",
+    "viewLabel": "AI 제작 그림 · 양쪽 날이 달린 노로 물을 저어요",
+    "appearanceLabel": "하는 일과 움직임을 이해하는 일반 교육 그림 · 특정 실물이나 판매 모델의 정밀 재현이 아니에요.",
+    "sha256": "c3b89c01345f629776fbfd5e058c74298c43b744baf7dd716a737f3bef315e81",
+    "originalSha256": "56a73f8b495106ba672c3a25cc632bfb6e57861412395da1d49c420c8dd7e070",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-04",
+      "prompt": "Use case: scientific-educational. Create ONE clear active working-scene illustration for a Korean vehicle atlas aged 3–10. Picture-book technical illustration, crisp restrained shapes with realistic core structure, visibly a drawing not a photo. Soft daylight and simple relevant real-world surroundings, full main vehicle and task tool inside a landscape frame with generous margins. Show WHAT the vehicle does through believable tool contact, material flow, load support and work result. Generic type, no specific brand or model. No text, logos, arrows, cartoon eyes, watermark, crowds or people in work areas. Never invent disconnected mechanisms or floating loads. A single adult paddler in a narrow sit-in kayak on calm lake wearing life jacket. One continuous DOUBLE-BLADED paddle held with both hands across torso, one blade in water beside hull creating a small swirl, other blade raised opposite. Adult seated low in cockpit, legs inside covered bow, bow and stern both within margins. No separate two paddles, no standing or huge waves. Simple shore and small wake behind.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-04",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra subagent (independent visual review)",
+      "sha256": "c3b89c01345f629776fbfd5e058c74298c43b744baf7dd716a737f3bef315e81",
+      "originalSha256": "56a73f8b495106ba672c3a25cc632bfb6e57861412395da1d49c420c8dd7e070",
+      "referenceUrls": [
+        "https://home.nps.gov/thingstodo/kayaking-and-kayak-safety.htm"
+      ],
+      "parentNotes": "공개용 JPEG를 직접 픽셀 검수하고 해당 관찰 문장과 주요 부착·지지·접촉·운행 구성을 대조했다. 특정 실물의 내부 구조나 가려진 모든 연결점까지 재현했다는 의미는 아니다.",
+      "independentNotes": "앉는 공간이 있는 가늘고 긴 배, 양쪽 날이 있는 노와 물에 닿는 날, 구명조끼가 보인다.",
+      "limitations": "카약과 주변 환경을 단순화한 교육용 그림이다."
+    }
   }
 ]

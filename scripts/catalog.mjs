@@ -50,5 +50,5 @@ export async function catalog() {
       reviewNote: "실물 자료와 주요 구조를 대조해 검수한 보조 그림이에요. 실물 사진이나 특정 판매 모델의 모습은 아니에요."
     }))]
   }));
-  return { updatedAt: "2026-11-01", cars: published };
+  return { updatedAt: "2026-11-04", cars: published };
 }
