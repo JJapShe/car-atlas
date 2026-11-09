@@ -5662,5 +5662,227 @@
       "independentNotes": "차체에 연결된 뒤쪽 붐과 집게가 통나무 끝을 잡고 나무의 나머지 부분이 땅에 닿아 뒤로 이어진다.",
       "limitations": "유압장치와 이동 과정은 단순화된 교육용 그림이다."
     }
+  },
+  {
+    "modelId": "landfill-compactor",
+    "filename": "landfill-compactor-scene-20261109-r2-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 돌기가 달린 철제 바퀴를 살펴봐요",
+    "caption": "AI 제작 그림 · 돌기가 달린 철제 바퀴를 살펴봐요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "99962f14f9258728b52b6dd2972c018b2d98e0dce5ea96f603a0107335486c43",
+    "originalSha256": "7c089da76607e0bf465c25e128cf3aa6cb9123a970a2fc60d4c25aa1e08bd8e3",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: Korean children's vehicle atlas action illustration. Landfill compactor slowly rolling over a thin layer of muted mixed paper/cardboard waste in a controlled landfill cell, yellow articulated tractor with four heavy steel wheels studded with chunky blunt compaction cleats, broad front waste blade held low above ground and front cab clearly visible, compressed flattened surface behind. No rubber tires or smooth road roller drums. No people or animals on site. Clear realistic illustrated field guide in warm daylight, wide landscape, whole work interface visible. Generic equipment depiction. No words, logos, watermarks, arrows, cutaway, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "99962f14f9258728b52b6dd2972c018b2d98e0dce5ea96f603a0107335486c43",
+      "originalSha256": "7c089da76607e0bf465c25e128cf3aa6cb9123a970a2fc60d4c25aa1e08bd8e3",
+      "referenceUrls": [
+        "https://www.cat.com/en_US/products/new/equipment/compactors/landfill-compactors/120420.html"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 철제 돌기 바퀴와 앞날이 폐기물 가까이 닿는다. 가려진 바퀴와 실제 운전자 여부는 확인하기 어렵다.",
+      "independentNotes": "앞날과 돌기가 있는 큰 철제 바퀴 세 개가 보이고 쓰레기 위에 놓여 있다.",
+      "limitations": "네 번째 바퀴는 가려져 개수 전체를 확인할 수 없고 운전실은 비어 보인다. 작업 중이라고 단정하지 않는다."
+    }
+  },
+  {
+    "modelId": "horizontal-directional-drill",
+    "filename": "horizontal-directional-drill-scene-20261109-r2-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 비스듬한 드릴 막대가 땅속으로 들어가요",
+    "caption": "AI 제작 그림 · 비스듬한 드릴 막대가 땅속으로 들어가요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "dd0dbdeb97b76466f5bc0f929333e29455244fd85ce08088ab7fbf4e269a0136",
+    "originalSha256": "e098736658c0fb9eed5213eddcab90895555ef04268e3ceee3e7b4460bc7bbbd",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: Korean children's vehicle atlas action illustration. Show a compact crawler horizontal directional drilling rig on the grass verge next to a small closed rural road. One long low drill rack inclined shallowly down towards soil, ONE straight steel drill rod exits the rack along its axis into a small entrance hole, a parallel neatly stacked rack of spare short rods on machine. The low inclined rod, crawler supports and ground entry are easy to follow. Do not show underground cutaway, pipe exposed under road, upright drill mast, or digging trench across road. Clear realistic illustrated field guide in warm daylight, wide landscape, whole work interface visible. Generic equipment depiction. No words, logos, watermarks, arrows, cutaway, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "dd0dbdeb97b76466f5bc0f929333e29455244fd85ce08088ab7fbf4e269a0136",
+      "originalSha256": "e098736658c0fb9eed5213eddcab90895555ef04268e3ceee3e7b4460bc7bbbd",
+      "referenceUrls": [
+        "https://www.vermeer.com/em/directional-drills/d23x30dr-s3"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 경사진 레일에서 나온 막대가 같은 방향으로 흙에 들어가며 지지대는 땅에 놓인다. 지하 경로는 가려져 있다.",
+      "independentNotes": "궤도 차체와 나란한 드릴 막대들, 추진부에서 비스듬히 땅으로 이어지는 막대와 지지대가 보인다.",
+      "limitations": "지하 막대의 방향과 실제 시추 작동은 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "high-reach-demolition-excavator",
+    "filename": "high-reach-demolition-excavator-scene-20261109-r2-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 아주 긴 팔 끝의 집게가 높은 벽을 잡아요",
+    "caption": "AI 제작 그림 · 아주 긴 팔 끝의 집게가 높은 벽을 잡아요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "c9a04066d492f4efce8494c66dd55951bab91917df810a8b38e969a2a84765ea",
+    "originalSha256": "6568d8a51d5ee3bdc96284dbbdd0af24441ef238efae36288c1f95c7d4dd55ed",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: Korean children's vehicle atlas action illustration. High reach demolition excavator on wide steel tracks on flat ground next to a partially dismantled concrete building. A very long steep three-section articulated high-reach boom with hydraulic cylinders physically linked from chassis to a concrete demolition shear at top, jaws gripping the exposed top edge of an upper wall. Show whole tracks, boom and shear at the same time from a distant side viewpoint. No suspended crane bucket, no people within demolition area, no giant debris cloud, no collapsing whole building. Clear realistic illustrated field guide in warm daylight, wide landscape, whole work interface visible. Generic equipment depiction. No words, logos, watermarks, arrows, cutaway, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "c9a04066d492f4efce8494c66dd55951bab91917df810a8b38e969a2a84765ea",
+      "originalSha256": "6568d8a51d5ee3bdc96284dbbdd0af24441ef238efae36288c1f95c7d4dd55ed",
+      "referenceUrls": [
+        "https://www.liebherr.com/en-us/n/liebherr-r-980-demolition-hercal-leads-the-way-with-the-largest-demolition-excavator-in-the-iberian-peninsula-174208-3782185"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 긴 붐과 유압 장치가 연결되고 끝 집게가 벽 윗부분에 닿는다.",
+      "independentNotes": "차체에 연결된 긴 붐과 실린더·호스, 벽 상단에 닿은 해체 집게가 보인다.",
+      "limitations": "각 유압 호스의 내부 연결과 건물 파쇄의 순간은 확인할 수 없다. 운전실의 탑승자는 명확하지 않다."
+    }
+  },
+  {
+    "modelId": "surface-miner",
+    "filename": "surface-miner-scene-20261109-r2-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 광산 바닥을 깎아낸 돌을 운반 띠로 실어요",
+    "caption": "AI 제작 그림 · 광산 바닥을 깎아낸 돌을 운반 띠로 실어요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "a6cbdc1bd797d65e701f98a972c79127453a0e538def1e8fdef0afabfc44869b",
+    "originalSha256": "2fd590d132f7a942ff706a51c1329a81736f0b0e91d132f50e16f50da1831d15",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: Korean children's vehicle atlas action illustration. Huge white yellow tracked surface miner working on a broad flat bench of a limestone quarry. Four small crawler units support its low long body and covered cutting drum housing near the ground between front and rear tracks. A long attached discharge conveyor extends over the bed of a separate mine truck and small gray crushed rock pours from the belt tip directly into the bed. A newly scraped flat band is visible at rear. Clearly show machine-to-conveyor connection and independent truck wheels in contact with earth. No hydraulic excavator boom, no bucket wheel, no drilling mast. Clear realistic illustrated field guide in warm daylight, wide landscape, whole work interface visible. Generic equipment depiction. No words, logos, watermarks, arrows, cutaway, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "a6cbdc1bd797d65e701f98a972c79127453a0e538def1e8fdef0afabfc44869b",
+      "originalSha256": "2fd590d132f7a942ff706a51c1329a81736f0b0e91d132f50e16f50da1831d15",
+      "referenceUrls": [
+        "https://www.wirtgen-group.com/en-gb/products/wirtgen/technologies/surface-mining/"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 낮은 작업부가 광산 바닥에 가깝고 운반띠 끝의 돌이 별도 트럭 짐칸에 떨어진다. 내부 날은 가려진다.",
+      "independentNotes": "궤도 장비 아래 지면 쪽 덮개와 긴 배출 컨베이어가 보이며 돌이 운반차 적재함 안으로 떨어지는 모습이다.",
+      "limitations": "가려진 절삭 드럼과 운전실 탑승자는 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "airport-cargo-high-loader",
+    "filename": "airport-cargo-high-loader-scene-20261109-r2-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 넓은 받침대를 올려 화물칸 높이에 맞춰요",
+    "caption": "AI 제작 그림 · 넓은 받침대를 올려 화물칸 높이에 맞춰요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "9c97221bcb29b8bb242ffb56bb1052b68356a920d0b5ac50a2afd6c2c4f8f46f",
+    "originalSha256": "a18006c416ba4cb8fae634258d0740d51b606f2c565f5ea2d8e7e2db28f77b93",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: Korean children's vehicle atlas work scene. Airport apron, one full-sized airport cargo high loader parked squarely against a freighter aircraft's open rectangular side cargo door. Loader has a long low wheeled chassis, a low operator station clear of movement, and a clearly visible strong X-shaped scissor lift supporting a broad level roller platform. On the deck one large rigid aircraft cargo container with contoured upper corners sits on its flat base on rollers, lined up with the door sill. Entire lower chassis and X arms visible and supported, no unsupported platforms, no people near pinch points, no luggage belt or passenger staircase. Realistic illustrated field guide in warm daylight, wide landscape, accurate supporting geometry. Generic work scene, no words or watermarks.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "9c97221bcb29b8bb242ffb56bb1052b68356a920d0b5ac50a2afd6c2c4f8f46f",
+      "originalSha256": "a18006c416ba4cb8fae634258d0740d51b606f2c565f5ea2d8e7e2db28f77b93",
+      "referenceUrls": [
+        "https://trepel.com/wp-content/uploads/2024/06/trepel-brochure.pdf"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 화물 상자는 롤러판에 놓이고 X자 지지부가 받침대와 하부를 연결한다. 받침 높이는 화물 문턱에 맞는다.",
+      "independentNotes": "화물 컨테이너가 롤러가 놓인 플랫폼 위에 지지되고 가위식 리프트가 플랫폼을 항공기 열린 화물문 바닥 높이에 맞춘다.",
+      "limitations": "항공기와 장비는 교육용 그림이며 화물 고정장치의 세부와 이동 순간은 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "airport-rescue-fire-truck",
+    "filename": "airport-rescue-fire-truck-scene-20261109-r2-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 지붕 물대포로 훈련 표적에 물을 뿌려요",
+    "caption": "AI 제작 그림 · 지붕 물대포로 훈련 표적에 물을 뿌려요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "b140f2ea5d62795998335acb3f9e485a7abc89c9615cfd26f73775214ca72e59",
+    "originalSha256": "66ccf26b92e5173c71353886404741c8db8fd9b137102a5068400045d3339830",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: Korean children's vehicle atlas work scene. A low broad lime-green three-axle airfield rescue fire truck on a dry training apron, foreground three-quarter side angle. Broad panoramic cab and big rubber tires grounded. Small fixed elevated nozzle on the roof visibly releases one white coherent arc of water toward an empty metal training target on the left. Water starts exactly at the tip of the nozzle, with no smoke, no open fire, no injured people, no airplane accident, no long aerial ladder, no brand marks. Realistic illustrated field guide in warm daylight, wide landscape, accurate supporting geometry. Generic work scene, no words or watermarks.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "b140f2ea5d62795998335acb3f9e485a7abc89c9615cfd26f73775214ca72e59",
+      "originalSha256": "66ccf26b92e5173c71353886404741c8db8fd9b137102a5068400045d3339830",
+      "referenceUrls": [
+        "https://www.oshkoshairport.com/experience/airport-products-blog/arff-vehicle-turrets-for-fire-suppression"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 지붕 노즐에서 이어진 물줄기가 훈련 표적에 닿고 큰 바퀴는 바닥에 놓인다. 장면은 시연 예시다.",
+      "independentNotes": "차체 위 노즐에서 이어진 물줄기가 왼쪽 표적에 닿고 표적 아래 물이 고여 있다.",
+      "limitations": "실제 화재 현장이 아닌 표적을 향한 물 분사 장면이며 운전실 탑승자는 보이지 않는다."
+    }
   }
 ]

@@ -2805,5 +2805,470 @@ export const vehicles = [
       "change": "equipment"
     },
     "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "landfill-compactor",
+    "name": "매립지 압축기",
+    "englishName": "Landfill Compactor",
+    "body": "special",
+    "aliases": [
+      "쓰레기 다짐차"
+    ],
+    "cardCue": "튼튼한 쇠바퀴로 쓰레기를 꾹 눌러요.",
+    "summary": "매립지에서 쓰레기를 밀고 눌러 빈 공간을 줄여요.",
+    "cues": [
+      "바퀴에 뾰족한 돌기가 있어요.",
+      "앞쪽에 쓰레기를 미는 넓은 판이 있어요."
+    ],
+    "appearance": {
+      "label": "매립지 압축기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://parts.cat.com/en/catcorp/product/602-1175",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "barrier-transfer-machine",
+    "name": "도로 방호벽 이동차",
+    "englishName": "Barrier Transfer Machine",
+    "body": "special",
+    "aliases": [
+      "도로 지퍼차",
+      "차로 분리대 이동차"
+    ],
+    "cardCue": "도로의 방호벽을 옆으로 옮겨요.",
+    "summary": "길게 이어진 방호벽을 옆으로 옮겨 차로의 위치를 바꿔요.",
+    "cues": [
+      "길고 네모난 몸 양끝에 운전실이 있어요.",
+      "아래쪽으로 이어진 방호벽을 옮겨요."
+    ],
+    "appearance": {
+      "label": "도로 방호벽 이동차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://www.lindsay.com/DownloadFile.ashx?id=0a56e1eb-4aab-46f3-aa15-a23167c75cc8",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "high-reach-demolition-excavator",
+    "name": "고층 해체 굴착기",
+    "englishName": "High-Reach Demolition Excavator",
+    "body": "special",
+    "aliases": [
+      "긴팔 해체 굴착기"
+    ],
+    "cardCue": "아주 긴 팔로 높은 건물을 해체해요.",
+    "summary": "긴 팔 끝의 해체 도구로 높은 건물을 조금씩 허물어요.",
+    "cues": [
+      "무한궤도 위에 아주 긴 팔이 있어요.",
+      "팔을 높이 뻗어 높은 곳에 닿을 수 있어요."
+    ],
+    "appearance": {
+      "label": "고층 해체 굴착기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://www.hitachicm.com/eu/en/machinery/excavators/special-applications/demolition-excavators/product.zx600mc-7/",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "horizontal-directional-drill",
+    "name": "수평 방향 시추기",
+    "englishName": "Horizontal Directional Drill",
+    "body": "special",
+    "aliases": [
+      "수평 굴착기",
+      "HDD 시추기"
+    ],
+    "cardCue": "땅속 옆으로 길을 뚫어요.",
+    "summary": "도로를 크게 파헤치지 않고 땅속에 관과 선이 지나갈 길을 뚫어요.",
+    "cues": [
+      "길쭉한 막대가 차체에 여러 개 놓여 있어요.",
+      "막대가 비스듬히 땅속으로 들어가요."
+    ],
+    "appearance": {
+      "label": "수평 방향 시추기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://protips.vermeer.com/underground/2025/08/07/a-beginners-guide-to-horizontal-directional-drilling/",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "crack-sealing-machine",
+    "name": "도로 균열 봉합기",
+    "englishName": "Crack Sealing Machine",
+    "body": "special",
+    "aliases": [
+      "도로 틈새 메움 장비",
+      "균열 봉합 트레일러"
+    ],
+    "cardCue": "도로의 갈라진 틈을 메워요.",
+    "summary": "따뜻하게 녹인 재료로 도로의 갈라진 틈을 메우는 장비예요.",
+    "cues": [
+      "차에 끌려가는 장비와 호스가 있어요.",
+      "재료를 데우는 통이 달려 있어요."
+    ],
+    "appearance": {
+      "label": "도로 균열 봉합기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://crafco.com/equipment/crack-sealing-melters/",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "airport-rescue-fire-truck",
+    "name": "공항 구조 소방차",
+    "englishName": "Airport Rescue and Fire Fighting Vehicle",
+    "body": "road",
+    "aliases": [
+      "공항 소방차",
+      "항공기 구조 소방차",
+      "ARFF"
+    ],
+    "cardCue": "공항에서 비행기와 사람을 도와요.",
+    "summary": "공항에서 비행기 사고에 출동해 물이나 거품으로 불을 끄고 구조를 도와요.",
+    "cues": [
+      "높은 물대포를 단 차도 있어요.",
+      "넓은 앞유리와 큰 바퀴를 살펴봐요."
+    ],
+    "sourceUrl": "https://www.oshkoshairport.com/experience/airport-products-blog/arff-vehicle-turrets-for-fire-suppression",
+    "tile": "#e1e7ec",
+    "appearance": {
+      "label": "공항 구조 소방차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "airport-cargo-high-loader",
+    "name": "공항 화물 승강차",
+    "englishName": "Aircraft Cargo High Loader",
+    "body": "road",
+    "aliases": [
+      "공항 화물 리프트",
+      "항공 화물 로더",
+      "하이로더",
+      "공항 팔레트 로더"
+    ],
+    "cardCue": "넓은 받침대를 올려 비행기에 짐을 실어요.",
+    "summary": "큰 화물 상자나 짐판을 넓은 받침대에 놓고 비행기의 화물칸 높이까지 올려요.",
+    "cues": [
+      "받침대가 평평하고 넓어요.",
+      "받침대를 올리는 장치가 그 아래에 있어요."
+    ],
+    "sourceUrl": "https://trepel.com/wp-content/uploads/2024/06/trepel-brochure.pdf",
+    "tile": "#e1e7ec",
+    "appearance": {
+      "label": "공항 화물 승강차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "runway-rubber-removal-truck",
+    "name": "활주로 고무 제거차",
+    "englishName": "Runway Rubber Removal Truck",
+    "body": "road",
+    "aliases": [
+      "활주로 세척차",
+      "고무 자국 청소차",
+      "활주로 물청소차"
+    ],
+    "cardCue": "활주로에 붙은 고무 자국을 씻어 내요.",
+    "summary": "비행기가 착륙하며 남긴 고무가 활주로에 쌓이면, 센 물줄기를 쓰는 장비로 떼어 내요.",
+    "cues": [
+      "차 아래 가까이에서 바닥을 청소해요.",
+      "물을 쓰는 장치와 큰 차체를 살펴봐요."
+    ],
+    "sourceUrl": "https://www.airporttech.tc.faa.gov/Airport-Safety/Runway-Surface-Safety-Technology/Rubber-Deposits-Removal",
+    "tile": "#e1e7ec",
+    "appearance": {
+      "label": "활주로 고무 제거차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "road-rotary-snowblower",
+    "name": "도로 회전식 제설차",
+    "englishName": "Road Rotary Snow Blower",
+    "body": "special",
+    "aliases": [
+      "로터리 제설차",
+      "눈 날리는 차",
+      "스노 블로어",
+      "회전식 제설기"
+    ],
+    "cardCue": "눈을 모아 통로로 옆에 날려요.",
+    "summary": "길에 쌓인 눈을 앞쪽 회전날로 모으고, 위로 굽은 통로를 통해 옆으로 날려 보내요.",
+    "cues": [
+      "앞쪽에 돌아가며 눈을 모으는 날이 있어요.",
+      "구부러진 통로 끝에서 눈이 나와요."
+    ],
+    "sourceUrl": "https://www.kahlbacher.com/en/products/road-maintenance-technology/rotating-equipment",
+    "tile": "#dfeaf0",
+    "appearance": {
+      "label": "도로 회전식 제설차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "carrot-harvester",
+    "name": "당근 수확기",
+    "englishName": "Carrot harvester",
+    "body": "farm",
+    "aliases": [
+      "당근 캐는 기계"
+    ],
+    "cardCue": "당근을 땅에서 뽑아 모아요.",
+    "summary": "땅을 느슨하게 한 뒤 당근 잎을 붙잡아 뿌리를 들어 올려요.",
+    "cues": [
+      "앞의 뾰족한 장치가 당근이 심긴 줄을 따라가요.",
+      "여러 줄을 한꺼번에 거두는 작업부를 살펴봐요."
+    ],
+    "sourceUrl": "https://group.grimme.com/en/asa-lift",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "당근 수확기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "windrower",
+    "name": "윈드로어",
+    "englishName": "Windrower",
+    "body": "farm",
+    "aliases": [
+      "풀 베는 차",
+      "스와더"
+    ],
+    "cardCue": "풀을 베어 길게 한 줄로 모아요.",
+    "summary": "풀을 베어 바닥에 긴 줄로 놓으면 나중에 모으거나 말려 묶기 쉬워요.",
+    "cues": [
+      "앞에 넓은 풀 베는 장치가 달려 있어요.",
+      "베어 놓은 풀은 바닥에 긴 줄로 남아요."
+    ],
+    "sourceUrl": "https://www.caseih.com/en-us/unitedstates/products/windrowers",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "윈드로어의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "manure-spreader",
+    "name": "퇴비 살포기",
+    "englishName": "Manure spreader",
+    "body": "farm",
+    "aliases": [
+      "거름 살포기",
+      "퇴비 뿌리는 차"
+    ],
+    "cardCue": "트랙터가 끌고 가며 거름을 뿌려요.",
+    "summary": "밭을 지나가면서 큰 통에 담긴 거름을 고르게 펼쳐요.",
+    "cues": [
+      "트랙터 뒤에 붙은 넓은 적재함을 찾아봐요.",
+      "적재함 뒤에 거름을 내보내는 장치가 있어요."
+    ],
+    "sourceUrl": "https://www.deere.com/en-us/products-solutions/tractors/tractor-attachments-and-implements/ms1108-chain-unloading-manure-spreader-mdgwnfhg",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "퇴비 살포기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "corn-planter",
+    "name": "옥수수 파종기",
+    "englishName": "Corn planter",
+    "body": "farm",
+    "aliases": [
+      "옥수수 심는 기계",
+      "씨앗 파종기"
+    ],
+    "cardCue": "옥수수 씨앗을 여러 줄로 심어요.",
+    "summary": "트랙터가 끌고 가면서 여러 개의 작업 장치가 씨앗을 일정한 간격으로 심어요.",
+    "cues": [
+      "노란 씨앗 통이 나란히 달렸어요.",
+      "땅 가까이에 작은 바퀴와 씨앗을 심는 장치가 있어요."
+    ],
+    "sourceUrl": "https://www.deere.com/en-us/products-solutions/planters",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "옥수수 파종기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "tomato-harvester",
+    "name": "토마토 수확기",
+    "englishName": "Tomato harvester",
+    "body": "farm",
+    "aliases": [
+      "토마토 따는 기계"
+    ],
+    "cardCue": "토마토를 거둬 운반 띠로 옮겨요.",
+    "summary": "토마토 줄기를 거두고 열매를 떼어 모은 뒤 운반 장치로 보내요.",
+    "cues": [
+      "앞에 토마토 줄기를 받는 장치가 있어요.",
+      "기계 앞쪽의 길게 뻗은 운반 띠를 살펴봐요."
+    ],
+    "sourceUrl": "https://www.oxbo.com/tomato-harvesting/",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "토마토 수확기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "summary": "예인선이 끄는 바지선 위 크레인으로 물 위에서 큰 화물과 구조물을 들어 옮겨요.",
+    "checkedAt": "2026-11-09",
+    "sourceUrl": "https://www.sam.usace.army.mil/Missions/Civil-Works/Navigation/Floating-Plants/RWDavis/",
+    "appearance": {
+      "label": "부선 크레인의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "body": "special",
+    "id": "floating-crane-barge",
+    "name": "부선 크레인",
+    "aliases": [
+      "해상 크레인 바지선",
+      "크레인 부선",
+      "플로팅 크레인"
+    ],
+    "cues": [
+      "큰 크레인 붐이 바지선 위에 설치돼 있어요.",
+      "고리에 매단 화물을 물 위에서 들어 올려요."
+    ],
+    "tile": "#dce7e8",
+    "englishName": "Floating Crane Barge",
+    "cardCue": "바지선 위 크레인으로 무거운 짐을 들어요."
+  },
+  {
+    "summary": "바퀴가 달린 큰 크레인으로 항구에서 컨테이너와 다른 화물을 들어 배와 부두 사이로 옮겨요.",
+    "checkedAt": "2026-11-09",
+    "sourceUrl": "https://www.liebherr.com/en-int/maritime-cranes/products/port-equipment/mobile-harbour-cranes-5391545",
+    "appearance": {
+      "label": "이동식 항만 크레인의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "body": "special",
+    "id": "mobile-harbour-crane",
+    "name": "이동식 항만 크레인",
+    "aliases": [
+      "모바일 하버 크레인",
+      "항만 이동식 크레인"
+    ],
+    "cues": [
+      "높은 기둥 위에서 긴 붐이 뻗어 있어요.",
+      "아래에 이동을 위한 큰 바퀴가 달려 있어요."
+    ],
+    "tile": "#e4e9ee",
+    "englishName": "Mobile Harbour Crane",
+    "cardCue": "부두에서 배와 육지 사이 짐을 옮겨요."
+  },
+  {
+    "summary": "조선소의 큰 도크 위를 가로지르며 선박을 만드는 데 필요한 무거운 부품을 들어 옮기는 거대한 크레인이에요.",
+    "checkedAt": "2026-11-09",
+    "sourceUrl": "https://navantia.co.uk/2026/08/19/samson-goliath-to-be-restored-to-full-strength-for-revival-in-belfast-shipbuilding/",
+    "appearance": {
+      "label": "조선소 골리앗 크레인의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "body": "special",
+    "id": "shipyard-gantry-crane",
+    "name": "조선소 골리앗 크레인",
+    "aliases": [
+      "조선소 대형 갠트리 크레인",
+      "골리앗 크레인",
+      "조선소 문형 크레인"
+    ],
+    "cues": [
+      "아주 높은 다리와 길게 뻗은 가로보가 보여요.",
+      "다리 아래가 크게 뚫려 배와 작업장이 들어가요."
+    ],
+    "tile": "#eee6d0",
+    "englishName": "Shipyard Goliath Gantry Crane",
+    "cardCue": "조선소에서 커다란 배 부품을 들어요."
+  },
+  {
+    "summary": "지하 광산에서 앞의 절삭 드럼으로 석탄을 깎고, 기계 안의 컨베이어로 운반 장비에 보내요.",
+    "checkedAt": "2026-11-09",
+    "sourceUrl": "https://www.komatsu.com/en-us/products/equipment/room-and-pillar/continuous-miners",
+    "appearance": {
+      "label": "연속 채굴기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "body": "special",
+    "id": "continuous-miner",
+    "name": "연속 채굴기",
+    "aliases": [
+      "연속식 채굴기",
+      "지하 광산 채굴기"
+    ],
+    "cues": [
+      "낮은 차체 앞에 넓은 절삭 장치가 있어요.",
+      "몸 안쪽으로 광물을 옮기는 컨베이어가 이어져요."
+    ],
+    "tile": "#e7e0d8",
+    "englishName": "Continuous Miner",
+    "cardCue": "회전하는 앞날로 석탄을 계속 캐요."
+  },
+  {
+    "summary": "노천 광산에서 회전하는 드럼으로 바위 층을 깎고 부순 다음 컨베이어로 옮겨요.",
+    "checkedAt": "2026-11-09",
+    "sourceUrl": "https://www.wirtgen-group.com/ocs/en-au/wirtgen/4200-sm-75-p/",
+    "appearance": {
+      "label": "표면 채굴기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "body": "special",
+    "id": "surface-miner",
+    "name": "표면 채굴기",
+    "aliases": [
+      "노천 채굴기",
+      "표면식 광산 채굴기"
+    ],
+    "cues": [
+      "몸 아래에 바위를 깎는 드럼이 있어요.",
+      "긴 컨베이어가 깎아 낸 광물을 내보내요."
+    ],
+    "tile": "#e4e0cf",
+    "englishName": "Surface Miner",
+    "cardCue": "노천 광산의 바위를 깎아 광물을 캐요."
+  },
+  {
+    "summary": "전기 열차 위에 있는 전차선을 점검하고 고칠 때 승강대와 작업 장비를 싣고 철길을 달려요.",
+    "checkedAt": "2026-11-09",
+    "sourceUrl": "https://technology.plassertheurer.com/en/oberleitungsbau/kriterien-f%C3%BCr-die-konfiguration-von-instandhaltungsfahrzeugen",
+    "appearance": {
+      "label": "전차선 보수차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "body": "rail",
+    "id": "catenary-maintenance-car",
+    "name": "전차선 보수차",
+    "aliases": [
+      "전차선 작업차",
+      "가공 전차선 보수차",
+      "철도 전력선 정비차"
+    ],
+    "cues": [
+      "철길 위를 달리는 노란 작업 차량이에요.",
+      "지붕 위에 사람과 장비를 올리는 작업대가 있어요."
+    ],
+    "tile": "#e9eadc",
+    "englishName": "Catenary Maintenance Vehicle",
+    "cardCue": "철도 위 전깃줄을 살펴보고 고쳐요."
   }
 ];
