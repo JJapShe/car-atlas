@@ -3939,5 +3939,415 @@ export const vehicles = [
       "change": "equipment"
     },
     "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "tesla-cybertruck",
+    "name": "테슬라 사이버트럭",
+    "englishName": "Tesla Cybertruck",
+    "aliases": [
+      "사이버트럭",
+      "테슬라 픽업",
+      "전기 픽업",
+      "픽업트럭",
+      "Cybertruck"
+    ],
+    "cardCue": "지붕에서 짐칸으로 이어지는 사선을 찾아봐요.",
+    "summary": "은빛 스테인리스 강판으로 각진 몸을 만든 전기 픽업이에요. 뒤쪽 덮개 아래에 짐을 실어요.",
+    "cues": [
+      "앞쪽 불빛이 차 너비를 따라 한 줄로 이어져요.",
+      "옆에서 보면 지붕의 높은 꼭짓점과 뒤쪽으로 내려가는 선이 보여요."
+    ],
+    "sourceUrl": "https://www.tesla.com/cybertruck",
+    "tile": "#d6dde0",
+    "body": "motorsport",
+    "appearance": {
+      "label": "테슬라 사이버트럭 · 실물 예시와 구조",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "formula-one-car",
+    "name": "F1 오픈휠 경주차",
+    "englishName": "Formula 1 race car",
+    "aliases": [
+      "에프원",
+      "포뮬러 원",
+      "오픈휠",
+      "싱글시터",
+      "F1",
+      "레이싱카",
+      "경주차"
+    ],
+    "cardCue": "차체 바깥의 네 바퀴와 앞뒤 날개를 찾아봐요.",
+    "summary": "운전자 한 명이 타는 경주차예요. 바퀴가 차체 밖에 드러나고, 앞뒤 날개가 차를 길 쪽으로 눌러 줘요.",
+    "cues": [
+      "앞날개는 납작하게 바닥 가까이에 있고, 뒷날개는 바퀴보다 높은 곳에 있어요.",
+      "운전자 머리 둘레에 보호용 테두리인 헤일로가 보여요."
+    ],
+    "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-2026-regulations.6j0tS0hrHG2T01tpmK6XYz",
+    "tile": "#cddad9",
+    "body": "motorsport",
+    "appearance": {
+      "label": "F1 오픈휠 경주차 · 실물 예시와 구조",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "formula-e-car",
+    "name": "포뮬러 E 전기 경주차",
+    "englishName": "Formula E GEN3 Evo",
+    "aliases": [
+      "포뮬러 이",
+      "전기 경주차",
+      "포뮬러E",
+      "GEN3 Evo",
+      "오픈휠",
+      "경주차"
+    ],
+    "cardCue": "앞에서 바퀴가 어떻게 보이는지 살펴봐요.",
+    "summary": "배터리의 전기로 달리는 한 자리 경주차예요. 속도를 줄일 때 바퀴의 움직임으로 전기를 다시 모아요.",
+    "cues": [
+      "차체 앞쪽에 낮고 넓은 날개가 보여요.",
+      "빗길 사진에서는 타이어가 뒤로 물을 뿌려요."
+    ],
+    "sourceUrl": "https://www.fiaformulae.com/en/news/explainers/everything-you-need-to-know-about-formula-es-latest-race-car-gen3-evo-s12",
+    "tile": "#e0dbec",
+    "body": "motorsport",
+    "appearance": {
+      "label": "포뮬러 E 전기 경주차 · 실물 예시와 구조",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "indycar",
+    "name": "인디카 오픈휠 경주차",
+    "englishName": "IndyCar Dallara DW12",
+    "aliases": [
+      "인디카",
+      "인디 500",
+      "Indy 500",
+      "Dallara DW12",
+      "오픈휠",
+      "싱글시터",
+      "경주차"
+    ],
+    "cardCue": "운전자 앞의 투명한 보호창을 찾아봐요.",
+    "summary": "타원형 트랙과 여러 모양의 코스를 달리는 한 자리 경주차예요. 운전자 앞에 투명한 보호창이 있어요.",
+    "cues": [
+      "운전자 앞을 감싼 투명한 창을 에어로스크린이라고 불러요.",
+      "앞바퀴와 뒷바퀴가 몸 바깥으로 드러나요."
+    ],
+    "sourceUrl": "https://www.indycar.com/Fan-Info/INDYCAR-101/Cars",
+    "tile": "#dbe0eb",
+    "body": "motorsport",
+    "appearance": {
+      "label": "인디카 오픈휠 경주차 · 실물 예시와 구조",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "monster-truck",
+    "name": "몬스터 트럭",
+    "englishName": "Monster Truck",
+    "body": "motorsport",
+    "aliases": [
+      "몬스터카",
+      "경주차"
+    ],
+    "cardCue": "큰 바퀴로 높이 뛰어올라요.",
+    "summary": "아주 큰 바퀴를 달고 경기장에서 묘기와 경주를 펼쳐요.",
+    "cues": [
+      "커다란 바퀴가 차체 옆으로 튀어나와요.",
+      "사진 속 트럭은 흙언덕 위로 뛰어올라요."
+    ],
+    "appearance": {
+      "label": "하는 일과 구조 · 실물 예시",
+      "change": "vehicle"
+    },
+    "sourceUrl": "https://www.monsterjam.com/en-ae/monster-jam-101/",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "top-fuel-dragster",
+    "name": "톱 퓨얼 드래그스터",
+    "englishName": "Top Fuel Dragster",
+    "body": "motorsport",
+    "aliases": [
+      "드래그 레이싱카",
+      "경주차"
+    ],
+    "cardCue": "곧은 경기장을 빠르게 달려요.",
+    "summary": "아주 긴 몸으로 곧은 경기장에서 빠르기를 겨루는 경주차예요.",
+    "cues": [
+      "앞부분이 길고 뾰족해요.",
+      "큰 뒷바퀴와 높은 날개가 보여요."
+    ],
+    "appearance": {
+      "label": "하는 일과 구조 · 실물 예시",
+      "change": "vehicle"
+    },
+    "sourceUrl": "https://www.nhra.com/nhra-101/drag-racing-classes",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "snowcoach",
+    "name": "설상 관광차",
+    "englishName": "Snowcoach",
+    "body": "road",
+    "aliases": [
+      "스노코치"
+    ],
+    "cardCue": "눈길을 따라 사람들을 태워요.",
+    "summary": "눈 덮인 길에서 사람들을 태우고 여행하는 차예요.",
+    "cues": [
+      "사진 속 노란 차 앞에 스키가 보여요.",
+      "차 옆으로 눈길과 들소가 보여요."
+    ],
+    "appearance": {
+      "label": "하는 일과 구조 · 실물 예시",
+      "change": "vehicle"
+    },
+    "sourceUrl": "https://www.nps.gov/thingstodo/ride-a-snowmobile-or-snowcoach-in-yellowstone.htm",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "thrustssc",
+    "name": "스러스트 SSC",
+    "englishName": "ThrustSSC",
+    "body": "special",
+    "aliases": [
+      "초음속 자동차"
+    ],
+    "cardCue": "제트 엔진으로 빠르기에 도전했어요.",
+    "summary": "두 제트 엔진을 단 육상 속도 기록 도전 자동차예요.",
+    "cues": [
+      "뾰족한 앞부분 양옆에 커다란 둥근 엔진 입구가 있어요.",
+      "사진은 박물관에 전시된 실물이에요."
+    ],
+    "appearance": {
+      "label": "하는 일과 구조 · 실물 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://transport-museum.com/visiting/thrustssc.aspx",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "amphicar",
+    "name": "앰피카",
+    "englishName": "Amphicar",
+    "body": "road",
+    "aliases": [
+      "수륙양용 자동차"
+    ],
+    "cardCue": "땅과 물을 모두 다녀요.",
+    "summary": "도로에서는 자동차처럼 달리고 물에서는 배처럼 움직이는 수륙양용 자동차예요.",
+    "cues": [
+      "자동차 모양 몸체가 물 위에 떠 있어요.",
+      "사진에서는 바퀴가 물에 가려져 있어요."
+    ],
+    "appearance": {
+      "label": "하는 일과 구조 · 실물 예시",
+      "change": "vehicle"
+    },
+    "sourceUrl": "https://www.lanemotormuseum.org/collection/cars/item/amphicar-1964/",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "tracked-dumper",
+    "name": "궤도 운반차",
+    "englishName": "Tracked Dumper",
+    "body": "special",
+    "aliases": [
+      "무한궤도 운반차",
+      "크롤러 캐리어"
+    ],
+    "cardCue": "고무 궤도로 험한 땅에서 흙을 옮겨요.",
+    "summary": "궤도 운반차는 바퀴가 빠지기 쉬운 진흙이나 모래밭에서 짐을 나르는 덤프 차량이에요. 고무 궤도가 땅을 넓게 받쳐 움직이도록 도와줘요.",
+    "cues": [
+      "넓은 고무 궤도 두 줄이 보여요.",
+      "뒤쪽 적재함에 흙을 실어요."
+    ],
+    "sourceUrl": "https://www.morooka.com/wpe/wp-content/uploads/2024/11/Carrier_general.pdf",
+    "tile": "#e8dfc9",
+    "appearance": {
+      "label": "고무 궤도로 짐을 나르는 크롤러 캐리어 · Morooka MST 2200 VDR 실물 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "road-rail-rescue-vehicle",
+    "name": "도로·철도 겸용 구난차",
+    "englishName": "Road-Rail Rescue Vehicle",
+    "body": "special",
+    "aliases": [
+      "도로·철도 겸용 복구차",
+      "철도 구조차",
+      "레일 구난차"
+    ],
+    "cardCue": "도로와 선로를 달려 탈선 열차를 도와요.",
+    "summary": "도로와 철길을 달려요. 사고가 나면 구조 장비를 옮기고 선로에서 벗어난 열차를 들어 올리는 일을 도와요.",
+    "cues": [
+      "큰 트럭 바퀴와 선로용 작은 바퀴가 함께 있어요.",
+      "옆의 긴 수납칸에 구조 도구를 실어요."
+    ],
+    "sourceUrl": "https://www.zagro-group.com/en/produkte/not-und-rettungsfahrzeuge/recovery-and-rescue-vehicles",
+    "tile": "#e3e5d9",
+    "appearance": {
+      "label": "Hilton 도로·철도 겸용 구난 차량 · 전시된 서로 다른 실물 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "overhead-line-puller-tensioner",
+    "name": "전선 당김·장력 조절기",
+    "englishName": "Overhead Line Puller-Tensioner",
+    "body": "special",
+    "aliases": [
+      "가공 전선 장력기",
+      "전선 포설 당김기",
+      "전선 풀러 텐셔너"
+    ],
+    "cardCue": "전선을 당기거나 팽팽하게 잡아줘요.",
+    "summary": "전선 당김·장력 조절기는 높은 전선이나 로프를 설치할 때 일정한 힘으로 잡아당기거나 팽팽하게 유지해요. 전선이 너무 느슨하거나 갑자기 당겨지지 않도록 도와줘요.",
+    "cues": [
+      "홈이 여러 개 난 큰 바퀴에 전선이 감겨요.",
+      "튼튼한 바퀴 받침과 안정 다리가 있어요."
+    ],
+    "sourceUrl": "https://www.omac-italy.com/wp-content/uploads/2025/07/OMAC_OVERHEAD-LINE-STRINGING_07-2025_.pdf",
+    "tile": "#dce8e9",
+    "appearance": {
+      "label": "가공 전선 설치용 OMAC 유압 풀러·텐셔너 실물 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "ekranoplan",
+    "name": "에크라노플랜",
+    "englishName": "Ekranoplan",
+    "body": "water",
+    "aliases": [
+      "ground-effect craft",
+      "wing-in-ground-effect craft",
+      "위그선",
+      "수면효과선"
+    ],
+    "cardCue": "낮게 나는 날개 달린 배를 찾아봐요.",
+    "summary": "날개 아래 공기층을 이용해 물 가까이 낮게 나는 특수 탈것이에요.",
+    "cues": [
+      "넓은 날개와 배처럼 생긴 아래쪽 몸체가 있어요.",
+      "사진 속 큰 탈것은 해변에 전시된 룬급이에요."
+    ],
+    "sourceUrl": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1-CIRC.1592.pdf",
+    "tile": "#dcebef",
+    "checkedAt": "2026-11-09",
+    "appearance": {
+      "label": "에크라노플랜 · 실물 예시와 구조",
+      "change": "vehicle"
+    }
+  },
+  {
+    "id": "hydrofoil-ferry",
+    "name": "수중익선 여객선",
+    "englishName": "Hydrofoil ferry",
+    "body": "water",
+    "aliases": [
+      "hydrofoil",
+      "수중익선"
+    ],
+    "cardCue": "선체 아래 날개 같은 받침을 찾아봐요.",
+    "summary": "속도가 나면 물속의 날개가 선체를 들어 올려 빠르게 달리는 여객선이에요.",
+    "cues": [
+      "앞과 뒤의 물속 날개가 선체를 들어 올려요.",
+      "사진은 러시아 코메타급 여객선이 물 위를 달리는 모습이에요."
+    ],
+    "sourceUrl": "https://global.kawasaki.com/en/corp/newsroom/news/detail/?f=20251121_1941",
+    "tile": "#dcebef",
+    "checkedAt": "2026-11-09",
+    "appearance": {
+      "label": "수중익선 여객선 · 실물 예시와 구조",
+      "change": "vehicle"
+    }
+  },
+  {
+    "id": "water-scooping-firefighter",
+    "name": "산불 진화용 물투하 비행기",
+    "englishName": "Water-scooping firefighting aircraft",
+    "body": "fixedwing",
+    "aliases": [
+      "water bomber",
+      "airtanker",
+      "산불 진화 비행기"
+    ],
+    "cardCue": "물 위를 스치며 물을 담는 비행기예요.",
+    "summary": "호수나 바다에서 물을 받아 산불 현장에 뿌리는 수륙양용 비행기예요.",
+    "cues": [
+      "날개 아래쪽에 배처럼 물에 뜨는 몸체가 있어요.",
+      "사진은 CL-415EAF가 호수에서 물을 뜨는 장면이에요."
+    ],
+    "sourceUrl": "https://dehavilland.com/cl-415-2/",
+    "tile": "#e9e4d7",
+    "checkedAt": "2026-11-09",
+    "appearance": {
+      "label": "산불 진화용 물투하 비행기 · 실물 예시와 구조",
+      "change": "aircraft"
+    }
+  },
+  {
+    "id": "powered-parachute",
+    "name": "동력 패러슈트",
+    "englishName": "Powered parachute",
+    "body": "specialflight",
+    "aliases": [
+      "powered parachute aircraft",
+      "PPC"
+    ],
+    "cardCue": "낙하산 날개와 작은 프로펠러를 찾아봐요.",
+    "summary": "낙하산 모양 날개와 엔진이 달린 작은 바퀴 달린 틀로 나는 항공기예요.",
+    "cues": [
+      "넓은 천 날개가 여러 줄로 아래쪽 바퀴 틀에 이어져요.",
+      "뒤쪽 프로펠러가 항공기를 앞으로 밀어요."
+    ],
+    "sourceUrl": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/powered_parachute_handbook.pdf",
+    "tile": "#e5e5f1",
+    "checkedAt": "2026-11-09",
+    "appearance": {
+      "label": "동력 패러슈트 · 실물 예시와 구조",
+      "change": "aircraft"
+    }
+  },
+  {
+    "id": "tiltrotor-aircraft",
+    "name": "틸트로터 항공기",
+    "englishName": "Tiltrotor aircraft",
+    "body": "specialflight",
+    "aliases": [
+      "tiltrotor",
+      "V-22 Osprey"
+    ],
+    "cardCue": "날개 끝의 큰 프로펠러 방향을 살펴봐요.",
+    "summary": "큰 프로펠러를 위로 돌려 헬리콥터처럼 뜨고, 앞으로 돌려 비행기처럼 날아요.",
+    "cues": [
+      "양쪽 날개 끝에 엔진과 프로펠러가 하나씩 있어요.",
+      "사진은 V-22 오스프리가 날개 끝 엔진을 위로 기울여 나는 모습이에요."
+    ],
+    "sourceUrl": "https://www.boeing.com/defense/military-rotorcraft/v-22-osprey",
+    "tile": "#e5e5f1",
+    "checkedAt": "2026-11-09",
+    "appearance": {
+      "label": "틸트로터 항공기 · 실물 예시와 구조",
+      "change": "aircraft"
+    }
   }
 ];

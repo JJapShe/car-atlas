@@ -6254,5 +6254,80 @@
       "independentNotes": "A tracked loader supports a front-mounted tree-spade frame. The tree remains upright with a soil root ball enclosed by the closing tapered blade assembly; the machine has lifted it just above a matching hole. This is consistent with a tree spade used to dig and move nursery trees, rather than a bucket excavator. PNG and public JPEG show the same connected implement and root-ball relationship.",
       "limitations": "The closed blades read as one smooth cone, so the individual curved spade blades are not distinct at this stage; the image shows the root-ball capture/lift phase, not the blades cutting downward."
     }
+  },
+  {
+    "modelId": "diaphragm-wall-cutter",
+    "filename": "diaphragm-wall-cutter-scene-20261109-r4-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 절삭 장치를 도랑 안으로 내려요",
+    "caption": "AI 제작 그림 · 절삭 장치를 도랑 안으로 내려요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "06aed4135255e99d7fe2c15ed23a24dc812acafae51689a805992c918fe374bc",
+    "originalSha256": "925ecd1b3718386b4b2e0e4c8f709ffe94b759c397f15a28a92395828112b42b",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Landscape high quality painted children's vehicle atlas real equipment scene in bright daylight. A diaphragm-wall hydromill trench cutter working at a civil engineering site, show functional action of lowering the cutting head into a deep narrow slurry trench. Entire heavy crawler support rig at left and its rigid lattice boom to the right over a perfectly ordinary straight rectangular narrow ground trench. A clearly continuous strong hoist line from boom tip supports a tall rectangular steel cutter frame with restrained black hose looping down from rig. At bottom of frame exactly TWO large adjacent transverse toothed cylindrical cutter drums like two short wide wheels side by side as viewed from face of the hanging tool, just above mouth of trench so both toothed rims visible. No clamshell bucket, no scoop, no tunnel. Rigid guide frame and hoses plausible, sand and slurry inside trench, no people, no text or logos. Show clear relation between machine, hanging attachment and ground opening; whole support rig and head in frame.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra",
+      "sha256": "06aed4135255e99d7fe2c15ed23a24dc812acafae51689a805992c918fe374bc",
+      "originalSha256": "925ecd1b3718386b4b2e0e4c8f709ffe94b759c397f15a28a92395828112b42b",
+      "referenceUrls": [
+        "https://casagrandegroup.com/diaphragm-walls/khd/khd-b250/",
+        "https://equipment.bauer.de/en/trench-cutters-cutter-systems"
+      ],
+      "parentNotes": "궤도 본체에서 이어진 와이어가 프레임을 매달고, 두 절삭날이 도랑 바로 위에 들어간다. 지층 깊이와 실제 설비 치수를 나타내지 않는다.",
+      "independentNotes": "크레인 줄이 절삭 프레임에 연결되고 하단 둥근 두 날이 슬러리 도랑 위에 놓임.",
+      "limitations": "날이 흙에 접촉하는 모습은 보이지 않으므로 ‘도랑 안으로 내려요’로 표시; 지정 제조사 원문은 타임아웃으로 열리지 않아 Bauer 공식 설명을 대체 참고."
+    }
+  },
+  {
+    "modelId": "hydrodemolition-machine",
+    "filename": "hydrodemolition-machine-scene-20261109-r4-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 고압수로 약해진 콘크리트를 걷어 내요",
+    "caption": "AI 제작 그림 · 고압수로 약해진 콘크리트를 걷어 내요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "5b131e0547e5b99ac15db9260373d41c8926f06c5963b1b3b3ee2f109146f922",
+    "originalSha256": "355845f6813c7783c067ee9c952cc71bc779f74964400b144fe203c0d08eb318",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Landscape painted educational illustration for an accurate young children's vehicle atlas. Generic compact self-propelled hydrodemolition robot on concrete bridge repair site. Two continuous short rubber tracks, compact engine housing, attached red horizontal feed beam across front, and the attached swiveling head travels on beam under a heavy low rubber skirt shielding splash. ONE clearly continuous black industrial high-pressure water hose runs from a pump trailer in background to back of compact robot. Wet concrete deck and a clearly textured shallow rectangular strip of removed top concrete behind working head, rebar stays in concrete and only a few existing steel bars visible inside shallow removed portion. Small splash peeking from under skirt, no visible exposed long jets, no sparks or pavement cutting wheel. Active work result readable from mild high three-quarter view. Safety barriers and no people near head. Bright clean daylight, no brand text no labels arrows. Entire compact robot fully legible.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra",
+      "sha256": "5b131e0547e5b99ac15db9260373d41c8926f06c5963b1b3b3ee2f109146f922",
+      "originalSha256": "355845f6813c7783c067ee9c952cc71bc779f74964400b144fe203c0d08eb318",
+      "referenceUrls": [
+        "https://aquajet.se/jobreport/a-small-giant-crosses-the-bridge/"
+      ],
+      "parentNotes": "펌프에서 본체로 이어진 호스, 작업부 덮개와 걷어 낸 콘크리트 면이 보인다. 노즐과 물 분사 위치는 덮개 안이다.",
+      "independentNotes": "펌프차에서 로봇까지 검은 호스가 이어지고 차폐막 아래 물기와 제거된 얕은 표면 및 철근이 보임.",
+      "limitations": "노즐은 차폐막에 가려 직접 보이지 않음. 고압수 작동 여부를 정지 그림만으로 확정할 수 없음."
+    }
   }
 ]

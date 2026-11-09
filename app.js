@@ -1,13 +1,13 @@
 const normalize = (value) => String(value ?? "").normalize("NFKC").toLocaleLowerCase("ko").replace(/\s+/g, "");
 const escape = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-export const bodyLabels = { sedan: "세단", suv: "SUV", construction: "중장비", special: "특수 중장비", rotorcraft: "회전익기", fixedwing: "고정익기", rail: "기차", water: "배", road: "버스·특수차", farm: "농기계", cycle: "자전거·오토바이", lighter: "기구·비행선", space: "우주 탈것" };
-const categoryAliases = { suv: "에스유브이", special: "중장비", rotorcraft: "항공기", fixedwing: "항공기 비행기", rail: "철도 열차", water: "선박", road: "특수차", farm: "농업", cycle: "두 바퀴", lighter: "항공기", space: "우주" };
+export const bodyLabels = { sedan: "세단", suv: "SUV", motorsport: "픽업·경주차", construction: "중장비", special: "특수 중장비", rotorcraft: "회전익기", fixedwing: "고정익기", specialflight: "특수 항공기", rail: "기차", water: "배", road: "버스·특수차", farm: "농기계", cycle: "자전거·오토바이", lighter: "기구·비행선", space: "우주 탈것" };
+const categoryAliases = { suv: "에스유브이", special: "중장비", rotorcraft: "항공기", fixedwing: "항공기 비행기", specialflight: "항공기", rail: "철도 열차", water: "선박", road: "특수차", farm: "농업", cycle: "두 바퀴", lighter: "항공기", space: "우주" };
 
 export function filterCars(cars, { query = "", body = "", brand = "", savedOnly = false, savedIds = [] } = {}) {
   const term = normalize(query);
   return cars.filter((car) => {
     // Combined menu labels should not make a search for buses also return police cars.
-    const category = ["road", "cycle", "lighter"].includes(car.body) ? "" : bodyLabels[car.body];
+    const category = ["road", "motorsport", "cycle", "lighter"].includes(car.body) ? "" : bodyLabels[car.body];
     const matchesTerm = !term || term === normalize(bodyLabels[car.body]) || normalize([car.name, car.brand, car.englishName, ...car.aliases, category, categoryAliases[car.body]].join(" ")).includes(term);
     return (!body || car.body === body) && (!brand || car.brand === brand) && (!savedOnly || savedIds.includes(car.id)) && matchesTerm;
   });
@@ -38,7 +38,7 @@ if (typeof document !== "undefined") init().catch(() => {
 async function init() {
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
-  const response = await fetch("./data/catalog.json?v=20261109-heavy-r3");
+  const response = await fetch("./data/catalog.json?v=20261109-special-r4");
   if (!response.ok) throw new Error("Catalog unavailable");
   const { cars } = await response.json();
   const storageKey = "car-atlas-favorites-v1";

@@ -42,8 +42,8 @@ for (const car of cars) {
   assert(Object.hasOwn(bodyLabels, car.body));
   assert(["fullchange", "facelift", "initial", "verified", "equipment", "aircraft", "vehicle"].includes(car.appearance.change));
   assert.equal(car.appearance.change === "equipment", ["construction", "special"].includes(car.body), `Incorrect type/appearance distinction: ${car.id}`);
-  assert.equal(car.appearance.change === "aircraft", ["rotorcraft", "fixedwing"].includes(car.body), `Incorrect aircraft type: ${car.id}`);
-  assert.equal(car.appearance.change === "vehicle", ["rail", "water", "road", "farm", "cycle", "lighter", "space"].includes(car.body), `Incorrect vehicle type: ${car.id}`);
+  assert.equal(car.appearance.change === "aircraft", ["rotorcraft", "fixedwing", "specialflight"].includes(car.body), `Incorrect aircraft type: ${car.id}`);
+  assert.equal(car.appearance.change === "vehicle", ["rail", "water", "road", "motorsport", "farm", "cycle", "lighter", "space"].includes(car.body), `Incorrect vehicle type: ${car.id}`);
   assert(car.sourceUrl.startsWith("https://") && car.appearance.label && car.checkedAt);
   assert(car.cues.length >= 1 && car.cues.length <= 2);
   assert(car.summary.length < 90 && car.cues.every((cue) => cue.length < 70), `Long child copy: ${car.id}`);
@@ -108,7 +108,13 @@ assert.deepEqual(readSaved('["bus","ship","train","bicycle","missing"]', service
 for (const body of ["construction", "special"]) assert.equal(filterCars(cars, { body }).length, [...machines, ...vehicles].filter((car) => car.body === body).length);
 
 assert.deepEqual(filterCars(cars, { query: "거미 굴착기", body: "special" }).map((car) => car.id), ["walking-excavator"]);
-assert.equal(filterCars(cars, { body: "rotorcraft" }).length, 6);
-assert.equal(filterCars(cars, { body: "fixedwing" }).length, 6);
+for (const body of ["rotorcraft", "fixedwing"]) {
+  assert.equal(aircraft.filter((car) => car.body === body).length, 6);
+  assert.equal(filterCars(cars, { body }).length, [...aircraft, ...vehicles].filter((car) => car.body === body).length);
+}
+assert.deepEqual(filterCars(cars, { query: "픽업", body: "motorsport" }).map((car) => car.id), ["tesla-cybertruck"]);
+assert.deepEqual(filterCars(cars, { query: "F1", body: "motorsport" }).map((car) => car.id), ["formula-one-car"]);
+assert(filterCars(cars, { query: "픽업·경주차" }).length >= 4);
+assert.deepEqual(filterCars(cars, { query: "틸트로터", body: "specialflight" }).map((car) => car.id), ["tiltrotor-aircraft"]);
 assert(aircraft.every((entry) => cars.find((car) => car.id === entry.id).photos.length >= 2), "Aircraft gallery needs two distinct photographs");
 console.log(`PASS: ${cars.length} vehicles, ${photos.size - illustrations.length} licensed photos, ${illustrations.length} reviewed AI illustrations, hashes, child copy, filters and saved-data recovery`);
