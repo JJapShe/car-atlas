@@ -5218,5 +5218,449 @@
       "independentNotes": "KTX 산천 실사진과 대조. 선두 동력차는 승객창 열 대신 장비판과 통풍 그릴이 있고 뒤 객차에 창문이 있다. 차륜은 선로에 놓이며 팬터그래프가 전선에 닿는다. 원본 PNG와 공개 JPEG를 각각 육안 확인했다.",
       "limitations": "고속열차 유형 교육 그림으로 실제 KTX 산천의 모든 세부 비율을 정밀 재현하지 않는다. v1은 부모 검수에서 동력차 승객창 오류로 반려되었다."
     }
+  },
+  {
+    "modelId": "spmt",
+    "filename": "self-propelled-modular-transporter-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 여러 줄의 바퀴로 큰 선박 블록을 옮겨요",
+    "caption": "AI 제작 그림 · 여러 줄의 바퀴로 큰 선박 블록을 옮겨요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "d1400de355cb4178221c5c759c406eb33c73d12b274acc6cc02671caa323e6e1",
+    "originalSha256": "d1ca423118dda8f6737d2b624697da1a7db5996d6b8735a04b0660f9983abada",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: an action scene for a Korean children's vehicle atlas (age 3–10). At a quiet shipyard, two parallel, very low self-propelled modular transporter decks carry one large prefabricated ship hull block across a flat concrete apron. The block rests solidly on wide steel load-spreading supports across both decks; many small paired rubber wheels sit in evenly spaced rows on the pavement. A compact power pack is mounted at the end of one module. No tractor, highway trailer cab, crane, floating load, or wheels detached from chassis. Three-quarter low angle so the decks, supports, and multiple axle lines remain clearly visible. Warm realistic painted technical picture-book illustration, crisp shape boundaries, natural daylight and readable mechanical connections. Wide landscape composition, main machine fills most of frame, keep the whole operating interface visible. Generic plausible working example. No text, captions, arrows, trademarks, watermark, decorative borders, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "d1400de355cb4178221c5c759c406eb33c73d12b274acc6cc02671caa323e6e1",
+      "originalSha256": "d1ca423118dda8f6737d2b624697da1a7db5996d6b8735a04b0660f9983abada",
+      "referenceUrls": [
+        "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 선박 블록과 여러 개의 하중 분산 받침이 두 모듈 위에 놓이고 바퀴가 바닥에 닿는다.",
+      "independentNotes": "여러 축의 운반 모듈 두 열과 연결된 지지대가 선체 블록을 받치고 있다.",
+      "limitations": "교육용 그림이며 보이지 않는 지지점과 조향·유압 제어는 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "forwarder",
+    "filename": "forwarder-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 집게로 통나무를 자기 짐칸에 올려요",
+    "caption": "AI 제작 그림 · 집게로 통나무를 자기 짐칸에 올려요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "696ddde45816e10341b8d56c315720482c729f0246c7fdd84c5f09048dfed816",
+    "originalSha256": "37f3196d8eccd161829a4290b8c6f43be2f50eedc8d4fcf5222b3d8f28f32fd2",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: an action scene for a Korean children's vehicle atlas (age 3–10). Eight-wheeled articulated forestry forwarder on a woodland trail. Front cab, pivot joint and rear open bunk with upright stakes. Rear-mounted knuckleboom grapple visibly grips one short log around its middle and lowers it horizontally into the existing stack held between stakes. Entire vehicle visible at three-quarter side angle. No cutting blade, no trailer or extra tractor, no logs being dragged, no floating attachment. Warm realistic painted technical picture-book illustration, crisp shape boundaries, natural daylight and readable mechanical connections. Wide landscape composition, main machine fills most of frame, keep the whole operating interface visible. Generic plausible working example. No text, captions, arrows, trademarks, watermark, decorative borders, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "696ddde45816e10341b8d56c315720482c729f0246c7fdd84c5f09048dfed816",
+      "originalSha256": "37f3196d8eccd161829a4290b8c6f43be2f50eedc8d4fcf5222b3d8f28f32fd2",
+      "referenceUrls": [
+        "https://www-cm-us.deere.com/en-us/products-and-solutions/forestry-equipment/forwarders/1510g-forwarder-mdq1mfdk"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 집게가 통나무를 둘러 잡고 적재 기둥 사이에 놓을 위치에 있다. 적재 차량과 관절이 연속이다.",
+      "independentNotes": "차체에 연결된 관절 붐의 집게가 통나무를 잡고 있고 다른 통나무는 세로 지지대가 있는 짐칸에 놓여 있다.",
+      "limitations": "유압 장치 세부와 움직임은 교육용 그림으로 단순화했다."
+    }
+  },
+  {
+    "modelId": "ice-resurfacer",
+    "filename": "ice-resurfacer-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 지나간 자리에 매끈한 얼음이 남아요",
+    "caption": "AI 제작 그림 · 지나간 자리에 매끈한 얼음이 남아요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "f9325d5e55254d01a077da6c6a3c1b4ec96b2c0b787ccc57d0ee14e4faea9876",
+    "originalSha256": "d2f5c735f46b49ab5a6627ac69d3ccbab78eec76765f732e1019c4a51d734c0d",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: an action scene for a Korean children's vehicle atlas (age 3–10). One classic four-wheeled ice resurfacer moving slowly away on an empty indoor skating rink. A rear three-quarter view clearly shows the low full-width rear conditioner in contact with the ice, with a smooth slightly wet reflective strip trailing directly behind its width. Ice ahead has skate scratches. Clear boxy snow tank, open driver position, no front snowplow blade, no ice-spraying nozzles or exterior jets. No readable advertising or people on the ice. Warm realistic painted technical picture-book illustration, crisp shape boundaries, natural daylight and readable mechanical connections. Wide landscape composition, main machine fills most of frame, keep the whole operating interface visible. Generic plausible working example. No text, captions, arrows, trademarks, watermark, decorative borders, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "f9325d5e55254d01a077da6c6a3c1b4ec96b2c0b787ccc57d0ee14e4faea9876",
+      "originalSha256": "d2f5c735f46b49ab5a6627ac69d3ccbab78eec76765f732e1019c4a51d734c0d",
+      "referenceUrls": [
+        "https://zamboni.com/about/how-it-works/"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 넓은 뒤 정빙부가 얼음에 닿고 그 폭 안쪽으로 매끈한 흔적이 이어진다.",
+      "independentNotes": "차체 뒤에 연결된 넓은 장치가 얼음에 닿고 그 뒤에 정리된 매끈한 면이 보인다.",
+      "limitations": "내부 칼날·물 분사 작동은 보이지 않는다."
+    }
+  },
+  {
+    "modelId": "soil-stabilizer",
+    "filename": "soil-stabilizer-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 낡은 포장 재료를 다시 섞는 모습이에요",
+    "caption": "AI 제작 그림 · 낡은 포장 재료를 다시 섞는 모습이에요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "dea2dab0637adc94d9b933d3a901fe19cd686d1dddea19aca6ce85070a8c6c7e",
+    "originalSha256": "a82c4bc6cb24cb5a3a8a1d78bb8708c37940929e61a8c2379276d151b93253c1",
+    "width": 1400,
+    "height": 700,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: an action scene for a Korean children's vehicle atlas (age 3–10). A large self-propelled four-wheel in-place road recycler of WR style, cab above front wheels, large enclosed central mixing drum housing low between the axles on a worn road. In one continuous pass the old cracked asphalt ahead becomes a rough dark-gray mixed granular lane behind. Show front and rear in a broad side view, dust minimal, no cutaway and no claim to show hidden rotor. No long discharge conveyor, no grader blade, no free airborne paving, no tractor-towed attachment. Warm realistic painted technical picture-book illustration, crisp shape boundaries, natural daylight and readable mechanical connections. Wide landscape composition, main machine fills most of frame, keep the whole operating interface visible. Generic plausible working example. No text, captions, arrows, trademarks, watermark, decorative borders, or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "dea2dab0637adc94d9b933d3a901fe19cd686d1dddea19aca6ce85070a8c6c7e",
+      "originalSha256": "a82c4bc6cb24cb5a3a8a1d78bb8708c37940929e61a8c2379276d151b93253c1",
+      "referenceUrls": [
+        "https://www.wirtgen-group.com/en-nl/products/wirtgen/technologies/recycling-and-soil-stabilisation/cr-series/"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 앞뒤 큰 바퀴 사이 덮개가 땅 가까이에 있고 거칠게 처리된 길이 뒤로 이어진다. 내부 드럼은 가려져 있다.",
+      "independentNotes": "큰 바퀴 사이 낮은 혼합 장치 덮개가 지면에 닿고 기존 표면과 부서진 재료가 구별된다.",
+      "limitations": "내부 회전자나 결합재·물 투입 과정은 덮여 있어 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "vacuum-excavator-truck",
+    "filename": "vacuum-excavator-truck-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 굵은 호스로 느슨한 흙을 빨아들여요",
+    "caption": "AI 제작 그림 · 굵은 호스로 느슨한 흙을 빨아들여요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "798df2e8ec757db28dcb410ec9ab9c7e242e5e22e55150cbd9fe5cc35358f172",
+    "originalSha256": "7c6805e0ff4c66101bbec6c32df69d2697fc9b402a14de0b524e44129f921a90",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: action picture for a Korean children's vehicle atlas (ages 3–10). Vacuum excavation truck stopped in a coned-off work zone, side three-quarter view, oval debris tank and ONE stout dark flexible suction hose traceably connected to tank on a short swing arm. Hose curves down into a small shallow excavation, open intake just above loose damp soil; operator stands at the side behind barrier, holding a separate thin hand lance whose tip is near the soil. Show distinctly the wide suction hose versus thin wand; no stream of soil outside the hose, no water jets, no sewer manhole. Trucks and legs supported on pavement. Warm technically credible painted picture-book illustration, crisp edges, natural light. Wide landscape with main machine and work interface legible. Generic working example. No readable text, marks, watermark, arrows, collage or inset.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "798df2e8ec757db28dcb410ec9ab9c7e242e5e22e55150cbd9fe5cc35358f172",
+      "originalSha256": "7c6805e0ff4c66101bbec6c32df69d2697fc9b402a14de0b524e44129f921a90",
+      "referenceUrls": [
+        "https://protips.vermeer.com/underground/2023/03/16/vacuum-excavators-help-maryville-expand-and-maintain-underground-infrastructure/"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 굵은 호스 끝이 느슨한 흙 가까이에 있고 얇은 손 도구와 분리되어 보인다. 탱크 내부 연결과 실제 토사 흐름은 보이지 않는다.",
+      "independentNotes": "굵은 호스가 붐에 지지되어 굴착 구멍 안의 흙에 닿고 탱크가 차체에 실려 있다.",
+      "limitations": "호스와 탱크의 상부 내부 연결 및 손에 든 작은 호스의 수원은 가려져 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "mobile-rock-crusher",
+    "filename": "mobile-rock-crusher-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 부순 돌이 운반 띠를 타고 내려와요",
+    "caption": "AI 제작 그림 · 부순 돌이 운반 띠를 타고 내려와요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "99295a68e8a6be0905a9ca40a6d326cda105163dac5d21ebd1d26429fc6a2d2a",
+    "originalSha256": "2e3eab99146e4115adc58616ffe1208801254faa47bd96c29afb8c615e551c5b",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: action picture for a Korean children's vehicle atlas (ages 3–10). A single mobile jaw crusher in a quarry, tracked machine with steel hopper above enclosed crusher at near-left end, one long clearly supported discharge conveyor angled toward right. A small continuous stream of gravel falls from top end of the conveyor onto a modest pile directly below. Larger rocks sit in input hopper and output stones are visibly smaller. No view into the enclosed jaw, no second machine, no floats or disconnected conveyor. Warm technically credible painted picture-book illustration, crisp edges, natural light. Wide landscape with main machine and work interface legible. Generic working example. No readable text, marks, watermark, arrows, collage or inset.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "99295a68e8a6be0905a9ca40a6d326cda105163dac5d21ebd1d26429fc6a2d2a",
+      "originalSha256": "2e3eab99146e4115adc58616ffe1208801254faa47bd96c29afb8c615e551c5b",
+      "referenceUrls": [
+        "https://www.metso.com/portfolio/lokotrack-lt-series/"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 큰 돌을 받는 호퍼와 작은 자갈이 끝에서 떨어지는 배출띠가 보인다. 내부 파쇄부는 덮여 있다.",
+      "independentNotes": "큰 돌이 든 호퍼와 궤도, 작은 돌을 운반해 쌓는 컨베이어가 보인다.",
+      "limitations": "몸체 내부의 파쇄기는 가려져 작동을 직접 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "rail-grinder",
+    "filename": "rail-grinder-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 레일 윗면을 갈아 고르게 다듬어요",
+    "caption": "AI 제작 그림 · 레일 윗면을 갈아 고르게 다듬어요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "e3baf6439550e0827bf5830b4b96f31c67a3c81790a54e302752e4c8e4769719",
+    "originalSha256": "7a9dad3c47cc4c58fb796f542464bb27ec3bd880d0e11ef4a51ca64eba18c91a",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: action picture for a Korean children's vehicle atlas (ages 3–10). Single yellow self-propelled rail grinder work vehicle, low side three-quarter angle on straight railway in a closed rural work zone at dusk. Steel flanged wheelsets visibly aligned on the two rails. Under the frame BETWEEN wheelsets a lowered grinding module and dark side spark guards near the rail head, a modest short trail of sparks from tool-to-rail contact only. No sparks from wheelsets, no fire, no smoke, no hands or workers near train, no sparks at sleepers. Warm technically credible painted picture-book illustration, crisp edges, natural light. Wide landscape with main machine and work interface legible. Generic working example. No readable text, marks, watermark, arrows, collage or inset.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "e3baf6439550e0827bf5830b4b96f31c67a3c81790a54e302752e4c8e4769719",
+      "originalSha256": "7a9dad3c47cc4c58fb796f542464bb27ec3bd880d0e11ef4a51ca64eba18c91a",
+      "referenceUrls": [
+        "https://loram.com/maintenance-of-way/rail-maintenance/specialty-rail-grinding/rgs/"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 바퀴는 레일에 닿아 있고, 불꽃은 가운데 연마부 아래의 레일 윗면 근처에서만 보인다.",
+      "independentNotes": "철도 바퀴가 선로 위에 놓이고 차체 아래 연마 장치 부근의 레일에서 불꽃이 나온다.",
+      "limitations": "연마석의 내부 형상과 반대쪽 레일 접촉은 가려져 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "round-baler",
+    "filename": "round-baler-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 마른 풀을 둥근 덩이로 말아 놓아요",
+    "caption": "AI 제작 그림 · 마른 풀을 둥근 덩이로 말아 놓아요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "8e013f8127a17b40b8b5c30bc8bfc144d472a5613a6e796b806cca2a6e4e369d",
+    "originalSha256": "74fc66b9c7f974446b565334ab55c7a0c0566fe6585ef11eb04b5d0e7bf564f3",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: action picture for a Korean children's vehicle atlas (ages 3–10). A green tractor towing one round hay baler along a mown dry grass field. Rear three-quarter view with tractor drawbar visibly connected at front of baler; baler's own paired wheels on ground. Raised rear tailgate with two lift cylinders. One large compact cylindrical straw bale rolls gently out of the open rear chamber, circular end in clear view, contacting ground just behind the machine; already baled cylinders far in background only. No square bales, plastic wrap, string through the air, or chains across exposed driver. Sunny calm field. Warm technically credible painted picture-book illustration, crisp edges, natural light. Wide landscape with main machine and work interface legible. Generic working example. No readable text, marks, watermark, arrows, collage or inset.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "8e013f8127a17b40b8b5c30bc8bfc144d472a5613a6e796b806cca2a6e4e369d",
+      "originalSha256": "74fc66b9c7f974446b565334ab55c7a0c0566fe6585ef11eb04b5d0e7bf564f3",
+      "referenceUrls": [
+        "https://www.krone-agriculture.com/en/products/round-balers"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 트랙터 연결부와 열린 뒷문이 보이고 둥근 건초 덩이가 바로 뒤 땅에 놓여 있다.",
+      "independentNotes": "트랙터와 압축기가 연결되고 뒤문이 위로 열려 있으며 둥근 베일이 출구 바로 뒤 바닥에 놓였다.",
+      "limitations": "배출된 직후의 정지된 순간으로 볼 수 있으며 결속과 압축 과정은 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "forage-harvester",
+    "filename": "forage-harvester-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 잘게 썬 사료 작물을 옆 트레일러에 보내요",
+    "caption": "AI 제작 그림 · 잘게 썬 사료 작물을 옆 트레일러에 보내요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "8108124b82554d3a3b6a2e3a077fee4608fd3a04e0f0f2b172a9fca5cc03196c",
+    "originalSha256": "d51268be4e81863651e0c8ba4de8c216a95812feb64dd03e6823161c8b669239",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: action picture for a Korean children's vehicle atlas (ages 3–10). A self-propelled forage harvester with a wide maize header entering standing green maize in a field. High curved discharge spout clearly rises from the harvester and arcs over the side, sending a fine green chopped crop stream into an open high-sided silage trailer pulled by a separate tractor driving beside it on the cut side. Both vehicles visible, no attached grain tank or combine-style auger pipe, no whole corn ears flying, no implausible joints or intersecting machines. Warm technically credible painted picture-book illustration, crisp edges, natural light. Wide landscape with main machine and work interface legible. Generic working example. No readable text, marks, watermark, arrows, collage or inset.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "8108124b82554d3a3b6a2e3a077fee4608fd3a04e0f0f2b172a9fca5cc03196c",
+      "originalSha256": "d51268be4e81863651e0c8ba4de8c216a95812feb64dd03e6823161c8b669239",
+      "referenceUrls": [
+        "https://www.claas.com/en-gb/agricultural-machinery/forage-harvesters"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 앞 작업부가 작물 줄을 받아들이고 굽은 배출관에서 나온 잘게 썬 작물이 옆 트레일러 안으로 이어진다.",
+      "independentNotes": "앞쪽 수확 장치가 옥수수 줄기와 만나고 차체에 이어진 굽은 배출관이 잘린 재료를 옆 적재함 안에 쏟는다.",
+      "limitations": "수확·절단 장치의 내부 작동은 가려져 있다."
+    }
+  },
+  {
+    "modelId": "electric-rope-shovel",
+    "filename": "electric-rope-shovel-scene-20261109-v2.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 강철 줄이 돌을 담은 바가지를 들어 올려요",
+    "caption": "AI 제작 그림 · 강철 줄이 돌을 담은 바가지를 들어 올려요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "9c79a64a1ddd669460ec7fa40c80ee260493a14cdefe6c2e89a04cc1d1170b2a",
+    "originalSha256": "59256a5dc7afff94e2c2837e9cc2ea4adb8f4d1314010c3d7e50d52794554e4e",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene for a children's vehicle atlas. Show a giant yellow electric mining rope shovel slowly raising a tooth-edged dipper already filled with rock just above a mined rock pile. The bucket is upright, its bottom door CLOSED, no rocks falling, no nearby truck. Fixed steep lattice boom with clearly traceable taut wire rope running from machinery along the boom through top sheaves then down to the dipper bail, and a straight twin-leg rigid dipper handle with saddle halfway up boom. Show whole crawler chassis in ground contact, pivot, stationary boom and raised dipper together in a side three-quarter view. No hydraulic excavator stick, no dangling dragline bucket or spurious auxiliary booms. Realistic warm painted field-guide illustration in daylight, clear readable parts and physical connections, wide landscape. No words, logos, collage, arrows, watermark or border. Generic equipment example.",
+      "imageInputs": false,
+      "version": 2,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "9c79a64a1ddd669460ec7fa40c80ee260493a14cdefe6c2e89a04cc1d1170b2a",
+      "originalSha256": "59256a5dc7afff94e2c2837e9cc2ea4adb8f4d1314010c3d7e50d52794554e4e",
+      "referenceUrls": [
+        "https://www.komatsu.com/en-us/products/equipment/electric-rope-shovels/4100xpc"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 도르래를 지나는 강철 줄이 딥퍼 손잡이 쪽 받침에 이어지고 닫힌 바닥이 돌을 담고 있다.",
+      "independentNotes": "붐 끝 도르래의 로프와 딥퍼 지지부가 연결되고 닫힌 삽 안에 돌이 담겨 있다.",
+      "limitations": "교육용 그림이며 실제 특정 기종의 세부 링크와 전력 공급은 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "concrete-slipform-paver",
+    "filename": "concrete-slipform-paver-scene-20261109-v2.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 넓은 틀 뒤로 매끈한 콘크리트 길이 이어져요",
+    "caption": "AI 제작 그림 · 넓은 틀 뒤로 매끈한 콘크리트 길이 이어져요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "a7db0ad998c1e146dfec59e1185687c7c84ae2626ebb482139e37b472986cb41",
+    "originalSha256": "4e7a82f3f692e0d0e7ae53e2d0ef7d8dfa856ca53121481bd7c4421749b9dc5b",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene for a children's vehicle atlas. Road job site, a highway inset slipform concrete paver shaping a small straight roadway lane. Wide yellow rectangular truss bridge frame straddles the concrete lane on FOUR narrow crawler units, two along each gravel shoulder, not running on the concrete. Low wide finishing mold directly under frame. Camera from rear three quarter shows a single continuous flat uniform gray concrete lane leaving rear edge of mold, moist sheen, well defined vertical edges, matching width with the mold and flush with shoulder grade. Gravel shoulders and compacted base AHEAD. No asphalt, no curb, no prefabricated slabs, no loose stone pouring into mold. Upper exterior and already formed flat pavement as the focus, with covered concrete feeding equipment. Realistic warm painted field-guide illustration in daylight, clear readable parts and physical connections, wide landscape. No words, logos, collage, arrows, watermark or border. Generic equipment example.",
+      "imageInputs": false,
+      "version": 2,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "a7db0ad998c1e146dfec59e1185687c7c84ae2626ebb482139e37b472986cb41",
+      "originalSha256": "4e7a82f3f692e0d0e7ae53e2d0ef7d8dfa856ca53121481bd7c4421749b9dc5b",
+      "referenceUrls": [
+        "https://www.gomaco.com/Resources/gp4_paver.html"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 두 줄의 궤도는 포장 바깥에 있으며 가운데 넓은 틀 뒤로 평평한 콘크리트 포장면이 이어진다. 콘크리트 투입부는 가려져 있다.",
+      "independentNotes": "넓은 프레임 양끝의 궤도가 포장면 양옆에 있고 아래쪽 성형 장치 뒤로 넓고 매끈한 콘크리트 면이 이어진다.",
+      "limitations": "장치 앞쪽에 젖은 콘크리트 공급이 보이지 않아 투입 경로와 실제 성형 작동은 확인할 수 없다."
+    }
+  },
+  {
+    "modelId": "skidder",
+    "filename": "skidder-scene-20261109-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 뒤 집게로 통나무를 잡아 끌어요",
+    "caption": "AI 제작 그림 · 뒤 집게로 통나무를 잡아 끌어요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "386e72e608dfa55e878cb89d48e92565650ad0bd9fdb44a8f3d4adda587bf552",
+    "originalSha256": "f9465a04c85d4f28deda464ec61604fd98acc9347fa0375f8a32e42c098e16b1",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene for a children's vehicle atlas. Grapple skidder working on a wide woodland clearing trail. One articulated 4-wheel logging skidder, front cab and engine, small front blade raised, short pivoting grapple boom mounted behind cab. Powerful rear grapple visibly closes around near ends of two cut logs, their far ends trailing in contact with dirt and extending well BEHIND the rear axle in the direction opposite travel. Entire skidder and logs visible, no cargo bunk, no front grab, no blade cutting a standing tree, no log floating or penetrating wheel. Realistic warm painted field-guide illustration in daylight, clear readable parts and physical connections, wide landscape. No words, logos, collage, arrows, watermark or border. Generic equipment example.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Terra 독립 육안 검수",
+      "sha256": "386e72e608dfa55e878cb89d48e92565650ad0bd9fdb44a8f3d4adda587bf552",
+      "originalSha256": "f9465a04c85d4f28deda464ec61604fd98acc9347fa0375f8a32e42c098e16b1",
+      "referenceUrls": [
+        "https://www.deere.com/assets/pdfs/common/products/skidders/skidder-L-SeriesII-DKDLSKDR.pdf"
+      ],
+      "parentNotes": "원본 장면과 공개 JPEG를 직접 육안 대조했다. 뒤 붐에 달린 집게가 통나무 두 개를 감싸고 먼쪽 끝이 흙길에 닿는다.",
+      "independentNotes": "차체에 연결된 뒤쪽 붐과 집게가 통나무 끝을 잡고 나무의 나머지 부분이 땅에 닿아 뒤로 이어진다.",
+      "limitations": "유압장치와 이동 과정은 단순화된 교육용 그림이다."
+    }
   }
 ]
