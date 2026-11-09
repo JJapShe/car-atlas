@@ -3270,5 +3270,674 @@ export const vehicles = [
     "tile": "#e9eadc",
     "englishName": "Catenary Maintenance Vehicle",
     "cardCue": "철도 위 전깃줄을 살펴보고 고쳐요."
+  },
+  {
+    "id": "asphalt-distributor",
+    "name": "아스팔트 유제 살포차",
+    "englishName": "Asphalt Distributor",
+    "body": "special",
+    "aliases": [
+      "유제 살포차"
+    ],
+    "cardCue": "도로에 검은 재료를 고르게 뿌려요.",
+    "summary": "탱크에 담긴 도로 포장 재료를 뒤쪽 막대로 고르게 뿌려요.",
+    "cues": [
+      "큰 탱크가 실려 있어요.",
+      "뒤쪽에 여러 분사구가 달린 긴 막대가 있어요."
+    ],
+    "appearance": {
+      "label": "아스팔트 유제 살포차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://etnyre.com/chip-seal-machines/",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "bridge-inspection-truck",
+    "name": "교량 점검차",
+    "englishName": "Under-Bridge Inspection Truck",
+    "body": "special",
+    "aliases": [
+      "다리 점검차"
+    ],
+    "cardCue": "다리 아래를 살펴봐요.",
+    "summary": "긴 팔을 다리 아래로 내려 작업자가 다리 상태를 살펴보게 도와요.",
+    "cues": [
+      "다리 위에 트럭이 서 있어요.",
+      "긴 팔이 다리 옆을 지나 아래로 내려가요."
+    ],
+    "appearance": {
+      "label": "교량 점검차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://www.fhwa.dot.gov/bridge/nbis2022/qanda/08.cfm",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "steam-road-roller",
+    "name": "증기 롤러",
+    "englishName": "Steam Road Roller",
+    "body": "special",
+    "aliases": [
+      "증기식 도로 롤러"
+    ],
+    "cardCue": "증기의 힘으로 무거운 바퀴를 굴려요.",
+    "summary": "옛날에 증기의 힘으로 움직이며 도로를 눌러 다졌던 장비예요.",
+    "cues": [
+      "둥근 보일러와 굴뚝이 있어요.",
+      "무거운 둥근 롤러로 땅을 눌러요."
+    ],
+    "appearance": {
+      "label": "증기 롤러의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://collection.sciencemuseumgroup.org.uk/objects/co58502/aveling-steam-road-roller-of-1886-road-roller",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "diaphragm-wall-cutter",
+    "name": "지하 연속벽 절삭기",
+    "englishName": "Diaphragm Wall Trench Cutter",
+    "body": "special",
+    "aliases": [
+      "하이드로밀",
+      "연속벽 굴착기"
+    ],
+    "cardCue": "회전하는 날로 깊고 긴 홈을 파요.",
+    "summary": "땅속에 벽을 세우기 위한 깊은 홈을 파는 장비예요.",
+    "cues": [
+      "아래쪽에 두 개의 커다란 절삭 바퀴가 있어요.",
+      "몸이 위아래로 길게 서 있어요."
+    ],
+    "appearance": {
+      "label": "지하 연속벽 절삭기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://casagrandegroup.com/wp-content/uploads/2026/02/Casagrande-General-catalogue_11-25.pdf",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "pavement-concrete-saw",
+    "name": "도로 절단기",
+    "englishName": "Walk-behind Road Saw",
+    "body": "special",
+    "aliases": [
+      "콘크리트 절단기",
+      "노면 절단기"
+    ],
+    "cardCue": "둥근 날로 도로에 선을 잘라요.",
+    "summary": "둥근 날을 돌려 아스팔트나 콘크리트 바닥을 잘라요.",
+    "cues": [
+      "아래쪽에 둥근 절단 날이 있어요.",
+      "뒤쪽 손잡이를 잡고 바닥을 따라 움직여요."
+    ],
+    "appearance": {
+      "label": "도로 절단기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://www.husqvarnaconstruction.com/hcp/tdrdownload/pub000092539/doc000226109/-980151220?httproute=True",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "hydrodemolition-machine",
+    "name": "고압수 콘크리트 제거기",
+    "englishName": "Hydrodemolition Robot",
+    "body": "special",
+    "aliases": [
+      "물분사 콘크리트 제거기",
+      "하이드로데몰리션 로봇"
+    ],
+    "cardCue": "센 물줄기로 낡은 콘크리트를 떼어내요.",
+    "summary": "아주 센 물을 사용해 다리나 바닥의 낡은 콘크리트를 제거해요.",
+    "cues": [
+      "낮은 몸 아래 무한궤도가 있어요.",
+      "굵은 호스가 작업 장치로 이어져요."
+    ],
+    "appearance": {
+      "label": "고압수 콘크리트 제거기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "sourceUrl": "https://aquajet.se/hydrodemolition/all-about-hydrodemolition/",
+    "tile": "#e8e8de",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "underwater-rov",
+    "name": "원격 조종 잠수 로봇",
+    "englishName": "Remotely Operated Vehicle",
+    "body": "water",
+    "aliases": [
+      "ROV",
+      "수중 로봇",
+      "해저 작업 로봇"
+    ],
+    "cardCue": "배에서 조종해 깊은 바닷속을 살펴봐요.",
+    "summary": "배와 케이블로 이어진 로봇이 바다 밑을 비추고, 카메라로 찍거나 집게로 표본을 모아요.",
+    "cues": [
+      "위로 이어지는 긴 케이블을 찾아봐요.",
+      "앞의 불빛과 구부러지는 집게 팔을 봐요."
+    ],
+    "sourceUrl": "https://oceanexplorer.noaa.gov/technology/subs-deep-discoverer/",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "원격 조종 잠수 로봇의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "cable-laying-ship",
+    "name": "해저 케이블 설치선",
+    "englishName": "Cable-Laying Ship",
+    "body": "water",
+    "aliases": [
+      "해저 케이블 포설선",
+      "케이블 부설선",
+      "케이블선"
+    ],
+    "cardCue": "긴 케이블을 바다 밑에 놓아요.",
+    "summary": "배에 실은 긴 케이블을 천천히 풀어 바다 밑에 놓고, 육지나 바다 위 시설을 연결해요.",
+    "cues": [
+      "케이블을 배 안이나 갑판에 실어요.",
+      "배 뒤에서 케이블이 나가는 길을 찾아봐요."
+    ],
+    "sourceUrl": "https://www.jandenul.com/fleet/cable-installation-vessels",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "해저 케이블 설치선의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "jack-up-installation-vessel",
+    "name": "다리로 올라서는 해상 작업선",
+    "englishName": "Jack-Up Installation Vessel",
+    "body": "water",
+    "aliases": [
+      "잭업 작업선",
+      "잭업 바지선",
+      "해상풍력 설치선"
+    ],
+    "cardCue": "긴 다리를 내려 바다 위에 서요.",
+    "summary": "긴 다리가 바다 밑에 닿으면 배의 몸을 물 위로 들어 올려, 큰 크레인으로 해상 시설을 설치해요.",
+    "cues": [
+      "선체 위로 길게 솟은 다리를 찾아봐요.",
+      "갑판에 무거운 짐을 드는 크레인이 있어요."
+    ],
+    "sourceUrl": "https://orsted.co.uk/media/newsroom/news/2020/09/deme-hornsea-foundations",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "다리로 올라서는 해상 작업선의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "semi-submersible-heavy-transport",
+    "name": "반잠수식 중량물 운반선",
+    "englishName": "Semi-Submersible Heavy Transport Ship",
+    "body": "water",
+    "aliases": [
+      "반잠수 운반선",
+      "중량물 운반선",
+      "보카 뱅가드"
+    ],
+    "cardCue": "갑판을 물에 잠가 아주 큰 짐을 실어요.",
+    "summary": "넓은 갑판을 물에 잠기게 해 물에 뜬 큰 짐을 그 위로 옮겨요. 배가 다시 떠오르면 짐을 받쳐 나를 수 있어요.",
+    "cues": [
+      "넓고 낮은 갑판에 아주 큰 짐이 올라가요.",
+      "갑판 양옆에 높이 솟은 구조물이 있어요."
+    ],
+    "sourceUrl": "https://boskalis.com/media/zuyj1axi/boka-vanguard.pdf",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "반잠수식 중량물 운반선의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "floating-dry-dock",
+    "name": "부유식 선박 수리 도크",
+    "englishName": "Floating Dry Dock",
+    "body": "water",
+    "aliases": [
+      "부유 도크",
+      "플로팅 도크",
+      "떠 있는 수리 도크"
+    ],
+    "cardCue": "배 밑이 물 밖으로 나오게 들어 올려요.",
+    "summary": "물에 뜨는 큰 받침대를 잠기게 해 배를 들인 뒤, 다시 떠올려 배 밑바닥을 수리할 수 있게 해요.",
+    "cues": [
+      "높은 벽 두 개 사이에 배가 들어가요.",
+      "가운데 받침대가 선체 밑을 받쳐요."
+    ],
+    "sourceUrl": "https://www.austal.com/ships/auxiliary-floating-docks",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "부유식 선박 수리 도크의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "oil-skimmer-vessel",
+    "name": "기름 수거 작업선",
+    "englishName": "Oil Spill Skimmer Vessel",
+    "body": "water",
+    "aliases": [
+      "유회수선",
+      "해양 기름 수거선",
+      "오일 스키머"
+    ],
+    "cardCue": "물 위에 뜬 기름을 모아 거둬요.",
+    "summary": "물 위에 뜬 기름을 울타리 같은 띠로 한곳에 모으고, 수거 장치로 걷어 내 통에 담아요.",
+    "cues": [
+      "기름이 퍼지지 않도록 물 위에 긴 띠를 띄워요.",
+      "물 가까이에서 기름을 거두는 장치를 찾아봐요."
+    ],
+    "sourceUrl": "https://response.restoration.noaa.gov/oil-and-chemical-spills/oil-spills/spill-containment-methods.html",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "기름 수거 작업선의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "autonomous-underwater-vehicle",
+    "name": "자율 잠수 탐사 로봇",
+    "englishName": "Propeller-Driven Autonomous Underwater Vehicle",
+    "body": "water",
+    "aliases": [
+      "AUV",
+      "자율 무인 잠수정",
+      "REMUS"
+    ],
+    "cardCue": "정해 둔 길을 따라 바닷속을 조사해요.",
+    "summary": "출발하기 전에 조사할 길을 정해 줘요. 로봇은 물속에서 스스로 움직이며 바다 밑 모습을 기록해요.",
+    "cues": [
+      "긴 원통 몸과 끝에 달린 작은 날개를 찾아봐요.",
+      "이런 로봇은 뒤쪽 프로펠러로 앞으로 나아가요."
+    ],
+    "sourceUrl": "https://www.whoi.edu/what-we-do/explore/underwater-vehicles/auvs/remus/",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "자율 잠수 탐사 로봇의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "underwater-glider",
+    "name": "수중 글라이더",
+    "englishName": "Underwater Glider",
+    "body": "water",
+    "aliases": [
+      "바닷속 글라이더",
+      "해양 글라이더",
+      "슬로컴 글라이더"
+    ],
+    "cardCue": "작은 날개로 물속을 미끄러져요.",
+    "summary": "물에 뜨는 힘을 조금씩 바꿔 위아래로 움직이고, 작은 날개로 물속을 앞으로 미끄러져요.",
+    "cues": [
+      "몸 양쪽에 짧은 날개가 있어요.",
+      "물속을 오르내리며 온도 같은 정보를 모아요."
+    ],
+    "sourceUrl": "https://pmel.noaa.gov/edd/slocum-sub-surface-electric-gliders/",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "수중 글라이더의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "seabed-rock-placement-vessel",
+    "name": "해저에 돌을 놓는 작업선",
+    "englishName": "Subsea Rock Placement Vessel",
+    "body": "water",
+    "aliases": [
+      "석재 투하선",
+      "해저 사석 투하선",
+      "돌 놓는 배"
+    ],
+    "cardCue": "바다 밑에 돌을 놓아 시설을 보호해요.",
+    "summary": "배에 실은 돌을 바닷속에 내려, 물살에 바닥이 깎이기 쉬운 곳이나 배관 위를 덮어 보호해요.",
+    "cues": [
+      "갑판에 돌을 실을 넓은 자리가 있어요.",
+      "장비에 따라 옆으로 돌을 내리거나 관을 써요."
+    ],
+    "sourceUrl": "https://www.jandenul.com/fleet/rock-installation-vessels",
+    "tile": "#dceaf0",
+    "appearance": {
+      "label": "해저에 돌을 놓는 작업선의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "olive-tree-shaker",
+    "name": "올리브 나무 진동 수확기",
+    "englishName": "Olive tree shaker",
+    "body": "farm",
+    "aliases": [
+      "olive tree shaker",
+      "trunk vibrator",
+      "올리브 수확기",
+      "나무 진동기"
+    ],
+    "cardCue": "나무줄기를 잡는 집게를 찾아봐요.",
+    "summary": "나무줄기를 붙잡고 흔들어 익은 올리브를 떨어뜨려요.",
+    "cues": [
+      "앞쪽 장치가 나무줄기를 감싸도록 다가가요.",
+      "진동으로 열매를 떨어뜨려 수확을 도와요."
+    ],
+    "sourceUrl": "https://www.pellenc.com/en-gb/our-products/fruit-growing-and-olive-growing/olive-growing/harvesting/fb80-tractor-mounted-frontal-vibrator",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "올리브 나무 진동 수확기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "vegetable-transplanter",
+    "name": "채소 모종 이식기",
+    "englishName": "Vegetable transplanter",
+    "body": "farm",
+    "aliases": [
+      "seedling transplanter",
+      "vegetable transplanter",
+      "모종 심는 기계",
+      "채소 정식기"
+    ],
+    "cardCue": "모종을 놓는 자리를 찾아봐요.",
+    "summary": "밭에 고랑을 내고 어린 모종을 옮겨 심어요.",
+    "cues": [
+      "모종을 놓는 장치가 여러 줄로 이어져요.",
+      "심은 뒤 흙을 눌러 모종을 세워 줘요."
+    ],
+    "sourceUrl": "https://www.checchiemagli.com/en/machines/transplanters/",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "채소 모종 이식기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "onion-harvester",
+    "name": "양파 수확기",
+    "englishName": "Onion harvester",
+    "body": "farm",
+    "aliases": [
+      "onion digger",
+      "onion harvester",
+      "양파 캐는 기계",
+      "양파 굴취기"
+    ],
+    "cardCue": "땅속 양파를 들어 올리는 부분을 찾아봐요.",
+    "summary": "흙속 양파를 들어 올려 수확하기 쉽게 모아요.",
+    "cues": [
+      "트랙터에 흙을 파고 양파를 건지는 장치가 붙어요.",
+      "작업부가 흙을 들어 올려 양파를 꺼내요."
+    ],
+    "sourceUrl": "https://imac-rondelli.it/en/company/",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "양파 수확기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "tree-spade",
+    "name": "나무 이식용 스페이드",
+    "englishName": "Tree spade",
+    "body": "special",
+    "aliases": [
+      "tree spade",
+      "tree digger",
+      "나무 옮기는 기계",
+      "나무 이식기",
+      "뿌리 삽"
+    ],
+    "cardCue": "나무뿌리를 감싸는 삽날을 찾아봐요.",
+    "summary": "넓은 삽날로 뿌리와 흙덩이를 감싸 나무를 옮겨요.",
+    "cues": [
+      "여러 삽날이 뿌리 주변에서 모여요.",
+      "흙덩이를 지켜 나무를 다른 곳에 심어요."
+    ],
+    "sourceUrl": "https://www.dutchmantreespade.com/products/",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "나무 이식용 스페이드의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "stump-grinder",
+    "name": "그루터기 분쇄기",
+    "englishName": "Stump grinder",
+    "body": "special",
+    "aliases": [
+      "stump grinder",
+      "stump cutter",
+      "그루터기 제거기",
+      "나무 밑동 분쇄기"
+    ],
+    "cardCue": "둥근 절삭날이 어디에 닿는지 봐요.",
+    "summary": "돌아가는 날로 나무 밑동을 잘게 갈아요.",
+    "cues": [
+      "둥근 날의 단단한 이빨이 나무를 갈아요.",
+      "갈린 나무 조각이 그루터기 주변에 보여요."
+    ],
+    "sourceUrl": "https://fecon.com/stump-grinders/",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "그루터기 분쇄기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "vineyard-pre-pruner",
+    "name": "포도밭 예비 전정기",
+    "englishName": "Vineyard pre-pruner",
+    "body": "farm",
+    "aliases": [
+      "vineyard pre-pruner",
+      "vine pre-pruner",
+      "포도나무 가지치기",
+      "포도나무 전정기"
+    ],
+    "cardCue": "포도나무 줄을 덮는 장치를 찾아봐요.",
+    "summary": "포도 덩굴을 미리 잘라 다음 전정 일을 도와요.",
+    "cues": [
+      "포도나무 줄 위를 지나며 덩굴을 다듬어요.",
+      "전정 장치가 운반차에 연결되어 움직여요."
+    ],
+    "sourceUrl": "https://www.pellenc.com/en-gb/our-products/from-the-vineyard-to-the-winery/vine-growing/tools-for-in-the-row-tractors-for-wide-row-vineyards/disco-and-visio-tractor-mounted-pre-pruners",
+    "tile": "#e7ebed",
+    "appearance": {
+      "label": "포도밭 예비 전정기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "track-measuring-car",
+    "name": "선로 측정차",
+    "englishName": "Track Geometry Measuring Car",
+    "body": "rail",
+    "aliases": [
+      "선로 검측차",
+      "선로 상태 측정차",
+      "궤도 측정 열차"
+    ],
+    "cardCue": "선로의 폭과 높낮이를 살펴봐요.",
+    "summary": "선로 측정차는 레일 사이의 폭과 선로의 높낮이·기울기를 재어 어디를 살펴봐야 하는지 알려줘요.",
+    "cues": [
+      "길고 노란 철도 차량이 보여요.",
+      "차체 옆면에 측정 장비와 작은 표지가 붙어 있어요."
+    ],
+    "sourceUrl": "https://www.networkrailmediacentre.co.uk/news/network-rail-launches-new-measurement-train-2",
+    "tile": "#e9e1c8",
+    "appearance": {
+      "label": "선로 측정차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "rail-recovery-crane",
+    "name": "철도 복구 크레인",
+    "englishName": "Railway Recovery Crane",
+    "body": "rail",
+    "aliases": [
+      "철도 구난 크레인",
+      "철도 복구 열차 크레인",
+      "레일 크레인"
+    ],
+    "cardCue": "탈선한 열차를 다시 선로에 올려요.",
+    "summary": "철도 복구 크레인은 사고나 고장으로 선로를 벗어난 열차를 들어 올려 다시 선로에 올리는 일을 도와요.",
+    "cues": [
+      "철도 바퀴 위에 무거운 크레인이 실려 있어요.",
+      "긴 붐을 접어 열차 위에 나란히 놓았어요."
+    ],
+    "sourceUrl": "https://www.volkerrail.co.uk/en/rail-plant/kirow-rail-mounted-cranes",
+    "tile": "#e1e8eb",
+    "appearance": {
+      "label": "철도 복구 크레인의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "rail-milling-train",
+    "name": "레일 밀링 열차",
+    "englishName": "Rail Milling Train",
+    "body": "rail",
+    "aliases": [
+      "레일 절삭 열차",
+      "레일 밀링차"
+    ],
+    "cardCue": "레일 표면을 깎아 모양을 다듬어요.",
+    "summary": "레일 밀링 열차는 레일 윗면을 회전하는 절삭 도구로 조금씩 깎아 표면 모양을 다듬어요. 깎인 쇳조각은 기계 안에 모아요.",
+    "cues": [
+      "여러 작업 칸이 이어진 긴 노란 열차예요.",
+      "차량 아래쪽에 레일을 다듬는 장치가 들어 있어요."
+    ],
+    "sourceUrl": "https://www.linsinger.com/rail-technology/",
+    "tile": "#e6e7d9",
+    "appearance": {
+      "label": "레일 밀링 열차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "rail-welding-vehicle",
+    "name": "레일 용접차",
+    "englishName": "Rail Welding Vehicle",
+    "body": "rail",
+    "aliases": [
+      "Welderliner",
+      "레일 용접 차량",
+      "도로·철도 겸용 용접차"
+    ],
+    "cardCue": "레일 끝을 이어 붙여요.",
+    "summary": "레일 용접차는 레일을 따라 이동하며 레일 끝을 이어 붙이는 장비를 실어 나르고, 선로 이음새를 단단하게 만들어요.",
+    "cues": [
+      "도로용 큰 바퀴와 레일 위에 맞추는 작은 바퀴가 함께 보여요.",
+      "차 뒤쪽에 레일을 잡고 용접하는 장치가 달려 있어요."
+    ],
+    "sourceUrl": "https://www.saz.cz/en/road-rail-welding-vehicle-welderliner/",
+    "tile": "#ece2cb",
+    "appearance": {
+      "label": "레일 용접차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "vehicle"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "amphibious-excavator",
+    "name": "수륙양용 굴착기",
+    "englishName": "Amphibious Excavator",
+    "body": "special",
+    "aliases": [
+      "수상 굴착기",
+      "폰툰 굴착기",
+      "물가 굴착기"
+    ],
+    "cardCue": "물가의 부드러운 땅에서도 파요.",
+    "summary": "수륙양용 굴착기는 넓은 부력 받침을 달아 늪이나 얕은 물가처럼 바닥이 약한 곳에서 땅을 파고 물길을 정리해요.",
+    "cues": [
+      "굴착기 팔과 버킷이 보여요.",
+      "바퀴 대신 넓은 흰색 부력 받침 위에 몸체가 놓여 있어요."
+    ],
+    "sourceUrl": "https://waterking.nl/en/amphibious-excavators/",
+    "tile": "#d8e7e4",
+    "appearance": {
+      "label": "수륙양용 굴착기의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "shotcrete-sprayer",
+    "name": "숏크리트 분사차",
+    "englishName": "Shotcrete Sprayer",
+    "body": "special",
+    "aliases": [
+      "터널 콘크리트 분사차",
+      "숏크리트 장비",
+      "터널 숏크리트차"
+    ],
+    "cardCue": "터널 벽에 콘크리트를 뿌려요.",
+    "summary": "숏크리트 분사차는 긴 팔 끝의 노즐로 콘크리트를 터널 벽과 천장에 뿌려 주변을 단단하게 보강해요.",
+    "cues": [
+      "차체에서 길게 뻗은 여러 마디 분사 팔이 보여요.",
+      "팔 끝에서 터널 벽 쪽으로 하얀 분사 흐름이 나와요."
+    ],
+    "sourceUrl": "https://www.putzmeister.com/web/european-union/product-detail/-/product/201/spm-4210-wetkret",
+    "tile": "#e8dfd7",
+    "appearance": {
+      "label": "숏크리트 분사차의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "id": "underground-mine-truck",
+    "name": "지하 광산 운반 트럭",
+    "englishName": "Underground Mine Truck",
+    "body": "special",
+    "aliases": [
+      "지하 광산 덤프트럭",
+      "광산용 지하 트럭",
+      "광산 덤퍼"
+    ],
+    "cardCue": "좁은 갱도에서 광석을 실어 나릅니다.",
+    "summary": "지하 광산 트럭은 낮은 갱도에서 캐낸 돌과 광석을 싣고 옮겨요. 앞에 버킷을 단 광산 로더와 달리 뒤쪽 적재함에 짐을 실어요.",
+    "cues": [
+      "운전석 뒤에 큰 상자 모양 적재함이 있어요.",
+      "천장이 낮은 광산 안에 들어갈 수 있게 차체가 낮고 짧아요."
+    ],
+    "sourceUrl": "https://www.epiroc.com/en-er/products/loaders-and-trucks/underground-mining-trucks",
+    "tile": "#e4e1d9",
+    "appearance": {
+      "label": "지하 광산 운반 트럭의 구조와 하는 일 · 실물 장비 예시",
+      "change": "equipment"
+    },
+    "checkedAt": "2026-11-09"
   }
 ];

@@ -5884,5 +5884,375 @@
       "independentNotes": "차체 위 노즐에서 이어진 물줄기가 왼쪽 표적에 닿고 표적 아래 물이 고여 있다.",
       "limitations": "실제 화재 현장이 아닌 표적을 향한 물 분사 장면이며 운전실 탑승자는 보이지 않는다."
     }
+  },
+  {
+    "modelId": "underwater-rov",
+    "filename": "underwater-rov-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 줄로 조종하는 로봇이 집게로 바닥의 돌을 살펴봐요",
+    "caption": "AI 제작 그림 · 줄로 조종하는 로봇이 집게로 바닥의 돌을 살펴봐요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "496de09872a4e933cf9824f310a4fefbd8c5baad18dc50dc7a836b6530552632",
+    "originalSha256": "74b4f4612af58fd8826a001425beb37110db057afa92869ddc176cc13277924e",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene for a Korean children's vehicle atlas. A small remotely operated underwater research robot hovering one foot above deep rocky sea floor. Rectangular open metal cage, buoyant yellow foam block on top, dark shrouded thruster openings in frame, two articulated manipulators on front; one claw gently grips a single gray rock above a small sample tray, other arm folded. One slender tether clearly fastened to the top frame, rising continuously out of image toward ship. Headlights illuminate rock and mud. No passengers, cockpit, submarine hull, loose cable, no surface vessel visible. Realistic painted field-guide illustration with clear mechanical connections and landscape framing. Generic educational example. No text, brand marks, watermark, panels, or arrows.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna 독립 실제 픽셀 검수",
+      "sha256": "496de09872a4e933cf9824f310a4fefbd8c5baad18dc50dc7a836b6530552632",
+      "originalSha256": "74b4f4612af58fd8826a001425beb37110db057afa92869ddc176cc13277924e",
+      "referenceUrls": [
+        "https://oceanexplorer.noaa.gov/technology/subs-deep-discoverer/"
+      ],
+      "parentNotes": "윗줄은 로봇 상단과 연결된다. 조명, 채집 집게, 집게 아래 받침이 함께 보인다.",
+      "independentNotes": "금속 보호 프레임, 위쪽 부력재와 고정된 케이블, 추진기 구멍, 앞쪽 조작 팔 두 개가 보인다. 한 집게가 바위를 잡아 아래 시료 바구니 위에 들고 있고 다른 팔은 접혀 있다.",
+      "limitations": "실제 NOAA Deep Discoverer의 사진이나 축척 복제가 아니라 일반 교육용 ROV 그림이다. 바닷속에서 케이블이 선박까지 이어지는 부분은 화면 밖이다."
+    }
+  },
+  {
+    "modelId": "cable-laying-ship",
+    "filename": "cable-laying-ship-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 갑판에 감아 둔 케이블을 배 뒤로 풀어요",
+    "caption": "AI 제작 그림 · 갑판에 감아 둔 케이블을 배 뒤로 풀어요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "a94fba7c0ff7d00f9bec53c83618346261f201d1d2bef1f6d38d903b6ff66270",
+    "originalSha256": "df6ae6302bf0088c54eddece7af984a55a80b6614c3547bc747d7253e230da18",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene for a Korean children's vehicle atlas. High stern-quarter aerial perspective of a modern cable-laying ship at sea. Broad stable working stern, accommodation and bridge toward bow; one large horizontal circular cable carousel with dark cable in neatly concentric rings on aft work deck, one continuous single cable running across small guide rollers and over a curved stern chute to enter sea gently just astern. Whole plausible ship and visible cable path; no crane lifting cable, no twin separate lines, no cable floating far across surface. Calm sea, clear sunlight. Realistic painted field-guide illustration with clear mechanical connections and landscape framing. Generic educational example. No text, brand marks, watermark, panels, or arrows.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna 독립 실제 픽셀 검수",
+      "sha256": "a94fba7c0ff7d00f9bec53c83618346261f201d1d2bef1f6d38d903b6ff66270",
+      "originalSha256": "df6ae6302bf0088c54eddece7af984a55a80b6614c3547bc747d7253e230da18",
+      "referenceUrls": [
+        "https://www.jandenul.com/fleet/cable-installation-vessels"
+      ],
+      "parentNotes": "갑판에 감긴 케이블에서 안내 롤러와 선미를 지나 물로 이어지는 경로가 보인다.",
+      "independentNotes": "갑판의 큰 원형 케이블 캐러셀에서 케이블이 롤러를 지나 선미 가이드 위로 이어져 바다에 들어간다. 선미 슈트, 케이블 한 줄, 선교가 있는 배 전체가 보인다.",
+      "limitations": "수중 케이블의 실제 경로와 해저 접촉은 보이지 않는다. 특정 선박의 실제 사진이 아닌 일반 교육용 그림이다."
+    }
+  },
+  {
+    "modelId": "jack-up-installation-vessel",
+    "filename": "jack-up-installation-vessel-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 긴 다리로 선체를 받치고 바다 위에서 일해요",
+    "caption": "AI 제작 그림 · 긴 다리로 선체를 받치고 바다 위에서 일해요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "27cfbb48bf2a64e0f2427a41b1919ae9739781641fe12a401575eb340f8720c7",
+    "originalSha256": "c05d039708d10c5f1523b0ba3f89f78f0edddf15848111970a963fc41e386425",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene for a Korean children's vehicle atlas. Wide offshore wind farm construction scene. A four-legged self-elevating installation vessel with its rectangular ship hull visibly raised a short distance entirely above calm water; FOUR distinct vertical lattice legs pass through jack houses in the hull corners and continue down into water, seabed not shown. One heavy slewing crane attached on deck lifts a short tall cylindrical foundation section just clear of deck, by an obvious hook and connected symmetrical two-legged sling; entire vessel and contact points visible. No floating hull touching the sea, no giant wind turbine blade, no extra legs or objects suspended without cables. Realistic painted field-guide illustration with clear mechanical connections and landscape framing. Generic educational example. No text, brand marks, watermark, panels, or arrows.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna 독립 실제 픽셀 검수",
+      "sha256": "27cfbb48bf2a64e0f2427a41b1919ae9739781641fe12a401575eb340f8720c7",
+      "originalSha256": "c05d039708d10c5f1523b0ba3f89f78f0edddf15848111970a963fc41e386425",
+      "referenceUrls": [
+        "https://orsted.co.uk/media/newsroom/news/2020/09/deme-hornsea-foundations"
+      ],
+      "parentNotes": "격자 다리 네 개와 선체 밑 물 사이 간격이 보인다. 붐의 와이어는 달아 올린 부품에 이어진다.",
+      "independentNotes": "네 개의 격자 다리가 물속으로 내려가고 선체가 물 위에 올라와 있다. 갑판 크레인의 후크와 두 갈래 슬링이 원통형 구조물을 연결해 들어 올린다.",
+      "limitations": "다리의 해저 지지점은 화면 아래에 없어 보이지 않는다. 특정 작업선 모델과 같은 구조라고 주장하지 않는다."
+    }
+  },
+  {
+    "modelId": "stump-grinder",
+    "filename": "stump-grinder-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 둥근 절삭날이 그루터기 옆에 닿아요",
+    "caption": "AI 제작 그림 · 둥근 절삭날이 그루터기 옆에 닿아요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "120a070b35c65967e7472a9f3f8fd4267f77a0dbc3114253c9caec82bfb5675b",
+    "originalSha256": "1f176bb4f5b2cba36c1f6cff8504ddd201080dd3962693b4d94160a31b437df9",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene for a Korean children's vehicle atlas. A compact walk-behind crawler stump grinder with a short pivoting arm and one vertically oriented toothed cutter disk at its end, partly covered by a stout upper protective guard. Disk edge makes clear contact with side of a low rooted tree stump at ground level. Only a few wood chips around contact, no huge debris spray. Compact body and two tracks planted, entirely in frame. Unoccupied closed work zone, no people, no standing tree cut, no handheld chainsaw or detached tool. Realistic painted field-guide illustration with clear mechanical connections and landscape framing. Generic educational example. No text, brand marks, watermark, panels, or arrows.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna 독립 실제 픽셀 검수",
+      "sha256": "120a070b35c65967e7472a9f3f8fd4267f77a0dbc3114253c9caec82bfb5675b",
+      "originalSha256": "1f176bb4f5b2cba36c1f6cff8504ddd201080dd3962693b4d94160a31b437df9",
+      "referenceUrls": [
+        "https://www.vermeer.com/na/stump-cutters/sc852"
+      ],
+      "parentNotes": "둥근 절삭날, 윗부분 보호 덮개, 그루터기와 닿는 가장자리가 보인다. 작업자는 보이지 않는다.",
+      "independentNotes": "두 궤도가 지면에 닿고 차체의 회전 팔·유압 연결부가 원형 톱니날에 이어진다. 날이 그루터기에 닿아 있고 주변에 잘린 나무 조각이 있다. 보호 덮개가 날 윗부분을 가린다.",
+      "limitations": "운전자가 없는 일반 교육용 일러스트이며 실제 Vermeer SC852와 같은 모델로 보아서는 안 된다. 안전 펜스가 작업 구역을 둘러싼다."
+    }
+  },
+  {
+    "modelId": "semi-submersible-heavy-transport",
+    "filename": "semi-submersible-heavy-transport-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 넓은 갑판을 물에 잠가 뜨는 짐을 들여요",
+    "caption": "AI 제작 그림 · 넓은 갑판을 물에 잠가 뜨는 짐을 들여요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "fc1805f4d4debddf232026877b08e4329401fae0dd21f3cda5203b27520486c5",
+    "originalSha256": "be0c3c107349cd4fd457f402efcf18e7f4524db81a0b2d350035601a14a1cc13",
+    "width": 1400,
+    "height": 788,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene in a Korean children's vehicle atlas. High aerial three-quarter view of a semi-submersible heavy-transport ship during a float-on operation in calm sheltered sea. The vast flat central cargo deck lies slightly below a clearly visible waterline, wet and blue under the water; four tall buoyancy casings and the bridge stay above the water. One separate large rectangular floating industrial barge, with its own intact hull and freeboard, floats aligned over the submerged deck, between the side casings. It is not elevated. Clearly distinguish the parent carrier hull and floating load, show whole scene and no cranes, support cables or dock walls. No suggestion that the loaded barge sits on dry deck yet. Realistic painted field guide in daylight, wide clear composition. Generic educational view, no readable words, logos, watermark, labels or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna 독립 실제 픽셀 검수",
+      "sha256": "fc1805f4d4debddf232026877b08e4329401fae0dd21f3cda5203b27520486c5",
+      "originalSha256": "be0c3c107349cd4fd457f402efcf18e7f4524db81a0b2d350035601a14a1cc13",
+      "referenceUrls": [
+        "https://boskalis.com/media/zuyj1axi/boka-vanguard.pdf"
+      ],
+      "parentNotes": "가라앉힌 넓은 갑판 위로 별도의 바지선이 떠 있다. 교육 그림에서 얕은 물속의 갑판을 알아볼 수 있게 강조했다.",
+      "independentNotes": "넓은 화물 갑판이 수면 아래에 있고, 네 개의 높은 부력 기둥과 선교는 물 위에 남아 있다. 별도 바지선형 화물이 침수 갑판 위에서 자체 선체와 자유현을 유지한 채 정렬되어 있다.",
+      "limitations": "복잡한 장면이라 중앙 바지선과 운반선의 경계가 다소 겹쳐 보인다. 침수 갑판의 아래쪽 선체는 수면 아래라 일부만 확인된다. 특정 Boka Vanguard의 정확한 외형 그림이 아니다."
+    }
+  },
+  {
+    "modelId": "road-rail-excavator",
+    "filename": "road-rail-excavator-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 철제 안내 바퀴를 내리고 집게로 침목을 잡아요",
+    "caption": "AI 제작 그림 · 철제 안내 바퀴를 내리고 집게로 침목을 잡아요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "21fa60d9564c3c4e5a983904d449cb64f3211616bb6f3bc6ec472eb9512c478a",
+    "originalSha256": "d0ef8e78ff76ec9415ba8f79686ad0e01773f89941e60b11a246c6853bf5ac65",
+    "width": 1400,
+    "height": 717,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene in a Korean children's vehicle atlas. One road-rail excavator on a closed track worksite. Wide three-quarter side view: four large rubber road tires plus a small clearly distinguishable flanged steel railway wheel pair on a lowered hinged assembly at each end, near rail wheels rest on the near rail; far side rolls on far rail. Excavator boom has a modest grab gripping a single concrete sleeper lying along the side of the track, not lifting a rail. Show the hinged rail wheel mounts and both types of wheels. No machine wheels beside track while claimed on rail, no rails crossing or bending unrealistically. No trains or nearby workers. Realistic painted field guide in daylight, wide clear composition. Generic educational view, no readable words, logos, watermark, labels or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna 독립 실제 픽셀 검수",
+      "sha256": "21fa60d9564c3c4e5a983904d449cb64f3211616bb6f3bc6ec472eb9512c478a",
+      "originalSha256": "d0ef8e78ff76ec9415ba8f79686ad0e01773f89941e60b11a246c6853bf5ac65",
+      "referenceUrls": [
+        "https://www.hitachicm.com/eu/en/press-center/sas-besnier-relies-on-versatility-and-reliability-of-hitachi-fleet/"
+      ],
+      "parentNotes": "고무 타이어와 양쪽 철제 안내 차축, 침목을 잡는 집게가 한 화면에 보인다. 보이는 바퀴 접점이 작아 정확한 하중 전달은 설명하지 않는다.",
+      "independentNotes": "고무 타이어 차체에 앞뒤 플랜지 레일 바퀴가 내려와 레일에 닿아 있다. 붐과 그랩이 콘크리트 침목 하나를 집으려 내려와 있으며 레일이 곧게 놓여 있다.",
+      "limitations": "그랩이 침목을 완전히 들어 올린 순간은 아니어서 단단히 잡았는지는 확정할 수 없다. 레일 바퀴 구조를 설명하는 교육용 그림이다."
+    }
+  },
+  {
+    "modelId": "rocket-crawler-transporter",
+    "filename": "rocket-crawler-transporter-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 넓은 궤도로 로켓과 이동식 발사대를 함께 옮겨요",
+    "caption": "AI 제작 그림 · 넓은 궤도로 로켓과 이동식 발사대를 함께 옮겨요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "7cc0f21568fd53d4e2078666e28e0d2eaa22f7e84215abf9c8030308d0333906",
+    "originalSha256": "ca145d906cc227a2e072ee7bc4b22fb8ba2b5cde5d171ef7c7045459e925eb73",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Use case: scientific-educational. Asset type: working scene in a Korean children's vehicle atlas. Documentary-style painted educational view, low three-quarter side angle at a space center. Huge low rectangular crawler transporter under a mobile launch platform and tall tower, carrying an unbranded white-and-orange upright space rocket on that platform. Four CORNER track assemblies, each corner has two parallel crawler tracks on a gravel crawlerway; close-side front and rear assemblies distinct, far-side partly occluded. Show strong continuous contact between crawler frame, launch platform and upright rocket base; all support points visible on near side. The rocket remains still on its launch platform, no exhaust, no tower independent of transporter, no wheeled trailer. Camera far enough to show rocket top and crawler underbody. Realistic painted field guide in daylight, wide clear composition. Generic educational view, no readable words, logos, watermark, labels or collage.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Luna 독립 실제 픽셀 검수",
+      "sha256": "7cc0f21568fd53d4e2078666e28e0d2eaa22f7e84215abf9c8030308d0333906",
+      "originalSha256": "ca145d906cc227a2e072ee7bc4b22fb8ba2b5cde5d171ef7c7045459e925eb73",
+      "referenceUrls": [
+        "https://www.nasa.gov/humans-in-space/exploration-ground-systems/the-crawlers/"
+      ],
+      "parentNotes": "발사대와 로켓을 넓은 차체가 통째로 받치며, 넓은 궤도 구동부가 아래 네 모서리에 보인다.",
+      "independentNotes": "낮은 운반 프레임 아래 네 모서리의 궤도 모듈이 놓이고, 각 모듈에 나란한 두 줄의 궤도가 보인다. 운반 프레임 위 이동 발사대와 로켓 바닥이 이어져 지지된다.",
+      "limitations": "실제 NASA crawler와 일치하는 도색·세부 모델 주장은 하지 않는다. 정지 상태라 이동 과정은 보이지 않는다."
+    }
+  },
+  {
+    "modelId": "floating-dry-dock",
+    "filename": "floating-dry-dock-scene-20261109-r3-v2.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 받침 위로 올라온 배의 밑부분을 살펴볼 수 있어요",
+    "caption": "AI 제작 그림 · 받침 위로 올라온 배의 밑부분을 살펴볼 수 있어요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "2f7a9f6e9a64c77a9f9032de97bc86126b994c6b33f44b87bc68e5913a0f3b3c",
+    "originalSha256": "464b3d65c4388db22883c0d93e7a2bdda0b65ba4b5acbc493c9764e166da4f9e",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "A clear landscape naturalistic painted educational illustration for a children's vehicle atlas. Port basin, a floating dry dock with its flat pontoon floor raised above surrounding water, two parallel long tall steel side walls open at BOTH ends, no gate and no transverse wall. View from just outside the open end and off to one side, from above, a simple small blue single-hull harbor tug secured on substantial centered keel blocks and lateral shores inside. See its entire distinctly rounded bow in three-quarter view and much of its side. Show the bottom red antifouling paint visibly out of the water, with all running gear completely obscured behind the vessel by the side angle; do not depict any propeller, rudder, prop shaft or gears anywhere. Purpose is to clearly show the dock is a floating structure surrounded by blue water and that its floor and vessel on blocks are above water. Bright daylight, uncluttered, no text or logos, no white borders.",
+      "imageInputs": false,
+      "version": 2,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex independent pixel review",
+      "sha256": "2f7a9f6e9a64c77a9f9032de97bc86126b994c6b33f44b87bc68e5913a0f3b3c",
+      "originalSha256": "464b3d65c4388db22883c0d93e7a2bdda0b65ba4b5acbc493c9764e166da4f9e",
+      "referenceUrls": [
+        "https://www.austal.com/ships/auxiliary-floating-docks"
+      ],
+      "parentNotes": "평평한 도크 바닥이 물 위에 있고, 두 벽 사이에서 배 밑의 받침과 배 옆의 버팀대가 배를 지지한다.",
+      "independentNotes": "A U-shaped dock with two side walls and an open end surrounds a boat supported above the water on keel blocks. The pontoon floor and dock hull float in the basin; the boat is out of the water. The geometry matches a floating dry dock in its raised, repair-ready state. PNG and public JPEG show the same structure.",
+      "limitations": "Static after raising the vessel; it does not show the dock submerging or the boat entering. A harbor crane is visible in the distant background but is separate from the dock."
+    }
+  },
+  {
+    "modelId": "olive-tree-shaker",
+    "filename": "olive-tree-shaker-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 집게로 줄기를 잡고 흔들어 올리브를 거둬요",
+    "caption": "AI 제작 그림 · 집게로 줄기를 잡고 흔들어 올리브를 거둬요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "5c165385eca2315eb50712dc41146ade7e8e6dd2dff9f842af682050f68693ba",
+    "originalSha256": "9e017d9fabd52b2fd909862caec61e843bcf760e20d55507c370db4106dc7d34",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Landscape realistic natural-history textbook style painted illustration. Mature olive orchard, one generic unbranded compact orange four-wheel tractor with enclosed cab on left facing right and a connected low front-loader arm carrying a squat hydraulic olive trunk shaker. The arm ends in TWO opposing padded clamp jaws visibly meeting around the bare single olive-tree trunk at knee height. No knife, blade or saw, just soft dark pads squeezing without cutting. Show the clear continuous connection from tractor to mount, jaws, trunk, tree canopy, and an open flat green catching net spread around trunk ON THE GROUND, a few recognizable dark olives dropping toward it. Mild three-quarter side view, legible mechanical relationship, whole tractor and canopy in frame, no people standing by the machine, no lettering, no diagram arrows, no split panels.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex independent pixel review",
+      "sha256": "5c165385eca2315eb50712dc41146ade7e8e6dd2dff9f842af682050f68693ba",
+      "originalSha256": "9e017d9fabd52b2fd909862caec61e843bcf760e20d55507c370db4106dc7d34",
+      "referenceUrls": [
+        "https://www.pellenc.com/en-au/our-products/fruit-growing-and-olive-growing/olive-growing/harvesting/fb80-tractor-mounted-frontal-vibrator"
+      ],
+      "parentNotes": "트랙터 앞 팔에 붙은 두툼한 패드가 줄기를 양쪽에서 잡는다. 펼친 망 위로 떨어지는 열매가 보인다.",
+      "independentNotes": "The tractor front loader is connected to a clamp that closes around the tree trunk; padded opposing jaws and the front-mounted shaker layout are visible. A ground net is spread beneath the canopy to catch olives. This is consistent with PELLENC FB80 trunk vibration for harvesting without cutting the trunk. PNG and public JPEG show the same clamp-to-tree relationship.",
+      "limitations": "No movement or olives visibly falling is depicted, so only the attached shaker and collection setup are shown. The generic illustration does not reproduce an exact FB80 model."
+    }
+  },
+  {
+    "modelId": "tree-spade",
+    "filename": "tree-spade-scene-20261109-r3-v1.jpg",
+    "kind": "illustration",
+    "credit": "OpenAI imagegen · AI 제작",
+    "viewLabel": "AI 제작 그림 · 삽날이 뿌리 주변 흙을 감싸 나무를 들어요",
+    "caption": "AI 제작 그림 · 삽날이 뿌리 주변 흙을 감싸 나무를 들어요",
+    "appearanceLabel": "하는 일과 움직임을 보여 주는 일반 교육 그림",
+    "sha256": "6b593bfe93cbd1547572c0c8f984df0b332c7891ff79dea28d8f8d117f11041a",
+    "originalSha256": "0fc5593932393b6677a1ce1137d54131096e73f33ac759e493d4d7de1cb8778b",
+    "width": 1400,
+    "height": 933,
+    "generation": {
+      "tool": "OpenAI imagegen",
+      "mode": "built-in",
+      "createdAt": "2026-11-09",
+      "prompt": "Landscape naturalistic painted illustration for a young child's machine atlas. A generic compact track loader lifting a small nursery tree with its front-mounted hydraulic cone-shaped tree-spade. Actual mechanical principle is critical: a thick metal annular split frame connected to the loader's lift arms surrounds the tree's trunk WITHOUT touching or clamping the bark. Three tall hydraulic blade guide towers around that frame drive broad curved steel spades downward and inward around the original soil, like petals closing into a rounded tapered bowl. Show the tree just lifted a short distance above its original round planting hole with dark compact soil enclosing the roots, soil visible in one small seam and at the top inside the rim. Leave natural canopy and a straight trunk. No exposed huge dangling roots, no impossible suspended machinery, no digging bucket, no text logos or arrows. Side three-quarter view, whole vehicle and small tree visible, clear natural daylight.",
+      "imageInputs": false,
+      "version": 1,
+      "sceneType": "work-and-movement"
+    },
+    "review": {
+      "status": "approved",
+      "reviewedAt": "2026-11-09",
+      "parent": "pass",
+      "independent": "pass",
+      "independentReviewer": "Codex independent pixel review",
+      "sha256": "6b593bfe93cbd1547572c0c8f984df0b332c7891ff79dea28d8f8d117f11041a",
+      "originalSha256": "0fc5593932393b6677a1ce1137d54131096e73f33ac759e493d4d7de1cb8778b",
+      "referenceUrls": [
+        "https://www.dutchmantreespade.com/products/"
+      ],
+      "parentNotes": "로더에 붙은 고리와 유압 실린더, 모이는 삽날 사이의 뿌리 흙덩이, 그 밑의 빈 구덩이가 보인다.",
+      "independentNotes": "A tracked loader supports a front-mounted tree-spade frame. The tree remains upright with a soil root ball enclosed by the closing tapered blade assembly; the machine has lifted it just above a matching hole. This is consistent with a tree spade used to dig and move nursery trees, rather than a bucket excavator. PNG and public JPEG show the same connected implement and root-ball relationship.",
+      "limitations": "The closed blades read as one smooth cone, so the individual curved spade blades are not distinct at this stage; the image shows the root-ball capture/lift phase, not the blades cutting downward."
+    }
   }
 ]
