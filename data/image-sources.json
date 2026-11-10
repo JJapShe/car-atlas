@@ -446,5 +446,29 @@
     "width": 960,
     "height": 505,
     "modifications": "JPEG으로 웹용 저장(quality 88), 원본 비율 유지, 긴 변 최대 1400px"
+  },
+  {
+    "modelId": "kia-k5",
+    "filename": "kia-k5-view2.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2025_Kia_K5_GT-Line,_rear_3.24.25.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/2025_Kia_K5_GT-Line%2C_rear_3.24.25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/2025_Kia_K5_GT-Line%2C_rear_3.24.25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sourceRenditionIsFullOriginal": true,
+    "credit": "Kevauto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "K5 · 뒤와 옆에서 이어진 뒤쪽 불빛을 살펴봐요",
+    "appearanceLabel": "2025 K5 GT-Line · 미국형 부분변경",
+    "viewLabel": "뒤와 옆에서 이어진 뒤쪽 불빛을 살펴봐요",
+    "sha256": "b387f7c55f65090dac10e133488d637c1b4477195e5cd2420e4be1f3a2d942ad",
+    "originalSha256": "b88d7b2313678811447a7ca89c608049654fd0746409233b30fd21c82958ed0a",
+    "inputSha256": "b88d7b2313678811447a7ca89c608049654fd0746409233b30fd21c82958ed0a",
+    "sourceWidth": 3242,
+    "sourceHeight": 2000,
+    "width": 1400,
+    "height": 864,
+    "modifications": "원본 비율 유지, 긴 변 최대 1400px JPEG 변환",
+    "inputWidth": 3242,
+    "inputHeight": 2000
   }
 ]
