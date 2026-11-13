@@ -4349,5 +4349,31 @@ export const vehicles = [
       "label": "틸트로터 항공기 · 실물 예시와 구조",
       "change": "aircraft"
     }
+  },
+  {
+    "id": "road-train",
+    "name": "로드 트레인",
+    "englishName": "Road train",
+    "body": "road",
+    "aliases": [
+      "로드트레인",
+      "도로 열차",
+      "다중 트레일러",
+      "호주 트럭",
+      "Australian road train"
+    ],
+    "cardCue": "트럭 뒤에 짐칸이 몇 개 이어져 있는지 세어 봐요.",
+    "summary": "트럭 한 대가 여러 트레일러를 이어 끌어요. 호주의 긴 도로에서 한 번에 많은 짐을 나르는 데 쓰여요.",
+    "cues": [
+      "트레일러마다 바퀴가 여러 개 달려 있어요.",
+      "짐칸 사이에 서로 이어 주는 연결 부분이 있어요."
+    ],
+    "sourceUrl": "https://www.nhvr.gov.au/road-access/mass-dimension-and-loading/classes-of-heavy-vehicles/class-2/road-train-speed-limits",
+    "tile": "#e8e1d2",
+    "checkedAt": "2026-11-13",
+    "appearance": {
+      "label": "호주 도로에서 여러 트레일러를 연결한 실물 예시",
+      "change": "vehicle"
+    }
   }
 ];
